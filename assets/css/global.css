@@ -1,0 +1,23 @@
+:root{
+    --theme-color1: #7E060E;
+    --theme-color2: #E3C065;
+    --theme-color3: #FFF7E9;
+    --written-font: 'Pristina', sans-serif;
+    --sub-heading-font: 'Bebas Neue', sans-serif;
+    --main-heading-font: 'Rozha One', serif;
+    --text-font:'Poppins', sans-serif;
+                                                
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.utility-background-property{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
