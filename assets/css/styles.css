@@ -72,8 +72,9 @@ header{
     height: 40%;
     text-align: center;
     z-index: 5;
-    transition: all 20s linear;
+    transition: transform 20s linear, opacity 2s linear;
     z-index: 4;
+    opacity: 0;
 
 }
 
@@ -89,7 +90,8 @@ header{
 .banner-content > h1:first-child{
     font-family: var(--written-font);
     color: var(--theme-color2);
-    font-size: 70px;
+    font-size: 40px;
+    transform: scale(1.7);
     margin: 0;
 }
 
@@ -450,6 +452,7 @@ header{
 .section-4 > .section-4-content-main > h2{
     font-family: var(--written-font);
     color: var(--theme-color1);
+    transform: scale(1.5);
 }
 
 .section-4 > .section-4-content-main > h1{
@@ -463,18 +466,7 @@ header{
     margin: auto;
 }
 
-/* #news-img-slider > div {
-    text-align: center;
-    color: red;
-    margin: 0;
-  } */
 
-  .slick-slide{
-    padding: 0 20px;
-  }
-  /* .slick-slide.slick-current div {
-    transform: scale(1.5);
-  } */
 
 
 /*************************/
@@ -564,3 +556,278 @@ footer{
     text-decoration: none;
     font-family: var(--text-font);
 }
+
+/* responsive styles tablet */
+@media screen and (max-width:770px) {
+    .navbar-brand > img {
+        height: 70px;
+    }
+
+    .navbar > .container-fluid{
+        padding: 0 30px;
+    }
+
+    .navbar-toggler{
+        color: white;
+        font-size: 30px;
+        box-sizing: unset;
+    }
+
+    .navbar-collapse{
+        top:75px;
+    }
+
+    .navbar-nav{
+        padding: 0 15px;
+        align-items: flex-end;
+    }
+
+    .navbar-nav >li{
+        background-color: #000;
+        width: 20%;
+        margin: 2px;
+        border-radius: 5px;
+    }
+
+    .navbar-nav .nav-link.active {
+        border: 0;
+    }
+
+    .banner-content{
+        width: 100%;
+    }
+
+    .banner-content > h1:first-child{
+        font-size: 30px;
+    }
+
+    .banner-content > h1:nth-child(2){
+        font-size: 50px;
+    }
+    .banner-content > h2{
+        font-size: 20px;
+        width: 30%;
+    }
+
+    .section-2-content {
+        width: 95%;
+        height: 85%;
+    }
+
+    .carousel-aboutus{
+        height: 80%;
+    }
+
+    .menu-section > .menu-tabs > button{
+        font-size: 15px;
+    }
+
+    .section-3 > .menu-content-main > .menu-content > .menu-bg{
+        width: 95%;
+    }
+
+    .section-3 > .menu-content-main > .menu-content > .menu-section{
+        width: 70%;
+    }
+
+    .section-3 > .food-right, .section-3 > .food-left{
+        height: 200px;
+    }
+
+    .section-3 > .tur-bg-right{
+        right:-15%;
+    }
+    .section-3 > .tur-bg-left{
+        left: -15%;
+    }
+
+    .section-3 > .menu-content-main{
+        height: 90%;
+    }
+
+    .section-3 > .menu-content-main > .menu-content{
+        height: 90vh
+    }
+
+    .section-3 > .menu-content-main > h1{
+        width: 100px;
+    }
+
+    .section-3 > .design-bg{
+        width:500px;
+        height: 500px;
+        right: -200px;
+    top: -200px;
+    }
+
+    /* secton four */
+
+    .section-4 > .section-4-content-main{
+        height:90%;
+        margin-top: auto;
+    }
+
+    .section-4 > .section-4-content-main > h2{
+        font-family: var(--written-font-mobile);
+    }
+
+    .section-4 > .section-4-content-main > h1{
+        font-size: 60px;
+    }
+
+    .subscribe-section{
+        padding: 40px 50px;
+    }
+
+    .footer-inner > .column1 > img{
+        height: 50px;
+    }
+
+    .footer-inner{
+        width: 95%;
+        padding-top: 50px;
+    }
+    .footer-inner > .column1 >p{
+        width: 90%;
+    }
+}
+
+
+/* responsive styles mobile */
+@media screen and (max-width:426px) {
+    .navbar-brand > img {
+        height: 60px;
+    }
+
+    .navbar > .container-fluid{
+        padding: 0 20px;
+    }
+
+    .navbar-toggler{
+        color: white;
+        font-size: 30px;
+    }
+
+    .navbar-collapse{
+        top:70px;
+    }
+
+    .navbar-nav >li{
+        background-color: #000;
+        width: 40%;
+        margin: 2px;
+        border-radius: 5px;
+    }
+
+    .banner-content > h1:first-child{
+        font-size: 20px;
+        font-family: var(--written-font-mobile);
+    }
+
+    .banner-content > h1:nth-child(2){
+        font-size: 40px;
+        margin: 20px 0;
+    }
+    .banner-content > h2{
+        font-size: 20px;
+        width: 50%;
+    }
+
+    .section-1 > .design-bg{
+        width:400px;
+        height: 400px;
+    }
+
+    .section-2-content{
+        flex-direction: column;
+    }
+
+    .home-aboutus{
+        width: 100%;
+    }
+
+    .home-aboutus > p{
+        margin: 0;
+    }
+
+    .carousel-aboutus{
+        margin: auto;
+        width: 80%;
+        height: 40%;
+    }
+
+    .home-aboutus >h1:first-child{
+        font-family: var(--written-font-mobile);
+    }
+
+    .section-3 > .menu-content-main > .menu-content > .menu-bg{
+        width: 110%;
+    }
+
+    .section-3 > .menu-content-main > .menu-content > .menu-section{
+        width: 70%;
+    }
+
+    .menu-section > .menu-tabs > button{
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .section-3 > .menu-content-main{
+        width:90%;
+        height: 90%;
+    }
+
+    .section-3 > .menu-content-main > .menu-content > .menu-bg{
+        display: none;
+    }
+
+    .section-3 > .menu-content-main > h1{
+        font-family: var(--written-font-mobile);
+        font-size: 40px;
+    }
+
+    .section-3 > .menu-content-main > .menu-content{
+        background-image: url(../images/menu-img.png);
+        background-position: center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 85vh;
+    }
+
+    .section-3 > .menu-content-main > .menu-content > .menu-section{
+        width: 90%;
+    }
+
+    .section-4 > .section-4-content-main > h1{
+        font-size: 50px;
+    }
+
+    .subscribe-section{
+        padding: 50px 20px;
+    }
+    .subscribe-form > input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
+    .footer-inner > .column1 > img{
+        height: 40px;
+    }
+
+    .footer-inner > .column{
+        width: 25%;
+    }
+
+    .footer-inner{
+        width: 95%;
+        padding-top: 50px;
+        margin: 0 10px;
+        justify-content: space-between;
+    }
+    .footer-inner > .column1 >p{
+        width: 120%;
+    }
+}
+

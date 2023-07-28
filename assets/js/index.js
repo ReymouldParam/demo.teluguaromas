@@ -37,7 +37,7 @@ $(function() {
     setHeights: true,
     overflowScroll: true,
     updateHash: true,
-    touchScroll:true,
+    touchScroll:false,
     before:function() {},
     after:function() {},
     afterResize:function() {},
@@ -45,14 +45,79 @@ $(function() {
   });
         
 
-  $('#news-img-slider').slick({
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed:2000
-  });
+  // $('#news-img-slider').slick({
+  //   infinite: true,
+  //   slidesToShow: 4,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   autoplaySpeed:2000
+  // });
 
+// banner zoomin effect
 
 var bannerContent = document.getElementById("bannerContent");
 bannerContent.style.transform = "scale(1.2)";
+bannerContent.style.opacity = "1";
+
+// jQuery(document).ready(function($) {
+//   "use strict";
+//   //  TESTIMONIALS CAROUSEL HOOK
+//   $('#news-img-slider').owlCarousel({
+//     loop: true,
+//     center: true,
+//     items: 4,
+//     margin: 0,
+//     autoplay: true,
+//     dots: true,
+//     autoplayTimeout: 3000,
+//     smartSpeed: 450,
+//     responsive: {
+//       0: {
+//         items: 1
+//       },
+//       768: {
+//         items: 2
+//       },
+//       1170: {
+//         items: 3
+//       }
+//     }
+//   });
+// });
+// $(document).ready(function() {
+//   var owl = $(".owl-carousel");
+//   owl.owlCarousel({
+//     items: 1,
+//     autoplay: true,
+//     autoplayHoverPause: true, // Enable auto-play pause on hover
+//     loop: true
+//   });
+
+//   // Pause carousel on hover
+//   owl.on("mouseover", function() {
+//     owl.trigger("stop.owl.autoplay");
+//   });
+
+//   // Resume carousel on mouseout
+//   owl.on("mouseout", function() {
+//     owl.trigger("play.owl.autoplay");
+//   });
+// });
+
+
+// $('.owl-carousel').owlCarousel({
+//   loop:true,
+//   margin:10,
+//   nav:true,
+//   responsive:{
+//       0:{
+//           items:1
+//       },
+//       600:{
+//           items:3
+//       },
+//       1000:{
+//           items:5
+//       }
+//   }
+// })
