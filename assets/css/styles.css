@@ -16,7 +16,7 @@ header{
 }
 
 .navbar-brand > img {
-    height: 90px;
+    height: 12vh;
     width: auto;
 }
 
@@ -51,6 +51,41 @@ header{
     bottom: 0;
     margin: auto;
     justify-content: space-around;
+}
+
+.hanger-img{
+    position: absolute;
+    width: 102.67px;
+    height: 135.33px;
+    right:100px;
+    bottom: -80px;
+    background-image: url(../images/hanging.png);
+    background-size: cover;
+    animation: waveLeftRight 5s linear infinite;
+    transform-origin: 51px 10px;
+    &:hover {
+        animation-play-state: paused;
+      }
+}
+
+
+.hanger-img > .icon-container{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+
+.hanger-img > .icon-container > div{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    bottom: 4px;
+}
+
+.hanger-img > .icon-container > div > a > i{
+    color : var(--theme-color1);
+    font-size:22px;
 }
 
 .section-1{
@@ -559,6 +594,10 @@ footer{
 
 /* responsive styles tablet */
 @media screen and (max-width:770px) {
+    .hanger-img{
+        display: none;
+    }
+
     .navbar-brand > img {
         height: 70px;
     }
@@ -831,3 +870,25 @@ footer{
     }
 }
 
+
+/* responsive styles laptop 1024px */
+@media screen and (max-width:1230px) {
+    .banner-content{
+        width:60%;
+    }
+    .navbar-brand > img{
+        height: 70px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        margin : 0;
+    }
+    .section-3 > .food-right, .section-3 > .food-left{
+        height: 300px;
+    }
+    .section-3 > .tur-bg-right{
+        right:-4px;
+    }
+    .section-3 > .tur-bg-left{
+        left:-4px;
+    }
+}
