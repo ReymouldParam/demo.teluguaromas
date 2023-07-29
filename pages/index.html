@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telugu Aromas</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- boxicons -->
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -40,10 +42,10 @@
 
     <!-- header section -->
 
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header id="stickyheaders">
+        <nav id="headerInner" class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="../assets/images/logo.png" alt=""></a>
+              <a class="navbar-brand" href="index.html"><img id="header-logo" src="../assets/images/logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class='bx bx-menu'></i>
               </button>
@@ -387,8 +389,8 @@
         <!-- absolute images -->
         <img src="../assets/images/menu-bg-1.png" class="tur-bg-right" alt="">
         <img src="../assets/images/menu-bg-2.png" class="tur-bg-left" alt="">
-        <img src="../assets/images/menu-bg-5.png" class="food-right" alt="">
-        <img src="../assets/images/menu-bg-6.png" class="food-left" alt="">
+        <img src="../assets/images/menu-bg-5.png" class="food-right moveObj" data-value="2" alt="">
+        <img src="../assets/images/menu-bg-6.png" class="food-left moveObj" data-value="-2" alt="">
         <img src="../assets/images/design-bg-sq.png" class="design-bg" alt="">
 
     </section>
@@ -401,21 +403,21 @@
             <h2>Blogs &amp Articles</h2>
             <h1>Latest News</h1>
             <div class="carousel-main">
-                <div  class="owl-carousel owl-theme">
-                    <div><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
-                    <div><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
-                    <div><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
-                    <div><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
-                    <div><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
-                    <div><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
-                    <div><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                    <div class="item"><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
+                    <div class="item"><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
+                    <div class="item"><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
+                    <div class="item"><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
+                    <div class="item"><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
+                    <div class="item"><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
+                    <div class="item"><img src="../assets/images/carousel2-images/image2.png" alt=""></div>
                 </div>
             </div>
         </div>
 
         <!-- absolute images -->
         <img src="../assets/images/background2.png" class="section-4-bg-img" alt="">
-        <img src="../assets/images/food-bg-1.png" style="height: 300px; width: 300px; position: absolute; bottom: -100px; right: 10%;" alt="">
+        <img src="../assets/images/food-bg-1.png" class="moveObj" data-value="5" style="height: 300px; width: 300px; position: absolute; bottom: -100px; right: 10%;" alt="">
     </section>
 
     <!-- footer section -->
@@ -423,7 +425,7 @@
     <section class="section-footer smooth-scroll">
         <div class="subscribe-section">
             <h1>SUBSCRIBE TO OUR NEWS FEED</h1>
-            <form class="subscribe-form" action="">
+            <form class="subscribe-form" action="subscribe.php" method="post">
                 <input type="email"  name="email"> <button type="submit" >Subscribe Now</button>
             </form>
         </div>
@@ -460,8 +462,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
-<script src="../assets/js/index.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="../assets/js/index.js"></script>
 </body>
 </html>

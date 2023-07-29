@@ -2,7 +2,7 @@ header{
     width:100%;
     height: 90px;
     background-color: var(--trasperent);
-    position: absolute;
+    position: fixed;
     top:0;
     z-index: 10;
 }
@@ -592,6 +592,35 @@ footer{
     font-family: var(--text-font);
 }
 
+/* responsive styles laptop 1024px */
+@media screen and (max-width:1230px) {
+    .banner-content{
+        width:60%;
+    }
+    .navbar-brand > img{
+        height: 70px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        margin : 0;
+    }
+    .section-3 > .food-right, .section-3 > .food-left{
+        height: 300px;
+    }
+    .section-3 > .tur-bg-right{
+        right:-4px;
+    }
+    .section-3 > .tur-bg-left{
+        left:-4px;
+    }
+
+    
+
+    .subscribe-section{
+        padding:7vh 10vh;
+    }
+}
+
+
 /* responsive styles tablet */
 @media screen and (max-width:770px) {
     .hanger-img{
@@ -624,6 +653,7 @@ footer{
     .navbar-nav >li{
         background-color: #000;
         width: 20%;
+        padding: 0 12px;
         margin: 2px;
         border-radius: 5px;
     }
@@ -754,6 +784,7 @@ footer{
     .navbar-nav >li{
         background-color: #000;
         width: 40%;
+        padding: 0 12px;
         margin: 2px;
         border-radius: 5px;
     }
@@ -764,7 +795,7 @@ footer{
     }
 
     .banner-content > h1:nth-child(2){
-        font-size: 40px;
+        font-size: 34px;
         margin: 20px 0;
     }
     .banner-content > h2{
@@ -775,6 +806,7 @@ footer{
     .section-1 > .design-bg{
         width:400px;
         height: 400px;
+        margin-bottom: 300px;
     }
 
     .section-2-content{
@@ -815,6 +847,10 @@ footer{
     .section-3 > .menu-content-main{
         width:90%;
         height: 90%;
+    }
+
+    .menu-item-details >h5{
+        font-size: 20px;
     }
 
     .section-3 > .menu-content-main > .menu-content > .menu-bg{
@@ -867,28 +903,5 @@ footer{
     }
     .footer-inner > .column1 >p{
         width: 120%;
-    }
-}
-
-
-/* responsive styles laptop 1024px */
-@media screen and (max-width:1230px) {
-    .banner-content{
-        width:60%;
-    }
-    .navbar-brand > img{
-        height: 70px;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link{
-        margin : 0;
-    }
-    .section-3 > .food-right, .section-3 > .food-left{
-        height: 300px;
-    }
-    .section-3 > .tur-bg-right{
-        right:-4px;
-    }
-    .section-3 > .tur-bg-left{
-        left:-4px;
     }
 }
