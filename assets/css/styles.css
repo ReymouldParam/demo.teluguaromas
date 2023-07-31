@@ -488,18 +488,58 @@ header{
     font-family: var(--written-font);
     color: var(--theme-color1);
     transform: scale(1.5);
+    margin: 0;
 }
 
 .section-4 > .section-4-content-main > h1{
     font-family: var(--main-heading-font);
     color: #000;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .section-4-content-main > .carousel-main{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
+
+
+.slick-slide{
+    transform:scale(0.7);
+    opacity: 0.9;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slick-slide.slick-current {
+    transform: scale(1);
+    opacity: 1;
+}
+.slick-carousel2 > .news-info{
+    padding: 2em 0;
+}
+
+.slick-slide > h1{
+    margin: 3vh 0;
+    font-family: var(--sub-heading-font);
+    text-align: left;
+    font-weight: 400;
+}
+
+.slick-slide> p{
+    font-family: var(--text-font);
+    text-align: left;
+}
+
+.slick-prev::before, .slick-next::before{
+    color: var(--theme-color1);
+    font-size: 30px;
+}
+
+.slick-prev {
+    left: -50px;
+}
+
 
 
 
@@ -509,7 +549,7 @@ header{
 /*******************/
 
 .section-footer{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     overflow: hidden;
 }
@@ -544,7 +584,7 @@ header{
 }
 
 footer{
-    height: 70vh;
+    height: 60vh;
     background-image: url("../images/banner-bg.png");
 }
 
@@ -613,6 +653,25 @@ footer{
         left:-4px;
     }
 
+    .section-4 > .section-4-content-main{
+        width: 90%;
+    }
+
+    .section-4-content-main > .carousel-main{
+        width: 90%;
+    }
+
+    .section-4 > .section-4-content-main > h1{
+        font-size: 50px;
+    }
+
+    .slick-slide > h1{
+        margin : 5px 0;
+    }
+
+    .slick-slide> p{
+        font-size: 10px;
+    }
     
 
     .subscribe-section{
@@ -623,6 +682,9 @@ footer{
 
 /* responsive styles tablet */
 @media screen and (max-width:770px) {
+    header{
+        position: absolute;
+    }
     .hanger-img{
         display: none;
     }
@@ -741,7 +803,15 @@ footer{
     }
 
     .section-4 > .section-4-content-main > h1{
-        font-size: 60px;
+        font-size: 50px;
+    }
+
+    .slick-slide > h1{
+        margin : 15px 0;
+    }
+
+    .slick-slide> p{
+        font-size: 12px;
     }
 
     .subscribe-section{
@@ -763,7 +833,7 @@ footer{
 
 
 /* responsive styles mobile */
-@media screen and (max-width:426px) {
+@media screen and (max-width:440px) {
     .navbar-brand > img {
         height: 60px;
     }
@@ -803,10 +873,14 @@ footer{
         width: 50%;
     }
 
+    .section-1{
+        height: 75vh;
+    }
+
     .section-1 > .design-bg{
-        width:400px;
-        height: 400px;
-        margin-bottom: 300px;
+        width:350px;
+        height: 350px;
+        /* margin-bottom: 300px; */
     }
 
     .section-2-content{
@@ -818,7 +892,7 @@ footer{
     }
 
     .home-aboutus > p{
-        margin: 0;
+        margin: 0 5px;
     }
 
     .carousel-aboutus{
@@ -829,6 +903,11 @@ footer{
 
     .home-aboutus >h1:first-child{
         font-family: var(--written-font-mobile);
+        font-size: 3rem;
+    }
+
+    .home-aboutus > h1:nth-child(2){
+        font-size: 3rem;
     }
 
     .section-3 > .menu-content-main > .menu-content > .menu-bg{
@@ -851,6 +930,10 @@ footer{
 
     .menu-item-details >h5{
         font-size: 20px;
+    }
+
+    .menu-section > .menu-items-section{
+        height: 70%;
     }
 
     .section-3 > .menu-content-main > .menu-content > .menu-bg{
@@ -876,6 +959,10 @@ footer{
 
     .section-4 > .section-4-content-main > h1{
         font-size: 50px;
+    }
+
+    .slick-prev {
+        left: -40px;
     }
 
     .subscribe-section{

@@ -56,7 +56,7 @@ for(var i=0; i<menuArr.length ; i++){
 // banner zoomin effect
 
 var bannerContent = document.getElementById("bannerContent");
-bannerContent.style.transform = "scale(1.2)";
+bannerContent.style.transform = "scale(1.1)";
 bannerContent.style.opacity = "1";
 
 // jQuery(document).ready(function($) {
@@ -104,22 +104,6 @@ bannerContent.style.opacity = "1";
 //   });
 // });
 
-
-$(document).ready(function() {
- 
-  $("#owl-demo").owlCarousel({
- 
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
- 
-      items : 4,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
- 
-  });
- 
-});
-
-
 // disable right click
 // $(document).bind("contextmenu", function(e) {
 //   return false;
@@ -150,14 +134,27 @@ jQuery(document).ready(function($){
   //$('#stickyheaders').addClass('headertranpup');
   $('#stickyheaders').css("background-color","black");
   $('#stickyheaders').css("height","80px");
+
   $('#header-logo').css("height","54px");
+  
   $('#headerInner').css("padding","5px 0");
   }
   else
   {
   if(mywindow.scrollTop() < 75) {
   $('#stickyheaders').css("background-color","transparent");
-  $('#header-logo').css("height","12vh");
+
+  if(window.innerWidth < 426){
+    $('#header-logo').css("height","60px");
+  }else if(window.innerWidth < 769){
+    $('#header-logo').css("height","70px");
+  }else if(window.innerWidth < 1025){
+    $('#header-logo').css("height","70px");
+  }else{
+    $('#header-logo').css("height","12vh");
+  }
+
+  // $('#header-logo').css("height","12vh");
   $('#headerInner').css("padding","15px 0");
   }
   
@@ -166,3 +163,87 @@ jQuery(document).ready(function($){
   mypos = mywindow.scrollTop();
   });
   });
+  window.addEventListener("load", function() {
+    var scrollPosition = window.scrollY;
+    // Example: Change the background color of an element
+    var targetElement = document.getElementById("your-element-id");
+    if (scrollPosition < 40) {
+      $('#stickyheaders').css("background-color","transparent");
+
+    if(window.innerWidth < 426){
+      $('#header-logo').css("height","60px");
+    }else if(window.innerWidth < 769){
+      $('#header-logo').css("height","70px");
+    }else if(window.innerWidth < 1025){
+      $('#header-logo').css("height","70px");
+    }else{
+      $('#header-logo').css("height","12vh");
+    }
+
+    // $('#header-logo').css("height","12vh");
+    $('#headerInner').css("padding","15px 0");
+    } else {
+      $('#stickyheaders').css("background-color","black");
+      $('#stickyheaders').css("height","80px");
+
+      $('#header-logo').css("height","54px");
+      
+      $('#headerInner').css("padding","5px 0");
+    }
+  });
+
+
+
+
+  $(document).ready(function() {
+    $('.slick-carousel1').slick({
+      slidesToShow: 4, // Display three elements at a time
+      slidesToScroll: 1, // Move one element at a time
+      autoplay: true, // Automatically move the carousel
+      autoplaySpeed: 3000, // Move to the next element every 3 seconds
+      variableWidth: false,
+      focusOnSelect: true,
+      asNavFor: '.slick-carousel2',
+      responsive: [
+        {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true
+          }
+        },
+        {
+          breakpoint: 770,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+
+    $('.slick-carousel2').slick({
+      slidesToShow: 1, // Display three elements at a time
+      slidesToScroll: 1, // Move one element at a time
+      variableWidth: false,
+      focusOnSelect: true,
+      asNavFor: '.slick-carousel1',
+      arrows: false
+    });
+  });
+
+
+
+  
