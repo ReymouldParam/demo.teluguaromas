@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Pristina';
+    src: url('../fonts/PRISTINA.TTF') format('truetype');
+  }
+  
+
 :root{
     --theme-color1: #7E060E;
     --theme-color2: #E3C065;
@@ -8,13 +14,15 @@
     --main-heading-font: 'Rozha One', serif;
     --text-font:'Poppins', sans-serif;
     --trasperent: rgba(0,0,0,0);
-                                                
-
 }
+
+
 
 body{
     margin: 0;
     padding: 0;
+    width:100vw;
+    overflow-x: hidden    ;
 }
 
 

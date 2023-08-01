@@ -193,7 +193,7 @@ jQuery(document).ready(function($){
   });
 
 
-
+//slick carousel
 
   $(document).ready(function() {
     $('.slick-carousel1').slick({

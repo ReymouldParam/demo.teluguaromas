@@ -1,4 +1,131 @@
 header{
     height: auto;
-    background-color: black;
+}
+
+.franchise-main-container{
+    width: 100%;
+    background: url(../images/background2.png);
+    position: relative;
+}
+
+.franchise-banner{
+    text-align: center;
+    width:60%;
+    margin: 0 auto;
+    padding: 25vh 0 10vh    ;
+}
+
+.franchise-banner > h2{
+    font-family: var(--written-font);
+    color: var(--theme-color1);
+    transform: scale(1.5);
+}
+
+.franchise-banner > h1{
+    font-family: var(--main-heading-font);
+    color: #000;
+    font-size: 60px;
+}
+
+.franchise-banner > h3{
+    font-family: var(--sub-heading-font);
+    color: var(--theme-color1);
+
+}
+
+.franchise-section-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5vw 5vh;
+}
+
+.franchise-section-2 > .image-section2{
+    width:35%;
+    height: 40vh;
+}
+
+.franchise-section-2 > .image-section2 > img{
+    width:100%;
+    height:100%;
+}
+
+.franchise-section-3{
+    width:100%;
+    text-align: center;
+    padding:10vh 50vh;
+}
+
+.franchise-section-3> h3{
+    font-family: var(--sub-heading-font);
+    color: var(--theme-color1);
+    margin:0;
+}
+
+.franchise-section-3 > p{
+    font-family: var(--text-font);
+    margin: 30px 0;
+}
+
+.franchise-section-3 > button{
+    background-color: var(--theme-color1);
+    color: white;
+    border-radius: 5px;
+    padding : 5px 30px;
+    font-family: var(--main-heading-font);
+}
+
+.franchise-section-3 > button:hover{
+    background-color: var(--theme-color1);
+    color: white;
+}
+
+
+/*resonsive tablet */
+
+@media screen and (max-width: 990px) {
+    .franchise-banner{
+        width: 80%;
+        padding: 25vh 0 5vh;
+    }
+
+    .franchise-section-2 > .image-section2 {
+        width: 45%;
+        height: 36vh;
+    }
+
+    .franchise-section-3{
+        padding: 10vh 20vh;
+    }
+}
+
+/* responsive mobile */
+
+@media screen and (max-width: 440px){
+    .franchise-banner{
+        width: 95%;
+        padding: 25vh 0 5vh;
+    }
+
+    .franchise-banner > h1{
+        font-size: 40px;
+    }
+
+    .franchise-section-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 2vw 5vh;
+    }
+    
+    .franchise-section-2 > .image-section2{
+        width:100%;
+        height: 30vh;
+        margin:50px 0;
+    }
+    
+    .franchise-section-3{
+        padding: 20px 20px 100px;
+    }
 }

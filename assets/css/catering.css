@@ -3,19 +3,36 @@ header{
 }
 
 .section-1{
-    height: 300vh;
+    height: auto;
     width: 100%;
     background: url("../images/background2.png") #fff;
     position: relative;
 }
 
 .floatdiv{
-    height: 200px;
-    width: 200px;
-    background-color: red;
     position: fixed;
     bottom: 0;
+    z-index: 3;
 }
+
+.platform{
+    width:100%;
+    height: 20vh;
+}
+
+.waiter-1{
+    height: 50vh;
+    left: 20vh;
+    bottom: 7vh;
+}
+
+.waiter-2{
+    height: 50vh;
+    right:20vh;
+    bottom: 7vh;
+}
+
+
 
 .catering-banner{
     padding: 30vh;
@@ -44,4 +61,142 @@ header{
     font-family: var(--text-font);
     width: 65%;
     margin: 30px auto;
+}
+
+/* section catering services */
+
+.catering-services-container-main{
+    width: 100%;
+}
+
+.catering-services-container{
+    width: 50%;
+    margin: auto;
+}
+
+.catering-services-container > .catering-item{
+    margin: 7px;
+}
+
+.catering-item-head{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--theme-color1);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+
+.catering-item-head > h3{
+    color: white;
+    font-family: var(--sub-heading-font);
+    margin: 0;
+}
+
+.catering-item-head > i{
+    color: white;
+    font-size: 25px;
+}
+
+.catering-item-body{
+    display: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+.catering-gallery-heading{
+    text-align: center;
+    margin: 10vh auto 2vh;
+    font-family: var(--main-heading-font);
+    color: var(--theme-color1);
+}
+
+.gallery-main-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 0 0;
+}
+
+.gallery-main-container > .gallery-container{
+    position: relative;
+    height:55vh;
+    width: 80%;
+    margin: auto;
+}
+
+ .gallery-catering-item{
+    height: 50vh;
+    background-color: rgb(193, 193, 193);
+}
+
+.slick-slide{
+    transform: none;
+    margin: 20px;
+}
+
+/* 
+resonsive tablet */
+
+@media screen and (max-width: 990px) {
+
+    .platform{
+        width:100%;
+        height: 10vh;
+    }
+
+    .waiter-1{
+        height: 40vh;
+        left: 6vh;
+        bottom: 2vh;
+    }
+
+    .waiter-2{
+        height: 40vh;
+        right:6vh;
+        bottom: 2vh;
+    }
+
+    .catering-banner{
+        padding: 25vh 0 0;
+        height: 95vh;
+    }
+
+    .catering-banner > p{
+        width: 60%;
+    }
+
+    .catering-services-container{
+        width: 62%;
+    }
+}
+
+/* responsive mobile */
+
+@media screen and (max-width: 440px){
+    .platform{
+        width:100%;
+        height: 10vh;
+    }
+
+    .waiter-1{
+        height: 30vh;
+        left: 2vh;
+        bottom: 2vh;
+    }
+
+    .waiter-2{
+        height: 30vh;
+        right:2vh;
+        bottom: 2vh;
+    }
+
+    .catering-banner > p{
+        width: 90%;
+    }
+
+    .catering-services-container{
+        width: 80%;
+    }
 }
