@@ -631,6 +631,18 @@ footer{
     font-family: var(--text-font);
 }
 
+#whatappIcon{
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    z-index: 5;
+    font-size: 40px;
+    color: white;
+    background-color: 	#25D366;
+    border-radius: 8px;
+    padding: 5px;
+}
+
 /* responsive styles laptop 1024px */
 @media screen and (max-width:1230px) {
     .banner-content{
@@ -683,6 +695,7 @@ footer{
 @media screen and (max-width:991px) {
     header{
         position: absolute;
+        background-color: #000;
     }
     .hanger-img{
         display: none;

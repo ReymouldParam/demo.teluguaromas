@@ -138,12 +138,13 @@ jQuery(document).ready(function($){
   $('#header-logo').css("height","54px");
   
   $('#headerInner').css("padding","5px 0");
+  $('#whatappIcon').css("display","block");
   }
   else
   {
   if(mywindow.scrollTop() < 75) {
   $('#stickyheaders').css("background-color","transparent");
-
+  $('#whatappIcon').css("display","none");
   if(window.innerWidth < 426){
     $('#header-logo').css("height","60px");
   }else if(window.innerWidth < 769){
@@ -169,7 +170,7 @@ jQuery(document).ready(function($){
     var targetElement = document.getElementById("your-element-id");
     if (scrollPosition < 40) {
       $('#stickyheaders').css("background-color","transparent");
-
+      $('#whatappIcon').css("display","none");
     if(window.innerWidth < 426){
       $('#header-logo').css("height","60px");
     }else if(window.innerWidth < 769){
@@ -189,6 +190,7 @@ jQuery(document).ready(function($){
       $('#header-logo').css("height","54px");
       
       $('#headerInner').css("padding","5px 0");
+      $('#whatappIcon').css("display","block");
     }
   });
 
