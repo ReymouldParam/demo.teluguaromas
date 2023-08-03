@@ -703,7 +703,7 @@ footer{
     }
 
     .navbar-collapse{
-        top:75px;
+        position: relative;
     }
 
     .navbar-nav{
@@ -849,10 +849,6 @@ footer{
     .navbar-toggler{
         color: white;
         font-size: 30px;
-    }
-
-    .navbar-collapse{
-        top:70px;
     }
 
     .navbar-nav >li{

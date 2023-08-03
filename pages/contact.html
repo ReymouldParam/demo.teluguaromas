@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="../assets/css/animation.css">
     <link rel="stylesheet" href="../assets/css/global.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
-    <link rel="stylesheet" href="../assets/css/franchise.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
 
     <!-- font families -->
     <link href="https://fonts.cdnfonts.com/css/pristina" rel="stylesheet">
@@ -63,10 +63,10 @@
                     <a class="nav-link" aria-current="page" href="catering.html">CATERING</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page">FRANCHISE</a>
+                    <a class="nav-link" aria-current="page" href="franchise.html">FRANCHISE</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="contact.html">CONTACT US</a>
+                    <a class="nav-link active" aria-current="page">CONTACT US</a>
                   </li>
                 </ul>
               </div>
@@ -84,47 +84,18 @@
           </nav>
     </header>
 
-
-    <section class="franchise-main-container">
-      <div class="franchise-banner">
-        <h2>Join our</h2>
-        <h1> Delicious journey!</h1>
-        <h3>“ Become a part of our food franchise ”</h3>
-      </div>
-
-      <div class="franchise-section-2">
-        <div class="image-section2">
-          <img src="../assets/images/franchise.png" alt="">
-        </div>
-        <div class="image-section2">
-          <img src="../assets/images/franchise-2.png" alt="">
-        </div>
-      </div>
-
-      <div class="franchise-section-3">
-        <h3>“ Become a part of our food franchise ”</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero doloribus obcaecati ea velit tenetur eos hic quaerat ex, assumenda, nisi praesentium omnis sed adipisci vel dolorem consequuntur quasi laudantium nihil, ut neque tempore aspernatur! Porro, sed optio quis corporis vero, ex saepe ipsum deleniti iusto, magni aperiam temporibus suscipit impedit.
-        
-        </p>
-        <button class="btn">Download Boucher</button>
-      </div>
-
-      <div class="franchise-contact-form">
-        <h2 class="franchise-intro">Ready to franchise with us</h2>
-        <h1>Fill The Form</h1>
-        <form id="franchiseContactForm" action="franchise.php" method="post">
-          <input name="name" type="text" placeholder="Enter Your Name">
-          <input name="email" type="email" placeholder="Enter Your Email-id">
-          <input name="mobile" type="tel" placeholder="Enter Your Phone Number">
-          <textarea name="message" placeholder="Send Your Custom Message" id="" cols="30" rows="5"></textarea>
-          <button class="btn" type="submit">Send</button>
+    <section class="contact-container">
+        <h1 class="contact-intro">Have a question for us?</h1>
+        <h1 class="contact-heading">Contact Us Today</h1>
+        <form action="contact.php" method="post" id="contactForm">
+            <div class="contact-form-container">
+                <input type="text" name="name" placeholder="Enter Your Name">
+                <input type="email" name="email" placeholder="Enter Your Email-id" id="">
+                <input type="tel" name="mobile" placeholder="Enter Your Phone Number" id="">
+            </div>
+            <button type="submit">Send</button>
         </form>
-      </div>
-
     </section>
-
-
-
 
 
 
@@ -162,7 +133,7 @@
 
 
 
-<!-- owlcarousel -->
+
 <!-- Add the jQuery library first -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -174,6 +145,6 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-<script src="../assets/js/franchise.js"></script>
+<script src="../assets/js/contact.js"></script>
 </body>
 </html>
