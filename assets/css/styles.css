@@ -53,6 +53,10 @@ header{
     justify-content: space-around;
 }
 
+.navbar-expand-lg .navbar-collapse{
+    width: 50%;
+}
+
 .hanger-img{
     position: absolute;
     width: 102.67px;
@@ -84,7 +88,7 @@ header{
 }
 
 .hanger-img > .icon-container > div > a > i{
-    color : var(--theme-color1);
+    color : #142F15;
     font-size:22px;
 }
 
@@ -113,13 +117,13 @@ header{
 
 }
 
-/* .banner-overlay{
+.banner-overlay{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(186, 184, 108,0.2);
+    background-color: rgba(9, 59, 0,0.2);
     z-index: 1;
-} */
+}
 
 
 .banner-content > h1:first-child{
@@ -208,15 +212,17 @@ header{
 }
 
 .home-aboutus >h1:first-child{
-    color: var(--theme-color1);
+    color: var(--theme-color4);
     font-family: var(--written-font);
-    font-size: 60px;
+    font-size: 50px;
+    transform: scale(1.5);
     margin:0;
 }
 
 .home-aboutus > h1:nth-child(2){
     color: black;
     font-family: var(--main-heading-font);
+    color: var(--theme-color5);
     font-size: 60px;
     margin-bottom: 20px;
 }
@@ -227,7 +233,7 @@ header{
 }
 
 .home-aboutus > .aboutus-btn{
-    background-color: var(--theme-color1);
+    background-color: var(--theme-color5);
     color: #fff;
     font-family: var(--main-heading-font);
     padding-left: 20px;
@@ -504,7 +510,7 @@ header{
 
 .slick-slide{
     transform:scale(0.7);
-    opacity: 0.9;
+    opacity: 0.8;
     /* border-radius: 50%; */
     overflow: hidden;
     border-radius: 10px;
@@ -521,13 +527,13 @@ header{
 .slick-slide > h1{
     margin: 3vh 0;
     font-family: var(--sub-heading-font);
-    text-align: left;
+    text-align: center;
     font-weight: 400;
 }
 
 .slick-slide> p{
     font-family: var(--text-font);
-    text-align: left;
+    text-align: center;
 }
 
 .slick-prev::before, .slick-next::before{
@@ -555,7 +561,7 @@ header{
 
 .subscribe-section{
     height: 30vh;
-    background-color: var(--theme-color1);
+    background-color: var(--theme-color4);
     padding: 8vh 30vh;
     overflow: hidden;
 }
@@ -575,7 +581,7 @@ header{
     color: #fff;
 }
 .subscribe-form > button{
-    color: var(--theme-color1);
+    color: var(--theme-color4);
     font-family: var(--main-heading-font);
     padding:7px 30px;
     border-radius: 5px;

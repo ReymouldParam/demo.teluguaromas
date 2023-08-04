@@ -18,7 +18,7 @@ header{
 
 .franchise-banner > h2{
     font-family: var(--written-font);
-    color: var(--theme-color1);
+    color: var(--theme-color5);
     transform: scale(1.5);
 }
 
@@ -30,7 +30,7 @@ header{
 
 .franchise-banner > h3{
     font-family: var(--sub-heading-font);
-    color: var(--theme-color1);
+    color: var(--theme-color5);
 
 }
 
@@ -59,7 +59,7 @@ header{
 
 .franchise-section-3> h3{
     font-family: var(--sub-heading-font);
-    color: var(--theme-color1);
+    color: var(--theme-color5);
     margin:0;
 }
 
@@ -69,7 +69,7 @@ header{
 }
 
 .franchise-section-3 > button{
-    background-color: var(--theme-color1);
+    background-color: var(--theme-color5);
     color: white;
     border-radius: 5px;
     padding : 5px 30px;
@@ -91,7 +91,7 @@ header{
 
 .franchise-contact-form > .franchise-intro{
     font-family: var(--written-font);
-    color: var(--theme-color1);
+    color: var(--theme-color5);
     transform: scale(1.4);
 }
 
@@ -134,7 +134,7 @@ header{
 #franchiseContactForm > button{
     border-radius: 5px;
     border: 0;
-    background-color: var(--theme-color1);
+    background-color: var(--theme-color5);
     color: #fff;
     font-family: var(--main-heading-font);
     padding: 7px;

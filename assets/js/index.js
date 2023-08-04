@@ -199,10 +199,11 @@ jQuery(document).ready(function($){
 
   $(document).ready(function() {
     $('.slick-carousel1').slick({
-      slidesToShow: 4, // Display three elements at a time
+      slidesToShow: 3, // Display three elements at a time
       slidesToScroll: 1, // Move one element at a time
       autoplay: true, // Automatically move the carousel
       autoplaySpeed: 3000, // Move to the next element every 3 seconds
+      centerMode:true,
       variableWidth: false,
       focusOnSelect: true,
       asNavFor: '.slick-carousel2',

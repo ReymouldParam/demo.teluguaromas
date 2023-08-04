@@ -5,16 +5,18 @@ header{
     padding: 25vh 10vh 8vh;
     background: url(../images/background2.png);
     text-align: center;
+    overflow: hidden;
 }
 
 .ourstory-container > .ourstory-intro{
     font-family: var(--written-font);
-    color: var(--theme-color1);
+    color: var(--theme-color5);
+    transform: scale(1.5);
 }
 
 .ourstory-container > .ourstory-heading{
     font-family: var(--main-heading-font);
-    color: #000;
+    color: var(--theme-color4);
     font-size: 60px;
 }
 

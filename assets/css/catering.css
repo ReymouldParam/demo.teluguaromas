@@ -43,24 +43,27 @@ header{
 
 .catering-banner > h2{
     font-family: var(--written-font);
-    color: var(--theme-color1);
-    transform: scale(1.4);
+    color: var(--theme-color5);
+    transform: scale(1.5);
 }
 
 .catering-banner > h1{
     font-family: var(--main-heading-font);
     color: #000;
+    font-size: 60px;
 }
 
 .catering-banner > h4{
     font-family: var(--sub-heading-font);
-    color: var(--theme-color1);
+    color: var(--theme-color5);
+    font-size: 30px;
 }
 
 .catering-banner > p{
     font-family: var(--text-font);
     width: 65%;
     margin: 30px auto;
+    color: #535353;
 }
 
 /* section catering services */
@@ -81,7 +84,7 @@ header{
 .catering-item-head{
     display: flex;
     justify-content: space-between;
-    background-color: var(--theme-color1);
+    background-color: var(--theme-color5);
     padding: 10px 30px;
     border-radius: 5px;
 }
@@ -109,7 +112,7 @@ header{
     text-align: center;
     margin: 10vh auto 2vh;
     font-family: var(--main-heading-font);
-    color: var(--theme-color1);
+    color: var(--theme-color5);
 }
 
 .gallery-main-container{
@@ -135,6 +138,20 @@ header{
     transform: none;
     margin: 20px;
 }
+
+.slick-prev::before, .slick-next::before{
+    color: var(--theme-color4);
+}
+
+
+/* 
+resonsive laptop 1230 */
+
+@media screen and (max-width: 1230px){
+    .catering-banner > h1{
+        font-size: 50px;
+    }
+} 
 
 /* 
 resonsive tablet */
@@ -198,5 +215,13 @@ resonsive tablet */
 
     .catering-services-container{
         width: 80%;
+    }
+
+    .catering-banner > h1{
+        font-size: 35px;
+    }
+
+    .catering-banner > h4{
+        font-size: 20px;
     }
 }
