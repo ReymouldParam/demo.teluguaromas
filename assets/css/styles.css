@@ -1,6 +1,6 @@
 header{
     width:100%;
-    height: 90px;
+    height: auto;
     background-color: var(--trasperent);
     position: fixed;
     top:0;
@@ -37,7 +37,7 @@ header{
     height: 100%;
     background-color: var(--theme-color2);
     width:75%;
-    animation: loading 5s;
+    animation: loading 2s;
     transition: width 2s;
 }
 
@@ -69,7 +69,7 @@ header{
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{
-    color: var(--theme-color3);
+    color: var(--theme-color2);
 }
 
 .navbar > .container-fluid{
@@ -737,6 +737,7 @@ footer{
     header{
         position: absolute;
         background-color: #000;
+        height: auto;
     }
     .hanger-img{
         display: none;
@@ -762,7 +763,7 @@ footer{
 
     .navbar-nav{
         padding: 0 15px;
-        align-items: flex-end;
+        align-items: center;
     }
 
     .navbar-nav >li{
@@ -771,6 +772,7 @@ footer{
         padding: 0 12px;
         margin: 2px;
         border-radius: 5px;
+        text-align: center;
     }
 
     .navbar-nav .nav-link.active {
@@ -911,6 +913,10 @@ footer{
         padding: 0 12px;
         margin: 2px;
         border-radius: 5px;
+    }
+
+    #preloader > .preloader-inner{
+        width: 60%;
     }
 
     .banner-content > h1:first-child{

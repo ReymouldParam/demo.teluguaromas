@@ -17,6 +17,67 @@ for(var i=0; i<menuArr.length ; i++){
     });
 }
 
+// loading page
+
+window.addEventListener("load", ()=>{
+  document.getElementById("loadingBar").style.width= "100%";
+
+  setTimeout(function(){
+      document.getElementById("preloader").style.display="none";
+  },2500);
+
+  var scrollPosition = window.scrollY;
+      // Example: Change the background color of an element
+      var targetElement = document.getElementById("your-element-id");
+      if (scrollPosition < 40) {
+        $('#whatappIcon').css("display","none");
+
+
+      } else {
+        $('#whatappIcon').css("display","block");
+      }
+
+});
+
+
+// header dynamic scrool
+
+jQuery(document).ready(function($){
+  var mywindow = $(window);
+  var mypos = mywindow.scrollTop();
+  mywindow.scroll(function() {
+      if (mypos > 40) {
+          if(mywindow.scrollTop() > mypos)
+          {
+              $('#stickyheaders').css("background-color","black");
+
+              $('#header-logo').css("height","8vh");
+              
+              $('#whatappIcon').css("display","block");
+          }
+          else
+          {
+              if(mywindow.scrollTop() < 40) {
+                  
+
+                  if(window.innerWidth < 440){
+                    $('#stickyheaders').css("background-color","black");
+                    $('#header-logo').css("height","60px");
+                }else{
+                    $('#stickyheaders').css("background-color","var(--trasperent)");
+                    $('#header-logo').css("height","12vh");
+                }
+                  
+                  $('#whatappIcon').css("display","none");
+              }
+          
+          }
+      }
+      mypos = mywindow.scrollTop();
+  });
+});
+
+
 // smooth scrolling function
 
 // $(function() {
@@ -122,79 +183,6 @@ document.addEventListener("mousemove", function (e) {
 });
 
 
-// header styles on scroll
-
-jQuery(document).ready(function($){
-  var mywindow = $(window);
-  var mypos = mywindow.scrollTop();
-  mywindow.scroll(function() {
-  if (mypos > 40) {
-  if(mywindow.scrollTop() > mypos)
-  {
-  //$('#stickyheaders').addClass('headertranpup');
-  $('#stickyheaders').css("background-color","black");
-  $('#stickyheaders').css("height","80px");
-
-  $('#header-logo').css("height","54px");
-  
-  $('#headerInner').css("padding","5px 0");
-  $('#whatappIcon').css("display","block");
-  }
-  else
-  {
-  if(mywindow.scrollTop() < 75) {
-  $('#stickyheaders').css("background-color","transparent");
-  $('#whatappIcon').css("display","none");
-  if(window.innerWidth < 426){
-    $('#header-logo').css("height","60px");
-  }else if(window.innerWidth < 769){
-    $('#header-logo').css("height","70px");
-  }else if(window.innerWidth < 1025){
-    $('#header-logo').css("height","70px");
-  }else{
-    $('#header-logo').css("height","12vh");
-  }
-
-  // $('#header-logo').css("height","12vh");
-  $('#headerInner').css("padding","15px 0");
-  }
-  
-  }
-  }
-  mypos = mywindow.scrollTop();
-  });
-  });
-  window.addEventListener("load", function() {
-    var scrollPosition = window.scrollY;
-    // Example: Change the background color of an element
-    var targetElement = document.getElementById("your-element-id");
-    if (scrollPosition < 40) {
-      $('#stickyheaders').css("background-color","transparent");
-      $('#whatappIcon').css("display","none");
-    if(window.innerWidth < 426){
-      $('#header-logo').css("height","60px");
-    }else if(window.innerWidth < 769){
-      $('#header-logo').css("height","70px");
-    }else if(window.innerWidth < 1025){
-      $('#header-logo').css("height","70px");
-    }else{
-      $('#header-logo').css("height","12vh");
-    }
-
-    // $('#header-logo').css("height","12vh");
-    $('#headerInner').css("padding","15px 0");
-    } else {
-      $('#stickyheaders').css("background-color","black");
-      $('#stickyheaders').css("height","80px");
-
-      $('#header-logo').css("height","54px");
-      
-      $('#headerInner').css("padding","5px 0");
-      $('#whatappIcon').css("display","block");
-    }
-  });
-
-
 //slick carousel
 
   $(document).ready(function() {
@@ -231,9 +219,6 @@ jQuery(document).ready(function($){
             centerMode: true
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
 
