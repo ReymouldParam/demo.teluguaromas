@@ -68,6 +68,21 @@ header{
     padding: 7px 0;
 }
 
+@media (min-width: 1700px) and (max-width: 2600px){
+    .contact-container > .contact-intro{
+        font-size: 4rem;
+    }
+    .contact-container > .contact-heading{
+        font-size: 5rem;
+    }
+    #contactForm > .contact-form-container > input, #contactForm > .contact-form-container > textarea, #contactForm > .contact-form-container > select{
+        font-size: 2rem;
+    }
+    #contactForm > button{
+        font-size: 2rem;
+    }
+}
+
 
 /*resonsive tablet */
 

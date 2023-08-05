@@ -58,6 +58,7 @@ header{
     font-family: var(--sub-heading-font);
     color: var(--theme-color5);
     font-size: 30px;
+    text-transform: uppercase;
 }
 
 .catering-banner > p{
@@ -142,6 +143,31 @@ header{
 
 .slick-prev::before, .slick-next::before{
     color: var(--theme-color4);
+}
+
+@media (min-width: 1700px) and (max-width: 2600px){
+    .catering-banner > h2{
+        font-size: 4rem;
+    }
+
+    .catering-banner > h1{
+        font-size: 6rem;
+    }
+    .catering-banner > h4{
+        font-size: 2.8rem;
+    }
+
+    .catering-banner > p{
+        font-size: 2rem;
+    }
+
+    .catering-item-head > h3, .catering-item-head > i{
+        font-size: 3rem;
+    }
+
+    .catering-item-body{
+        font-size: 2rem;
+    }
 }
 
 

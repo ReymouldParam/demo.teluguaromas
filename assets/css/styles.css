@@ -1,3 +1,6 @@
+
+
+
 header{
     width:100%;
     height: auto;
@@ -265,6 +268,7 @@ header{
 .home-aboutus > p{
     font-family: var(--text-font);
     color: #535353;
+    font-size: auto;
 }
 
 .home-aboutus > .aboutus-btn{
@@ -274,6 +278,7 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     margin: 30px;
+    font-size: auto;
 }
 
 
@@ -342,14 +347,14 @@ header{
 }
 .section-3 > .food-left {
     position: absolute;
-    height: 400px;
-    bottom: -100px;
+    height: 50%;
+    bottom: -10%;
     left:00;
 }
 .section-3 > .food-right {
     position: absolute;
-    height: 400px;
-    bottom: -100px;
+    height: 50%;
+    bottom: -10%;
     right:0;
 }
 
@@ -371,6 +376,7 @@ header{
     color: var(--theme-color2);
     width:500px;
     margin: auto;
+    font-size: 40px;
     transform: scale(1.7);
 }
 
@@ -682,6 +688,165 @@ footer{
     background-color: 	#25D366;
     border-radius: 8px;
     padding: 5px;
+}
+
+@media (min-width: 1700px) and (max-width: 2600px) {
+    .nav-link, .navbar-nav .nav-link.active{
+        font-size: 45px;
+    }
+
+    .hanger-img{
+        width: 205.34px;
+        height: 270.66px;
+        bottom: -160px;
+        transform-origin: 102.6px 50.33px;
+    }
+    .hanger-img > .icon-container > div{
+        bottom: 10px;
+    }
+    .hanger-img > .icon-container > div > a > i{
+        font-size: 45px;
+    }
+    .banner-content > h1:first-child{
+        font-size: 68px;
+    }
+    .banner-content > h1:nth-child(2){
+        font-size: 140px;
+    }
+    .banner-content > h2{
+        font-size: 55px;
+        width: 85%;
+    }
+
+    .home-aboutus >h1:first-child{
+        font-size: 5rem;
+    }   
+
+    .home-aboutus > h1:nth-child(2){
+        font-size: 7rem;
+    }
+
+    .home-aboutus > p{
+        font-size: 2rem;
+    }
+
+    .home-aboutus > .aboutus-btn{
+        font-size: 2rem;
+        border-radius: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .section-3 > .menu-content-main > h1{
+        font-size: 5rem;
+    }
+
+    .section-3 > .menu-content-main > .menu-content > .menu-section{
+        height:90%;
+        top: 350px;
+    }
+
+    .menu-open-btn{
+        font-size: 2rem;
+        border-radius: 10px;
+    }
+
+    .menu-tab-active{
+        font-size: 2rem;
+        border-radius: 10px;
+    }
+
+    .menu-item-details >h5{
+        font-size: 2.5rem;
+    }
+
+    .menu-items-section > .menu-card{
+        width: 95%;
+    }
+
+    .menu-item-inner > p{
+        font-size: 1.3rem;
+    }
+
+    .menu-items-section > .menu-card > .menu-item{
+        margin: 3rem auto;
+    }
+
+    .section-3 > .tur-bg-right{
+        right:3%;
+    }
+
+    .section-3 > .tur-bg-left{
+        left:3%;
+    }
+
+    .section-4 > .section-4-content-main > h2{
+        font-size: 4rem;
+    }
+
+    .section-4 > .section-4-content-main > h1{
+        font-size: 8rem;
+    }
+
+    .slick-prev::before, .slick-next::before{
+        font-size: 5rem;
+    }
+    
+    .slick-slide img{
+        width: auto;
+        height: 25rem;
+    }
+
+    .section-4-content-main > .carousel-main{
+        margin: 2rem auto;
+    }
+
+    .slick-slide > h1{
+        font-size: 5rem;
+    }
+
+    .slick-slide> p{
+        font-size: 2rem;
+    }
+
+    .subscribe-section > h1{
+        font-size: 5rem;
+    }
+
+    .subscribe-form > input{
+        font-size: 2rem;
+        border-width: 0.3rem ;
+        border-radius: 15px;
+    }
+
+    .subscribe-form > button{
+        font-size: 2.3rem;
+        border-radius: 15px;
+    }
+
+    .footer-inner > .column1 > img{
+        height: 10rem;
+    }
+
+    .footer-inner > .column1 >p{
+        font-size: 2rem;
+    }
+
+    .footer-inner > .column > h1{
+        font-size: 4rem;
+    }
+
+    .footer-inner > .column > a{
+        font-size: 2rem;
+    }
+
+    .footer-inner{
+        padding-top: 5rem;
+    }
+
+    #whatappIcon{
+        font-size: 5rem;
+    }
 }
 
 /* responsive styles laptop 1024px */

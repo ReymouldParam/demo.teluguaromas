@@ -20,21 +20,21 @@ for(var i=0; i<menuArr.length ; i++){
 // loading page
 
 window.addEventListener("load", ()=>{
-  document.getElementById("loadingBar").style.width= "100%";
+  // document.getElementById("loadingBar").style.width= "100%";
 
-  setTimeout(function(){
-      document.getElementById("preloader").style.display="none";
-  },2500);
+  // setTimeout(function(){
+  //     document.getElementById("preloader").style.display="none";
+  // },2000);
 
   var scrollPosition = window.scrollY;
-      // Example: Change the background color of an element
-      var targetElement = document.getElementById("your-element-id");
       if (scrollPosition < 40) {
         $('#whatappIcon').css("display","none");
-
+        $('#stickyheaders').css("background-color","var(--trasperent)");
 
       } else {
+        $('#stickyheaders').css("background-color","#000");
         $('#whatappIcon').css("display","block");
+        
       }
 
 });

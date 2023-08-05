@@ -1,9 +1,9 @@
 window.addEventListener("load", ()=>{
-    document.getElementById("loadingBar").style.width= "100%";
+    // document.getElementById("loadingBar").style.width= "100%";
 
-    setTimeout(function(){
-        document.getElementById("preloader").style.display="none";
-    },2500);
+    // setTimeout(function(){
+    //     document.getElementById("preloader").style.display="none";
+    // },2000);
 
     var scrollPosition = window.scrollY;
       // Example: Change the background color of an element
@@ -17,9 +17,6 @@ window.addEventListener("load", ()=>{
             $('#header-logo').css("height","12vh");
         }
 
-
-        
-        
         $('#headerInner').css("padding","4px 0");
         $('#whatappIcon').css("display","block");
 

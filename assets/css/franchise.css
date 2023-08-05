@@ -141,6 +141,41 @@ header{
     padding: 7px;
 }
 
+@media (min-width: 1700px) and (max-width: 2600px){
+    .franchise-banner > h2{
+        font-size: 4rem;
+    }
+    .franchise-banner > h1{
+        font-size: 6rem;
+    }
+    .franchise-banner > h3 , .franchise-section-3> h3{
+        font-size: 3rem;
+    }
+    .franchise-section-3 > p{
+        font-size: 1.8rem;
+    }
+    .franchise-section-3{
+        padding: 10vh 40vh;
+    }
+    .franchise-section-3 > button{
+        font-size: 2rem;
+        padding: 5px 49px;  
+        border-radius: 10px;
+    }
+    .franchise-contact-form > .franchise-intro{
+        font-size: 3rem;
+    }
+    .franchise-contact-form > h1{
+        font-size: 5rem;
+    }
+    #franchiseContactForm > input, #franchiseContactForm > textarea{
+        font-size: 2rem;
+    }
+    #franchiseContactForm > button{
+        font-size: 2rem;
+    }
+}
+
 
 
 /*resonsive tablet */
