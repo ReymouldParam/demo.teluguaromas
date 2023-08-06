@@ -33,10 +33,18 @@ header{
     bottom: 7vh;
 }
 
+.move-in-down{
+    animation: moveInDown 1s;
+}
+
+.move-out-up{
+    animation: moveOutUp 1s;
+}
+
 
 
 .catering-banner{
-    padding: 30vh;
+    padding: 23vh;
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -81,6 +89,7 @@ header{
 
 .catering-services-container > .catering-item{
     margin: 7px;
+    overflow: hidden;
 }
 
 .catering-item-head{
@@ -89,6 +98,8 @@ header{
     background-color: var(--theme-color5);
     padding: 10px 30px;
     border-radius: 5px;
+    z-index: 3;
+    position: relative;
 }
 
 
@@ -101,6 +112,7 @@ header{
 .catering-item-head > i{
     color: white;
     font-size: 25px;
+    transition: rotate 0.5s linear;
 }
 
 .catering-item-body{
@@ -108,6 +120,8 @@ header{
     border-radius: 5px;
     background-color: white;
     padding: 20px;
+    z-index: 1;
+    position: relative;
 }
 
 .catering-gallery-heading{
@@ -127,18 +141,33 @@ header{
 .gallery-main-container > .gallery-container{
     position: relative;
     height:55vh;
-    width: 80%;
+    width: 50%;
     margin: auto;
 }
 
  .gallery-catering-item{
     height: 50vh;
-    background-color: rgb(193, 193, 193);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.gallery-catering-item > img{
+    width:auto;
+    height:45%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.slick-initialized .slick-slide{
+    display: flex;
 }
 
 .slick-slide{
     transform: none;
     margin: 20px;
+    opacity: 1;
+    border-radius: 0;
 }
 
 .slick-prev::before, .slick-next::before{
@@ -213,6 +242,10 @@ resonsive tablet */
 
     .catering-services-container{
         width: 62%;
+    }
+
+    .gallery-main-container > .gallery-container{
+        width: 60%;
     }
 }
 

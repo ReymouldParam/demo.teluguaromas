@@ -10,7 +10,7 @@ header{
     z-index: 10;
 }
 
-#preloader{
+/* #preloader{
     width: 100%;
     height: 100vh;
     background: #000;
@@ -42,7 +42,7 @@ header{
     width:75%;
     animation: loading 2s;
     transition: width 2s;
-}
+} */
 
 
 /* navbar styles */
@@ -50,11 +50,11 @@ header{
 .navbar{
     --bs-bg-opacity: 0;
     width: 100%;
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 .navbar-brand > img {
-    height: 12vh;
+    height: 8vh;
     width: auto;
 }
 
@@ -100,7 +100,7 @@ header{
     width: 102.67px;
     height: 135.33px;
     right:100px;
-    bottom: -80px;
+    bottom: -60px;
     background-image: url(../images/hanging.png);
     background-size: cover;
     animation: waveLeftRight 5s linear infinite;
@@ -145,7 +145,7 @@ header{
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 50%;
+    width: 60%;
     height: 40%;
     text-align: center;
     z-index: 5;
@@ -183,7 +183,6 @@ header{
 .banner-content > h2{
     font-family:var(--sub-heading-font);
     color: var(--theme-color2);
-    width: 70%;
     margin: auto;
 }
 
@@ -336,7 +335,7 @@ header{
     height: 80vh;
     top: 25vh;
     right:8%;
-    
+    z-index: 2;
 }
 
 .section-3 > .tur-bg-left {
@@ -344,18 +343,21 @@ header{
     height: 80vh;
     top: 25vh;
     left:8%;
+    z-index: 2;
 }
 .section-3 > .food-left {
     position: absolute;
     height: 50%;
     bottom: -10%;
     left:00;
+    z-index: 2;
 }
 .section-3 > .food-right {
     position: absolute;
     height: 50%;
     bottom: -10%;
     right:0;
+    z-index: 2;
 }
 
 .section-3 > .menu-content-main{
@@ -400,6 +402,7 @@ header{
     right: -300px;
     top: -300px;
     animation: rotate360 90s linear infinite;
+    z-index: 2;
 }
 
 .section-3 > .menu-content-main > .menu-content > .menu-section{
@@ -555,6 +558,11 @@ header{
     /* border-radius: 50%; */
     overflow: hidden;
     border-radius: 10px;
+}
+
+
+.slick-slide img{
+    margin: auto;
 }
 
 .slick-slide.slick-current {
@@ -855,7 +863,7 @@ footer{
         width:60%;
     }
     .navbar-brand > img{
-        height: 70px;
+        /* height: 70px; */
     }
     .navbar-expand-lg .navbar-nav .nav-link{
         margin : 0;
@@ -909,7 +917,7 @@ footer{
     }
 
     .navbar-brand > img {
-        height: 70px;
+        height: 55px;
     }
 
     .navbar > .container-fluid{
@@ -957,7 +965,7 @@ footer{
     }
     .banner-content > h2{
         font-size: 20px;
-        width: 30%;
+        width: 100%;
     }
 
     .section-1 > .design-bg{
@@ -1060,7 +1068,7 @@ footer{
 /* responsive styles mobile */
 @media screen and (max-width:440px) {
     .navbar-brand > img {
-        height: 60px;
+        height: 50px;
     }
 
     .navbar > .container-fluid{
@@ -1095,7 +1103,7 @@ footer{
     }
     .banner-content > h2{
         font-size: 20px;
-        width: 70%;
+        width: 100%;
     }
 
     .section-1{

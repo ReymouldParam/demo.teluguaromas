@@ -50,8 +50,6 @@ jQuery(document).ready(function($){
           if(mywindow.scrollTop() > mypos)
           {
               $('#stickyheaders').css("background-color","black");
-
-              $('#header-logo').css("height","8vh");
               
               $('#whatappIcon').css("display","block");
           }
@@ -62,10 +60,8 @@ jQuery(document).ready(function($){
 
                   if(window.innerWidth < 440){
                     $('#stickyheaders').css("background-color","black");
-                    $('#header-logo').css("height","60px");
                 }else{
                     $('#stickyheaders').css("background-color","var(--trasperent)");
-                    $('#header-logo').css("height","12vh");
                 }
                   
                   $('#whatappIcon').css("display","none");
@@ -187,28 +183,30 @@ document.addEventListener("mousemove", function (e) {
 
   $(document).ready(function() {
     $('.slick-carousel1').slick({
-      slidesToShow: 3, // Display three elements at a time
-      slidesToScroll: 1, // Move one element at a time
-      autoplay: true, // Automatically move the carousel
-      autoplaySpeed: 3000, // Move to the next element every 3 seconds
+      slidesToShow: 3, 
+      slidesToScroll: 1, 
+      autoplay: true, 
+      autoplaySpeed: 5000,
       centerMode:true,
-      variableWidth: false,
       focusOnSelect: true,
       asNavFor: '.slick-carousel2',
+      cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
       responsive: [
         {
-          breakpoint: 1025,
+          breakpoint: 1445,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
-            infinite: true
+            infinite: true,
+            centerPadding: '0',
           }
         },
         {
           breakpoint: 770,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            centerPadding: '0',
           }
         },
         {
@@ -216,7 +214,7 @@ document.addEventListener("mousemove", function (e) {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            centerMode: true
+            centerPadding:true
           }
         }
       ]
@@ -228,7 +226,9 @@ document.addEventListener("mousemove", function (e) {
       variableWidth: false,
       focusOnSelect: true,
       asNavFor: '.slick-carousel1',
-      arrows: false
+      arrows: false,
+      centerPadding: '0',
+      fade:true
     });
   });
 
