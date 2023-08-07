@@ -4,8 +4,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $subject = "General enquiry from teluguaromas.com";
     $message = "Name : " . $_POST["name"].
                 "\nEmail : " . $_POST["email"].
-                "\nPhone number : " . $_POST["mobile"],
-                "\nRelated to : " . $_POST["category"],
+                "\nPhone number : " . $_POST["mobile"].
+                "\nRelated to : " . $_POST["category"].
                 "\nMessage : " . $_POST["message"];
 
     mail($to, $subject, $message);

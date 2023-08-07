@@ -267,10 +267,10 @@ header{
 .home-aboutus > p{
     font-family: var(--text-font);
     color: #535353;
-    font-size: auto;
+    font-size: 15px;
 }
 
-.home-aboutus > .aboutus-btn{
+.home-aboutus > a > .aboutus-btn{
     background-color: var(--theme-color5);
     color: #fff;
     font-family: var(--main-heading-font);
@@ -603,15 +603,15 @@ header{
 /*******************/
 
 .section-footer{
-    height: 90vh;
+    height: auto;
     width: 100%;
     overflow: hidden;
 }
 
 .subscribe-section{
-    height: 30vh;
+    height: auto;
     background-color: var(--theme-color4);
-    padding: 8vh 30vh;
+    padding: 4vh 30vh;
     overflow: hidden;
 }
 
@@ -638,14 +638,14 @@ header{
 }
 
 footer{
-    height: 60vh;
+    height: 30vh;
     background-image: url("../images/banner-bg.png");
 }
 
 .footer-inner {
     width: 80%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-around;
 }
@@ -862,9 +862,9 @@ footer{
     .banner-content{
         width:60%;
     }
-    .navbar-brand > img{
-        /* height: 70px; */
-    }
+    /* .navbar-brand > img{
+        height: 70px;
+    } */
     .navbar-expand-lg .navbar-nav .nav-link{
         margin : 0;
     }
@@ -1116,6 +1116,10 @@ footer{
         /* margin-bottom: 300px; */
     }
 
+    .section-2{
+        height: 120vh;
+    }
+
     .section-2-content{
         flex-direction: column;
     }
@@ -1126,21 +1130,29 @@ footer{
 
     .home-aboutus > p{
         margin: 0 5px;
+        font-size: 12px;
+    }
+
+    .home-aboutus > a > .aboutus-btn{
+        font-size: 0.8rem;
+        margin: 20px;
     }
 
     .carousel-aboutus{
         margin: auto;
-        width: 80%;
-        height: 40%;
+        width:80%;
+        height: auto;
     }
+
 
     .home-aboutus >h1:first-child{
         font-family: var(--written-font);
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .home-aboutus > h1:nth-child(2){
-        font-size: 3rem;
+        font-size: 2.5rem;
+        margin-bottom: 0;
     }
 
     .section-3 > .menu-content-main > .menu-content > .menu-bg{

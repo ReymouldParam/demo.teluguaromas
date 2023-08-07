@@ -48,7 +48,7 @@ function getElementHeightInPixels(element) {
     handleScroll();
 
     var value = window.scrollY;
-    cateringBannerContent.style.opacity = 1 - value * 0.004;
+    // cateringBannerContent.style.opacity = 1.5 - value * 0.004;
 
     elementToChange[1].style.height= intialHeight1 - value/10 + "px";
     elementToChange[2].style.height= intialHeight2 - value/10 + "px";
@@ -82,7 +82,7 @@ for (var i = 0; i < catering.length; i++) {
 
         setTimeout(() => {
           catering[index].querySelector(".catering-item-body").style.display = "none";
-        }, 800);
+        }, 700);
         
       }
     });
@@ -94,11 +94,46 @@ for (var i = 0; i < catering.length; i++) {
 $(document).ready(function() {
   $('.gallery-container').slick({
     slidesToShow: 3, 
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     autoplay: true, 
     autoplaySpeed: 2000,
     centerPadding: '0',
     centerMode:true,
+    responsive: [
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      },
+      {
+        breakpoint: 770,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+
+  $('.catering-banner-menu-container').slick({
+    slidesToShow: 4, 
+    slidesToScroll: 1,
+    autoplay: true, 
+    autoplaySpeed: 3000,
+    centerPadding: '0',
+    centerMode:true,
+    arrows:false,
+    dots:true,
     responsive: [
       {
         breakpoint: 1025,
