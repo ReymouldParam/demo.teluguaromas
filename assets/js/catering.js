@@ -223,18 +223,29 @@ function closeDetailsTab(){
   $("body").css("overflow", "auto");
 }
 
+var k = -1;
+
 $(".open-cater-details-btn").click(function() {
   var index = $(this).data("value");
+  k=index;
   $("#cateringDetails").css("display", "flex");
   $("#cateringDetails" + index).css("display", "block");
   $("body").css("overflow", "hidden");
 });
 
+
+
 function caterDetailsMoveLeft(){
-  $(".catering-details").css("display", "none");
-  
+  $("#cateringDetails"+k).css("display", "none");
+  k=(k-1);
+  if(k<0){
+    k=4;
+  }
+  $("#cateringDetails"+k).css("display", "block")
 }
 
 function caterDetailsMoveRight(){
-  $(".catering-details").css("display", "none");
+  $("#cateringDetails"+k).css("display", "none");
+  k=(k+1)%5;
+  $("#cateringDetails"+k).css("display", "block")
 }
