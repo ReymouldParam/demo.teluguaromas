@@ -29,7 +29,11 @@ window.addEventListener("load", ()=>{
   var scrollPosition = window.scrollY;
       if (scrollPosition < 40) {
         $('#whatappIcon').css("display","none");
-        $('#stickyheaders').css("background-color","var(--trasperent)");
+        if(window.innerWidth < 440){
+          $('#stickyheaders').css("background-color","black");
+      }else{
+          $('#stickyheaders').css("background-color","var(--trasperent)");
+      }
 
       } else {
         $('#stickyheaders').css("background-color","#000");

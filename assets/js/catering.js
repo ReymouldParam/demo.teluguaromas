@@ -96,7 +96,7 @@ $(document).ready(function() {
     slidesToShow: 3, 
     slidesToScroll: 1,
     autoplay: true, 
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     centerPadding: '0',
     centerMode:true,
     responsive: [
@@ -129,9 +129,10 @@ $(document).ready(function() {
     slidesToShow: 4, 
     slidesToScroll: 1,
     autoplay: true, 
-    autoplaySpeed: 3000,
+    autoplaySpeed: 6000,
     centerPadding: '0',
-    centerMode:true,
+    centerMode:false,
+    infinite:true,
     arrows:false,
     dots:true,
     responsive: [
@@ -159,7 +160,81 @@ $(document).ready(function() {
       }
     ]
   });
+
+
+  $('.slick-carousel1').slick({
+    slidesToShow: 3, 
+    slidesToScroll: 1, 
+    autoplay: true, 
+    autoplaySpeed: 5000,
+    centerMode:true,
+    focusOnSelect: true,
+    centerPadding: '0',
+    asNavFor: '.slick-carousel2',
+    cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+    responsive: [
+      {
+        breakpoint: 1445,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          centerPadding: '0',
+        }
+      },
+      {
+        breakpoint: 770,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          centerPadding: '0',
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerPadding:true
+        }
+      }
+    ]
+  });
+
+  $('.slick-carousel2').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      variableWidth: false,
+      focusOnSelect: true,
+      asNavFor: '.slick-carousel1',
+      centerPadding: '0',
+      arrows:false,
+      fade:true,
+      cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+    });
 });
 
 
-    
+
+
+function closeDetailsTab(){
+  $("#cateringDetails").css("display", "none");
+  $(".catering-details").css("display", "none");
+  $("body").css("overflow", "auto");
+}
+
+$(".open-cater-details-btn").click(function() {
+  var index = $(this).data("value");
+  $("#cateringDetails").css("display", "flex");
+  $("#cateringDetails" + index).css("display", "block");
+  $("body").css("overflow", "hidden");
+});
+
+function caterDetailsMoveLeft(){
+  $(".catering-details").css("display", "none");
+  
+}
+
+function caterDetailsMoveRight(){
+  $(".catering-details").css("display", "none");
+}

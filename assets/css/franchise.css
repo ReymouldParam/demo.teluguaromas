@@ -12,26 +12,28 @@ header{
 
 .franchise-banner{
     text-align: center;
-    width:60%;
+    width:100%;
     margin: 0 auto;
-    padding: 25vh 0 10vh    ;
+    padding: 20vh 0 10vh;
+    height: 100vh;
+    background-image: url(../images/banner-bg.png);
 }
 
 .franchise-banner > h2{
     font-family: var(--written-font);
-    color: var(--theme-color5);
+    color: var(--theme-color2);
     transform: scale(1.5);
 }
 
 .franchise-banner > h1{
     font-family: var(--main-heading-font);
-    color: #000;
+    color: #fff;
     font-size: 60px;
 }
 
 .franchise-banner > h3{
     font-family: var(--sub-heading-font);
-    color: var(--theme-color5);
+    color: var(--theme-color2);
 
 }
 
@@ -39,7 +41,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    padding: 0 5vw 5vh;
+    padding: 5vh 5vw 5vh;
 }
 
 .franchise-section-2 > .image-section2{
@@ -182,7 +184,7 @@ header{
 
 @media screen and (max-width: 990px) {
     .franchise-banner{
-        width: 80%;
+        width: 100%;
         padding: 25vh 0 5vh;
     }
 
@@ -204,8 +206,9 @@ header{
 
 @media screen and (max-width: 440px){
     .franchise-banner{
-        width: 95%;
+        width: 100%;
         padding: 25vh 0 5vh;
+        height: auto;
     }
 
     .franchise-banner > h1{
