@@ -220,7 +220,7 @@ $(document).ready(function() {
 function closeDetailsTab(){
   $("#cateringDetails").css("display", "none");
   $(".catering-details").css("display", "none");
-  $("body").css("overflow", "auto");
+  $("body").css("overflow-y", "auto");
 }
 
 var k = -1;
@@ -230,7 +230,7 @@ $(".open-cater-details-btn").click(function() {
   k=index;
   $("#cateringDetails").css("display", "flex");
   $("#cateringDetails" + index).css("display", "block");
-  $("body").css("overflow", "hidden");
+  $("body").css("overflow-y", "hidden");
 });
 
 
