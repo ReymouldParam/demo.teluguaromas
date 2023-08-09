@@ -36,7 +36,7 @@ window.addEventListener("load", ()=>{
       }
 
       } else {
-        $('#stickyheaders').css("background-color","#000");
+        $('#stickyheaders').css("background-color","rgba(20,47,21,0.9)");
         $('#whatappIcon').css("display","block");
         
       }
@@ -53,7 +53,7 @@ jQuery(document).ready(function($){
       if (mypos > 40) {
           if(mywindow.scrollTop() > mypos)
           {
-              $('#stickyheaders').css("background-color","black");
+              $('#stickyheaders').css("background-color","rgba(20,47,21,0.9)");
               
               $('#whatappIcon').css("display","block");
           }
@@ -63,7 +63,7 @@ jQuery(document).ready(function($){
                   
 
                   if(window.innerWidth < 440){
-                    $('#stickyheaders').css("background-color","black");
+                    $('#stickyheaders').css("background-color","rgba(20,47,21,0.9)");
                 }else{
                     $('#stickyheaders').css("background-color","var(--trasperent)");
                 }

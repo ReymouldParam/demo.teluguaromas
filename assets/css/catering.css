@@ -23,16 +23,16 @@ header{
 }
 
 .waiter-1{
-    height: 50vh;
-    left: 20vh;
-    bottom: 7vh;
+    height: 60vh;
+    left: 13vh;
+    bottom: 5vh;
     z-index: 101;
 }
 
 .waiter-2{
-    height: 50vh;
-    right:20vh;
-    bottom: 7vh;
+    height: 60vh;
+    right:13vh;
+    bottom: 5vh;
     z-index: 101;
 }
 
@@ -136,6 +136,7 @@ header{
 
 .catering-services-container-main{
     width: 100%;
+    height: 80vh;
 }
 
 .catering-services-container{
@@ -182,17 +183,20 @@ header{
 
 .catering-gallery-heading{
     text-align: center;
+    font-size: 50px;
     margin: 10vh auto 2vh;
     font-family: var(--main-heading-font);
-    color: var(--theme-color5);
+    color: var(--theme-color2);
 }
 
 .gallery-main-container{
-    height: auto;
+    height: 100vh;
     width: 100%;
     position: relative;
-    padding: 0 0;
+    padding: 4vh 0;
     margin-bottom: 100px;
+    background: url(../images/banner-bg.png) rgba(255,255,255,0.8);
+    background-size: cover;
 }
 
 .gallery-main-container > .gallery-container{
@@ -228,12 +232,12 @@ header{
 }
 
 .slick-prev::before, .slick-next::before{
-    color: var(--theme-color4);
+    color: var(--theme-color2);
 }
 
 .section-4{
     background-color: var(--transperent);
-    height: 110vh;
+    height: 100vh;
 }
 
 .slick-carousel1 > .slick-list > .slick-track > .slick-slide {
@@ -261,7 +265,7 @@ header{
     justify-content: space-around;
     z-index: 200;
     top: 0;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .catering-details-main-container > .close-details-btn{
@@ -291,6 +295,31 @@ header{
     display: none;
 }
 
+.catering-details-main-container > .catering-details-container > .catering-details > .catering-heading{
+    font-family: var(--main-heading-font);
+    color: var(--theme-color4);
+}
+
+.catering-details-main-container > .catering-details-container > .catering-details > .catering-details-intro{
+    font-family: var(--text-font);
+    color: #5c5c5c;
+}
+
+.catering-details-main-container > .catering-details-container > .catering-details > .catering-menu-heading{
+    font-family: var(--main-heading-font);
+    color: var(--theme-color5);
+}
+
+.catering-menu-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.catering-menu-container > .catering-menu-column > .catering-sub-heading{
+    font-family: var(--sub-heading-font);
+    margin-left: 20px;
+}
+
 .catering-details-main-container > button{
     height:50px;
     width: 50px;
@@ -304,27 +333,101 @@ header{
     color: var(--theme-color3);
 }
 
+.our-clients-section{
+    width:100%;
+    height: 80vh;
+    text-align: center;
+}
+
+.our-clients-section > .our-clients-heading{
+    font-family: var(--main-heading-font);
+    color: var(--theme-color5);
+    font-size: 50px;
+}
+
+.our-clients-container{
+    width:60%;
+    margin: auto;
+}
+
+.our-clients-container > .slick-list > .slick-track > .our-client-item >img{
+    margin: auto;
+    background-color: rgb(207, 207, 207);
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+}
+
+.our-clients-container > .slick-list > .slick-track > .slick-slide{
+    transform: scale(0.8);
+    opacity: 0.8;
+}
+
+.our-clients-container > .slick-list > .slick-track > .slick-slide.slick-current{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.our-clients-container > .slick-dots li button:before{
+    color: rgb(207, 207, 207);
+    opacity: 1;
+    font-size: 10px;
+}
+
+.our-clients-container > .slick-dots li.slick-active button:before{
+    color: var(--theme-color6);
+    opacity: 1;
+    font-size: 15px;
+}
+
 @media (min-width: 1700px) and (max-width: 2600px){
     .catering-banner > h2{
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 
     .catering-banner > h1{
-        font-size: 6rem;
+        font-size: 4rem;
     }
     .catering-banner > h4{
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
 
     .catering-banner > p{
         font-size: 2rem;
     }
 
+    .catering-banner-menu-container > .slick-list > .slick-track > .catering-banner-menu-item >h6{
+        font-size: 1.5rem;
+    }
+
+    .catering-banner-menu-container > .slick-list > .slick-track > .catering-banner-menu-item > button{
+        font-size: 1.5rem;
+    }
+
     .catering-item-head > h3, .catering-item-head > i{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .catering-item-body{
+        font-size: 1.2rem;
+    }
+
+    .catering-gallery-heading{
+        font-size: 3.8rem;
+    }
+
+    .catering-details-main-container > .catering-details-container > .catering-details > .catering-heading{
+        font-size: 3rem;
+    }
+
+    .catering-details-main-container > .catering-details-container > .catering-details > .catering-details-intro{
+        font-size: 1.5rem;
+    }
+
+    .catering-details-main-container > .catering-details-container > .catering-details > .catering-menu-heading{
+        font-size: 2.5rem;
+    }
+    .catering-menu-container > .catering-sub-heading{
         font-size: 2rem;
     }
 }
@@ -343,6 +446,19 @@ resonsive laptop 1230 */
 resonsive tablet */
 
 @media screen and (max-width: 990px) {
+
+
+    .catering-details-main-container > .catering-details-container{
+        height: 70vh;
+        width: 80%;
+    }
+
+    .catering-details-main-container > .close-details-btn{
+        top: 20px;
+        right: 15px;
+        height:40px;
+        width: 40px;
+    }
 
     .platform{
         width:100%;
@@ -376,6 +492,10 @@ resonsive tablet */
 
     .gallery-main-container > .gallery-container{
         width: 60%;
+    }
+
+    .our-clients-container{
+        width: 90%;
     }
 }
 
@@ -413,5 +533,13 @@ resonsive tablet */
 
     .catering-banner > h4{
         font-size: 20px;
+    }
+
+    .section-4{
+        height: 120vh;
+    }
+
+    .our-clients-container{
+        width: 95%;
     }
 }

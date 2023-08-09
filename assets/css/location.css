@@ -1,0 +1,116 @@
+.locations-main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.locations-main-container > .locations-list-container{
+    width: 18%;
+    height: 100%;
+    background: url(../images/banner-bg.png);
+    background-size: 100% 100%;
+    overflow-y: scroll;
+    padding-top: 12vh;
+}
+
+.locations-main-container > .locations-list-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.locations-main-container > .locations-list-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.locations-main-container > .locations-list-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.locations-main-container > .locations-list-container > .location-tab{
+    background-color: rgb(255, 255, 255);
+    margin:5px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.locations-main-container > .locations-list-container > .location-tab:hover{
+    cursor: pointer;
+}
+
+.locations-main-container > .locations-list-container > .location-tab-active{
+    background-color: rgb(255, 255, 255);
+    margin:5px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.locations-main-container > .locations-list-container > .location-tab > h4{
+    font-family: var(--sub-heading-font);
+    margin: 0;
+}
+
+.locations-main-container > .locations-main-body{
+    width:82%;
+    height: 100%;
+    background-image: url(../images/background2.png);
+    padding-top: 12vh;
+}
+
+.location-information-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    display: none;
+}
+
+.location-information-container > .location-info{
+    width: 50%;
+    height:100%;
+    overflow-y: scroll;
+}
+
+.location-information-container > .location-info::-webkit-scrollbar {
+    width: 12px;
+}
+
+.location-information-container > .location-info::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.location-information-container > .location-info::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.location-information-container > .location-info > h1{
+    font-family: var(--main-heading-font);
+    color: var(--theme-color4);
+}
+
+.location-information-container > .location-info > p{
+    font-family: var(--text-font);
+}
+
+.location-information-container > .location-info > .get-direction-btn{
+    background-color: var(--theme-color4);
+    font-family: var(--main-heading-font);
+    color: white;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.location-information-container > .location-image{
+    width:45%;
+    height:100%;
+    margin: auto;
+    background-color: rgb(225, 225, 225);
+}
+

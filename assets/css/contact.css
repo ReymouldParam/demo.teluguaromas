@@ -106,10 +106,10 @@ header{
 
     
     #contactForm > .contact-form-container > input, #contactForm > .contact-form-container > textarea, #contactForm > .contact-form-container > select{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     #contactForm > button{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 

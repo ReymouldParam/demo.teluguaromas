@@ -145,36 +145,39 @@ header{
 
 @media (min-width: 1700px) and (max-width: 2600px){
     .franchise-banner > h2{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .franchise-banner > h1{
-        font-size: 6rem;
+        font-size: 5rem;
     }
-    .franchise-banner > h3 , .franchise-section-3> h3{
+    .franchise-banner > h3{
+        font-size: 2.5rem;
+    }
+    .franchise-section-3> h3{
         font-size: 3rem;
     }
     .franchise-section-3 > p{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .franchise-section-3{
         padding: 10vh 40vh;
     }
     .franchise-section-3 > button{
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 5px 49px;  
         border-radius: 10px;
     }
     .franchise-contact-form > .franchise-intro{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .franchise-contact-form > h1{
-        font-size: 5rem;
+        font-size: 3.5rem;
     }
     #franchiseContactForm > input, #franchiseContactForm > textarea{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     #franchiseContactForm > button{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 

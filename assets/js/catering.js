@@ -50,9 +50,9 @@ function getElementHeightInPixels(element) {
     var value = window.scrollY;
     // cateringBannerContent.style.opacity = 1.5 - value * 0.004;
 
-    elementToChange[1].style.height= intialHeight1 - value/10 + "px";
-    elementToChange[2].style.height= intialHeight2 - value/10 + "px";
-
+    // if(elementToChange[1].offsetHeight > (intialHeight1/3))
+        elementToChange[1].style.height= intialHeight1 - value/10 + "px";
+        elementToChange[2].style.height= intialHeight2 - value/10 + "px";
     
   });
 
@@ -212,6 +212,47 @@ $(document).ready(function() {
       fade:true,
       cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
     });
+
+
+    $('.our-clients-container').slick({
+      slidesToShow: 3, 
+      slidesToScroll: 1, 
+      autoplay: true, 
+      autoplaySpeed: 5000,
+      centerMode:true,
+      focusOnSelect: true,
+      arrows:false,
+      dots:true,
+      centerPadding: '0',
+      cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+      responsive: [
+        {
+          breakpoint: 1445,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            centerPadding: '0',
+          }
+        },
+        {
+          breakpoint: 770,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerPadding: '0',
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        }
+      ]
+    });
+
 });
 
 
@@ -239,13 +280,19 @@ function caterDetailsMoveLeft(){
   $("#cateringDetails"+k).css("display", "none");
   k=(k-1);
   if(k<0){
-    k=4;
+    k=5;
   }
   $("#cateringDetails"+k).css("display", "block")
 }
 
 function caterDetailsMoveRight(){
   $("#cateringDetails"+k).css("display", "none");
-  k=(k+1)%5;
+  k=(k+1)%6;
   $("#cateringDetails"+k).css("display", "block")
 }
+
+document.addEventListener("keydown", function(e){
+  if (e.key === "Escape") {
+    closeDetailsTab();
+  }
+});
