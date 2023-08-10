@@ -62,7 +62,7 @@ header{
     color: #fff;
     font-family: var(--sub-heading-font);
     font-size: 22px;
-    margin: auto 15px;
+    margin: auto 2px;
 }
 
 .navbar-nav .nav-link.active{
