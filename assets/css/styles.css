@@ -59,14 +59,15 @@ header{
 }
 
 .nav-link , .navbar-nav .nav-link.active{
-    color: #fff;
+    color: white;
     font-family: var(--sub-heading-font);
     font-size: 22px;
-    margin: auto 2px;
+    margin: auto 6px;
 }
 
 .navbar-nav .nav-link.active{
-    border: #fff solid;
+    /* color: #fff; */
+    border: var(--theme-color-logo2) solid;
     border-width: 0 0 3px 0;
     
 }
@@ -97,14 +98,14 @@ header{
 
 .hanger-img{
     position: absolute;
-    width: 125px;
-    height: 135.33px;
+    width: 120px;
+    height: 110.33px;
     right:100px;
-    bottom: -70px;
+    bottom: -50px;
     background-image: url(../images/hanging-1.png);
     background-size: 100% 100%;
     animation: waveLeftRight 5s linear infinite;
-    transform-origin: 62px 13px;
+    transform-origin: 60px 4px;
     &:hover {
         animation-play-state: paused;
       }
@@ -123,7 +124,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 0 6px;
-    bottom: 8px;
+    bottom: 4px;
 }
 
 .hanger-img > .icon-container > div > a > i{
@@ -200,6 +201,7 @@ header{
     height: 40%;
     text-align: center;
     z-index: 5;
+    transform: scale(0.9);
     transition: transform 20s linear, opacity 2s linear;
     z-index: 4;
     opacity: 0;
@@ -217,7 +219,7 @@ header{
 
 .banner-content > h1:first-child{
     font-family: var(--written-font);
-    color: var(--theme-color2);
+    color: var(--theme-color-logo2);
     font-size: 40px;
     transform: scale(1.3);
     margin: 0;
@@ -225,7 +227,7 @@ header{
 
 .banner-content > h1:nth-child(2){
     font-family: var(--main-heading-font);
-    color: #fff;
+    color: var(--theme-color5);
     font-size: 80px;
     margin-bottom: 10px;
     
@@ -233,7 +235,7 @@ header{
 
 .banner-content > h2{
     font-family:var(--sub-heading-font);
-    color: var(--theme-color2);
+    color: var(--theme-color-logo2);
     margin: auto;
 }
 
@@ -426,7 +428,7 @@ header{
 
 .section-3 > .menu-content-main > h1{
     font-family: var(--written-font);
-    color: var(--theme-color2);
+    color: var(--theme-color5);
     width:500px;
     margin: auto;
     font-size: 40px;
@@ -475,7 +477,7 @@ header{
 
 
 .menu-open-btn{
-    color: var(--theme-color6);
+    color: var(--menu-color);
     font-family: var(--main-heading-font);
     font-size: 22px;
     transition: all 0.5s;
@@ -486,7 +488,7 @@ header{
 
 .menu-tab-active{
     color: #fff;
-    background-color: var(--theme-color6);
+    background-color: var(--menu-color);
     font-family: var(--main-heading-font);
     font-size: 22px;
     --bs-btn-padding-x: 0;
@@ -497,7 +499,7 @@ header{
 
 .menu-section > .menu-tabs > button:hover{
     color: #fff;
-    background-color: var(--theme-color6);
+    background-color: var(--menu-color);
 }
 
 .menu-section > .menu-items-section{
@@ -518,7 +520,7 @@ header{
 
 .menu-section > .menu-items-section::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 15px var(--theme-color6); 
+    -webkit-box-shadow: inset 0 0 15px var(--menu-color); 
 }
 
 .menu-items-section > .menu-card{
@@ -546,7 +548,7 @@ header{
 
 .menu-item-details >h5{
     font-family: var(--sub-heading-font);
-    color: var(--theme-color6);
+    color: var(--menu-color);
     font-size: 25px;
 }
 
@@ -563,7 +565,7 @@ header{
 /*******************/
 
 .section-4{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-color: var(--theme-color3);
     overflow: hidden;
@@ -620,6 +622,7 @@ header{
 
 .slick-slide img{
     margin: auto;
+    height: 30vh;
 }
 
 .slick-slide.slick-current {
@@ -633,7 +636,7 @@ header{
 .slick-carousel2 > .slick-list > .slick-track > .slick-slide > h1{
     margin: 3vh 0;
     font-family: var(--sub-heading-font);
-    color: #000;
+    color: var(--theme-color6);
     text-align: center;
     font-weight: 400;
 }
@@ -641,6 +644,7 @@ header{
 .slick-carousel2 > .slick-list > .slick-track > .slick-slide> p{
     font-family: var(--text-font);
     text-align: center;
+    color: rgb(83, 83, 83);
 }
 
 .slick-prev::before, .slick-next::before{
@@ -668,7 +672,7 @@ header{
 
 .subscribe-section{
     height: auto;
-    background-color: var(--theme-color4);
+    background-color: var(--theme-color5);
     padding: 2vh 30vh;
     overflow: hidden;
 }
@@ -676,6 +680,7 @@ header{
 
 .subscribe-section > h1{
     color: #fff;
+    font-size: 30px;
     font-family: var(--sub-heading-font);
 }
 
@@ -683,14 +688,19 @@ header{
     background-color: rgba(0,0,0,0);
     border: #fff 3px solid;
     border-radius: 5px;
+    font-size: 18px;
     width: 70%;
-    padding: 5px;
+    padding: 1px;
     color: #fff;
 }
+
+.subscribe-form > input:focus{
+    outline: 0;
+}
 .subscribe-form > button{
-    color: var(--theme-color4);
+    color: var(--theme-color5);
     font-family: var(--main-heading-font);
-    padding:7px 30px;
+    padding:4px 30px;
     border-radius: 5px;
     border:0
 }
@@ -703,7 +713,7 @@ footer{
 .footer-inner {
     width: 80%;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -714,12 +724,12 @@ footer{
 }
 
 .footer-inner > .column1 > img{
-    height: 70px;
+    height: 60px;
     width: auto;
 }
 
 .footer-inner > .column1 >p{
-    color: #fff;
+    color: var(--theme-color-logo2);
     font-family: var(--text-font);
     width:60%;
     font-weight: 100;
@@ -734,12 +744,12 @@ footer{
 }
 
 .footer-inner > .column > h1{
-    color: #fff;
+    color: var(--theme-color-logo2);
     font-family: var(--sub-heading-font);
 }
 
 .footer-inner > .column > a{
-    color:#fff;
+    color:var(--theme-color-logo2);
     text-decoration: none;
     font-family: var(--text-font);
 }
@@ -754,6 +764,14 @@ footer{
     background-color: 	#25D366;
     border-radius: 8px;
     padding: 5px;
+}
+
+.copyrights-container{
+    height: 20px;
+    width: 100%;
+    font-family: var(--text-font);
+    color: var(--theme-color-logo2);
+    padding: 0 40px;
 }
 
 @media (min-width: 1700px) and (max-width: 2600px) {

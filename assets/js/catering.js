@@ -294,5 +294,15 @@ function caterDetailsMoveRight(){
 document.addEventListener("keydown", function(e){
   if (e.key === "Escape") {
     closeDetailsTab();
+    closeCateringForm();
   }
 });
+
+function openCateringForm(){
+  closeDetailsTab();
+  $(".catering-form-section").css("display", "block");
+}
+
+function closeCateringForm(){
+  $(".catering-form-section").css("display", "none");
+}

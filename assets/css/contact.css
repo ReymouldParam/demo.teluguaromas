@@ -1,11 +1,11 @@
 header{
     height: auto;
-    background-color: #000;
+    background-color: var(--header-bg-color);
 }
 
 .contact-container{
     width: 100%;
-    background: url(../images/background2.png);
+    background: url(../images/background2-pink.png) var(--theme-color3);
     text-align: center;
     padding: 25vh 0;
     display: flex;
@@ -30,6 +30,7 @@ header{
 
 .contact-container > .contact-details-container > p{
     font-family: var(--text-font);
+    color: var(--text-color);
 }
 
 .contact-container > .contact-form-container{

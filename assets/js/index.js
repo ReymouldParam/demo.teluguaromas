@@ -26,6 +26,10 @@ window.addEventListener("load", ()=>{
   //     document.getElementById("preloader").style.display="none";
   // },2000);
 
+  var bannerContent = document.getElementById("bannerContent");
+  bannerContent.style.transform = "scale(1.1)";
+  bannerContent.style.opacity = "1";
+
   var scrollPosition = window.scrollY;
       if (scrollPosition < 40) {
         $('#whatappIcon').css("display","none");
@@ -116,9 +120,7 @@ jQuery(document).ready(function($){
 
 // banner zoomin effect
 
-var bannerContent = document.getElementById("bannerContent");
-bannerContent.style.transform = "scale(1.1)";
-bannerContent.style.opacity = "1";
+
 
 // jQuery(document).ready(function($) {
 //   "use strict";

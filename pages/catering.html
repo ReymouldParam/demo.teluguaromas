@@ -71,9 +71,9 @@
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="franchise.html">FRANCHISE</a>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="location.html">LOCATION</a>
-                  </li>
+                  </li> -->
                   <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="contact.html">CONTACT US</a>
                   </li>
@@ -308,6 +308,7 @@
           </ul>
         </div>
       </div>
+      <button onclick="openCateringForm()">Contact US</button>
     </div>
 
     <div class="catering-details" id="cateringDetails1">
@@ -360,6 +361,7 @@
           </ul>
         </div>
       </div>
+      <button onclick="openCateringForm()">Contact US</button>
     </div>
 
     <div class="catering-details" id="cateringDetails2">
@@ -412,6 +414,7 @@
           </ul>
         </div>
       </div>
+      <button onclick="openCateringForm()">Contact US</button>
     </div>
 
     <div class="catering-details" id="cateringDetails3">
@@ -464,6 +467,7 @@
           </ul>
         </div>
       </div>
+      <button onclick="openCateringForm()">Contact US</button>
     </div>
 
     <div class="catering-details" id="cateringDetails4">
@@ -516,6 +520,7 @@
           </ul>
         </div>
       </div>
+      <button onclick="openCateringForm()">Contact US</button>
     </div>
 
     <div class="catering-details" id="cateringDetails5">
@@ -568,12 +573,38 @@
           </ul>
         </div>
       </div>
+      <button onclick="openCateringForm()">Contact US</button>
     </div>
   </div>
 
   <button onclick="caterDetailsMoveRight()"><i class='bx bxs-chevron-right-circle' ></i></button>
 
   <button onclick="closeDetailsTab()" class="close-details-btn">X</button>
+</section>
+
+<section class="catering-form-section">
+  <div class="catering-form-inner">
+    <h1>Get The Best Catering Experience With Us</h1>
+    <form action="" method="post">
+      <input type="text" name="name" placeholder="Enter Your Name" required>
+      <input type="tel" name="mobile" placeholder="Enter Your Phone Number" required>
+      <select required name="category">
+        <option value="NA">Select Type Of Catering</option>
+        <option value="Wedding Catering">Wedding Catering</option>
+        <option value="Corporate Catering">Corporate Catering</option>
+        <option value="Event Catering">Event Catering</option>
+        <option value="Buffet Catering">Buffet Catering</option>
+        <option value="Boxed Lunch Catering">Boxed Lunch Catering</option>
+        <option value="Fine Dining Catering">Fine Dining Catering</option>
+      </select>
+      <input type="text" name="location" id="" placeholder="Location">
+      <input type="date" name="date">
+      <button type="submit">Send</button>
+      
+    </form>
+    <button onclick="closeCateringForm()">X</button>
+  </div>
+
 </section>
 
 

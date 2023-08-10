@@ -1,28 +1,47 @@
 header{
     height: auto;
-    background-color: #000;
+    background-color: var(--treansprent);
 }
+
 .ourstory-container{
     padding: 25vh 10vh 8vh;
-    background: url(../images/background2.png);
+    background: url(../images/banner-bg.png);
+    height: 100vh;
     text-align: center;
     overflow: hidden;
+    position: relative;
+}
+
+.ourstory-overlay-green{
+    position: absolute;
+    height: 100vh;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: 0;
+    background-color: rgba(9, 59, 0,0.2);
 }
 
 .ourstory-container > .ourstory-intro{
     font-family: var(--written-font);
-    color: var(--theme-color5);
+    color: var(--theme-color-logo2);
     transform: scale(1.5);
+    position: relative;
+    z-index: 1;
 }
 
 .ourstory-container > .ourstory-heading{
     font-family: var(--main-heading-font);
-    color: var(--theme-color4);
+    color: var(--theme-color5);
     font-size: 60px;
+    position: relative;
+    z-index: 1;
 }
 
 .ourstory-container > .ourstory-img{
     width: 40%;
+    position: relative;
+    z-index: 1;
 }
 
 .ourstory-container > .ourstory-text{

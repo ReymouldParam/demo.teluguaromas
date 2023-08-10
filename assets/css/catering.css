@@ -1,12 +1,13 @@
 header{
     height: auto;
-    background-color: rgba(20,47,21,0.9);
+    background-color: var(--treansprent);
 }
 
 .section-1{
     height: auto;
     width: 100%;
-    background: url("../images/background2.png") #fff;
+    background: url("../images/background2-pink.png") var(--theme-color3);
+    background-repeat: repeat-y;
     position: relative;
 }
 
@@ -57,7 +58,7 @@ header{
 
 .catering-banner > h2{
     font-family: var(--written-font);
-    color: var(--theme-color2);
+    color: var(--theme-color-logo2);
     transform: scale(1.5);
     position: relative;
     z-index: 1;
@@ -65,7 +66,7 @@ header{
 
 .catering-banner > h1{
     font-family: var(--main-heading-font);
-    color: #fff;
+    color: var(--theme-color5);
     font-size: 60px;
     position: relative;
     z-index: 1;
@@ -73,7 +74,7 @@ header{
 
 .catering-banner > h4{
     font-family: var(--sub-heading-font);
-    color: var(--theme-color2);
+    color: var(--theme-color-logo2);
     font-size: 30px;
     text-transform: uppercase;
     position: relative;
@@ -124,7 +125,7 @@ header{
 .catering-banner-menu-container > .slick-list > .slick-track > .catering-banner-menu-item  > button{
     color: #fff;
     font-family: var(--main-heading-font);
-    background-color: var(--theme-color4);
+    background-color: var(--theme-color5);
     font-size: 0.8rem;
 }
 
@@ -151,6 +152,7 @@ header{
 .catering-scrolling-container > h1{
     font-family: var(--sub-heading-font);
     display: inline-block;
+    color: var(--theme-color6);
     white-space: nowrap;
     animation: scrollingVertical 35s linear infinite;
 }
@@ -207,7 +209,7 @@ header{
     font-size: 50px;
     margin: 10vh auto 2vh;
     font-family: var(--main-heading-font);
-    color: var(--theme-color2);
+    color: var(--theme-color5);
     position: relative;
     z-index: 1;
 }
@@ -256,12 +258,12 @@ header{
 }
 
 .slick-prev::before, .slick-next::before{
-    color: var(--theme-color2);
+    color: var(--theme-color5);
 }
 
 .section-4{
     background-color: var(--transperent);
-    height: 100vh;
+    height: 90vh;
 }
 
 .slick-carousel1 > .slick-list > .slick-track > .slick-slide {
@@ -332,6 +334,16 @@ header{
 .catering-details-main-container > .catering-details-container > .catering-details > .catering-menu-heading{
     font-family: var(--main-heading-font);
     color: var(--theme-color5);
+}
+
+.catering-details-main-container > .catering-details-container > .catering-details > button{
+    border: 0;
+    background-color: var(--theme-color4);
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: var(--main-heading-font);
 }
 
 .catering-menu-container{
@@ -406,6 +418,78 @@ header{
     color: var(--theme-color6);
     opacity: 1;
     font-size: 15px;
+}
+
+.catering-form-section{
+    width: 100%;
+    height: 100vh;
+    padding:7% 20%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top:0;
+    right:0;
+    z-index: 200;
+    text-align: center;
+    display: none;
+}
+
+.catering-form-section > .catering-form-inner{
+    background: url(../images/background2-pink.png) var(--theme-color3);
+    height: 100%;
+    box-shadow: 0 0 20px var(--theme-color-logo2);
+    border-radius: 10px;
+    padding:10px;
+    position: relative;
+}
+
+.catering-form-section > .catering-form-inner >h1{
+    font-family: var(--main-heading-font);
+    color: var(--theme-color6);
+    margin-bottom: 5px;
+}
+
+.catering-form-section > .catering-form-inner > form{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.catering-form-section > .catering-form-inner > button{
+    position: absolute;
+    top:-40px;
+    right:-40px;
+    font-size: 20px;
+    color: white;
+    background-color: var(--transperent);
+    border: #fff 2px solid;
+    border-radius: 50%;
+    height: 40px;
+    width:40px;
+}
+
+.catering-form-section > .catering-form-inner > form > input, .catering-form-section > .catering-form-inner > form > select{
+    border: 0;
+    box-shadow: 0 0 5px rgb(49, 49, 49);
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: 15px 0;
+    text-align: center;
+    background-color: #fff;
+    transition: all 0.5s;
+    font-family: var(--main-heading-font);
+    color: #000;
+    width: 100%;
+}
+
+.catering-form-section > .catering-form-inner > form > button{
+    background-color: var(--theme-color4);
+    color: white;
+    font-family: var(--main-heading-font);
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    padding: 7px 0;
 }
 
 @media (min-width: 1700px) and (max-width: 2600px){
