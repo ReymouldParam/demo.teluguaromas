@@ -37,6 +37,11 @@ body{
     padding: 0;
 }
 
+p{
+    font-family: var(--text-font);
+    color: var(--text-color);
+}
+
 
 .utility-background-property{
     background-position: center;

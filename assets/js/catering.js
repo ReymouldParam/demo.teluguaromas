@@ -128,13 +128,12 @@ $(document).ready(function() {
   $('.catering-banner-menu-container').slick({
     slidesToShow: 4, 
     slidesToScroll: 1,
-    autoplay: true, 
-    autoplaySpeed: 6000,
+    autoplay: false, 
     centerPadding: '0',
     centerMode:false,
     infinite:true,
     arrows:false,
-    dots:true,
+    dots:false,
     responsive: [
       {
         breakpoint: 1500,
@@ -280,14 +279,14 @@ function caterDetailsMoveLeft(){
   $("#cateringDetails"+k).css("display", "none");
   k=(k-1);
   if(k<0){
-    k=5;
+    k=3;
   }
   $("#cateringDetails"+k).css("display", "block")
 }
 
 function caterDetailsMoveRight(){
   $("#cateringDetails"+k).css("display", "none");
-  k=(k+1)%6;
+  k=(k+1)%4;
   $("#cateringDetails"+k).css("display", "block")
 }
 

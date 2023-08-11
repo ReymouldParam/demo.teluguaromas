@@ -269,7 +269,7 @@ header{
 .section-2-content{
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 85%;
     height: 70%;
     margin: auto;
     position: absolute;
@@ -297,12 +297,12 @@ header{
 }
 
 .home-aboutus{
-    width: 40%;
+    width: 50%;
     text-align: center;
 }
 
 .home-aboutus >h1:first-child{
-    color: var(--theme-color4);
+    color: var(--theme-color6);
     font-family: var(--written-font);
     font-size: 50px;
     transform: scale(1.5);
@@ -355,12 +355,16 @@ header{
     height: 47%;
     width:100%;
     display: flex;
+    border-radius: 10% 0 0 10%;
+    overflow-y: hidden;
 }
 
 .carousel-aboutus > .column-2 > .carousel-3{
     height: 100%;
     width: auto;
     display: flex;
+    border-radius: 0 10% 10% 0;
+    overflow-y: hidden;
 } 
 
 .carousel-aboutus > .column-1 > .carousel-1 > img , .carousel-aboutus > .column-1 > .carousel-2 >img , .carousel-aboutus > .column-2 > .carousel-3 >img{
@@ -840,6 +844,7 @@ footer{
 }
 
 .copyrights-container{
+    border-top: solid 1px var(--theme-color-logo2);
     height: 20px;
     width: 100%;
     font-family: var(--text-font);
@@ -854,9 +859,9 @@ footer{
 
     .hanger-img{
         width: 140px;
-        height: 170px;
-        bottom: -100px;
-        transform-origin: 70px 20px;
+        height: 140px;
+        bottom: -60px;
+        transform-origin: 70px 10px;
     }
 
     .hanger-img > .icon-container > div > a > img{
@@ -864,7 +869,7 @@ footer{
         width: 28px;
     }
     .hanger-img > .icon-container > div{
-        bottom: 10px;
+        bottom: 7px;
     }
     .hanger-img > .icon-container > div > a > i{
         font-size: 45px;
@@ -970,6 +975,10 @@ footer{
 
     .slick-slide> p{
         font-size: 1.5rem;
+    }
+
+    .slick-carousel2 > .slick-list > .slick-track > .slick-slide> p{
+        font-size: 1.15rem;
     }
 
     .subscribe-section > h1{

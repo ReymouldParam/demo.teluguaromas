@@ -5,11 +5,22 @@ header{
 
 .contact-container{
     width: 100%;
-    background: url(../images/background2-pink.png) var(--theme-color3);
+    background: url(../images/banner-bg.png);
     text-align: center;
-    padding: 25vh 0;
+    padding: 20vh 0;
     display: flex;
     justify-content: space-around;
+    position: relative;
+}
+
+.contact-container > .design-bg{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    left: 0;
+    top: 0;
+    animation: rotate360 90s linear infinite;
+    z-index: 2;
 }
 
 
@@ -21,16 +32,17 @@ header{
     text-align: center;
     flex-direction: column;
     justify-content: space-around;
+    z-index: 3;
 }
 
 .contact-container > .contact-details-container > i{
-    color: var(--theme-color4);
+    color: var(--theme-color5);
     font-size: 7vh;
 }
 
 .contact-container > .contact-details-container > p{
     font-family: var(--text-font);
-    color: var(--text-color);
+    color: var(--theme-color-logo2);
 }
 
 .contact-container > .contact-form-container{
@@ -40,12 +52,12 @@ header{
 
 .contact-container > .contact-form-container > .contact-intro{
     font-family: var(--written-font);
-    color: var(--theme-color5);
+    color: var(--theme-color-logo2);
 }
 
 .contact-container > .contact-form-container > .contact-heading{
     font-family: var(--main-heading-font);
-    color: var(--theme-color4);
+    color: var(--theme-color5);
 }
 
 #contactForm{
@@ -87,7 +99,7 @@ header{
 }
 
 #contactForm > button{
-    background-color: var(--theme-color4);
+    background-color: var(--theme-color5);
     color: white;
     font-family: var(--main-heading-font);
     width: 100%;

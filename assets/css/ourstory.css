@@ -5,7 +5,7 @@ header{
 
 .ourstory-banner-container{
     padding: 25vh 10vh 8vh;
-    background: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg.png);
     height: 100vh;
     text-align: center;
     overflow: hidden;
@@ -22,12 +22,25 @@ header{
     background-color: rgba(9, 59, 0,0.2);
 }
 
+.ourstory-banner-container > .design-bg{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    animation: rotate360 90s linear infinite;
+    z-index: 2;
+}
+
 .ourstory-banner-container > .ourstory-intro{
     font-family: var(--written-font);
     color: var(--theme-color-logo2);
     transform: scale(1.5);
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
 .ourstory-banner-container > .ourstory-heading{
@@ -35,13 +48,13 @@ header{
     color: var(--theme-color5);
     font-size: 60px;
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
 .ourstory-banner-container > .ourstory-img{
     width: 40%;
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
 .ourstory-banner-container > .ourstory-text{
@@ -111,6 +124,14 @@ header{
     .ourstory-banner-container > .ourstory-text{
         font-size: 1.5rem;
         width: 80%;
+    }
+
+    .section-2-container-1 > .section-2-inner-1 >h1, .section-2-container-2 > .section-2-inner-1 >h1{
+        font-size: 4rem;
+    }
+
+    .section-2-container-1 > .section-2-inner-1 >p, .section-2-container-2 > .section-2-inner-1 >p{
+        font-size: 1.3rem;
     }
 }
 

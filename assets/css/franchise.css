@@ -30,12 +30,25 @@ header{
     background-color: rgba(9, 59, 0,0.2);
 }
 
+.franchise-banner > .design-bg{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    animation: rotate360 90s linear infinite;
+    z-index: 2;
+}
+
 .franchise-banner > h2{
     font-family: var(--written-font);
     color: var(--theme-color-logo2);
     transform: scale(1.5);
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
 .franchise-banner > h1{
@@ -43,14 +56,14 @@ header{
     color: var(--theme-color5);
     font-size: 60px;
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
 .franchise-banner > h3{
     font-family: var(--sub-heading-font);
     color: var(--theme-color-logo2);
     position: relative;
-    z-index: 1;
+    z-index: 3;
 
 }
 
@@ -60,7 +73,7 @@ header{
     justify-content: space-around;
     padding: 5vh 5vw 5vh;
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
 .franchise-section-2 > .image-section2{
