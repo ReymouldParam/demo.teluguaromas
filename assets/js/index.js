@@ -34,7 +34,7 @@ window.addEventListener("load", ()=>{
       if (scrollPosition < 200) {
         $('#whatappIcon').css("display","none");
         if(window.innerWidth < 440){
-          $('#stickyheaders').css("background-color","black");
+          $('#stickyheaders').css("background-color","var(--header-bg-color");
       }else{
           $('#stickyheaders').css("background-color","var(--trasperent)");
       }

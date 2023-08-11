@@ -9,7 +9,11 @@ window.addEventListener("load", ()=>{
       // Example: Change the background color of an element
       var targetElement = document.getElementById("your-element-id");
       if (scrollPosition < 200) {
-        $('#stickyheaders').css("background-color","var(--transprent)");
+        if(window.innerWidth < 440){
+          $('#stickyheaders').css("background-color","var(--header-bg-color");
+      }else{
+          $('#stickyheaders').css("background-color","var(--trasperent)");
+      }
 
         $('#whatappIcon').css("display","none");
 

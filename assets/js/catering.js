@@ -82,7 +82,7 @@ for (var i = 0; i < catering.length; i++) {
 
         setTimeout(() => {
           catering[index].querySelector(".catering-item-body").style.display = "none";
-        }, 700);
+        }, 400);
         
       }
     });

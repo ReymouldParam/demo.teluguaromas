@@ -38,11 +38,11 @@ header{
 }
 
 .move-in-down{
-    animation: moveInDown 1s;
+    animation: moveInDown 0.5s;
 }
 
 .move-out-up{
-    animation: moveOutUp 1s;
+    animation: moveOutUp 0.5s;
 }
 
 
@@ -92,7 +92,7 @@ header{
 
 .catering-overlay-green{
     position: absolute;
-    height: 100vh;
+    height: 100%;
     width:100%;
     top:0;
     left:0;
@@ -200,9 +200,13 @@ header{
     display: none;
     border-radius: 5px;
     background-color: white;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    height:40vh;
     padding: 20px;
     z-index: 1;
     position: relative;
+    overflow-y: scroll;
 }
 
 .catering-gallery-heading{
@@ -656,5 +660,36 @@ resonsive tablet */
 
     .our-clients-container{
         width: 95%;
+    }
+
+    .catering-menu-container{
+        flex-direction: column;
+    }
+
+    .catering-form-section{
+        padding: 20% 5%;;
+    }
+
+    .catering-form-section > .catering-form-inner{
+        overflow-y: scroll;
+        padding: 30px 10px;
+    }
+
+    .catering-form-section > .catering-form-inner > form{
+        width:80%;
+    }
+
+    .catering-form-section > .catering-form-inner > button {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        font-size: 15px;
+        color: black;
+        background-color: var(--transperent);
+        border: #000 3px solid;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        font-weight: 800;
     }
 }

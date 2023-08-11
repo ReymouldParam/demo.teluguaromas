@@ -32,6 +32,11 @@ body{
     overflow-x: hidden    ;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 
 .utility-background-property{
     background-position: center;
