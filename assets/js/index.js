@@ -31,7 +31,7 @@ window.addEventListener("load", ()=>{
   bannerContent.style.opacity = "1";
 
   var scrollPosition = window.scrollY;
-      if (scrollPosition < 40) {
+      if (scrollPosition < 200) {
         $('#whatappIcon').css("display","none");
         if(window.innerWidth < 440){
           $('#stickyheaders').css("background-color","black");
@@ -54,7 +54,7 @@ jQuery(document).ready(function($){
   var mywindow = $(window);
   var mypos = mywindow.scrollTop();
   mywindow.scroll(function() {
-      if (mypos > 40) {
+      if (mypos > 200) {
           if(mywindow.scrollTop() > mypos)
           {
               $('#stickyheaders').css("background-color","rgba(20,47,21,0.9)");
@@ -63,7 +63,7 @@ jQuery(document).ready(function($){
           }
           else
           {
-              if(mywindow.scrollTop() < 40) {
+              if(mywindow.scrollTop() < 200) {
                   
 
                   if(window.innerWidth < 440){
