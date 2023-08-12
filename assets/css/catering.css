@@ -25,14 +25,14 @@ header{
 
 .waiter-1{
     height: 60vh;
-    left: 11vh;
+    left: 5vh;
     bottom: 5vh;
     z-index: 101;
 }
 
 .waiter-2{
     height: 60vh;
-    right:11vh;
+    right:5vh;
     bottom: 5vh;
     z-index: 101;
 }
@@ -77,7 +77,18 @@ header{
     z-index: 1;
 }
 
-.catering-banner > h1{
+.catering-banner-heading-carousel {
+    position: relative;
+    z-index: 3;
+}
+
+.catering-banner-heading-carousel >  .slick-list > .slick-track > .heading-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.catering-banner-heading-carousel >  .slick-list > .slick-track > .heading-item > h1{
     font-family: var(--main-heading-font);
     color: var(--theme-color5);
     font-size: 60px;
@@ -85,7 +96,7 @@ header{
     z-index: 3;
 }
 
-.catering-banner > h4{
+.catering-banner-heading-carousel >  .slick-list > .slick-track > .heading-item > h4{
     font-family: var(--sub-heading-font);
     color: var(--theme-color-logo2);
     font-size: 30px;
@@ -336,6 +347,21 @@ header{
     border-radius: 10px;
     box-shadow: 0 0 10px white;
     overflow-y: scroll;
+    position: relative;
+}
+
+.catering-details-main-container > .catering-details-container > button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--theme-color6);
+    background-color: var(--transperent);
+    border: var(--theme-color6) 3px solid;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
 }
 
 .catering-details-main-container > .catering-details-container > .catering-details{
@@ -359,7 +385,7 @@ header{
 
 .catering-details-main-container > .catering-details-container > .catering-details > button{
     border: 0;
-    background-color: var(--theme-color4);
+    background-color: var(--theme-color5);
     color: whitesmoke;
     padding: 5px 10px;
     border-radius: 5px;
@@ -484,15 +510,16 @@ header{
 
 .catering-form-section > .catering-form-inner > button{
     position: absolute;
-    top:-40px;
-    right:-40px;
+    top: 10px;
+    right: 10px;
     font-size: 20px;
-    color: white;
+    font-weight: 700;
+    color: var(--theme-color6);
     background-color: var(--transperent);
-    border: #fff 2px solid;
+    border: var(--theme-color6) 3px solid;
     border-radius: 50%;
     height: 40px;
-    width:40px;
+    width: 40px;
 }
 
 .catering-form-section > .catering-form-inner > form > input, .catering-form-section > .catering-form-inner > form > select{
@@ -510,7 +537,7 @@ header{
 }
 
 .catering-form-section > .catering-form-inner > form > button{
-    background-color: var(--theme-color4);
+    background-color: var(--theme-color5);
     color: white;
     font-family: var(--main-heading-font);
     width: 100%;
@@ -580,8 +607,16 @@ header{
 resonsive laptop 1230 */
 
 @media screen and (max-width: 1230px){
-    .catering-banner > h1{
+    .catering-banner > h2{
+        margin-bottom: 0;
+    }
+
+    .catering-banner-heading-carousel > .slick-list > .slick-track > .heading-item > h1{
         font-size: 50px;
+    }
+    .catering-banner-heading-carousel > .slick-list > .slick-track > .heading-item > h4{
+        font-size: 25px;
+        margin-bottom: 1vh;
     }
 } 
 
@@ -621,12 +656,16 @@ resonsive tablet */
     }
 
     .catering-banner{
-        padding: 25vh 0 0;
+        padding: 20vh 0 0;
         height: 95vh;
     }
 
     .catering-banner > p{
         width: 60%;
+    }
+
+    .catering-banner-menu-container{
+        width: 65%;
     }
 
     .catering-services-container{
@@ -666,20 +705,41 @@ resonsive tablet */
         width: 90%;
     }
 
+    .catering-banner > .design-bg{
+        height: 50vh;
+        width: 50vh;
+    }
+
     .catering-services-container{
         width: 80%;
     }
 
-    .catering-banner > h1{
-        font-size: 35px;
+    .catering-banner > h2{
+        margin-bottom: 0;
+        transform: scale(1.1);
     }
 
-    .catering-banner > h4{
-        font-size: 20px;
+    .catering-banner-heading-carousel > .slick-list > .slick-track > .heading-item > h1{
+        font-size: 35px;
+    }
+    .catering-banner-heading-carousel > .slick-list > .slick-track > .heading-item > h4{
+        font-size: 25px;
+        margin-bottom: 1vh;
+    }
+
+    .gallery-main-container{
+        margin-bottom: 50px;
+    }
+
+    .section-4 > .section-4-content-main{
+        height:80%;
     }
 
     .section-4{
-        height: 120vh;
+        height: auto;
+    }
+    .section-4 > .section-4-content-main{
+        position: relative;
     }
 
     .our-clients-container{

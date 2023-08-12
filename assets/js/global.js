@@ -9,7 +9,7 @@ window.addEventListener("load", ()=>{
       // Example: Change the background color of an element
       var targetElement = document.getElementById("your-element-id");
       if (scrollPosition < 200) {
-        if(window.innerWidth < 440){
+        if(window.innerWidth < 990){
           $('#stickyheaders').css("background-color","var(--header-bg-color");
       }else{
           $('#stickyheaders').css("background-color","var(--trasperent)");
@@ -44,7 +44,7 @@ jQuery(document).ready(function($){
               if(mywindow.scrollTop() < 200) {
                   
 
-                  if(window.innerWidth < 440){
+                  if(window.innerWidth < 990){
                     $('#stickyheaders').css("background-color","var(--header-bg-color)");
                 }else{
                     $('#stickyheaders').css("background-color","var(--trasperent)");

@@ -1,7 +1,7 @@
-header{
+/* header{
     height: auto;
     background-color: var(--header-bg-color);
-}
+} */
 
 .contact-container{
     width: 100%;
@@ -13,11 +13,21 @@ header{
     position: relative;
 }
 
+.contact-container > .contact-overlay-green{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: 0;
+    background-color: rgba(9, 59, 0,0.2);
+}
+
 .contact-container > .design-bg{
     position: absolute;
     height: 800px;
     width: 800px;
-    left: 0;
+    left: -200;
     top: 0;
     animation: rotate360 90s linear infinite;
     z-index: 2;
@@ -32,6 +42,7 @@ header{
     text-align: center;
     flex-direction: column;
     justify-content: space-around;
+    position: relative;
     z-index: 3;
 }
 
@@ -48,6 +59,8 @@ header{
 .contact-container > .contact-form-container{
     width: 60%;
     height: auto;
+    position: relative;
+    z-index: 3;;
 }
 
 .contact-container > .contact-form-container > .contact-intro{

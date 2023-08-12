@@ -40,7 +40,7 @@ window.addEventListener("load", ()=>{
       }
 
       } else {
-        $('#stickyheaders').css("background-color","rgba(20,47,21,0.9)");
+        $('#stickyheaders').css("background-color","var(--header-bg-color)");
         $('#whatappIcon').css("display","block");
         
       }
@@ -57,7 +57,7 @@ jQuery(document).ready(function($){
       if (mypos > 200) {
           if(mywindow.scrollTop() > mypos)
           {
-              $('#stickyheaders').css("background-color","rgba(20,47,21,0.9)");
+              $('#stickyheaders').css("background-color","var(--header-bg-color)");
               
               $('#whatappIcon').css("display","block");
           }
@@ -67,7 +67,7 @@ jQuery(document).ready(function($){
                   
 
                   if(window.innerWidth < 440){
-                    $('#stickyheaders').css("background-color","rgba(20,47,21,0.9)");
+                    $('#stickyheaders').css("background-color","var(--header-bg-color)");
                 }else{
                     $('#stickyheaders').css("background-color","var(--trasperent)");
                 }

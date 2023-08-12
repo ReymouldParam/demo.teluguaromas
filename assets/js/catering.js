@@ -125,10 +125,24 @@ $(document).ready(function() {
     ]
   });
 
+  $('.catering-banner-heading-carousel').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: false,
+    autoplay: true, 
+    autoplaySpeed: 6000,
+    centerPadding: '0',
+    pauseOnHover:false,
+    arrows:false,
+    fade:true,
+    cssEase: 'cubic-bezier(0.5, 0, 1, 0.3)',
+  });
+
   $('.catering-banner-menu-container').slick({
     slidesToShow: 4, 
     slidesToScroll: 1,
-    autoplay: false, 
+    autoplay: true, 
+    autoplaySpeed: 3000,
     centerPadding: '0',
     centerMode:false,
     infinite:true,
@@ -140,21 +154,24 @@ $(document).ready(function() {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          infinite: true
+          infinite: true,
+          dots:true
         }
       },
       {
         breakpoint: 770,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToScroll: 2,
+          dots:true
         }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          dots:true
         }
       }
     ]
@@ -220,6 +237,7 @@ $(document).ready(function() {
       autoplaySpeed: 5000,
       centerMode:true,
       focusOnSelect: true,
+      pauseOnHover:false,
       arrows:false,
       dots:true,
       centerPadding: '0',
@@ -300,8 +318,10 @@ document.addEventListener("keydown", function(e){
 function openCateringForm(){
   closeDetailsTab();
   $(".catering-form-section").css("display", "block");
+  $("body").css("overflow-y", "hidden");
 }
 
 function closeCateringForm(){
   $(".catering-form-section").css("display", "none");
+  $("body").css("overflow-y", "auto");
 }
