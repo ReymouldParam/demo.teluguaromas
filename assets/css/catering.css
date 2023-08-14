@@ -91,7 +91,7 @@ header{
 .catering-banner-heading-carousel >  .slick-list > .slick-track > .heading-item > h1{
     font-family: var(--main-heading-font);
     color: var(--theme-color5);
-    font-size: 60px;
+    font-size: 50px;
     position: relative;
     z-index: 3;
 }

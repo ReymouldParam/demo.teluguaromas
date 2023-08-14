@@ -130,7 +130,7 @@ $(document).ready(function() {
     slidesToScroll: 1,
     variableWidth: false,
     autoplay: true, 
-    autoplaySpeed: 6000,
+    autoplaySpeed: 8000,
     centerPadding: '0',
     pauseOnHover:false,
     arrows:false,

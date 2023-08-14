@@ -28,7 +28,7 @@ document.addEventListener("mousemove", function (e) {
     showText("#ourstoryPara1", message_1, 0, textSpeed);   
   });
 
-  setTimeout(() => {
-    showText("#ourstoryPara2", message_2, 0, textSpeed);   
-  }, (message_1.length*textSpeed+3000));
+  // setTimeout(() => {
+  //   showText("#ourstoryPara2", message_2, 0, textSpeed);   
+  // }, (message_1.length*textSpeed+3000));
 
