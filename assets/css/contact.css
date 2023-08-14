@@ -25,10 +25,10 @@
 
 .contact-container > .design-bg{
     position: absolute;
-    height: 800px;
-    width: 800px;
-    left: -200;
-    top: 0;
+    height:100vh;
+    width: 100vh;
+    left: -4%;
+    top: 10%;
     animation: rotate360 90s linear infinite;
     z-index: 2;
 }

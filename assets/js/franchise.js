@@ -8,6 +8,7 @@ $(document).ready(function() {
       autoplaySpeed: 5000,
       arrows: false,
       pauseOnHover:false,
-      centerPadding: '0'
+      centerPadding: '0',
+      fade:true
     });
   });

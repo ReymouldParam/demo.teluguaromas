@@ -28,8 +28,7 @@ window.addEventListener("load", ()=>{
 
   var bannerContent = document.getElementById("bannerContent");
   bannerContent.style.transform = "scale(1.1)";
-  bannerContent.style.opacity = "1";
-
+  
   var scrollPosition = window.scrollY;
       if (scrollPosition < 100) {
         $('#whatappIcon').css("display","none");
