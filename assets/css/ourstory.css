@@ -117,6 +117,7 @@ header{
     background: url(../images/background2-pink.png) var(--theme-color3);
     padding: 10vh 10vh;
     position: relative;
+    overflow: hidden;
 }
 
 .ourstory-section-2 > .section-2-intro{
@@ -170,6 +171,7 @@ header{
     width: 100%;
     background: url(../images/background2-pink.png) var(--theme-color3);
     padding: 0 5vw ;
+    overflow: hidden;
 }
 
 
@@ -240,6 +242,7 @@ header{
     width: 100%;
     background: url(../images/background2-pink.png) var(--theme-color3);
     padding: 10vh 5vw ;
+    overflow: hidden;
 }
 
 .ourstory-section-4 > .section-4-main-heading{
@@ -365,6 +368,14 @@ header{
     .ourstory-banner-container > .ourstory-banner-para > p{
         font-size: 12px;
     }
+
+    .ourstory-section-3 > .section-3-container > .image-section>img{
+        height: 60vh;
+    }
+
+    .ourstory-section-4 > .section-4-container > .inner-section > p{
+        font-size: 12px;
+    }
 }
 
 
@@ -375,6 +386,39 @@ header{
     }
     .ourstory-banner-container > .ourstory-text{
         width:90%;
+    }
+
+    .ourstory-banner-container> .ourstory-banner-content{
+        width: 75%;
+    }
+
+    .ourstory-section-2 > .section-2-img-1 {
+        position: absolute;
+        bottom: 20%;
+        right: 10%;
+        width: 40%;
+    }
+
+    .ourstory-section-3 > .section-3-container > .image-section>img{
+        height: 45vh;
+    }
+
+    .ourstory-section-3 > .section-3-container > .info-section > .info-item > button{
+        height: 50px;
+        width: 50px;
+    }
+
+    .ourstory-section-3 > .section-3-container > .info-section > .info-item > .info-inner > p{
+        font-size: 13px;
+    }
+
+    .ourstory-section-4 > .section-4-container > .inner-section > .abs-img{
+        height: 30%;
+        top:-15%;
+    }
+
+    .ourstory-section-4 > .section-4-main-heading{
+        margin-bottom: 5rem;
     }
 }
 
@@ -411,7 +455,7 @@ header{
 
     .ourstory-section-2{
         height: auto;
-        padding: 5% 0;
+        padding: 5% 2%;
     }
 
     .ourstory-section-2 > .section-2-container-1, .ourstory-section-2 > .section-2-container-2{
@@ -432,5 +476,88 @@ header{
         width: 100%;
         text-align: center;
     }
+
+    .ourstory-banner-container> .ourstory-banner-content> .ourstory-banner-para > p{
+        font-size: 11px;
+    }
+
+    .ourstory-banner-content > .ourstory-banner-para{
+        height: 15vh;
+    }
+
+    .ourstory-section-2 > .section-2-intro,.ourstory-section-3 > .section-3-intro{
+        font-size: 30px;
+    }
+
+    .ourstory-section-2 > .section-2-main-heading, .ourstory-section-3 > .section-3-main-heading{
+        font-size: 35px;
+    }
+
+    .ourstory-section-2 > .heading-container{
+        margin-left: -2%;
+    }
+
+    .ourstory-section-2 > ul{
+        font-size: 12px;
+    }
+
+    .ourstory-section-2 > .section-2-img-1{
+        display: none;
+    }
+
+    .ourstory-section-3 > .section-3-container{
+        flex-direction: column;
+    }
+
+    .ourstory-section-3 > .section-3-container > .image-section{
+        width: 100%;
+        text-align: center;
+    }
+
+    .ourstory-section-3 > .section-3-container > .info-section{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .ourstory-section-3 > .section-3-container > .image-section>img{
+        margin: auto;
+        height: auto;
+        width: 80%;
+    }
+
+    .ourstory-section-3 > .section-3-container > .info-section > .info-item > .info-inner{
+        margin-left: 3%;
+    }
+
+    .ourstory-section-3 > .section-3-container > .info-section > .info-item > .info-inner >h3{
+        font-size: 25px;
+    }
+
+    .ourstory-section-3 > .section-3-container > .info-section > .info-item > .info-inner > p{
+        font-size: 11px;
+    }
+
+    .ourstory-section-4 > .section-4-main-heading{
+        font-size: 35px;
+        margin-bottom: 3rem;
+    }
+
+    .ourstory-section-4 > .section-4-container{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .ourstory-section-4 > .section-4-container > .inner-section{
+        width:90%;
+        margin: 10% auto;
+        
+    }
+
+    .ourstory-section-4 > .section-4-container > .inner-section > .abs-img{
+        height: 40%;
+        top: -20%;
+    }
 }
+
+
 
