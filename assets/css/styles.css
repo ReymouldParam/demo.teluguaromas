@@ -292,6 +292,18 @@ header{
     height: 20%;
 }
 
+.section-1 > .banner-food-8{
+    bottom: 0;
+    left:10%;
+    height: 30%;
+}
+
+.section-1 > .banner-food-9{
+    bottom: 0;
+    right:30%;
+    height: 30%;
+}
+
 
 .section-1 > .design-bg{
     position: absolute;
@@ -1376,14 +1388,14 @@ footer{
     .section-1 > .banner-food-2{
         bottom: -8px;
         left:-8px;
-        height: 25%;
+        height: 30%;
         animation: moveMenuImg 15s linear infinite ;
     }
 
     .section-1 > .banner-food-6{
         bottom: -8px;
         right: -8px;
-        height: 25%;
+        height: 30%;
         animation: moveMenuImg 15s linear infinite reverse;
     }
 

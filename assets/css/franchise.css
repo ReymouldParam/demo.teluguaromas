@@ -93,6 +93,7 @@ header{
 
 .slick-slide{
     transform: scale(1);
+    opacity: 1;
 }
 
 .franchise-section-3{

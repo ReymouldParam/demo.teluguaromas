@@ -8,7 +8,7 @@ window.addEventListener("load", ()=>{
     var scrollPosition = window.scrollY;
       // Example: Change the background color of an element
       var targetElement = document.getElementById("your-element-id");
-      if (scrollPosition < 200) {
+      if (scrollPosition < 100) {
         if(window.innerWidth < 990){
           $('#stickyheaders').css("background-color","var(--header-bg-color");
       }else{
@@ -32,7 +32,7 @@ jQuery(document).ready(function($){
   var mywindow = $(window);
   var mypos = mywindow.scrollTop();
   mywindow.scroll(function() {
-      if (mypos > 200) {
+      if (mypos > 100) {
           if(mywindow.scrollTop() > mypos)
           {
               $('#stickyheaders').css("background-color","var(--header-bg-color)");
@@ -41,7 +41,7 @@ jQuery(document).ready(function($){
           }
           else
           {
-              if(mywindow.scrollTop() < 200) {
+              if(mywindow.scrollTop() < 100) {
                   
 
                   if(window.innerWidth < 990){
