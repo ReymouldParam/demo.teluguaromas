@@ -48,3 +48,11 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.scroll-appear{
+    opacity: 0;
+}
+.appear{
+    opacity: 1;
+    /* animation: moveInLeft 1s linear ; */
+}

@@ -44,4 +44,25 @@ document.addEventListener("mousemove", function (e) {
   
   showParagraphs();
   
+
+// appear on scroll
+
+function handleIntersection(entries, observer) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('appear');
+      observer.unobserve(entry.target);
+    }
+  });
+}
+
+const item = document.querySelectorAll('.scroll-appear');
+const observer = new IntersectionObserver(handleIntersection, { threshold: 1 });
+
+for(var i=0 ; i<item.length ; i++){
+  observer.observe(item[i]);
+}
+
+
+
   
