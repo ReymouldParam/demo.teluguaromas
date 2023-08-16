@@ -55,6 +55,7 @@
 .contact-container > .contact-details-container > p{
     font-family: var(--text-font);
     color: var(--theme-color-logo2);
+    font-size: 20px;
 }
 
 .contact-container > .contact-form-container{

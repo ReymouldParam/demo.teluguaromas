@@ -34,11 +34,11 @@ document.addEventListener("mousemove", function (e) {
   
   async function showParagraphs() {
     await showText("#ourstoryPara1", message_1, 0, textSpeed);
-    await delay(1000); // Wait for a second between paragraphs
+    await delay(500);
     await showText("#ourstoryPara2", message_2, 0, textSpeed);
-    await delay(1000);
+    await delay(500);
     await showText("#ourstoryPara3", message_3, 0, textSpeed);
-    await delay(1000);
+    await delay(500);
     await showText("#ourstoryPara4", message_4, 0, textSpeed);
   }
   

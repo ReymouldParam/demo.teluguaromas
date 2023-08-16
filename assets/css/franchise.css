@@ -177,7 +177,7 @@ header{
     box-shadow: 0 0 5px rgb(49, 49, 49);
     border-radius: 5px;
     padding: 10px;
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: center;
     background-color: #fff;
     transition: all 0.5s;
@@ -255,6 +255,7 @@ header{
 @media screen and (max-width: 990px) {
     .franchise-banner{
         width: 100%;
+        height: auto;
         padding: 25vh 0 5vh;
     }
 
@@ -291,6 +292,10 @@ header{
         flex-direction: column;
         justify-content: space-around;
         padding: 0 2vw 5vh;
+    }
+
+    .franchise-section-3> h3{
+        font-size: 2.4rem;
     }
     
     .franchise-section-2 > .image-section2{
