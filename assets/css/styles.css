@@ -137,10 +137,10 @@ header{
 
 
 .social-icon-mobile{
-    width: 160px;
-    height: 45px;
-    left:-58px;
-    bottom: 80px;
+    width: 150px;
+    height: 38px;
+    right:-58px;
+    top: 125px;
     background-image: url(../images/hanging-1-mobile.png);
     background-size: 100% 100%;
     position: fixed;
@@ -162,7 +162,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 0 6px;
-    bottom: 8px;
+    bottom: 4px;
 }
 
 .social-icon-mobile > .icon-container > div > a > i{
@@ -171,8 +171,8 @@ header{
 }
 
 .social-icon-mobile > .icon-container > div > a > img{
-    width:28px;
-    height: 28px;
+    width:26px;
+    height: 26px;
     rotate: 270deg;
 }
 
@@ -217,8 +217,9 @@ header{
     font-family: var(--written-font);
     color: var(--theme-color-logo2);
     font-size: 40px;
-    transform: scale(1.3);
+    transform: scale(1.2);
     margin: 0;
+    text-transform: capitalize;
 }
 
 .banner-content > h1:nth-child(2){
@@ -245,6 +246,7 @@ header{
 .banner-food{
     position: absolute;
     z-index: 3;
+    transition: all 0.1s;
 }
 
 .section-1 > .banner-food-2{
@@ -373,6 +375,7 @@ header{
     color: var(--theme-color5);
     font-size: 60px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .home-aboutus > p{
@@ -390,6 +393,11 @@ header{
     padding-right: 20px;
     margin: 30px;
     font-size: auto;
+    transition: all 0.3s;
+}
+
+.home-aboutus > a > .aboutus-btn:hover{
+    background-color: var(--btn-hover-color);
 }
 
 
@@ -737,7 +745,8 @@ header{
 .section-4 > .section-4-content-main > h1{
     font-family: var(--main-heading-font);
     color: var(--theme-color5);
-    font-size: 60px;
+    font-size: 50px;
+    text-transform: uppercase;
 }
 
 .section-4-content-main > .carousel-main{
@@ -758,6 +767,7 @@ header{
 .slick-slide img{
     margin: auto;
     height: 30vh;
+    border-radius: 10px;
 }
 
 .slick-slide.slick-current {
@@ -1139,7 +1149,7 @@ footer{
 /* responsive styles tablet */
 @media screen and (max-width:991px) {
     header{
-        position: absolute;
+        position: fixed;
         background-color: var(--header-bg-color);
         height: auto;
     }
@@ -1597,11 +1607,16 @@ footer{
     } */
 
     .section-4{
-        height: 100vh;
+        height: auto;
+    }
+
+    .section-4 > .section-4-content-main{
+        position: relative;
+        padding: 5vh 2vh;
     }
 
     .section-4 > .section-4-content-main > h1{
-        font-size: 50px;
+        font-size: 2.5rem;
     }
 
     .slick-prev {
@@ -1657,6 +1672,6 @@ footer{
         font-size: 8px;
     }
     #whatappIcon{
-        font-size: 25px;
+        font-size: 35px;
     }
 }

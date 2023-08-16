@@ -11,6 +11,7 @@
     --theme-color4: #005F56;
     --theme-color5: #ce6812;
     --theme-color6: #193f35;
+    --btn-hover-color: #994b0c;
     --menu-color: #a74d03;
     --header-bg-color: rgba(25,63,	53,0.9);
     --text-color:#535353;
@@ -51,16 +52,18 @@ p{
 
 .scroll-appear{
     opacity: 0;
+    transition: opacity 0s 0.2s;
 }
 .appear{
     opacity: 1;
-    animation: moveInLeft 1s linear ;
+    animation: moveInLeft 1s linear 0.2s;
 }
 
 .scroll-appear2{
     opacity: 0;
+    transition: opacity 0s 0.3s;
 }
 .appear2{
     opacity: 1;
-    animation: moveInDown 1s linear ;
+    animation: moveInDown 1s linear 0.3s;
 }

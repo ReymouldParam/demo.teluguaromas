@@ -192,6 +192,7 @@ document.addEventListener("mousemove", function (e) {
       slidesToScroll: 1, 
       autoplay: true, 
       autoplaySpeed: 5000,
+      infinite:true,
       centerMode:true,
       focusOnSelect: true,
       asNavFor: '.slick-carousel2',

@@ -75,6 +75,7 @@ header{
     transform: scale(1.5);
     position: relative;
     z-index: 1;
+    text-transform: capitalize;
 }
 
 .catering-banner-heading-carousel {
@@ -95,6 +96,7 @@ header{
     font-size: 50px;
     position: relative;
     z-index: 3;
+    text-transform: uppercase;
 }
 
 .catering-banner-heading-carousel >  .slick-list > .slick-track > .heading-item > h4{
@@ -145,7 +147,11 @@ header{
 .catering-banner-menu-container > .slick-list > .slick-track > .catering-banner-menu-item >h6{
     color: var(--theme-color6);
     font-family: var(--main-heading-font);
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.catering-banner-menu-container > .slick-list > .slick-track > .catering-banner-menu-item >p{
+    font-size: 12px;
 }
 
 .catering-banner-menu-container > .slick-list > .slick-track > .catering-banner-menu-item  > button{
@@ -153,6 +159,10 @@ header{
     font-family: var(--main-heading-font);
     background-color: var(--theme-color5);
     font-size: 0.8rem;
+}
+
+.catering-banner-menu-container > .slick-list > .slick-track > .catering-banner-menu-item  > button:hover{
+    background-color: var(--btn-hover-color);
 }
 
 .catering-banner-menu-container > .slick-dots li button:before{
@@ -181,11 +191,13 @@ header{
     font-family: var(--written-font);
     color: var(--theme-color6);
     font-size: 50px;
+    text-transform: capitalize;
 }
 
 .catering-scrolling-container > h1{
     font-family: var(--main-heading-font);
     color: var(--theme-color5);
+    text-transform: uppercase;
 }
 
 .catering-services-container-main{
@@ -212,6 +224,12 @@ header{
     border-radius: 5px;
     z-index: 3;
     position: relative;
+    transition: all 0.5s;
+}
+
+.catering-item-head:hover{
+    background-color: var(--btn-hover-color);
+    cursor: pointer;
 }
 
 
@@ -240,6 +258,10 @@ header{
     overflow-y: scroll;
 }
 
+.catering-item-body > h5{
+    color: var(--theme-color6);
+    font-family: var(--sub-heading-font);
+}
 .catering-gallery-heading{
     text-align: center;
     font-size: 50px;
@@ -248,6 +270,7 @@ header{
     color: var(--theme-color5);
     position: relative;
     z-index: 1;
+    text-transform: uppercase;
 }
 
 .gallery-main-container{
@@ -256,7 +279,7 @@ header{
     position: relative;
     padding: 4vh 0;
     margin-bottom: 100px;
-    background: url(../images/banner-bg.png) rgba(255,255,255,0.8);
+    background-image: url(../images/banner-bg.png);
     background-size: cover;
 }
 
@@ -376,7 +399,8 @@ header{
 
 .catering-details-main-container > .catering-details-container > .catering-details > .catering-heading{
     font-family: var(--main-heading-font);
-    color: var(--theme-color4);
+    color: var(--theme-color5);
+    text-transform: uppercase;
 }
 
 .catering-details-main-container > .catering-details-container > .catering-details > .catering-details-intro{
@@ -387,6 +411,7 @@ header{
 .catering-details-main-container > .catering-details-container > .catering-details > .catering-menu-heading{
     font-family: var(--main-heading-font);
     color: var(--theme-color5);
+    text-transform: uppercase;
 }
 
 .catering-details-main-container > .catering-details-container > .catering-details > button{
@@ -397,6 +422,11 @@ header{
     border-radius: 5px;
     margin: 10px;
     font-family: var(--main-heading-font);
+    transition: all 0.3s
+}
+
+.catering-details-main-container > .catering-details-container > .catering-details > button:hover{
+    background-color: var(--btn-hover-color);
 }
 
 .catering-menu-container{
@@ -442,6 +472,7 @@ header{
     font-family: var(--main-heading-font);
     color: var(--theme-color5);
     font-size: 50px;
+    text-transform: uppercase;
 }
 
 .our-clients-container{
@@ -503,7 +534,8 @@ header{
 
 .catering-form-section > .catering-form-inner >h1{
     font-family: var(--main-heading-font);
-    color: var(--theme-color6);
+    color: var(--theme-color5);
+    text-transform: uppercase;
     margin-bottom: 5px;
 }
 
@@ -542,6 +574,10 @@ header{
     width: 100%;
 }
 
+.catering-form-inner > form > select > option:first-child{
+    color: red;
+}
+
 .catering-form-section > .catering-form-inner > form > button{
     background-color: var(--theme-color5);
     color: white;
@@ -550,6 +586,11 @@ header{
     border: 0;
     border-radius: 8px;
     padding: 7px 0;
+    transition: all 0.3s;
+}
+
+.catering-form-section > .catering-form-inner > form > button:hover{
+    background-color: var(--btn-hover-color);
 }
 
 #cateringContact{
@@ -566,6 +607,11 @@ header{
     border: 0;
     left: -40px;
     top:25%;
+    transition: all 0.5s;
+}
+
+#cateringContact:hover{
+    background-color: var(--btn-hover-color);
 }
 
 @media (min-width: 1700px) and (max-width: 2600px){
@@ -708,7 +754,7 @@ resonsive tablet */
 @media screen and (max-width: 440px){
     .platform{
         width:100%;
-        height: 10vh;
+        height: 5vh;
     }
 
     .waiter-1{
@@ -772,6 +818,10 @@ resonsive tablet */
         flex-direction: column;
     }
 
+    .our-clients-section > .our-clients-heading{
+        font-size: 2.5rem;
+    }
+
     .catering-form-section{
         padding: 20% 5%;;
     }
@@ -797,5 +847,9 @@ resonsive tablet */
         height: 30px;
         width: 30px;
         font-weight: 800;
+    }
+
+    #cateringContact{
+        top: 50vh;
     }
 }

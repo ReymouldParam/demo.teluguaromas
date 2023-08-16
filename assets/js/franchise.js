@@ -6,8 +6,8 @@ $(document).ready(function() {
       focusOnSelect: true,
       autoplay: true, 
       autoplaySpeed: 5000,
-      arrows: false,
-      pauseOnHover:false,
+      arrows: true,
+      pauseOnHover:true,
       centerPadding: '0',
       fade:true
     });
