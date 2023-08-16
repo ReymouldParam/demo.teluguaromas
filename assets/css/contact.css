@@ -28,6 +28,7 @@
     position: absolute;
     height:100vh;
     width: 100vh;
+    opacity: 0.3;
     left: -4%;
     top: 10%;
     animation: rotate360 90s linear infinite;

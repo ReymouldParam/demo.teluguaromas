@@ -24,8 +24,7 @@ document.addEventListener("mousemove", function (e) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
   
-  async function showText(selector, text, index, speed) {
-    // Simulate printing each character with a delay
+  async function showText(selector, text, speed) {
     for (let i = 0; i < text.length; i++) {
       document.querySelector(selector).textContent += text[i];
       await delay(speed);
@@ -33,13 +32,13 @@ document.addEventListener("mousemove", function (e) {
   }
   
   async function showParagraphs() {
-    await showText("#ourstoryPara1", message_1, 0, textSpeed);
+    await showText("#ourstoryPara1", message_1, textSpeed);
     await delay(500);
-    await showText("#ourstoryPara2", message_2, 0, textSpeed);
+    await showText("#ourstoryPara2", message_2, textSpeed);
     await delay(500);
-    await showText("#ourstoryPara3", message_3, 0, textSpeed);
+    await showText("#ourstoryPara3", message_3, textSpeed);
     await delay(500);
-    await showText("#ourstoryPara4", message_4, 0, textSpeed);
+    await showText("#ourstoryPara4", message_4, textSpeed);
   }
   
   showParagraphs();

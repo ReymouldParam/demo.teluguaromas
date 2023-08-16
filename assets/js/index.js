@@ -32,11 +32,9 @@ window.addEventListener("load", ()=>{
   var scrollPosition = window.scrollY;
       if (scrollPosition < 100) {
         $('#whatappIcon').css("display","none");
-        if(window.innerWidth < 990){
-          $('#stickyheaders').css("background-color","var(--header-bg-color");
-      }else{
+        
           $('#stickyheaders').css("background-color","var(--trasperent)");
-      }
+      
 
       } else {
         $('#stickyheaders').css("background-color","var(--header-bg-color)");
@@ -65,11 +63,9 @@ jQuery(document).ready(function($){
               if(mywindow.scrollTop() < 100) {
                   
 
-                  if(window.innerWidth < 990){
-                    $('#stickyheaders').css("background-color","var(--header-bg-color)");
-                }else{
+                  
                     $('#stickyheaders').css("background-color","var(--trasperent)");
-                }
+                
                   
                   $('#whatappIcon').css("display","none");
               }
