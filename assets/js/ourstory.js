@@ -64,5 +64,21 @@ for(var i=0 ; i<item.length ; i++){
 }
 
 
+function handleIntersection2(entries, observer) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('appear2');
+      observer.unobserve(entry.target);
+    }
+  });
+}
+
+const item2 = document.querySelectorAll('.scroll-appear2');
+const observer2 = new IntersectionObserver(handleIntersection2, { threshold: 1 });
+
+for(var i=0 ; i<item2.length ; i++){
+  observer2.observe(item2[i]);
+}
+
 
   

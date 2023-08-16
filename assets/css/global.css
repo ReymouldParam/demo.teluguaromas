@@ -54,5 +54,13 @@ p{
 }
 .appear{
     opacity: 1;
-    /* animation: moveInLeft 1s linear ; */
+    animation: moveInLeft 1s linear ;
+}
+
+.scroll-appear2{
+    opacity: 0;
+}
+.appear2{
+    opacity: 1;
+    animation: moveInDown 1s linear ;
 }

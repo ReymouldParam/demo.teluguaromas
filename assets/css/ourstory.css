@@ -162,6 +162,7 @@ header{
 
 .ourstory-section-2 > ul > li:first-child>span{
     margin: 0 5px;
+    display: inline-block;
 }
 
 .ourstory-section-2 > ul >li>p{
