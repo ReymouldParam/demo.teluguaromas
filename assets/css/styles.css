@@ -137,16 +137,15 @@ header{
 
 
 .social-icon-mobile{
-    width: 150px;
+    width: 140px;
     height: 38px;
-    right:-58px;
-    top: 125px;
-    background-image: url(../images/hanging-1-mobile.png);
+    right:20%;
+    top: 10px;
+    /* background-image: url(../images/hanging-1-mobile.png); */
     background-size: 100% 100%;
     position: fixed;
     z-index: 1000;
     display: none;
-    rotate: 90deg;
 }
 
 
@@ -171,9 +170,9 @@ header{
 }
 
 .social-icon-mobile > .icon-container > div > a > img{
-    width:26px;
-    height: 26px;
-    rotate: 270deg;
+    width:20px;
+    height: 20px;
+
 }
 
 
@@ -571,7 +570,7 @@ header{
 
 .section-3 > .menu-content-main > h1{
     font-family: var(--written-font);
-    color: var(--theme-color5);
+    color: var(--theme-color-logo2);
     margin: auto;
     font-size: 40px;
     scale: 1.5;
@@ -1181,7 +1180,7 @@ footer{
     }
 
     .social-icon-mobile{
-        display: none;
+        display: block;
     }
 
     .navbar-brand > img {
@@ -1193,7 +1192,7 @@ footer{
     }
 
     .navbar-toggler{
-        color: white;
+        color: var(--theme-color-logo2);
         font-size: 30px;
         box-sizing: unset;
     }
@@ -1408,7 +1407,7 @@ footer{
     }
 
     .navbar-toggler{
-        color: white;
+        color: var(--theme-color-logo2);
         font-size: 30px;
     }
 

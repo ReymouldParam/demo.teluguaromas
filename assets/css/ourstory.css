@@ -264,6 +264,15 @@ header{
     overflow: hidden;
 }
 
+.ourstory-section-4 > .section-4-intro{
+    font-family: var(--written-font);
+    color: var(--theme-color6);
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
 .ourstory-section-4 > .section-4-main-heading{
     font-family: var(--main-heading-font);
     color: var(--theme-color5);
@@ -537,7 +546,7 @@ header{
         height: 15vh;
     }
 
-    .ourstory-section-2 > .section-2-intro,.ourstory-section-3 > .section-3-intro{
+    .ourstory-section-2 > .section-2-intro,.ourstory-section-3 > .section-3-intro, .ourstory-section-4 > .section-4-intro{
         font-size: 30px;
     }
 
