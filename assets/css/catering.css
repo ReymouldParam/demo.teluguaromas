@@ -517,7 +517,7 @@ header{
 }
 
 .our-clients-container > .slick-dots li.slick-active button:before{
-    color: var(--theme-color6);
+    color: var(--theme-color5);
     opacity: 1;
     font-size: 15px;
 }

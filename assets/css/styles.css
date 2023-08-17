@@ -939,6 +939,12 @@ footer{
     text-align: center;
 }
 
+#footerSmIcons > a > img{
+    width: 20px;
+    height: 20px;
+    margin-right: 0 3px;
+}
+
 @media (min-width: 1700px) and (max-width: 2600px) {
     .nav-link, .navbar-nav .nav-link.active{
         font-size: 30px;
@@ -1681,7 +1687,7 @@ footer{
 
     
     .footer-inner > .column1 > img{
-        height: 40px;
+        height: 30px;
     }
 
     .footer-inner > .column{
@@ -1708,5 +1714,10 @@ footer{
     }
     #whatappIcon{
         font-size: 35px;
+    }
+
+    #footerSmIcons > a > img{
+        width: 15px;
+        height: 15px;
     }
 }
