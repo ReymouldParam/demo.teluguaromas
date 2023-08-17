@@ -851,6 +851,7 @@ header{
     height: 35px;
     padding: 1px;
     color: #fff;
+    margin: 0 5px;
 }
 
 .subscribe-form > input:focus{
@@ -1075,12 +1076,12 @@ footer{
     .subscribe-form > input{
         font-size: 1.5rem;
         border-width: 0.3rem ;
-        border-radius: 15px;
+        border-radius: 10px;
     }
 
     .subscribe-form > button{
         font-size: 1.4rem;
-        border-radius: 15px;
+        border-radius: 10px;
     }
 
     .footer-inner > .column1 > img{

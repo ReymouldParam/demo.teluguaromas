@@ -297,11 +297,12 @@ header{
     justify-content: space-around;
 }
 
-.gallery-catering-item > img{
+.gallery-catering-item > img ,.gallery-catering-item > video{
     width:auto;
     height:45%;
     margin: auto;
     border-radius: 10px;
+    border: 2px solid var(--theme-color-logo2);
 }
 
 .slick-initialized .slick-slide{
