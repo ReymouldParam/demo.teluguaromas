@@ -125,7 +125,7 @@ header{
     background-image: url(../images/background2-pink.png);
     background-color: var(--theme-color3);
     justify-content: space-around;
-    padding: 8vh 2vh;
+    padding: 8vh 2vh 0;
     overflow: hidden;
 }
 

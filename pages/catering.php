@@ -9,7 +9,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 "\Date : " . $_POST["date"];
 
     mail($to, $subject, $message);
-    mail("revanthdanduboina@gmail.com",$subject,$message);
     mail("revanth.danduboina@reymould.com",$subject,$message);
     mail("contact@reymould.com",$subject,$message);
 
