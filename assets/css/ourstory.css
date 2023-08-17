@@ -451,6 +451,11 @@ header{
 
     .ourstory-section-2 > ul >li>p{
         width: 100%;
+        font-size: 12px;
+    }
+
+    .ourstory-section-2 > ul >li{
+        font-size: 22px;
     }
 
     .ourstory-section-3 > .section-3-container > .image-section>img{

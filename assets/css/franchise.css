@@ -318,6 +318,12 @@ header{
     }
 
     .franchise-section-2 > .image-section2:nth-child(2){
+        width: 85%;
+        margin: auto;
+        height: 30vh;
+    }
+
+    .franchise-section-2 > .image-section2 > .ppt-carousel > .slick-list > .slick-track > .ppt-item > img{
         width: 100%;
     }
 
