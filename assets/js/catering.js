@@ -238,6 +238,7 @@ $(document).ready(function() {
       centerMode:true,
       focusOnSelect: true,
       pauseOnHover:false,
+      pauseOnSelect:false,
       arrows:false,
       dots:true,
       centerPadding: '0',

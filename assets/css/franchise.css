@@ -15,7 +15,7 @@ header{
     text-align: center;
     width:100%;
     margin: 0 auto;
-    padding: 20vh 0 10vh;
+    padding: 20vh 0 0vh;
     height: 100vh;
     background-image: url(../images/banner-bg.png);
 }
@@ -71,14 +71,14 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    padding: 5vh 5vw 5vh;
+    padding: 5vh 5vw 0vh;
     position: relative;
     z-index: 3;
 }
 
 .franchise-section-2 > .image-section2{
     width:35%;
-    height: 40vh;
+    height: 45vh;
 }
 
 .franchise-section-2 > .image-section2:nth-child(2){
@@ -96,14 +96,25 @@ header{
     height:100%;
 }
 
+.franchise-section-2 > .image-section2 > .ppt-carousel > .slick-list,.franchise-section-2 > .image-section2 > .ppt-carousel > .slick-list > .slick-track{
+    height: 100%;
+}
+
 .franchise-section-2 > .image-section2 > .ppt-carousel >.slick-prev::before, .franchise-section-2 > .image-section2 > .ppt-carousel > .slick-next::before{
     color: var(--theme-color3);
 }
 
-.franchise-section-2 > .image-section2 > .ppt-carousel > .slick-list > .slick-track > img{
+.franchise-section-2 > .image-section2 > .ppt-carousel > .slick-list > .slick-track > .ppt-item{
     height: auto;
     transform: scale(1);
     opacity: 1;
+    height: 100%;
+}
+
+.franchise-section-2 > .image-section2 > .ppt-carousel > .slick-list > .slick-track > .ppt-item > img{
+    width: auto;
+    height: 100%;
+    margin: auto;
 }
 
 

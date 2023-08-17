@@ -97,6 +97,30 @@
     }
 }
 
+@keyframes moveMenuImg2 {
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+    18%{
+        transform: translateX(16px) translateY(16px);
+    }
+    36%{
+        transform: translateX(0) translateY(16px);
+    }
+    54%{
+        transform: translateX(-16px) translateY(32px);
+    }
+    72%{
+        transform: translateX(-32px) translateY(16px);
+    }
+    85%{
+        transform: translateX(-16px) translateY(0);
+    }
+    100%{
+        transform: translateX(0) translateY(0);
+    }
+}
+
 @keyframes moveInLeft {
     0%{
         transform: translateX(10%);

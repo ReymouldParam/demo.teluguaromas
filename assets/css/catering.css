@@ -494,14 +494,13 @@ header{
 
 .our-clients-container > .slick-list > .slick-track > .our-client-item >img{
     margin: auto;
-    border-radius: 10px;
-
-    width: 100%;
+    border-radius: 50%;
+    width: 80%;
 
 }
 
 .our-clients-container > .slick-list > .slick-track > .slick-slide{
-    transform: scale(0.8);
+    transform: scale(0.6);
     opacity: 0.8;
 }
 

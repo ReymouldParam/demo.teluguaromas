@@ -885,7 +885,8 @@ footer{
 }
 
 .footer-inner > .column1 > img{
-    height: 60px;
+    height: 40px;
+    margin-bottom: 10px;
     width: auto;
 }
 
@@ -940,9 +941,9 @@ footer{
 }
 
 #footerSmIcons > a > img{
-    width: 20px;
-    height: 20px;
-    margin-right: 0 3px;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
 }
 
 @media (min-width: 1700px) and (max-width: 2600px) {
@@ -1537,9 +1538,16 @@ footer{
         height: 50vh;
     }
 
-    .section-3 > .food-right, .section-3 > .food-left{
+    .section-3 > .food-right{
         height: 40%;
+        right: -8px;
         animation: moveMenuImg 10s linear infinite;
+    }
+
+    .section-3 > .food-left{
+        height: 40%;
+        left: -8px;
+        animation: moveMenuImg 10s linear infinite reverse;
     }
 
     .section-3 > .menu-content-main > h1{
@@ -1670,19 +1678,31 @@ footer{
 
     .subscribe-section{
         padding: 10px 20px;
+        display: block;
     }
     .subscribe-section > h1{
         font-size: 20px;
         margin: 0;
     }
+
+    .subscribe-section > form{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
     .subscribe-form > input{
         width: 100%;
         margin-bottom: 0px;
         font-size: 14px;
+        height: 30px;
+        border-width: 2px;
+        padding: 0;
     }
     .subscribe-form > button{
-        padding: 1px 20px;
-        font-size: 15px
+        padding: 1px 10px;
+        font-size: 12px;
+        width:50%;
+        height: 30px;
     }
 
     
@@ -1719,5 +1739,6 @@ footer{
     #footerSmIcons > a > img{
         width: 15px;
         height: 15px;
+        margin-right: 5px;
     }
 }
