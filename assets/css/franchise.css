@@ -343,6 +343,7 @@ header{
     text-align: center;
     padding: 50px;
     background-image: url(../images/banner-bg.png);
+    position: relative;
     overflow: hidden;
 }
 
@@ -351,12 +352,16 @@ header{
     color: var(--theme-color-logo2);
     transform: scale(1.4);
     text-transform: capitalize;
+    position: relative;
+    z-index: 3;
 }
 
 .franchise-contact-form > h1{
     font-family: var(--main-heading-font);
     color: var(--theme-color5);
     text-transform: uppercase;
+    position: relative;
+    z-index: 3;
 }
 
 #franchiseContactForm{
@@ -364,6 +369,8 @@ header{
     flex-direction: column;
     width:30%;
     margin:auto;
+    position: relative;
+    z-index: 3;
 }
 
 #franchiseContactForm > input , #franchiseContactForm > textarea{
@@ -631,7 +638,7 @@ header{
         width: 90%;
         margin: 20px auto;
     }
-    
+
     .section-4-container > .section-4-column:nth-child(2){
         display: none;
     }
