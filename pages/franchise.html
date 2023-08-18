@@ -238,10 +238,10 @@
       <h2 class="franchise-intro">Ready to franchise with us</h2>
       <h1>Fill The Form</h1>
       <form id="franchiseContactForm" action="franchise.php" method="post">
-        <input name="name" type="text" placeholder="Enter Your Name">
+        <input name="name" type="text" placeholder="Enter Your Name" required>
         <input name="email" type="email" placeholder="Enter Your Email-id">
-        <input name="mobile" type="tel" placeholder="Enter Your Phone Number">
-        <textarea name="message" placeholder="Send Your Custom Message" id="" cols="30" rows="5"></textarea>
+        <input name="mobile" type="tel" pattern="[0-9]{10}" placeholder="Enter Your Phone Number" required>
+        <textarea name="message" placeholder="Send Your Custom Message" id="" cols="30" rows="5" required></textarea>
         <button class="btn" type="submit">Send</button>
       </form>
 

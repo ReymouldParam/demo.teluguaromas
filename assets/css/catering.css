@@ -547,7 +547,7 @@ header{
 
 .catering-form-section > .catering-form-inner{
     background: url(../images/background2-pink.png) var(--theme-color3);
-    height: 100%;
+    height: auto;
     box-shadow: 0 0 20px var(--theme-color-logo2);
     border-radius: 10px;
     padding:3%;
@@ -815,6 +815,14 @@ resonsive tablet */
     .catering-banner-heading-carousel > .slick-list > .slick-track > .heading-item > h4{
         font-size: 25px;
         margin-bottom: 1vh;
+    }
+
+    .catering-gallery-intro{
+        font-size: 40px;
+    }
+
+    .catering-gallery-heading{
+        font-size: 35px;
     }
 
     .gallery-main-container{

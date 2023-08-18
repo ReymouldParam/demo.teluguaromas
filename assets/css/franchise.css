@@ -642,4 +642,8 @@ header{
     .section-4-container > .section-4-column:nth-child(2){
         display: none;
     }
+
+    .section-4-container > .section-4-column >ul > li{
+        font-size: 12px;
+    }
 }

@@ -789,7 +789,7 @@
     <h1>Get The Best Catering Experience With Us</h1>
     <form action="catering.php" method="post">
       <input type="text" name="name" placeholder="Enter Your Name" required>
-      <input type="tel" name="mobile" placeholder="Enter Your Phone Number" required>
+      <input type="tel" pattern="[0-9]{10}" name="mobile" placeholder="Enter Your Phone Number" required>
       <select required name="category">
         <option value="NA" disabled selected>Select Type Of Catering</option>
         <option value="Wedding Catering">Wedding Catering</option>
@@ -799,8 +799,8 @@
         <option value="Boxed Lunch Catering">Boxed Lunch Catering</option>
         <option value="Fine Dining Catering">Fine Dining Catering</option>
       </select>
-      <input type="text" name="location" id="" placeholder="Location">
-      <input type="text" name="date" placeholder="Event Date" onfocus="(this.type='date')">
+      <input type="text" name="location" id="" placeholder="Location" required>
+      <input type="text" id="cateringFormDate" name="date" placeholder="Event Date" onfocus="(this.type='date')" required>
       <button type="submit">Send</button>
       
     </form>

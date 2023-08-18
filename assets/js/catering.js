@@ -89,6 +89,12 @@ for (var i = 0; i < catering.length; i++) {
   })(i);
 }
 
+//set current date to min attribute in catering form
+
+var currentDate = new Date().toISOString().split('T')[0];
+
+document.getElementById("cateringFormDate").setAttribute("min", currentDate);
+
 //slick carousel
 
 $(document).ready(function() {
