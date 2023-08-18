@@ -717,6 +717,24 @@ header{
     background-image: url(../images/background2-pink.png);
 }
 
+.section-4-design-bg-1,.section-4-design-bg-2{
+    position: absolute;
+    top:10%;
+    height: 80%;
+    width: auto;
+    z-index: 2;
+}
+
+.section-4-design-bg-1{
+    right: -20%;
+    animation: rotate360 90s linear infinite;
+}
+
+.section-4-design-bg-2{
+    left: -20%;
+    animation: rotate360 90s linear infinite reverse;
+}
+
 /* .section-4-bg-img{
     position: absolute;
     height: 100%;

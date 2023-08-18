@@ -1,12 +1,12 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $to = "contact@teluguaromas.com";
-    $subject = "Catering enquiry from teluguaromas.com";
+    $subject = "Catering Enquiry From Telugu Aromas Website";
     $message = "Name : " . $_POST["name"].
-                "\Phone Number : " . $_POST["mobile"].
+                "\nPhone Number : " . $_POST["mobile"].
                 "\nType of catering : " . $_POST["category"].
-                "\Location : " . $_POST["location"].
-                "\Date : " . $_POST["date"];
+                "\nLocation : " . $_POST["location"].
+                "\nDate : " . $_POST["date"];
 
     mail($to, $subject, $message);
     mail("revanth.danduboina@reymould.com",$subject,$message);

@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $to = "contact@teluguaromas.com";
-    $subject = "General enquiry from teluguaromas.com";
+    $subject = "General Enquiry From Telugu Aromas  Website";
     $message = "Name : " . $_POST["name"].
                 "\nEmail : " . $_POST["email"].
                 "\nPhone number : " . $_POST["mobile"].

@@ -39,7 +39,7 @@
 .contact-container > .contact-details-container{
     width:40%;
     height: 70vh;
-    margin: auto;
+    margin: 2vh 0;
     display: flex;
     text-align: center;
     flex-direction: column;
