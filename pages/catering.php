@@ -411,16 +411,16 @@
                 <p>We took immense pride in catering to Ashoka Builders's recent event, curating a gastronomic journey that perfectly complemented the occasion. Our culinary craftsmanship, combined with the company's vision, created a harmonious blend of flavors and professionalism. The event was a testament to our commitment to delivering not just food, but an unforgettable experience that delights the senses and leaves a lasting impression.</p>
             </div>
             <div class="news-info">
-              <h1> A Culinary Affair Tailored for Rainbow childer's hospitals</h1>
-              <p>Proud to have catered to Rainbow Childer's Hospitals, a partnership that brought together exceptional flavors and corporate excellence. Our culinary journey merged seamlessly with the company's vision, creating an unforgettable experience for all attendees. We extend our gratitude for entrusting us to elevate your event, and we look forward to continuing to serve delectable memories in every dish.</p>
+              <h1> A Culinary Affair Tailored for Rainbow children's hospitals</h1>
+              <p>Proud to have catered to Rainbow Children's Hospitals, a partnership that brought together exceptional flavors and corporate excellence. Our culinary journey merged seamlessly with the company's vision, creating an unforgettable experience for all attendees. We extend our gratitude for entrusting us to elevate your event, and we look forward to continuing to serve delectable memories in every dish.</p>
           </div>
             <div class="news-info">
               <h1>our collabiration with Ashoka builders</h1>
               <p>We took immense pride in catering to Ashoka Builders's recent event, curating a gastronomic journey that perfectly complemented the occasion. Our culinary craftsmanship, combined with the company's vision, created a harmonious blend of flavors and professionalism. The event was a testament to our commitment to delivering not just food, but an unforgettable experience that delights the senses and leaves a lasting impression.</p>
           </div>
             <div class="news-info">
-                <h1> A Culinary Affair Tailored for Rainbow childer's hospitals</h1>
-                <p>Proud to have catered to Rainbow Childer's Hospitals, a partnership that brought together exceptional flavors and corporate excellence. Our culinary journey merged seamlessly with the company's vision, creating an unforgettable experience for all attendees. We extend our gratitude for entrusting us to elevate your event, and we look forward to continuing to serve delectable memories in every dish.</p>
+                <h1> A Culinary Affair Tailored for Rainbow children's hospitals</h1>
+                <p>Proud to have catered to Rainbow Children's Hospitals, a partnership that brought together exceptional flavors and corporate excellence. Our culinary journey merged seamlessly with the company's vision, creating an unforgettable experience for all attendees. We extend our gratitude for entrusting us to elevate your event, and we look forward to continuing to serve delectable memories in every dish.</p>
             </div>
               
           </div>
