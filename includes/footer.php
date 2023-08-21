@@ -20,9 +20,9 @@
             </div>
             <div class="column">
                 <!-- <h1>ABOUT US</h1> -->
-                <a href="ourstory.html">About Us</a>
-                <a href="catering.html">Services</a>
-                <a href="franchise.html">Franchise</a>
+                <a href="../pages/ourstory.php">About Us</a>
+                <a href="../pages/catering.php">Services</a>
+                <a href="../pages/franchise.php">Franchise</a>
             </div>
             <div class="column">
             <!-- <h1>COMPANY</h1> -->
@@ -33,7 +33,7 @@
 
         <div class="column">
             <!-- <h1>CONTACT</h1> -->
-            <a href="contact.html">Contact</a>
+            <a href="../pages/contact.php">Contact</a>
             <a href="tel:+919199579957">Call</a>
             <a href="mailto:catering@teluguaromas.com">E-mail</a>
             <a></a>
@@ -46,8 +46,8 @@
     </footer>
 </section>
 
-        <!-- Whats app icon -->
-    <a href="https://wa.me/+919199579957" target="_blank"><i id="whatappIcon" class='bx bxl-whatsapp'></i></a>
+<!-- Whats app icon -->
+<a href="https://wa.me/+919199579957" target="_blank"><i id="whatappIcon" class='bx bxl-whatsapp'></i></a>
 
 <!-- social media icons for mobile -->
 <div class="social-icon-mobile">
@@ -59,6 +59,12 @@
             <a target="_blank" href="https://www.threads.net/@teluguaromas"><img src="../assets/images/sm-logo/threads.png" alt=""></a>
           </div>
     </div>
+</div>
+
+<!-- Form successMessage -->
+
+<div id="formSuccessMessage">
+    <h1>Form Sent</h1>
 </div>
 
 

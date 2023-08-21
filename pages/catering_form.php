@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $to = "contact@teluguaromas.com";
     $subject = "Catering Enquiry From Telugu Aromas Website";
@@ -11,6 +13,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     mail($to, $subject, $message);
     mail("revanth.danduboina@reymould.com",$subject,$message);
     mail("contact@reymould.com",$subject,$message);
+
+    if (mail("contact@reymould.com",$subject,$message)) {
+        $_SESSION["email_sent"] = true;
+    }
 
     header("Location: catering.php");
     exit;

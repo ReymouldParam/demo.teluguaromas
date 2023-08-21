@@ -532,45 +532,46 @@
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Staters</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Uthappam</li>
+          <li>Paniyaram</li>
+          <li>Appam</li>
+          <li>Medu Vada</li>
+          <li>Keerai Vadai</li>
+          <li>Cut Mirchi</li>
+          <li>Onion Pakoda</li>
+          <li>Chilli Bajji</li>
+          <li>Rava Kesari</li>
+          <li>Samosa (also enjoyed in South India)</li>
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Salads</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Kachumber Salad</li>
+        <li>Raw Mango Salad</li>
+        <li>Cucumber Raita</li>
+        <li>Carrot Kosambari</li>
+        <li>Beetroot Pachadi</li>
+
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Main course</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Sambar with Rice</li>
+        <li>Rasam with Steamed Rice</li>
+        <li>Curry Leaves Rice</li>
+        <li>Lemon Rice</li>
+        <li>Coconut Rice</li>
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Deserts</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Pongal</li>
+        <li>Kozhukattai</li>
+        <li>Coconut Laddoo</li>
+        <li>Nei Appam</li>
           </ul>
         </div>
       </div>
@@ -585,45 +586,45 @@
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Staters</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Paneer Tikka</li>
+          <li>Aloo Tikki</li>
+          <li>Seekh Kebab</li>
+          <li>Chaat</li>
+          <li>Papdi Chaat</li>
+          <li>Chole Bhature</li>
+          <li>Stuffed Paratha</li>
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Salads</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Boondi Raita</li>
+        <li>Aloo Chaat</li>
+        <li>Mint-Coriander Chutney Salad</li>
+        <li>Cabbage Slaw</li>
+        <li>Mixed Greens Salad with Paneer</li>
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Main course</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Butter Chicken</li>
+        <li>Paneer Tikka Masala</li>
+        <li>Chana Masala</li>
+        <li>Palak Paneer</li>
+        <li>Dal Makhani</li>
+        <li>Rajma Masala</li>
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Deserts</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Kheer</li>
+        <li>Rasgulla</li>
+        <li>Jalebi</li>
+        <li>Malpua</li>
+        <li>Phirni</li>
+        <li>Shahi Tukda</li>
           </ul>
         </div>
       </div>
@@ -638,45 +639,48 @@
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Staters</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Gobi Manchurian</li>
+          <li>Chicken Manchurian</li>
+          <li>Veg Spring Rolls</li>
+          <li>Chicken Spring Rolls</li>
+          <li>Chilli Paneer</li>
+          <li>Hakka Noodles</li>
+          <li>Veg Fried Rice</li>
+          <li>Chicken Fried Rice</li>
+          <li>Schezwan Chicken</li>
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Salads</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Crispy Noodle Salad</li>
+        <li>Chow Mein Salad</li>
+        <li>Cabbage and Bell Pepper Salad</li>
+        <li>Asian Cucumber Salad</li>
+        <li>Sweet and Sour Slaw</li>
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Main course</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Vegetable Manchurian</li>
+        <li>Chicken Fried Rice</li>
+        <li>Hakka Noodles</li>
+        <li>Chilli Chicken</li>
+        <li>Gobi Fried Rice</li>
+        <li>Shrimp in Garlic Sauce</li>
+        <li>Schezwan Tofu</li>
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Deserts</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Honey Noodles</li>
+        <li>Lychee with Ice Cream</li>
+        <li>Chilli Chocolate Fondue</li>
+        <li>Fortune Cookies</li>
+        <li>Mango Sago</li>
+        <li>Coconut Tapioca Pudding</li>
           </ul>
         </div>
       </div>
@@ -691,45 +695,48 @@
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Staters</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Mozzarella Sticks</li>
+          <li>Garlic Bread</li>
+          <li>Prawn Cocktail</li>
+          <li>Chicken Wings</li>
+          <li>Spinach and Artichoke Dip</li>
+          <li>Stuffed Mushrooms</li>
+          <li>Deviled Eggs</li>
+          <li>Caprese Salad</li>
+          <li>Shrimp Scampi</li>
+          <li>Grilled Asparagus</li>
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Salads</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Caesar Salad</li>
+        <li>Greek Salad</li>
+        <li>Cobb Salad</li>
+        <li>Nicoise Salad</li>
+        <li>Waldorf Salad</li>
+        <li>Caprese Salad</li>
+        <li>Spinach and Bacon Salad</li>
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Main course</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Veggie Pizza</li>
+        <li>Salmon with Dill Sauce</li>
+        <li>Ratatouille</li>
+        <li>Lamb Chops with Rosemary</li>
           </ul>
         </div>
         <div class="catering-menu-column">
           <h3 class="catering-sub-heading">Deserts</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
+          <li>Chocolate Mousse</li>
+        <li>Tiramisu</li>
+        <li>Creme Brulee</li>
+        <li>Apple Pie</li>
+        <li>Strawberry Shortcake</li>
+        <li>Blueberry Cheesecake</li>
           </ul>
         </div>
       </div>
@@ -746,7 +753,7 @@
 <section class="catering-form-section">
   <div class="catering-form-inner">
     <h1>Get The Best Catering Experience With Us</h1>
-    <form action="catering.php" method="post">
+    <form action="catering_form.php" method="post">
       <input type="text" name="name" placeholder="Enter Your Name" required>
       <input type="tel" pattern="[0-9]{10}" name="mobile" placeholder="Enter Your Phone Number" required>
       <select required name="category">
@@ -776,6 +783,15 @@
 <?php
 include '../includes/footer.php';
 ?>
+
+<script>
+  <?php
+  if(isset($_SESSION["email_sent"])) {
+      echo "alert('Email sent successfully!');";
+      $_SESSION["email_sent"] = false; // Reset the session variable
+  }
+  ?>
+</script>
 
 <script src="../assets/js/catering.js"></script>
 <script src="../assets/js/global.js"></script>

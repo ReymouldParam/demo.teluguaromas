@@ -193,10 +193,10 @@
       <button class="btn">Download Boucher</button>
     </div>
 
-    <div class="franchise-contact-form">
+    <div class="franchise-contact-form utility-background-property">
       <h2 class="franchise-intro">Ready to franchise with us</h2>
       <h1>Fill The Form</h1>
-      <form id="franchiseContactForm" action="franchise.php" method="post">
+      <form id="franchiseContactForm" action="franchise_form.php" method="post">
         <input name="name" type="text" placeholder="Enter Your Name" required>
         <input name="email" type="email" placeholder="Enter Your Email-id">
         <input name="mobile" type="tel" pattern="[0-9]{10}" placeholder="Enter Your Phone Number" required>

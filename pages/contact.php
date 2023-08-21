@@ -72,7 +72,7 @@
         <div class="contact-form-container">
           <h1 class="contact-intro">Have a question for us?</h1>
           <h1 class="contact-heading">Contact Us Today</h1>
-          <form action="contact.php" method="post" id="contactForm">
+          <form action="contact_form.php" method="post" id="contactForm">
               <div class="contact-form-container">
                   <input type="text" name="name" placeholder="Enter Your Name" required>
                   <input type="email" name="email" placeholder="Enter Your Email-id" id="">
