@@ -239,6 +239,10 @@ header{
     margin: 0;
 }
 
+.catering-item-head > h3 >span{
+    font-size: 1.2rem;
+}
+
 .catering-item-head > i{
     color: white;
     font-size: 25px;
@@ -247,6 +251,7 @@ header{
 
 .catering-item-body{
     display: none;
+    justify-content: space-around;
     border-radius: 5px;
     background-color: white;
     font-family: var(--text-font);
@@ -258,10 +263,24 @@ header{
     overflow-y: scroll;
 }
 
-.catering-item-body > h5{
+.catering-item-body> div{
+    width:45%;
+}
+
+.catering-item-body> div >h5{
     color: var(--theme-color6);
     font-family: var(--sub-heading-font);
 }
+
+.catering-item-body> div >ul{
+    color:var(--text-color);
+    font-family: var(--text-font)
+}
+
+/* .catering-item-body > h5{
+    color: var(--theme-color6);
+    font-family: var(--sub-heading-font);
+} */
 
 .catering-gallery-intro{
     font-family: var(--written-font);

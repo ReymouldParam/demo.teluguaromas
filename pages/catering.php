@@ -126,286 +126,213 @@
           </div>
             <div class="catering-services-container">
                 <div class="catering-item" id="cateringItem1">
-                  <div class="catering-item-head"><h3>Wedding Catering</h3><i class='bx bxs-down-arrow'></i></div>
+                  <div class="catering-item-head"><h3>Basic package <span>price staring @ 199&#8377; (veg) / 299&#8377; (Non-veg) </span></h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
-                    <h5>Menu Selection:</h5>
-                    <ul>
-                      <li>Collaborate with the catering company to create a diverse menu.</li>
-                      <li>Include appetizers, main courses, sides, desserts, and beverages.</li>
-                    </ul>
                     
-                    <h5>Tasting Session:</h5>
+                  <div>
+                    <h5>Veg</h5>
                     <ul>
-                      <li>Schedule a tasting session with the caterer to finalize menu choices.</li>
-                      <li>Discuss adjustments to flavors and presentation during the tasting.</li>
+                    <li>Common Sweet (1 item)</li>
+                    <li>Flavoured Rice (1 item)</li>
+                    <li>White Rice</li>
+                    <li>Fry (1 item)</li>
+                    <li>Common Curry (2 item)</li>
+                    <li>Dal</li>
+                    <li>Sambar/Rasam</li>
+                    <li>Veg Snack (1 item)</li>
+                    <li>Chutney</li>
                     </ul>
-                    
-                    <h5>Service Style:</h5>
-                    <ul>
-                      <li>Choose a service style: plated sit-down, buffet, family-style, or stations.</li>
-                      <li>The service style can enhance the overall atmosphere of the wedding.</li>
-                    </ul>
-                    
-                    <h5>Budget Consideration:</h5>
-                    <ul>
-                      <li>Determine a budget and communicate it clearly to the caterer.</li>
-                      <li>Inquire about pricing structures, including per-person costs and service charges.</li>
-                    </ul>
-                    
-                    <h5>Coordination:</h5>
-                    <ul>
-                      <li>Coordinate with the caterer and venue for setup, service, and cleanup.</li>
-                      <li>Discuss details like table arrangements, tableware, and decorations.</li>
-                    </ul>
-                    
-                    <h5>Alcohol and Beverages:</h5>
-                    <ul>
-                      <li>Decide on an open bar, limited bar, or signature cocktails.</li>
-                      <li>Discuss beverage packages, including alcoholic and non-alcoholic options.</li>
-                    </ul>
-                    
-                    <h5>Staffing:</h5>
-                    <ul>
-                      <li>Inquire about the number of staff the caterer will provide.</li>
-                      <li>Ensure staff are experienced in catering weddings and serving guests.</li>
-                    </ul>
+                  </div>
+
+                  <div>
+                    <h5>Non-Veg</h5>
+                    <li>Common Sweet (1 item)</li>
+                  <li>Flavoured Rice (1 item)</li>
+                  <li>White Rice</li>
+                  <li>Fry (1 item)</li>
+                  <li>Common Curry (2 item)</li>
+                  <li>Dal</li>
+                  <li>Sambar/Rasam</li>
+                  <li>Veg Snack (1 item)</li>
+                  <li>Chutney</li>
+                  </div>
+
                   </div>
                 </div>
 
                 <div class="catering-item" id="cateringItem2">
-                  <div class="catering-item-head"><h3>Corporate Catering</h3><i class='bx bxs-down-arrow'></i></div>
+                  <div class="catering-item-head"><h3>Standard package <span>price staring @ 299&#8377; (veg) / 399&#8377; (Non-veg) </span></h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
-                    <h5>Menu Selection:</h5>
-  <ul>
-    <li>Collaborate with the catering company to design a menu suitable for corporate events.</li>
-    <li>Include options for breakfast, lunch, snacks, and beverages.</li>
-  </ul>
-  
-  <h5>Tasting Session:</h5>
-  <ul>
-    <li>Schedule a tasting session with the caterer to finalize menu choices.</li>
-    <li>Discuss customization of dishes to match the event's theme or preferences.</li>
-  </ul>
-  
-  <h5>Service Style:</h5>
-  <ul>
-    <li>Select a service style: buffet, plated meals, boxed lunches, or interactive food stations.</li>
-    <li>Consider the style that suits the event's atmosphere and goals.</li>
-  </ul>
-  
-  <h5>Budget Consideration:</h5>
-  <ul>
-    <li>Establish a budget for the corporate catering and communicate it clearly.</li>
-    <li>Inquire about pricing options, additional charges, and payment terms.</li>
-  </ul>
-  
-  <h5>Coordination:</h5>
-  <ul>
-    <li>Coordinate with the caterer to ensure smooth setup, service, and cleanup.</li>
-    <li>Discuss event schedule, setup arrangements, and required amenities.</li>
-  </ul>
-  
-  <h5>Special Requirements:</h5>
-  <ul>
-    <li>Plan for dietary restrictions and allergies of attendees.</li>
-    <li>Communicate any specific dietary needs to the caterer in advance.</li>
-  </ul>
-  
-  <h5>Audiovisual Setup:</h5>
-  <ul>
-    <li>Discuss audiovisual needs like projectors, screens, and microphones if applicable.</li>
-    <li>Ensure the catering setup accommodates AV requirements.</li>
-  </ul>
-                </div>
+                    
+                  <div>
+                    <h5>Veg</h5>
+                    <ul>
+                    <li>Common Sweet (1 item)</li>
+                    <li>Flavoured Rice (1 item)</li>
+                    <li>White Rice</li>
+                    <li>Fry (1 item)</li>
+                    <li>Common Curry (2 item)</li>
+                    <li>Dal</li>
+                    <li>Sambar/Rasam</li>
+                    <li>Veg Snack (1 item)</li>
+                    <li>Chutney</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h5>Non-Veg</h5>
+                    <li>Common Sweet (1 item)</li>
+                  <li>Flavoured Rice (1 item)</li>
+                  <li>White Rice</li>
+                  <li>Fry (1 item)</li>
+                  <li>Common Curry (2 item)</li>
+                  <li>Dal</li>
+                  <li>Sambar/Rasam</li>
+                  <li>Veg Snack (1 item)</li>
+                  <li>Chutney</li>
+                  </div>
+
+                  </div>
                 </div>
 
                 <div class="catering-item" id="cateringItem3">
                   <div class="catering-item-head"><h3>Event Catering</h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
-                    <h5>Menu Selection:</h5>
-  <ul>
-    <li>Collaborate with the catering company to design a menu tailored for the event.</li>
-    <li>Include options for appetizers, main courses, sides, desserts, and drinks.</li>
-  </ul>
-  
-  <h5>Tasting Session:</h5>
-  <ul>
-    <li>Schedule a tasting session to finalize menu choices and discuss any adjustments.</li>
-    <li>Ensure that the chosen dishes align with the event's theme and audience.</li>
-  </ul>
-  
-  <h5>Service Style:</h5>
-  <ul>
-    <li>Select a service style: buffet, family-style, food stations, or plated meals.</li>
-    <li>Choose a style that complements the event's vibe and schedule.</li>
-  </ul>
-  
-  <h5>Budget Consideration:</h5>
-  <ul>
-    <li>Set a budget for catering and communicate it clearly to the caterer.</li>
-    <li>Inquire about pricing, additional fees, and payment terms.</li>
-  </ul>
-  
-  <h5>Coordination:</h5>
-  <ul>
-    <li>Coordinate with the caterer to ensure smooth setup, service, and cleanup.</li>
-    <li>Discuss logistics, event timeline, and any specific setup requirements.</li>
-  </ul>
-  
-  <h5>Theme and Decor:</h5>
-  <ul>
-    <li>Discuss how the catering setup can align with the event's theme and decor.</li>
-    <li>Consider options for table settings, linens, and presentation.</li>
-  </ul>
-  
-  <h5>Special Requirements:</h5>
-  <ul>
-    <li>Plan for dietary preferences, allergies, and cultural considerations of attendees.</li>
-    <li>Ensure the caterer can accommodate specific dietary needs.</li>
-  </ul>
-                </div>
+
+                  <div>
+                    <h5>Veg</h5>
+                    <ul>
+                    <li>Common Sweet (1 item)</li>
+                    <li>Flavoured Rice (1 item)</li>
+                    <li>White Rice</li>
+                    <li>Fry (1 item)</li>
+                    <li>Common Curry (2 item)</li>
+                    <li>Dal</li>
+                    <li>Sambar/Rasam</li>
+                    <li>Veg Snack (1 item)</li>
+                    <li>Chutney</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h5>Non-Veg</h5>
+                    <li>Common Sweet (1 item)</li>
+                  <li>Flavoured Rice (1 item)</li>
+                  <li>White Rice</li>
+                  <li>Fry (1 item)</li>
+                  <li>Common Curry (2 item)</li>
+                  <li>Dal</li>
+                  <li>Sambar/Rasam</li>
+                  <li>Veg Snack (1 item)</li>
+                  <li>Chutney</li>
+                  </div>
+
+                  </div>
                 </div>
 
                 <div class="catering-item" id="cateringItem4">
                   <div class="catering-item-head"><h3>Buffet Catering</h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
-                    <h5>Menu Selection:</h5>
-  <ul>
-    <li>Collaborate with the catering company to design a diverse buffet menu.</li>
-    <li>Include a variety of appetizers, main courses, sides, desserts, and beverages.</li>
-  </ul>
-  
-  <h5>Tasting Session:</h5>
-  <ul>
-    <li>Schedule a tasting session to finalize buffet menu items and flavors.</li>
-    <li>Discuss presentation and arrangement of dishes on the buffet.</li>
-  </ul>
-  
-  <h5>Buffet Setup:</h5>
-  <ul>
-    <li>Plan the layout of the buffet tables, including placement and flow.</li>
-    <li>Coordinate with the caterer to ensure an organized and visually appealing setup.</li>
-  </ul>
-  
-  <h5>Service and Display:</h5>
-  <ul>
-    <li>Discuss how the dishes will be replenished and kept fresh during the event.</li>
-    <li>Consider adding decorative elements to enhance the buffet's visual appeal.</li>
-  </ul>
-  
-  <h5>Utensils and Serving:</h5>
-  <ul>
-    <li>Provide appropriate utensils, plates, and napkins for self-service.</li>
-    <li>Discuss options for attendants to assist guests, if desired.</li>
-  </ul>
-  
-  <h5>Theme and Decor:</h5>
-  <ul>
-    <li>Incorporate the buffet setup into the overall event theme and decor.</li>
-    <li>Coordinate table linens, decorations, and signage to match the buffet's style.</li>
-  </ul>
-  
-  <h5>Special Requirements:</h5>
-  <ul>
-    <li>Plan for dietary restrictions and preferences among your guests.</li>
-    <li>Ensure that the buffet offers a variety of options to accommodate different needs.</li>
-  </ul>
-                </div>
+                    
+                  <div>
+                    <h5>Veg</h5>
+                    <ul>
+                    <li>Common Sweet (1 item)</li>
+                    <li>Flavoured Rice (1 item)</li>
+                    <li>White Rice</li>
+                    <li>Fry (1 item)</li>
+                    <li>Common Curry (2 item)</li>
+                    <li>Dal</li>
+                    <li>Sambar/Rasam</li>
+                    <li>Veg Snack (1 item)</li>
+                    <li>Chutney</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h5>Non-Veg</h5>
+                    <li>Common Sweet (1 item)</li>
+                  <li>Flavoured Rice (1 item)</li>
+                  <li>White Rice</li>
+                  <li>Fry (1 item)</li>
+                  <li>Common Curry (2 item)</li>
+                  <li>Dal</li>
+                  <li>Sambar/Rasam</li>
+                  <li>Veg Snack (1 item)</li>
+                  <li>Chutney</li>
+                  </div>
+
+                  </div>
                 </div>
 
-                <div class="catering-item" id="cateringItem4">
+                <div class="catering-item" id="cateringItem5">
                   <div class="catering-item-head"><h3>Boxed Lunch Catering</h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
-                    <h5>Menu Selection:</h5>
-  <ul>
-    <li>Collaborate with the catering company to curate a diverse boxed lunch menu.</li>
-    <li>Include options for sandwiches, salads, sides, desserts, and beverages.</li>
-  </ul>
-  
-  <h5>Customization:</h5>
-  <ul>
-    <li>Discuss customization options to accommodate dietary restrictions and preferences.</li>
-    <li>Consider offering vegetarian, vegan, or gluten-free choices.</li>
-  </ul>
-  
-  <h5>Packaging and Presentation:</h5>
-  <ul>
-    <li>Decide on the type of packaging for the boxed lunches (e.g., eco-friendly, branded).</li>
-    <li>Discuss how the boxed lunches will be presented and arranged for easy distribution.</li>
-  </ul>
-  
-  <h5>Delivery and Timing:</h5>
-  <ul>
-    <li>Coordinate delivery logistics and timing to ensure fresh lunches for your event.</li>
-    <li>Discuss any specific instructions for delivery and setup.</li>
-  </ul>
-  
-  <h5>Inclusions:</h5>
-  <ul>
-    <li>Specify what each boxed lunch will include (e.g., main course, sides, dessert).</li>
-    <li>Ensure that each lunch is well-balanced and satisfying.</li>
-  </ul>
-  
-  <h5>Labeling and Special Requests:</h5>
-  <ul>
-    <li>Discuss how dietary information will be displayed on the boxed lunches.</li>
-    <li>Plan for accommodating any special requests from attendees.</li>
-  </ul>
-  
-  <h5>Distribution:</h5>
-  <ul>
-    <li>Coordinate the distribution process and ensure efficient and orderly handout.</li>
-    <li>Provide clear instructions for attendees on how and where to collect their lunches.</li>
-  </ul>
-                </div>
+                    
+                  <div>
+                    <h5>Veg</h5>
+                    <ul>
+                    <li>Common Sweet (1 item)</li>
+                    <li>Flavoured Rice (1 item)</li>
+                    <li>White Rice</li>
+                    <li>Fry (1 item)</li>
+                    <li>Common Curry (2 item)</li>
+                    <li>Dal</li>
+                    <li>Sambar/Rasam</li>
+                    <li>Veg Snack (1 item)</li>
+                    <li>Chutney</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h5>Non-Veg</h5>
+                    <li>Common Sweet (1 item)</li>
+                  <li>Flavoured Rice (1 item)</li>
+                  <li>White Rice</li>
+                  <li>Fry (1 item)</li>
+                  <li>Common Curry (2 item)</li>
+                  <li>Dal</li>
+                  <li>Sambar/Rasam</li>
+                  <li>Veg Snack (1 item)</li>
+                  <li>Chutney</li>
+                  </div>
+
+                  </div>
                 </div>
 
-                <div class="catering-item" id="cateringItem4">
+                <div class="catering-item" id="cateringItem6">
                   <div class="catering-item-head"><h3>Fine Dining Catering</h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
-                    <h5>Menu Selection:</h5>
-  <ul>
-    <li>Collaborate with the catering company to design an exquisite fine dining menu.</li>
-    <li>Include gourmet dishes with refined flavors, presentation, and quality ingredients.</li>
-  </ul>
-  
-  <h5>Customization:</h5>
-  <ul>
-    <li>Discuss customization options to align the menu with the event's theme or preferences.</li>
-    <li>Consider accommodating dietary needs and preferences while maintaining the gourmet experience.</li>
-  </ul>
-  
-  <h5>Service Style:</h5>
-  <ul>
-    <li>Select a service style that complements the fine dining experience, such as plated meals.</li>
-    <li>Ensure attention to detail in terms of presentation and service etiquette.</li>
-  </ul>
-  
-  <h5>Table Setup:</h5>
-  <ul>
-    <li>Coordinate with the caterer to plan elegant table settings and decor.</li>
-    <li>Consider elements like table linens, centerpieces, and fine tableware.</li>
-  </ul>
-  
-  <h5>Wine Pairing:</h5>
-  <ul>
-    <li>Discuss wine pairing options to enhance the culinary experience.</li>
-    <li>Suggest wine choices that complement the menu's flavors and elevate the dining experience.</li>
-  </ul>
-  
-  <h5>Service Staff:</h5>
-  <ul>
-    <li>Ensure the catering team includes experienced staff who understand fine dining service.</li>
-    <li>Discuss staffing requirements for seamless service and guest interaction.</li>
-  </ul>
-  
-  <h5>Event Flow:</h5>
-  <ul>
-    <li>Plan the flow of the event, including timing of courses, speeches, and entertainment.</li>
-    <li>Coordinate with the caterer to maintain a smooth and leisurely dining experience.</li>
-  </ul>
+                    
+                  <div>
+                    <h5>Veg</h5>
+                    <ul>
+                    <li>Common Sweet (1 item)</li>
+                    <li>Flavoured Rice (1 item)</li>
+                    <li>White Rice</li>
+                    <li>Fry (1 item)</li>
+                    <li>Common Curry (2 item)</li>
+                    <li>Dal</li>
+                    <li>Sambar/Rasam</li>
+                    <li>Veg Snack (1 item)</li>
+                    <li>Chutney</li>
+                    </ul>
+                  </div>
 
-                </div>
+                  <div>
+                    <h5>Non-Veg</h5>
+                    <li>Common Sweet (1 item)</li>
+                  <li>Flavoured Rice (1 item)</li>
+                  <li>White Rice</li>
+                  <li>Fry (1 item)</li>
+                  <li>Common Curry (2 item)</li>
+                  <li>Dal</li>
+                  <li>Sambar/Rasam</li>
+                  <li>Veg Snack (1 item)</li>
+                  <li>Chutney</li>
+                  </div>
+
+                  </div>
                 </div>
                 
             </div>
@@ -786,12 +713,17 @@ include '../includes/footer.php';
 
 <script>
   <?php
-  if(isset($_SESSION["email_sent"])) {
-      echo "alert('Email sent successfully!');";
-      $_SESSION["email_sent"] = false; // Reset the session variable
-  }
-  ?>
+    include 'catering_form.php';
+
+    if(isset($emailSent) && $emailSent==true){
+      echo "alert('email Sent successfully');";
+    }
+    
+
+
+?>
 </script>
+
 
 <script src="../assets/js/catering.js"></script>
 <script src="../assets/js/global.js"></script>

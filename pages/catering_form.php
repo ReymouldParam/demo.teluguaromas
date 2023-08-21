@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $to = "contact@teluguaromas.com";
@@ -15,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     mail("contact@reymould.com",$subject,$message);
 
     if (mail("contact@reymould.com",$subject,$message)) {
-        $_SESSION["email_sent"] = true;
+        $emailSent = true;
     }
 
     header("Location: catering.php");

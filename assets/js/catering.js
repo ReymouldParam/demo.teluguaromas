@@ -59,7 +59,7 @@ function getElementHeightInPixels(element) {
 
 
 
-// catering open close function
+// catering drop-down open close function
 
 var catering = document.querySelectorAll(".catering-item");
 
@@ -74,7 +74,7 @@ for (var i = 0; i < catering.length; i++) {
         catering[index].querySelector(".catering-item-head").querySelector("i").style.rotate="180deg";
         catering[index].querySelector(".catering-item-body").classList.remove("move-out-up")
         catering[index].querySelector(".catering-item-body").classList.add("move-in-down");
-        catering[index].querySelector(".catering-item-body").style.display = "block";
+        catering[index].querySelector(".catering-item-body").style.display = "flex";
       } else {
         catering[index].querySelector(".catering-item-head").querySelector("i").style.rotate="0deg";
         catering[index].querySelector(".catering-item-body").classList.remove("move-in-down")
