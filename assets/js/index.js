@@ -29,52 +29,52 @@ window.addEventListener("load", ()=>{
   var bannerContent = document.getElementById("bannerContent");
   bannerContent.style.transform = "scale(1.1)";
   
-  var scrollPosition = window.scrollY;
-      if (scrollPosition < 100) {
-        $('#whatappIcon').css("display","none");
+  // var scrollPosition = window.scrollY;
+  //     if (scrollPosition < 100) {
+  //       $('#whatappIcon').css("display","none");
         
-          $('#stickyheaders').css("background-color","var(--trasperent)");
+  //         $('#stickyheaders').css("background-color","var(--trasperent)");
       
 
-      } else {
-        $('#stickyheaders').css("background-color","var(--header-bg-color)");
-        $('#whatappIcon').css("display","block");
+  //     } else {
+  //       $('#stickyheaders').css("background-color","var(--header-bg-color)");
+  //       $('#whatappIcon').css("display","block");
         
-      }
+  //     }
 
 });
 
 
 // header dynamic scrool
 
-jQuery(document).ready(function($){
-  var mywindow = $(window);
-  var mypos = mywindow.scrollTop();
-  mywindow.scroll(function() {
-      if (mypos > 100) {
-          if(mywindow.scrollTop() > mypos)
-          {
-              $('#stickyheaders').css("background-color","var(--header-bg-color)");
+// jQuery(document).ready(function($){
+//   var mywindow = $(window);
+//   var mypos = mywindow.scrollTop();
+//   mywindow.scroll(function() {
+//       if (mypos > 100) {
+//           if(mywindow.scrollTop() > mypos)
+//           {
+//               $('#stickyheaders').css("background-color","var(--header-bg-color)");
               
-              $('#whatappIcon').css("display","block");
-          }
-          else
-          {
-              if(mywindow.scrollTop() < 100) {
+//               $('#whatappIcon').css("display","block");
+//           }
+//           else
+//           {
+//               if(mywindow.scrollTop() < 100) {
                   
 
                   
-                    $('#stickyheaders').css("background-color","var(--trasperent)");
+//                     $('#stickyheaders').css("background-color","var(--trasperent)");
                 
                   
-                  $('#whatappIcon').css("display","none");
-              }
+//                   $('#whatappIcon').css("display","none");
+//               }
           
-          }
-      }
-      mypos = mywindow.scrollTop();
-  });
-});
+//           }
+//       }
+//       mypos = mywindow.scrollTop();
+//   });
+// });
 
 
 // smooth scrolling function

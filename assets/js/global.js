@@ -51,3 +51,12 @@ jQuery(document).ready(function($){
       mypos = mywindow.scrollTop();
   });
 });
+
+
+// form status pop up close function
+
+function closeSuccessMessage(){
+  $("#formSuccessMessage").css("display", "none");
+  $("body").css("overflow-y", "auto");
+}
+

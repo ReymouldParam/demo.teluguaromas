@@ -715,11 +715,11 @@ include '../includes/footer.php';
   <?php
     include 'catering_form.php';
 
-    if(isset($emailSent) && $emailSent==true){
-      echo "alert('email Sent successfully');";
+    if($emailSent){
+      echo "$('#formSuccessMessage').css('display','block');";
     }
     
-
+    $emailSent=false;
 
 ?>
 </script>

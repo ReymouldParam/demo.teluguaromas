@@ -64,7 +64,11 @@
 <!-- Form successMessage -->
 
 <div id="formSuccessMessage">
-    <h1>Form Sent</h1>
+    <div>
+        <h3>Email Sent successfully</h3>
+        <p>Our team will contact at earliest.</p>
+        <button onclick="closeSuccessMessage()">x</button>
+    </div>
 </div>
 
 

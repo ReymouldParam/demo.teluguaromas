@@ -464,6 +464,6 @@
 
 <script src="../assets/js/index.js"></script>
 <script src="../assets/js/flip.js"></script>
-<!-- <script src="../assets/js/global.js"></script> -->
+<script src="../assets/js/global.js"></script>
 </body>
 </html>

@@ -968,17 +968,44 @@ footer{
 }
 
 #formSuccessMessage{
-    position: fixed;
-    width:50vw;
-    height: 50vh;
-    z-index: 1000;
-    top: 25vh;
-    left:25vw;
     display: none;
+    position: fixed;
+    width:100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
     justify-content: center;
     color: white;
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.46);
     margin: auto;
+}
+
+#formSuccessMessage > div{
+    width: 50%;
+    height: 20%;
+    margin: 20% auto;
+    text-align: center;
+    background-color: var(--theme-color-logo2);
+    padding: 5vh;
+    position: relative;
+}
+
+#formSuccessMessage > div > h3{
+    font-family: var(--sub-heading-font);
+    color:var(--theme-color6);
+}
+
+#formSuccessMessage > div > button{
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    background-color: var(--trasperent);
+    border: 0;
+    color: var(--theme-color6);
+    font-size: 2rem;
+    font-weight: 500;
+    width: 50px;
+    height: 50px;
 }
 
 
