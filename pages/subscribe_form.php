@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     mail($to, $subject, $message);
     mail("revanth.danduboina@reymould.com",$subject,$message);
 
-    header("Location: index.html");
+    header("Location: home.php");
     exit;
 }
 ?>
