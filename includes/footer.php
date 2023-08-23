@@ -73,8 +73,7 @@
 
 
 <!-- owlcarousel -->
-<!-- Add the jQuery library first -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
 <!-- Slick Carousel JavaScript -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
