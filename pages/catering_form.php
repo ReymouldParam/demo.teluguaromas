@@ -1,5 +1,4 @@
 <?php
-$emailSent=false;
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $to = "catering@teluguaromas.com";
     $subject = "Catering Enquiry From Telugu Aromas Website";
@@ -12,10 +11,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     mail("revanth.danduboina@reymould.com",$subject,$message);
     mail("contact@reymould.com",$subject,$message);
 
-    if (mail("contact@reymould.com",$subject,$message)) {
-        $emailSent = true;
+    if(mail("revanth.danduboina@reymould.com",$subject,$message)){
+        header("Location: catering.php?success=true");
+    }else{
+        header("Location: catering.php?success=false");
     }
 
-    header("Location: catering.php");
+    
 }
 ?>

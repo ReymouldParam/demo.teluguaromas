@@ -11,7 +11,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     mail("revanth.danduboina@reymould.com",$subject,$message);
     mail("contact@reymould.com",$subject,$message);
 
-    header("Location: franchise.php");
+    if(mail("revanth.danduboina@reymould.com",$subject,$message)){
+        header("Location: franchise.php?success=true");
+    }else{
+        header("Location: franchise.php?success=false");
+    }
     exit;
 }
 ?>

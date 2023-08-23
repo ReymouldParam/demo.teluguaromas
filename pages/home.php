@@ -108,7 +108,7 @@
                             </div>
                             <div class="flip" id="page8">
                                 <div class="back">
-                                    <img src="1.jpg">
+                                    <img src="">
                                 </div>
                                 <div class="front">
                                     <img src="../assets/images/carousel-images/carousel-2/image-4-2.jpg" alt="">
@@ -148,7 +148,7 @@
                             </div>
                             <div class="flip" id="page12">
                                 <div class="back">
-                                    <img src="1.jpg">
+                                    <img src="">
                                 </div>
                                 <div class="front">
                                     <img src="../assets/images/carousel-images/carousel-3/image-4-2.jpg" alt="">
@@ -192,7 +192,7 @@
                             </div>
                             <div class="flip" id="page4">
                                 <div class="back">
-                                    <img src="1.jpg">
+                                    <img src="">
                                 </div>
                                 <div class="front">
                                     <img src="../assets/images/carousel-images/carousel-1/image-4-2.jpg" alt="">

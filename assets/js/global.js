@@ -60,3 +60,15 @@ function closeSuccessMessage(){
   $("body").css("overflow-y", "auto");
 }
 
+const urlParams = new URLSearchParams(window.location.search);
+  const flagValue = urlParams.get('success');
+
+  if (flagValue === 'trueSubscribe') {
+      document.getElementById("formReplyMessage").innerHTML="Thank You For Subscribing To Telugu Aromas.";
+      document.getElementById("formSuccessMessage").style.display="block";
+  }
+
+  if (flagValue === 'true') {
+    document.getElementById("formReplyMessage").innerHTML="Our Team Will Contact At Earliest.";
+    document.getElementById("formSuccessMessage").style.display="block";
+}

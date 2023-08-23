@@ -66,7 +66,7 @@
 <div id="formSuccessMessage">
     <div>
         <h3>Email Sent successfully</h3>
-        <p>Our team will contact at earliest.</p>
+        <p id="formReplyMessage">Our team will contact at earliest.</p>
         <button onclick="closeSuccessMessage()">x</button>
     </div>
 </div>

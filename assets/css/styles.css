@@ -1748,6 +1748,14 @@ footer{
         font-size: 12px;
     }
 
+    .section-4-design-bg-1, .section-4-design-bg-2{
+        position: absolute;
+        top: 50%;
+        height: 28%;
+        width: auto;
+        z-index: 2;
+    }
+
     .subscribe-section{
         padding: 10px 20px;
         display: block;
@@ -1813,5 +1821,11 @@ footer{
         width: 15px;
         height: 15px;
         margin-right: 5px;
+    }
+
+    #formSuccessMessage > div{
+        width: 90%;
+    height: 20%;
+    margin: 40% auto;
     }
 }

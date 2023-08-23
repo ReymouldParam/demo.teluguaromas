@@ -664,7 +664,7 @@
       <input type="text" name="name" placeholder="Enter Your Name" required>
       <input type="tel" pattern="[0-9]{10}" name="mobile" placeholder="Enter Your Phone Number" required>
       <select required name="category">
-        <option value="NA" disabled selected>Select Type Of Catering</option>
+        <option value="NA" disabled selected hidden>Select Type Of Catering</option>
         <option value="Wedding Catering">Wedding Catering</option>
         <option value="Corporate Catering">Corporate Catering</option>
         <option value="Event Catering">Event Catering</option>
@@ -691,18 +691,6 @@
 include '../includes/footer.php';
 ?>
 
-<script>
-  <?php
-    include 'catering_form.php';
-
-    if($emailSent){
-      echo "$('#formSuccessMessage').css('display','block');";
-    }
-    
-    $emailSent=false;
-
-?>
-</script>
 
 
 <script src="../assets/js/catering.js"></script>

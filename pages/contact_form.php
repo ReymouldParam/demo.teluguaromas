@@ -1,6 +1,5 @@
 <?php
 
-session_start();
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $to = "contact@teluguaromas.com";
@@ -15,11 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     mail("revanth.danduboina@reymould.com",$subject,$message);
     
 
-    if (mail("contact@reymould.com",$subject,$message)) {
-        $_SESSION["email_sent"] = true;
+    if(mail("revanth.danduboina@reymould.com",$subject,$message)){
+        header("Location: contact.php?success=true");
+    }else{
+        header("Location: contact.php?success=false");
     }
-
-    header("Location: contact.php");
     exit;
 }
 ?>

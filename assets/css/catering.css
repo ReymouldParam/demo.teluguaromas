@@ -836,6 +836,16 @@ resonsive tablet */
         margin-bottom: 1vh;
     }
 
+    .catering-item-body{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .catering-item-body> div{
+        width: 95%;
+        margin: auto;
+    }
+
     .catering-gallery-intro{
         font-size: 40px;
     }
