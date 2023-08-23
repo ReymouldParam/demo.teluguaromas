@@ -25,6 +25,18 @@
                         <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="../pages/contact.php">CONTACT US</a>
                         </li>
+                        <li class="nav-item" style="padding:0;">
+                            <div class="social-icon-mobile">
+                              <div class="icon-container">
+                                  <div class="div">
+                                      <a target="_blank" href="https://www.facebook.com/profile.php?id=61550250213516"><img src="../assets/images/sm-logo/fb.png" alt=""></a>
+                                      <a target="_blank" href="https://www.instagram.com/teluguaromas/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><img src="../assets/images/sm-logo/insta.png" alt=""></a>
+                                      <a target="_blank" href="https://twitter.com/TeluguAromas"><img src="../assets/images/sm-logo/twitter.png" alt=""></a>
+                                      <a target="_blank" href="https://www.threads.net/@teluguaromas"><img src="../assets/images/sm-logo/threads.png" alt=""></a>
+                                    </div>
+                              </div>
+                          </div>
+                        </li>
                     </ul>
                 </div>
             <div class="hanger-img">

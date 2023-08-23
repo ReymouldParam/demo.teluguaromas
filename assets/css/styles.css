@@ -139,11 +139,11 @@ header{
 .social-icon-mobile{
     width: 115px;
     height: 38px;
-    right:20%;
-    top: 10px;
+    /* right:20%;
+    top: 10px; */
     /* background-image: url(../images/hanging-1-mobile.png); */
     background-size: 100% 100%;
-    position: fixed;
+    /* position: fixed; */
     z-index: 1000;
     display: none;
 }
@@ -161,7 +161,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 0 6px;
-    bottom: 4px;
+    bottom: 8px;
 }
 
 .social-icon-mobile > .icon-container > div > a > i{
@@ -939,6 +939,10 @@ footer{
     margin-top: 5px;
 }
 
+.footer-inner > .column > a:hover{
+    color:var(--theme-color-logo2);
+}
+
 #whatappIcon{
     position: fixed;
     bottom: 20px;
@@ -1006,6 +1010,10 @@ footer{
     font-weight: 500;
     width: 50px;
     height: 50px;
+}
+
+#floatingNavlinksMobile{
+    display: none;
 }
 
 
@@ -1259,10 +1267,6 @@ footer{
         display: none;
     }
 
-    .social-icon-mobile{
-        display: block;
-    }
-
     .navbar-brand > img {
         height: 55px;
     }
@@ -1279,6 +1283,10 @@ footer{
 
     .navbar-collapse{
         position: relative;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
     }
 
     .navbar-nav{
@@ -1411,7 +1419,7 @@ footer{
         width:500px;
         height: 500px;
         right: -200px;
-    top: -200px;
+        top: -200px;
     }
 
     /* secton four */
@@ -1466,6 +1474,28 @@ footer{
     .footer-inner > .column1 >p{
         width: 90%;
     }
+
+    .social-icon-mobile{
+        display: block;
+        margin: auto;
+    }
+
+    #floatingNavlinksMobile{
+        display: flex;
+        position: fixed;
+        top:20px;
+        right: 20%;
+        z-index: 100;
+    } 
+
+    #floatingNavlinksMobile > a{
+        text-decoration: none;
+        color: rgb(217, 217, 217);
+        font-family: var(--sub-heading-font);
+        margin:auto 5px;
+        font-size: 1.1rem;
+    }
+
 }
 
 

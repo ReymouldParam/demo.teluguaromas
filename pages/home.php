@@ -71,7 +71,7 @@
                 <p>At Telugu Aromas, we are the destination for a symphony of flavors, where delicious Bagara Rice meets authentic Telangana and Andhra-style curries. We believe in harnessing the power of food to craft unforgettable experiences. Our journey is fueled by a passion for sharing unique flavors, inspiring us to curate a menu that tantalizes taste buds and leaves a lasting impression.
 
                    <br><br>Central to our culinary tapestry are our mouthwatering non-vegetarian curries. Each dish is a masterpiece, meticulously prepared with unwavering care and attention. The result is a collection of flavors that transport you to the heart of Telugu cuisine, where tradition and innovation meet. </p>
-                <a href="ourstory.html"><button class="btn aboutus-btn">Learn More</button></a>
+                <a href="ourstory.php"><button class="btn aboutus-btn">Learn More</button></a>
             </div>
     
             <div class="carousel-aboutus">

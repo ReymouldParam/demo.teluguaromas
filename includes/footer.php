@@ -50,7 +50,7 @@
 <a href="https://wa.me/+919199579957" target="_blank"><i id="whatappIcon" class='bx bxl-whatsapp'></i></a>
 
 <!-- social media icons for mobile -->
-<div class="social-icon-mobile">
+<!-- <div class="social-icon-mobile">
     <div class="icon-container">
         <div class="div">
             <a target="_blank" href="https://www.facebook.com/profile.php?id=61550250213516"><img src="../assets/images/sm-logo/fb.png" alt=""></a>
@@ -59,6 +59,12 @@
             <a target="_blank" href="https://www.threads.net/@teluguaromas"><img src="../assets/images/sm-logo/threads.png" alt=""></a>
           </div>
     </div>
+</div> -->
+
+<!-- floating catering and franchise links -->
+<div id="floatingNavlinksMobile">
+    <a href="../pages/catering.php">Catering</a>
+    <a href="../pages/franchise.php">Franchise</a>
 </div>
 
 <!-- Form successMessage -->
