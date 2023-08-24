@@ -106,7 +106,7 @@
           </div>
             <div class="catering-services-container">
                 <div class="catering-item" id="cateringItem1">
-                  <div class="catering-item-head"><h3>Basic package <span>price staring @ 199&#8377; (veg) / 299&#8377; (Non-veg) </span></h3><i class='bx bxs-down-arrow'></i></div>
+                  <div class="catering-item-head"><h3>Basic package <span>Veg: ₹199, Non-veg: ₹299 / plate</span></h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
                     
                   <div>
@@ -141,7 +141,7 @@
                 </div>
 
                 <div class="catering-item" id="cateringItem2">
-                  <div class="catering-item-head"><h3>Standard package <span>price staring @ 299&#8377; (veg) / 399&#8377; (Non-veg) </span></h3><i class='bx bxs-down-arrow'></i></div>
+                  <div class="catering-item-head"><h3>Standard package <span>Veg: ₹199, Non-veg: ₹299 / plate</span></h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
                     
                   <div>
@@ -176,7 +176,7 @@
                 </div>
 
                 <div class="catering-item" id="cateringItem3">
-                  <div class="catering-item-head"><h3>Event Catering</h3><i class='bx bxs-down-arrow'></i></div>
+                  <div class="catering-item-head"><h3>Enhanced Package<span>Veg: ₹199, Non-veg: ₹299 / plate</span></h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
 
                   <div>
@@ -211,7 +211,7 @@
                 </div>
 
                 <div class="catering-item" id="cateringItem4">
-                  <div class="catering-item-head"><h3>Buffet Catering</h3><i class='bx bxs-down-arrow'></i></div>
+                  <div class="catering-item-head"><h3>Premium Package<span>Veg: ₹199, Non-veg: ₹299 / plate</span></h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
                     
                   <div>
@@ -246,7 +246,7 @@
                 </div>
 
                 <div class="catering-item" id="cateringItem5">
-                  <div class="catering-item-head"><h3>Boxed Lunch Catering</h3><i class='bx bxs-down-arrow'></i></div>
+                  <div class="catering-item-head"><h3>Deluxe Package<span>Veg: ₹199, Non-veg: ₹299 / plate</span></h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
                     
                   <div>
@@ -281,7 +281,7 @@
                 </div>
 
                 <div class="catering-item" id="cateringItem6">
-                  <div class="catering-item-head"><h3>Fine Dining Catering</h3><i class='bx bxs-down-arrow'></i></div>
+                  <div class="catering-item-head"><h3>Bespoke Package<span>Veg: ₹199, Non-veg: ₹299 / plate</span></h3><i class='bx bxs-down-arrow'></i></div>
                   <div class="catering-item-body">
                     
                   <div>

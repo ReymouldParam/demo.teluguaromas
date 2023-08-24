@@ -232,7 +232,6 @@ header{
     cursor: pointer;
 }
 
-
 .catering-item-head > h3{
     color: white;
     font-family: var(--sub-heading-font);
@@ -241,6 +240,7 @@ header{
 
 .catering-item-head > h3 >span{
     font-size: 1.2rem;
+    margin: 0 5px;
 }
 
 .catering-item-head > i{
@@ -820,7 +820,20 @@ resonsive tablet */
     }
 
     .catering-services-container{
-        width: 80%;
+        width: 90%;
+    }
+
+    .catering-item-head{
+        padding: 10px;
+    }
+
+    .catering-item-head > h3{
+        font-size: 20px;
+    }
+
+    .catering-item-head > h3 >span{
+        font-size: 12px;
+        margin: 0 3px;
     }
 
     .catering-banner > h2{
