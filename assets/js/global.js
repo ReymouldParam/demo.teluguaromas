@@ -1,55 +1,33 @@
-window.addEventListener("load", ()=>{
-    // document.getElementById("loadingBar").style.width= "100%";
+// window.addEventListener("load", ()=>{
+//     document.getElementById("loadingBar").style.width= "100%";
 
-    // setTimeout(function(){
-    //     document.getElementById("preloader").style.display="none";
-    // },2000);
+//     setTimeout(function(){
+//         document.getElementById("preloader").style.display="none";
+//     },2000);
 
-    var scrollPosition = window.scrollY;
-      // Example: Change the background color of an element
-      var targetElement = document.getElementById("your-element-id");
-      if (scrollPosition < 100) {
-          $('#stickyheaders').css("background-color","var(--trasperent)");
-    
-
-        $('#whatappIcon').css("display","none");
-
-      } else {
-        $('#stickyheaders').css("background-color","var(--header-bg-color)");
-          
-        $('#whatappIcon').css("display","block");
-      }
-});
+// });
 
 
 
 // header dynamic scrool
+jQuery(document).ready(function($) {
+  var header = $('#stickyheaders');
+  var whatsappIcon = $('#whatappIcon');
 
-jQuery(document).ready(function($){
-  var mywindow = $(window);
-  var mypos = mywindow.scrollTop();
-  mywindow.scroll(function() {
-      if (mypos > 100) {
-          if(mywindow.scrollTop() > mypos)
-          {
-              $('#stickyheaders').css("background-color","var(--header-bg-color)");
-              
-              $('#whatappIcon').css("display","block");
-          }
-          else
-          {
-              if(mywindow.scrollTop() < 100) {
-                  
-                    $('#stickyheaders').css("background-color","var(--trasperent)");
-              
-                  
-                  $('#whatappIcon').css("display","none");
-              }
-          
-          }
-      }
-      mypos = mywindow.scrollTop();
+  $(window).scroll(function() {
+    var scrollTop = $(this).scrollTop();
+    
+    if (scrollTop <= 100) {
+      header.css("background-color", "transparent");
+      whatsappIcon.css("display", "none");
+    } else {
+      header.css("background-color", "var(--header-bg-color)");
+      whatsappIcon.css("display", "block");
+    }
   });
+
+  // Set initial state
+  $(window).trigger('scroll');
 });
 
 

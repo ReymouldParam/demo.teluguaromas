@@ -41,7 +41,7 @@
             
         </div>
         <div class="copyrights-container">
-            All Rights Reserved. Designed by Reymould Technology Solutions
+            All Rights Reserved. Designed By <a target="_blank" href="https://reymould.com/">Reymould Technology Solutions</a>
         </div>
     </footer>
 </section>

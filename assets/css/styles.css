@@ -965,6 +965,13 @@ footer{
     text-align: center;
 }
 
+.copyrights-container>a{
+    color:var(--theme-color-logo2);
+    text-decoration: none;
+}
+
+
+
 #footerSmIcons > a > img{
     width: 18px;
     height: 18px;
