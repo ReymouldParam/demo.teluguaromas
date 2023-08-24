@@ -30,7 +30,7 @@
 <!-- Cache use is disabled by following meta tags
 Only enable during development
 comment out when website is going live -->
-
+<!-- 
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
+<meta http-equiv="Expires" content="0"> -->
