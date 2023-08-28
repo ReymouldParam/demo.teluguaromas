@@ -44,18 +44,18 @@
         </div>
 
         <!-- absolute images -->
-        <!-- <img src="../assets/images/banner-food1.png" class="banner-food-bg" alt=""> -->
-        <img src="../assets/images/home-banner/8.png" class="banner-food banner-food-8" alt="">
-        <img src="../assets/images/home-banner/9.png" class="banner-food banner-food-9" alt="">
-        <img src="../assets/images/home-banner/1.png" class="banner-food banner-food-1 moveObj" data-value="7" alt="">
-        <img src="../assets/images/home-banner/2.png" class="banner-food banner-food-2" alt="">
-        <img src="../assets/images/home-banner/3.png" class="banner-food banner-food-3 moveObj" alt="">
-        <img src="../assets/images/home-banner/4.png" class="banner-food banner-food-4" alt="">
-        <img src="../assets/images/home-banner/5.png" class="banner-food banner-food-5" alt="">
-        <img src="../assets/images/home-banner/6.png" class="banner-food banner-food-6" alt="">
-        <img src="../assets/images/home-banner/7.png" class="banner-food banner-food-7 moveObj" data-value="3" alt="">
+        <!-- <img src="../assets/images/banner-food1.png" class="banner-food-bg" alt="banner-food"> -->
+        <img src="../assets/images/home-banner/8.png" class="banner-food banner-food-8" alt="banner-food">
+        <img src="../assets/images/home-banner/9.png" class="banner-food banner-food-9" alt="banner-food">
+        <img src="../assets/images/home-banner/1.png" class="banner-food banner-food-1 moveObj" data-value="7" alt="banner-food">
+        <img src="../assets/images/home-banner/2.png" class="banner-food banner-food-2" alt="banner-food">
+        <img src="../assets/images/home-banner/3.png" class="banner-food banner-food-3 moveObj" alt="banner-food">
+        <img src="../assets/images/home-banner/4.png" class="banner-food banner-food-4" alt="banner-food">
+        <img src="../assets/images/home-banner/5.png" class="banner-food banner-food-5" alt="banner-food">
+        <img src="../assets/images/home-banner/6.png" class="banner-food banner-food-6" alt="banner-food">
+        <img src="../assets/images/home-banner/7.png" class="banner-food banner-food-7 moveObj" data-value="3" alt="banner-food">
         
-        <img src="../assets/images/design-bg-sq.png" class="design-bg" alt="">
+        <img src="../assets/images/design-bg-sq.png" class="design-bg" alt="bg-design">
         <div class="banner-overlay"></div>
         
 
@@ -71,7 +71,7 @@
                 <p>At Telugu Aromas, we are the destination for a symphony of flavors, where delicious Bagara Rice meets authentic Telangana and Andhra-style curries. We believe in harnessing the power of food to craft unforgettable experiences. Our journey is fueled by a passion for sharing unique flavors, inspiring us to curate a menu that tantalizes taste buds and leaves a lasting impression.
 
                    <br><br>Central to our culinary tapestry are our mouthwatering non-vegetarian curries. Each dish is a masterpiece, meticulously prepared with unwavering care and attention. The result is a collection of flavors that transport you to the heart of Telugu cuisine, where tradition and innovation meet. </p>
-                <a href="ourstory.php"><button class="btn aboutus-btn">Learn More</button></a>
+                <a href="ourstory.php"><button class="btn aboutus-btn">Explore More</button></a>
             </div>
     
             <div class="carousel-aboutus">
@@ -79,39 +79,39 @@
 
 
                     <div class="carousel-1">
-                        <div id="cover2"><img src="../assets/images/carousel-images/carousel-2/image-1-1.jpg"></div>
+                        <div id="cover2"><img src="../assets/images/carousel-images/carousel-2/image-1-1.jpg" alt="aboutus-img"></div>
                         <div class="flip-book">
                             <div class="flip" id="page5">
                                 <div class="back">
-                                    <img src="../assets/images/carousel-images/carousel-2/image-2-1.jpg">
+                                    <img src="../assets/images/carousel-images/carousel-2/image-2-1.jpg" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-2/image-1-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-2/image-1-2.jpg" alt="aboutus-img">
                                 </div>
                             </div>
                             <div class="flip" id="page6">
                                 <div class="back">
-                                    <img src="../assets/images/carousel-images/carousel-2/image-3-1.jpg">
+                                    <img src="../assets/images/carousel-images/carousel-2/image-3-1.jpg" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-2/image-2-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-2/image-2-2.jpg" alt="aboutus-img">
                                 </div>
                             </div>
 
                             <div class="flip" id="page7">
                                 <div class="back">
-                                    <img src="../assets/images/carousel-images/carousel-2/image-4-1.jpg">
+                                    <img src="../assets/images/carousel-images/carousel-2/image-4-1.jpg" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-2/image-3-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-2/image-3-2.jpg" alt="aboutus-img">
                                 </div>
                             </div>
                             <div class="flip" id="page8">
                                 <div class="back">
-                                    <img src="">
+                                    <img src=""  alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-2/image-4-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-2/image-4-2.jpg" alt="aboutus-img">
                                 </div>
                             </div>
                         </div>
@@ -119,39 +119,39 @@
 
 
                     <div class="carousel-2">
-                        <div id="cover3"><img src="../assets/images/carousel-images/carousel-3/image-1-1.jpg"></div>
+                        <div id="cover3"><img src="../assets/images/carousel-images/carousel-3/image-1-1.jpg"  alt="aboutus-img"></div>
                         <div class="flip-book">
                             <div class="flip" id="page9">
                                 <div class="back">
-                                    <img src="../assets/images/carousel-images/carousel-3/image-2-1.jpg">
+                                    <img src="../assets/images/carousel-images/carousel-3/image-2-1.jpg"  alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-3/image-1-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-3/image-1-2.jpg" alt="aboutus-img">
                                 </div>
                             </div>
                             <div class="flip" id="page10">
                                 <div class="back">
-                                    <img src="../assets/images/carousel-images/carousel-3/image-3-1.jpg">
+                                    <img src="../assets/images/carousel-images/carousel-3/image-3-1.jpg" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-3/image-2-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-3/image-2-2.jpg" alt="aboutus-img">
                                 </div>
                             </div>
 
                             <div class="flip" id="page11">
                                 <div class="back">
-                                    <img src="../assets/images/carousel-images/carousel-3/image-4-1.jpg">
+                                    <img src="../assets/images/carousel-images/carousel-3/image-4-1.jpg" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-3/image-3-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-3/image-3-2.jpg" alt="aboutus-img">
                                 </div>
                             </div>
                             <div class="flip" id="page12">
                                 <div class="back">
-                                    <img src="">
+                                    <img src=""  alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-3/image-4-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-3/image-4-2.jpg"  alt="aboutus-img">
                                 </div>
                             </div>
                         </div>
@@ -163,39 +163,39 @@
                 <div class="column-2">
                     <div class="carousel-3">
 
-                        <div id="cover1"><img src="../assets/images/carousel-images/carousel-1/image-1-1.jpg"></div>
+                        <div id="cover1"><img src="../assets/images/carousel-images/carousel-1/image-1-1.jpg" alt="aboutus-img"></div>
                         <div class="flip-book">
                             <div class="flip" id="page1">
                                 <div class="back">
-                                    <img src="../assets/images/carousel-images/carousel-1/image-2-1.jpg">
+                                    <img src="../assets/images/carousel-images/carousel-1/image-2-1.jpg" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-1/image-1-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-1/image-1-2.jpg"  alt="aboutus-img">
                                 </div>
                             </div>
                             <div class="flip" id="page2">
                                 <div class="back">
-                                    <img src="../assets/images/carousel-images/carousel-1/image-3-1.jpg">
+                                    <img src="../assets/images/carousel-images/carousel-1/image-3-1.jpg" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-1/image-2-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-1/image-2-2.jpg" alt="aboutus-img">
                                 </div>
                             </div>
 
                             <div class="flip" id="page3">
                                 <div class="back">
-                                    <img src="../assets/images/carousel-images/carousel-1/image-4-1.jpg">
+                                    <img src="../assets/images/carousel-images/carousel-1/image-4-1.jpg" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-1/image-3-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-1/image-3-2.jpg" alt="aboutus-img">
                                 </div>
                             </div>
                             <div class="flip" id="page4">
                                 <div class="back">
-                                    <img src="">
+                                    <img src="" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="../assets/images/carousel-images/carousel-1/image-4-2.jpg" alt="">
+                                    <img src="../assets/images/carousel-images/carousel-1/image-4-2.jpg" alt="aboutus-img">
                                 </div>
                             </div>
                         </div>
@@ -209,8 +209,8 @@
         </div>
 
         <!-- absolute images -->
-        <img src="../assets/images/background2-pink.png" class="section-2-bg-img" alt="">
-        <img src="../assets/images/design-bg-pink.png" class="section-2-design-bg" alt="">
+        <img src="../assets/images/background2-pink.png" class="section-2-bg-img" alt="bg-design">
+        <img src="../assets/images/design-bg-pink.png" class="section-2-design-bg" alt="bg-design">
          
     </section>
 
@@ -221,7 +221,7 @@
             <h1>Feast With Telugu Aromas</h1>
             <h2></h2>
             <div class="menu-content">
-                <img src="../assets/images/menu-img.png" class="menu-bg" alt="">
+                <img src="../assets/images/menu-img.png" class="menu-bg" alt="menu-back">
                 <div class="menu-section">
                     <div class="menu-tabs" id="menu-tabs">
                         <button class="btn menu-tab-active" data-value="1">BASMATHI KAZANA</button>
@@ -235,7 +235,7 @@
 
                         <div class="menu-card" id="menu-card-1" style="display: block;">
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>SAADA BIRYANI</h5> <h5>&#8377;100</h5></div>
                                     <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
@@ -243,7 +243,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>GUTTIVANKAYA BIRYANI</h5> <h5>&#8377;100</h5></div>
                                     <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
@@ -251,7 +251,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>FRY PIECE CHCIKEN BIRYANI</h5> <h5>&#8377;100</h5></div>
                                     <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
@@ -259,7 +259,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>CHICKEN WINGS BIRYANI</h5> <h5>&#8377;100</h5></div>
                                     <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
@@ -267,7 +267,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>CHICKEN JOINT BIRYNAI
                                     </h5> <h5>&#8377;100</h5></div>
@@ -276,7 +276,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>GHEE ROAST CHICKEN TANGDI BIRYANI
                                     </h5> <h5>&#8377;100</h5></div>
@@ -285,7 +285,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>MUTTON  GHEE ROAST BIRYANI
                                     </h5> <h5>&#8377;100</h5></div>
@@ -294,7 +294,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>PRAWNS  BIRYANI
                                     </h5> <h5>&#8377;100</h5></div>
@@ -303,7 +303,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>GHEE KAJU CURD RICE
                                     </h5> <h5>&#8377;100</h5></div>
@@ -317,7 +317,7 @@
 
                         <div class="menu-card" id="menu-card-2"  style="display: none;">
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>KAJU KODI PAKODA (bone less)
                                     </h5> <h5>&#8377;100</h5></div>
@@ -326,7 +326,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>SPICY CHICKEN PAKODA (bone)
                                     </h5> <h5>&#8377;100</h5></div>
@@ -335,7 +335,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>SPICY CHICKEN PAKODA (bone less)
                                     </h5> <h5>&#8377;100</h5></div>
@@ -344,7 +344,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>PRAWNS PAKODA
                                     </h5> <h5>&#8377;100</h5></div>
@@ -358,7 +358,7 @@
 
                         <div class="menu-card" id="menu-card-3" style="display: none;">
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>MINERA WATER</h5> <h5>&#8377;100</h5></div>
                                     <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
@@ -366,7 +366,7 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="../assets/images/menu-items/item-1.png" alt="">
+                                <img src="../assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>BADAM PAALU</h5> <h5>&#8377;100</h5></div>
                                     <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
@@ -384,11 +384,11 @@
 
         <!-- absolute images -->
         <div class="banner-overlay"></div>
-        <img src="../assets/images/menu-bg-1.png" class="tur-bg-right" alt="">
-        <img src="../assets/images/menu-bg-2.png" class="tur-bg-left" alt="">
-        <img src="../assets/images/menu-bg-5.png" class="food-right" data-value="5" alt="">
-        <img src="../assets/images/menu-bg-6.png" class="food-left" data-value="-5" alt="">
-        <img src="../assets/images/design-bg-sq.png" class="design-bg" alt="">
+        <img src="../assets/images/menu-bg-1.png" class="tur-bg-right" alt="food-bg">
+        <img src="../assets/images/menu-bg-2.png" class="tur-bg-left" alt="food-bg">
+        <img src="../assets/images/menu-bg-5.png" class="food-right" data-value="5" alt="food-bg">
+        <img src="../assets/images/menu-bg-6.png" class="food-left" data-value="-5" alt="food-bg">
+        <img src="../assets/images/design-bg-sq.png" class="design-bg" alt="food-bg">
 
     </section>
     
@@ -400,10 +400,10 @@
             <h2 class="section-4-intro">stay tuned with</h2>
             <h1>our happenings</h1>
             <div class="carousel-main slick-carousel1" id="slick1">
-                    <div class="item"><img src="../assets/images/carousel2-images/image1.jpeg" alt=""></div>
-                    <div class="item"><img src="../assets/images/carousel2-images/image6.jpeg" alt=""></div>
-                    <div class="item"><img src="../assets/images/carousel2-images/image-2.jpeg" alt=""></div>
-                    <div class="item"><img src="../assets/images/carousel2-images/image3.jpeg" alt=""></div>
+                    <div class="item"><img src="../assets/images/carousel2-images/image1.jpeg" alt="Lateest news"></div>
+                    <div class="item"><img src="../assets/images/carousel2-images/image6.jpeg" alt="Lateest news"></div>
+                    <div class="item"><img src="../assets/images/carousel2-images/image-2.jpeg" alt="Lateest news"></div>
+                    <div class="item"><img src="../assets/images/carousel2-images/image3.jpeg" alt="Lateest news"></div>
                     
                     
                     

@@ -1,8 +1,8 @@
 <section class="section-footer smooth-scroll">
     <div class="subscribe-section">
-        <h1>SUBSCRIBE TO OFFERS AND DISCOUNTS</h1>
         <form class="subscribe-form" action="subscribe_form.php" method="post">
-            <input type="email"  name="email"> <button type="submit" >Subscribe Now</button>
+        <label for="emailSubscribe">SUBSCRIBE TO OFFERS AND DISCOUNTS</label>
+        <div class="subscribe-form-inner"><input type="email" id="emailSubscribe"  name="email"> <button type="submit" >Subscribe Now</button></div>
         </form>
     </div>
     <footer>
@@ -10,11 +10,11 @@
             <div class="column1">
                 <img src="../assets/images/logo-2.png" class="footer-logo" alt="">
                 <div id="footerSmIcons">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=61550250213516"><img src="../assets/images/sm-logo/fb.png" alt=""></a>
+                <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550250213516"><img src="../assets/images/sm-logo/fb.png" alt=""></a>
 
-                    <a target="_blank" href="https://www.instagram.com/teluguaromas/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><img src="../assets/images/sm-logo/insta.png" alt=""></a>
-                    <a target="_blank" href="https://twitter.com/TeluguAromas"><img src="../assets/images/sm-logo/twitter.png" alt=""></a>
-                    <a target="_blank" href="https://www.threads.net/@teluguaromas"><img src="../assets/images/sm-logo/threads.png" alt=""></a>
+                    <a target="_blank" aria-label="Our instagram" href="https://www.instagram.com/teluguaromas/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><img src="../assets/images/sm-logo/insta.png" alt=""></a>
+                    <a target="_blank" aria-label="our twitter" href="https://twitter.com/TeluguAromas"><img src="../assets/images/sm-logo/twitter.png" alt=""></a>
+                    <a target="_blank" aria-label="out Threads" href="https://www.threads.net/@teluguaromas"><img src="../assets/images/sm-logo/threads.png" alt=""></a>
                 </div>
                 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p> -->
             </div>
@@ -26,9 +26,9 @@
             </div>
             <div class="column">
             <!-- <h1>COMPANY</h1> -->
-            <a>Partnership</a>
-            <a >Term of Use</a>
-            <a>Site Map</a>
+            <p>Partnership</p>
+            <p>Term of Use</p>
+            <p>Site Map</p>
         </div>
 
         <div class="column">
@@ -36,7 +36,6 @@
             <a href="../pages/contact.php">Contact</a>
             <a href="tel:+919199579957">Call</a>
             <a href="mailto:catering@teluguaromas.com">E-mail</a>
-            <a></a>
         </div>
             
         </div>
@@ -47,7 +46,7 @@
 </section>
 
 <!-- Whats app icon -->
-<a href="https://wa.me/+919199579957" target="_blank"><i id="whatappIcon" class='bx bxl-whatsapp'></i></a>
+<a href="https://wa.me/+919199579957" aria-label="Chat us on whatsapp" target="_blank"><i id="whatappIcon" class='bx bxl-whatsapp'></i></a>
 
 <!-- social media icons for mobile -->
 <!-- <div class="social-icon-mobile">

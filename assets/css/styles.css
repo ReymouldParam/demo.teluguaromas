@@ -842,27 +842,28 @@ header{
 .subscribe-section{
     height: auto;
     background-color: var(--theme-color5);
-    padding: 1vh 35vh;
+    padding: 1vh 15vh;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
 }
 
 
-.subscribe-section > h1{
+.subscribe-section > form > label{
     color: #fff;
     font-size: 30px;
     font-family: var(--sub-heading-font);
     margin: 0;
+    width: 40%;
 }
 
 .subscribe-section>form{
     display: flex;
-    width: 50%;
+    width: 100%;
 
 }
 
-.subscribe-form > input{
+.subscribe-form> .subscribe-form-inner > input{
     background-color: rgba(0,0,0,0);
     border: #fff 3px solid;
     border-radius: 5px;
@@ -874,10 +875,15 @@ header{
     margin: 0 5px;
 }
 
-.subscribe-form > input:focus{
+.subscribe-form> .subscribe-form-inner{
+    display: flex;
+    width: 60%;
+}
+
+.subscribe-form> .subscribe-form-inner > input:focus{
     outline: 0;
 }
-.subscribe-form > button{
+.subscribe-form> .subscribe-form-inner > button{
     color: var(--theme-color5);
     font-family: var(--main-heading-font);
     padding:4px 30px;
@@ -931,12 +937,13 @@ footer{
     font-size: 25px;
 }
 
-.footer-inner > .column > a{
+.footer-inner > .column > a , .footer-inner > .column > p{
     color:var(--theme-color-logo2);
     text-decoration: none;
     font-family: var(--text-font);
     font-size: 13px;
     margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .footer-inner > .column > a:hover{
@@ -1455,7 +1462,7 @@ footer{
 
 
     .subscribe-section>form{
-        width: 50%;
+        width: 100%;
     
     }
     
@@ -1470,13 +1477,16 @@ footer{
         color: #fff;
     }
 
+    .subscribe-section > form > label{
+        width: 65%;
+    }
+
     .footer-inner > .column1 > img{
         height: 50px;
     }
 
     .footer-inner{
         width: 95%;
-        padding-top: 50px;
     }
     .footer-inner > .column1 >p{
         width: 90%;
@@ -1797,17 +1807,22 @@ footer{
         padding: 10px 20px;
         display: block;
     }
-    .subscribe-section > h1{
+    .subscribe-section > form > label{
         font-size: 20px;
         margin: 0;
+        width: 100%;
+    }
+
+    .subscribe-form> .subscribe-form-inner{
+        width: 100%;
     }
 
     .subscribe-section > form{
-        display: flex;
+        display: block;
         justify-content: space-between;
-        width: 90%;
+        width: 100%;
     }
-    .subscribe-form > input{
+    .subscribe-form> .subscribe-form-inner > input{
         width: 100%;
         margin-bottom: 0px;
         font-size: 14px;
@@ -1815,7 +1830,7 @@ footer{
         border-width: 2px;
         padding: 0;
     }
-    .subscribe-form > button{
+    .subscribe-form> .subscribe-form-inner > button{
         padding: 1px 10px;
         font-size: 12px;
         width:50%;
@@ -1843,7 +1858,7 @@ footer{
     .footer-inner > .column > h1{
         font-size: 18px;
     }
-    .footer-inner > .column > a{
+    .footer-inner > .column > a, .footer-inner > .column > p{
         font-size: 12px;
         margin-top: 3px;
     }
