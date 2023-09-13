@@ -8,9 +8,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     mail("contact@reymould.com",$subject,$message);
 
     if(mail("revanth.danduboina@reymould.com",$subject,$message)){
-        header("Location: home.php?success=trueSubscribe");
+        header("Location: .?success=trueSubscribe");
     }else{
-        header("Location: home.php?success=false");
+        header("Location: .?success=false");
     }
     exit;
 }

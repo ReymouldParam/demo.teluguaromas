@@ -2,27 +2,27 @@
     <div class="subscribe-section">
         <form class="subscribe-form" action="subscribe_form.php" method="post">
         <label for="emailSubscribe">SUBSCRIBE TO OFFERS AND DISCOUNTS</label>
-        <div class="subscribe-form-inner"><input type="email" id="emailSubscribe"  name="email"> <button type="submit" >Subscribe Now</button></div>
+        <div class="subscribe-form-inner"><input type="email" id="emailSubscribe"  name="email"> <button type="submit" >Subscribe</button></div>
         </form>
     </div>
     <footer>
         <div class="footer-inner">
             <div class="column1">
-                <img src="../assets/images/logo-2.png" class="footer-logo" alt="">
+                <img src="assets/images/logo-2.png" class="footer-logo" alt="">
                 <div id="footerSmIcons">
-                <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550250213516"><img src="../assets/images/sm-logo/fb.png" alt=""></a>
+                <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550250213516"><img src="assets/images/sm-logo/fb.png" alt=""></a>
 
-                    <a target="_blank" aria-label="Our instagram" href="https://www.instagram.com/teluguaromas/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><img src="../assets/images/sm-logo/insta.png" alt=""></a>
-                    <a target="_blank" aria-label="our twitter" href="https://twitter.com/TeluguAromas"><img src="../assets/images/sm-logo/twitter.png" alt=""></a>
-                    <a target="_blank" aria-label="out Threads" href="https://www.threads.net/@teluguaromas"><img src="../assets/images/sm-logo/threads.png" alt=""></a>
+                    <a target="_blank" aria-label="Our instagram" href="https://www.instagram.com/teluguaromas/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><img src="assets/images/sm-logo/insta.png" alt=""></a>
+                    <a target="_blank" aria-label="our twitter" href="https://twitter.com/TeluguAromas"><img src="assets/images/sm-logo/twitter.png" alt=""></a>
+                    <a target="_blank" aria-label="out Threads" href="https://www.threads.net/@teluguaromas"><img src="assets/images/sm-logo/threads.png" alt=""></a>
                 </div>
                 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p> -->
             </div>
             <div class="column">
                 <!-- <h1>ABOUT US</h1> -->
-                <a href="../pages/ourstory.php">About Us</a>
-                <a href="../pages/catering.php">Services</a>
-                <a href="../pages/franchise.php">Franchise</a>
+                <a href="ourstory.php">About Us</a>
+                <a href="catering.php">Services</a>
+                <a href="franchise.php">Franchise</a>
             </div>
             <div class="column">
             <!-- <h1>COMPANY</h1> -->
@@ -33,7 +33,7 @@
 
         <div class="column">
             <!-- <h1>CONTACT</h1> -->
-            <a href="../pages/contact.php">Contact</a>
+            <a href="contact.php">Contact</a>
             <a href="tel:+919199579957">Call</a>
             <a href="mailto:catering@teluguaromas.com">E-mail</a>
         </div>
@@ -52,18 +52,18 @@
 <!-- <div class="social-icon-mobile">
     <div class="icon-container">
         <div class="div">
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=61550250213516"><img src="../assets/images/sm-logo/fb.png" alt=""></a>
-            <a target="_blank" href="https://www.instagram.com/teluguaromas/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><img src="../assets/images/sm-logo/insta.png" alt=""></a>
-            <a target="_blank" href="https://twitter.com/TeluguAromas"><img src="../assets/images/sm-logo/twitter.png" alt=""></a>
-            <a target="_blank" href="https://www.threads.net/@teluguaromas"><img src="../assets/images/sm-logo/threads.png" alt=""></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=61550250213516"><img src="assets/images/sm-logo/fb.png" alt=""></a>
+            <a target="_blank" href="https://www.instagram.com/teluguaromas/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><img src="assets/images/sm-logo/insta.png" alt=""></a>
+            <a target="_blank" href="https://twitter.com/TeluguAromas"><img src="assets/images/sm-logo/twitter.png" alt=""></a>
+            <a target="_blank" href="https://www.threads.net/@teluguaromas"><img src="assets/images/sm-logo/threads.png" alt=""></a>
           </div>
     </div>
 </div> -->
 
 <!-- floating catering and franchise links -->
 <div id="floatingNavlinksMobile">
-    <a href="../pages/catering.php">Catering</a>
-    <a href="../pages/franchise.php">Franchise</a>
+    <a href="pages/catering.php">Catering</a>
+    <a href="pages/franchise.php">Franchise</a>
 </div>
 
 <!-- Form successMessage -->

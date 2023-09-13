@@ -9,10 +9,10 @@
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
 
     <?php 
-    include '../includes/header-links.php';
+    include 'includes/header-links.php';
     ?>
 
-    <link rel="stylesheet" href="../assets/css/franchise.css">
+    <link rel="stylesheet" href="assets/css/franchise.css">
 
     
 
@@ -31,7 +31,7 @@
     <!-- header section -->
 
     <?php 
-    include '../includes/header.php';
+    include 'includes/header.php';
     ?>
 
 
@@ -43,20 +43,20 @@
 
         <div class="franchise-section-2">
           <div class="image-section2">
-            <img src="../assets/images/franchise.png" alt="">
+            <img src="assets/images/franchise.png" alt="">
           </div>
           <div class="image-section2">
             <div class="ppt-carousel">
-              <div class="ppt-item"><img src="../assets/images/ppt/5.jpg" alt=""></div>
-              <div class="ppt-item"><img src="../assets/images/ppt/1.jpg" alt=""></div>
-              <div class="ppt-item"><img src="../assets/images/ppt/2.jpg" alt=""></div>
-              <div class="ppt-item"><img src="../assets/images/ppt/3.jpg" alt=""></div>
-              <div class="ppt-item"><img src="../assets/images/ppt/4.jpg" alt=""></div>
+              <div class="ppt-item"><img src="assets/images/ppt/5.jpg" alt=""></div>
+              <div class="ppt-item"><img src="assets/images/ppt/1.jpg" alt=""></div>
+              <div class="ppt-item"><img src="assets/images/ppt/2.jpg" alt=""></div>
+              <div class="ppt-item"><img src="assets/images/ppt/3.jpg" alt=""></div>
+              <div class="ppt-item"><img src="assets/images/ppt/4.jpg" alt=""></div>
             </div>
           </div>
         </div>
         <div class="franchise-overlay-green"></div>
-        <img src="../assets/images/design-bg-sq.png" class="design-bg" alt="">
+        <img src="assets/images/design-bg-sq.png" class="design-bg" alt="">
       </div>
 
 
@@ -117,7 +117,7 @@
       
       <div class="section-4-container">
         <div class="section-4-column">
-          <img src="../assets/images/franchise-2.png" alt="">
+          <img src="assets/images/franchise-2.png" alt="">
           <h2>Franchise-owned</h2>
           <ul>
             <li>Centralized Supply Chain</li>
@@ -132,11 +132,11 @@
         </div>
   
         <div class="section-4-column">
-          <img src="../assets/images/franchise-1.png" alt="" class="center-column-img">
+          <img src="assets/images/franchise-1.png" alt="" class="center-column-img">
         </div>
   
         <div class="section-4-column">
-          <img src="../assets/images/franchise-3.png" alt="">
+          <img src="assets/images/franchise-3.png" alt="">
   
           <h2>MULTI-UNIT</h2>
           <ul>
@@ -192,10 +192,10 @@
         <!-- footer section -->
 
         <?php
-        include '../includes/footer.php';
+        include 'includes/footer.php';
         ?>
 
-<script src="../assets/js/franchise.js"></script>
-<script src="../assets/js/global.js"></script>
+<script src="assets/js/franchise.js"></script>
+<script src="assets/js/global.js"></script>
 </body>
 </html>

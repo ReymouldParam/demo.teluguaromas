@@ -9,10 +9,10 @@
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
 
     <?php 
-    include '../includes/header-links.php';
+    include 'includes/header-links.php';
     ?>
 
-    <link rel="stylesheet" href="../assets/css/location.css">
+    <link rel="stylesheet" href="assets/css/location.css">
 
 
                 
@@ -30,7 +30,7 @@
     <!-- header section -->
 
     <?php 
-    include '../includes/header.php';
+    include 'includes/header.php';
     ?>
 
 
@@ -72,10 +72,10 @@
     <!-- footer section -->
 
     <?php
-    include '../includes/footer.php';
+    include 'includes/footer.php';
     ?>
 
-<script src="../assets/js/location.js"></script>
-<script src="../assets/js/global.js"></script>
+<script src="assets/js/location.js"></script>
+<script src="assets/js/global.js"></script>
 </body>
 </html>

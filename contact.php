@@ -9,10 +9,10 @@
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
 
     <?php 
-    include '../includes/header-links.php';
+    include 'includes/header-links.php';
     ?>
 
-    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
 
     
 
@@ -31,7 +31,7 @@
     <!-- header section -->
 
     <?php 
-    include '../includes/header.php';
+    include 'includes/header.php';
     ?>
 
     <section class="contact-container utility-background-property">
@@ -67,7 +67,7 @@
               <button type="submit">Send</button>
           </form>
         </div>
-        <img src="../assets/images/design-bg-sq.png" class="design-bg" alt="">
+        <img src="assets/images/design-bg-sq.png" class="design-bg" alt="">
         <div class="contact-overlay-green"></div>
     </section>
 
@@ -76,11 +76,11 @@
         <!-- footer section -->
 
         <?php
-        include '../includes/footer.php';
+        include 'includes/footer.php';
         ?>
 
 
-<!-- <script src="../assets/js/contact.js"></script> -->
-<script src="../assets/js/global.js"></script>
+<!-- <script src="assets/js/contact.js"></script> -->
+<script src="assets/js/global.js"></script>
 </body>
 </html>

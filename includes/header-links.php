@@ -14,9 +14,9 @@
 
 <!-- styles steets -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<link rel="stylesheet" href="../assets/css/animation.css">
-<link rel="stylesheet" href="../assets/css/global.css">
-<link rel="stylesheet" href="../assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/animation.css">
+<link rel="stylesheet" href="assets/css/global.css">
+<link rel="stylesheet" href="assets/css/styles.css">
 
 <!-- font families -->
 
@@ -25,7 +25,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Poppins:wght@400&family=Rozha+One&display=swap" rel="stylesheet">
 
 <!-- favicon -->
-<link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
 
 <!-- Cache use is disabled by following meta tags
 Only enable during development
