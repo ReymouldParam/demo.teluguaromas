@@ -1,7 +1,7 @@
 <header id="stickyheaders">
         <nav id="headerInner" class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" aria-label="Header logo" href="pages/home.php"><img id="header-logo" src="assets/images/logo-2.png" alt="header_logo"></a>
+              <a class="navbar-brand" aria-label="Header logo" href="."><img id="header-logo" src="assets/images/logo-2.png" alt="header_logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class='bx bx-menu'></i>
               </button>
@@ -11,19 +11,19 @@
                             <a class="nav-link" aria-current="page" href=".">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="ourstory.php">OUR STORY</a>
+                            <a class="nav-link" aria-current="page" href="ourstory">OUR STORY</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="catering.php">CATERING</a>
+                            <a class="nav-link" aria-current="page" href="catering">CATERING</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="franchise.php">FRANCHISE</a>
+                            <a class="nav-link " aria-current="page" href="franchise">FRANCHISE</a>
                         </li>
                         <!-- <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="location.php">LOCATION</a>
+                            <a class="nav-link" aria-current="page" href="location">LOCATION</a>
                           </li> -->
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="contact.php">CONTACT US</a>
+                            <a class="nav-link " aria-current="page" href="contact">CONTACT US</a>
                         </li>
                         <li class="nav-item" style="padding:0;">
                             <div class="social-icon-mobile">

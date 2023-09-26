@@ -20,9 +20,9 @@
             </div>
             <div class="column">
                 <!-- <h1>ABOUT US</h1> -->
-                <a href="ourstory.php">About Us</a>
-                <a href="catering.php">Services</a>
-                <a href="franchise.php">Franchise</a>
+                <a href="ourstory">About Us</a>
+                <a href="catering">Services</a>
+                <a href="franchise">Franchise</a>
             </div>
             <div class="column">
             <!-- <h1>COMPANY</h1> -->
@@ -33,7 +33,7 @@
 
         <div class="column">
             <!-- <h1>CONTACT</h1> -->
-            <a href="contact.php">Contact</a>
+            <a href="contact">Contact</a>
             <a href="tel:+919199579957">Call</a>
             <a href="mailto:catering@teluguaromas.com">E-mail</a>
         </div>
@@ -62,8 +62,8 @@
 
 <!-- floating catering and franchise links -->
 <div id="floatingNavlinksMobile">
-    <a href="pages/catering.php">Catering</a>
-    <a href="pages/franchise.php">Franchise</a>
+    <a href="catering">Catering</a>
+    <a href="franchise">Franchise</a>
 </div>
 
 <!-- Form successMessage -->

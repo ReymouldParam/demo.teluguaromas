@@ -10,14 +10,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 "\nRelated to : " . $_POST["category"].
                 "\nMessage : " . $_POST["message"];
 
-    mail($to, $subject, $message);
-    mail("revanth.danduboina@reymould.com",$subject,$message);
     
-
-    if(mail("revanth.danduboina@reymould.com",$subject,$message)){
-        header("Location: contact.php?success=true");
+    if(mail($to, $subject, $message)){
+        header("Location: contact?success=true");
     }else{
-        header("Location: contact.php?success=false");
+        header("Location: contact?success=false");
     }
     exit;
 }

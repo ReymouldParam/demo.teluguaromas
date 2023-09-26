@@ -7,16 +7,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 "\nType of catering : " . $_POST["category"].
                 "\nLocation : " . $_POST["location"].
                 "\nDate : " . $_POST["date"];
-    mail($to, $subject, $message);
-    mail("revanth.danduboina@reymould.com",$subject,$message);
-    mail("contact@reymould.com",$subject,$message);
 
-    if(mail("revanth.danduboina@reymould.com",$subject,$message)){
-        header("Location: catering.php?success=true");
+    if(mail($to, $subject, $message)){
+        header("Location: catering?success=true");
     }else{
-        header("Location: catering.php?success=false");
+        header("Location: catering?success=false");
     }
-
-    
 }
 ?>

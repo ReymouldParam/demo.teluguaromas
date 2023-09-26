@@ -8,10 +8,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 "\nMessage : " . $_POST["message"];
 
     mail($to, $subject, $message);
-    mail("revanth.danduboina@reymould.com",$subject,$message);
-    mail("contact@reymould.com",$subject,$message);
 
-    header("Location: franchise.php?success=true");
+    header("Location: franchise?success=true");
     
     exit;
 }
