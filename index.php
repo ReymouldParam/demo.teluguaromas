@@ -79,31 +79,31 @@
 
 
                     <div class="carousel-1">
-                        <div id="cover2"><img src="assets/images/carousel-images/carousel-2/image-1-1.jpg" alt="aboutus-img"></div>
+                        <div id="cover2"><img src="assets/images/carousel-images/carousel-2/image-1-1.png" alt="aboutus-img"></div>
                         <div class="flip-book">
                             <div class="flip" id="page5">
                                 <div class="back">
-                                    <img src="assets/images/carousel-images/carousel-2/image-2-1.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-2/image-2-1.png" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="assets/images/carousel-images/carousel-2/image-1-2.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-2/image-1-2.png" alt="aboutus-img">
                                 </div>
                             </div>
                             <div class="flip" id="page6">
                                 <div class="back">
-                                    <img src="assets/images/carousel-images/carousel-2/image-3-1.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-2/image-3-1.png" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="assets/images/carousel-images/carousel-2/image-2-2.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-2/image-2-2.png" alt="aboutus-img">
                                 </div>
                             </div>
 
                             <div class="flip" id="page7">
                                 <div class="back">
-                                    <img src="assets/images/carousel-images/carousel-2/image-4-1.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-2/image-4-1.png" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="assets/images/carousel-images/carousel-2/image-3-2.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-2/image-3-2.png" alt="aboutus-img">
                                 </div>
                             </div>
                             <div class="flip" id="page8">
@@ -111,7 +111,7 @@
                                     <img src=""  alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="assets/images/carousel-images/carousel-2/image-4-2.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-2/image-4-2.png" alt="aboutus-img">
                                 </div>
                             </div>
                         </div>
@@ -119,31 +119,31 @@
 
 
                     <div class="carousel-2">
-                        <div id="cover3"><img src="assets/images/carousel-images/carousel-3/image-1-1.jpg"  alt="aboutus-img"></div>
+                        <div id="cover3"><img src="assets/images/carousel-images/carousel-3/image-1-1.png"  alt="aboutus-img"></div>
                         <div class="flip-book">
                             <div class="flip" id="page9">
                                 <div class="back">
-                                    <img src="assets/images/carousel-images/carousel-3/image-2-1.jpg"  alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-3/image-2-1.png"  alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="assets/images/carousel-images/carousel-3/image-1-2.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-3/image-1-2.png" alt="aboutus-img">
                                 </div>
                             </div>
                             <div class="flip" id="page10">
                                 <div class="back">
-                                    <img src="assets/images/carousel-images/carousel-3/image-3-1.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-3/image-3-1.png" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="assets/images/carousel-images/carousel-3/image-2-2.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-3/image-2-2.png" alt="aboutus-img">
                                 </div>
                             </div>
 
                             <div class="flip" id="page11">
                                 <div class="back">
-                                    <img src="assets/images/carousel-images/carousel-3/image-4-1.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-3/image-4-1.png" alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="assets/images/carousel-images/carousel-3/image-3-2.jpg" alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-3/image-3-2.png" alt="aboutus-img">
                                 </div>
                             </div>
                             <div class="flip" id="page12">
@@ -151,7 +151,7 @@
                                     <img src=""  alt="aboutus-img">
                                 </div>
                                 <div class="front">
-                                    <img src="assets/images/carousel-images/carousel-3/image-4-2.jpg"  alt="aboutus-img">
+                                    <img src="assets/images/carousel-images/carousel-3/image-4-2.png"  alt="aboutus-img">
                                 </div>
                             </div>
                         </div>
@@ -386,8 +386,8 @@
         <div class="banner-overlay"></div>
         <img src="assets/images/menu-bg-1.png" class="tur-bg-right" alt="food-bg">
         <img src="assets/images/menu-bg-2.png" class="tur-bg-left" alt="food-bg">
-        <img src="assets/images/menu-bg-5.png" class="food-right" data-value="5" alt="food-bg">
-        <img src="assets/images/menu-bg-6.png" class="food-left" data-value="-5" alt="food-bg">
+        <img src="assets/images/home-banner/6.png" class="food-right" data-value="5" alt="food-bg">
+        <img src="assets/images/home-banner/2.png" class="food-left" data-value="-5" alt="food-bg">
         <img src="assets/images/design-bg-sq.png" class="design-bg" alt="food-bg">
 
     </section>

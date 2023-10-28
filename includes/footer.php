@@ -10,11 +10,11 @@
             <div class="column1">
                 <img src="assets/images/logo-2.png" class="footer-logo" alt="">
                 <div id="footerSmIcons">
-                <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550250213516"><img src="assets/images/sm-logo/fb.png" alt=""></a>
+                <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550737452869"><img src="assets/images/sm-logo/fb.png" alt=""></a>
 
-                    <a target="_blank" aria-label="Our instagram" href="https://www.instagram.com/teluguaromas/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><img src="assets/images/sm-logo/insta.png" alt=""></a>
+                    <a target="_blank" aria-label="Our instagram" href="https://instagram.com/telugu_aromas?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><img src="assets/images/sm-logo/insta.png" alt=""></a>
                     <a target="_blank" aria-label="our twitter" href="https://twitter.com/TeluguAromas"><img src="assets/images/sm-logo/twitter.png" alt=""></a>
-                    <a target="_blank" aria-label="out Threads" href="https://www.threads.net/@teluguaromas"><img src="assets/images/sm-logo/threads.png" alt=""></a>
+                    <a target="_blank" aria-label="out Threads" href="https://www.threads.net/@telugu_aromas"><img src="assets/images/sm-logo/threads.png" alt=""></a>
                 </div>
                 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p> -->
             </div>
@@ -46,16 +46,16 @@
 </section>
 
 <!-- Whats app icon -->
-<a href="https://wa.me/+919199579957" aria-label="Chat us on whatsapp" target="_blank"><i id="whatappIcon" class='bx bxl-whatsapp'></i></a>
+<a href="https://wa.me/+918367616761" aria-label="Chat us on whatsapp" target="_blank"><i id="whatappIcon" class='bx bxl-whatsapp'></i></a>
 
 <!-- social media icons for mobile -->
 <!-- <div class="social-icon-mobile">
     <div class="icon-container">
         <div class="div">
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=61550250213516"><img src="assets/images/sm-logo/fb.png" alt=""></a>
-            <a target="_blank" href="https://www.instagram.com/teluguaromas/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><img src="assets/images/sm-logo/insta.png" alt=""></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=61550737452869"><img src="assets/images/sm-logo/fb.png" alt=""></a>
+            <a target="_blank" href="https://instagram.com/telugu_aromas?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><img src="assets/images/sm-logo/insta.png" alt=""></a>
             <a target="_blank" href="https://twitter.com/TeluguAromas"><img src="assets/images/sm-logo/twitter.png" alt=""></a>
-            <a target="_blank" href="https://www.threads.net/@teluguaromas"><img src="assets/images/sm-logo/threads.png" alt=""></a>
+            <a target="_blank" href="https://www.threads.net/@telugu_aromas"><img src="assets/images/sm-logo/threads.png" alt=""></a>
           </div>
     </div>
 </div> -->

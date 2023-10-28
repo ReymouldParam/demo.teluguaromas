@@ -38,12 +38,11 @@
 
       <div class="contact-details-container">
         <i class='bx bxs-map'></i>
-        <p>Plot no 109, NCL Enclave, <br>Lane Beside Balaji Hospital (Now Renova),<br> New Water Tank, Petbasheerabad,<br>Kompally - 500 014.</p>
+        <p>Sy No 105/F, H No 2-14/1 <br>Shiva Reddy Godowns North NCL,<br> NH44, Near Cine Planet,<br>Kompally, Hyderabad-500014.</p>
         <i class='bx bxs-phone-call'></i>
-        <p>+91 91 9957 9957</p>
+        <p>Restaurant : +91 83 6761 6761<br>Catering : +91 91 9957 9957 <br>Franchising : +91 83 6760 6760</p>
         <i class='bx bxs-envelope'></i>
-        <p style="margin: 0;">catering@teluguaromas.com</p>
-        <p>contact@teluguaromas.com</p>
+        <p style="margin: 0;">catering@teluguaromas.com <br>contact@teluguaromas.com</p>
       </div>
 
 

@@ -102,7 +102,7 @@ header{
     background-image: url(../images/hanging-1.png);
     background-size: 100% 100%;
     animation: waveLeftRight 5s linear infinite;
-    transform-origin: 60px 4px;
+    transform-origin: 50% 4px;
     &:hover {
         animation-play-state: paused;
       }
@@ -249,47 +249,48 @@ header{
 }
 
 .section-1 > .banner-food-2{
-    bottom: -8px;
-    left:-8px;
+    bottom: -50px;
+    left:-50px;
     height: 45%;
     animation: moveMenuImg 15s linear infinite ;
 }
 
 .section-1 > .banner-food-6{
-    bottom: -8px;
-    right: -8px;
+    bottom: -50px;
+    right: -50px;
     height: 45%;
     animation: moveMenuImg 15s linear infinite reverse;
 }
 
 .section-1 > .banner-food-5{
-    bottom: 0;
-    right:15%;
-    height: 35%;
+    bottom: -15px;
+    right:16%;
+    height: 24%;
 }
 
 .section-1 > .banner-food-3{
-    bottom: 0;
+    bottom: -50px;
     left: 20%;
-    height: 20%;
+    height: 25%;
 }
 
 .section-1 > .banner-food-1{
     bottom: 2%;
     right:50%;
-    height: 25%;
+    height: 20%;
 }
 
 .section-1 > .banner-food-4{
-    bottom: 0;
+    bottom: -5%;
     right:40%;
-    height: 20%;
+    height: 30%;
+    rotate: -25deg;
 }
 
 .section-1 > .banner-food-7{
-    right: 30%;
-    bottom: 10%;
-    height: 20%;
+    right: 20%;
+    bottom: 18%;
+    height: 15%;
 }
 
 .section-1 > .banner-food-8{
@@ -328,6 +329,7 @@ header{
 .section-2-content{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 85%;
     height: 80%;
     margin: auto;
@@ -1571,9 +1573,9 @@ footer{
     }
 
     .section-1 > .banner-food-5{
-        bottom: 0;
-        right:20%;
-        height: 20%;
+        bottom: -10px;
+    right: 15%;
+    height: 20%;
     }
 
     .section-1 > .banner-food-3{
@@ -1585,9 +1587,9 @@ footer{
 
     .section-1 > .banner-food-1{
         bottom: 5%;
-        right:35%;
-        height: 25%;
-        z-index: 4;
+    right: 53%;
+    height: 19%;
+    z-index: 4;
     }
 
     .section-1 > .banner-food-4{
