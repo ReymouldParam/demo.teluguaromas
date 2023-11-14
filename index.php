@@ -237,77 +237,84 @@
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>SAADA BIRYANI</h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>BIRYANI CHAWAL WITH VEG DALCHA</h5> <h5>&#8377;99</h5></div>
+                                    <p>Biriyani with delicious veg dalcha along with sides.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>GUTTIVANKAYA BIRYANI</h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>CHITTIMUTYALA PULAV WITH GONGURA KATTA</h5> <h5>&#8377;99</h5></div>
+                                    <p>Spl chittimutalaya pulav with gongura katta</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>FRY PIECE CHCIKEN BIRYANI</h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>CURD RICE</h5> <h5>&#8377;99</h5></div>
+                                    <p>Made with freshly formed curd and enriching aroma. </p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHICKEN WINGS BIRYANI</h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>SOYA KEEMA BIRYANI / PULAV</h5> <h5>&#8377;149</h5></div>
+                                    <p>Spl soya kheema biriyani made to build a uniqueness in flavour</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHICKEN JOINT BIRYNAI
-                                    </h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>BAIGAN KI BIRYANI</h5> <h5>&#8377;149</h5></div>
+                                    <p>Spl baigan ki biriyani made to build a uniqueness in flavour </p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>GHEE ROAST CHICKEN TANGDI BIRYANI
-                                    </h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>CHICKEN FRY PIECE BIRYANI / PULAV</h5> <h5>&#8377;179</h5></div>
+                                    <p>Classic chicken fry piece biriyani with the uniqueness of our pulavs. </p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>MUTTON  GHEE ROAST BIRYANI
-                                    </h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>CHICKEN  JOINT BIRYANI / PULAV
+                                    </h5> <h5>&#8377;229</h5></div>
+                                    <p>A delightful blend of seasoned chicken and aromatic rice.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>PRAWNS  BIRYANI
-                                    </h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>GHEE ROAST MUTTON BIRYANI / PULAV
+                                    </h5> <h5>&#8377;349</h5></div>
+                                    <p>A savory delight of rich flavors and tender meat.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>GHEE KAJU CURD RICE
-                                    </h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>NALLI BOKKALA BIRYANI / PULAV
+                                    </h5> <h5>&#8377;349</h5></div>
+                                    <p>An exquisite blend of succulent meat and aromatic rice.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.png" alt="menu-item">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>ROYYALA BIRYANI /PULAV
+                                    </h5> <h5>&#8377;349</h5></div>
+                                    <p>A delectable union of flavorful prawns and fragrant rice</p>
                                 </div>
                             </div>
 
@@ -320,8 +327,8 @@
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>KAJU KODI PAKODA (bone less)
-                                    </h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    </h5> <h5>&#8377;219</h5></div>
+                                    <p>a crunchy delight featuring cashew-coated boneless chicken bites.</p>
                                 </div>
                             </div>
 
@@ -329,17 +336,17 @@
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>SPICY CHICKEN PAKODA (bone)
-                                    </h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    </h5> <h5>&#8377;189</h5></div>
+                                    <p>a zesty and crispy chicken snack with bold flavors.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>SPICY CHICKEN PAKODA (bone less)
-                                    </h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>SOYA KEEMA BALLS (8PCS)
+                                    </h5> <h5>&#8377;149</h5></div>
+                                    <p>Protein-packed vegetarian delight.</p>
                                 </div>
                             </div>
 
@@ -347,8 +354,8 @@
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>PRAWNS PAKODA
-                                    </h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    </h5> <h5>&#8377;299</h5></div>
+                                    <p>Crispy and flavorful fried prawns, a delightful seafood snack. </p>
                                 </div>
                             </div>
 
@@ -360,16 +367,16 @@
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>MINERA WATER</h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>MINERA WATER</h5> <h5>&#8377;50</h5></div>
+                                    <!-- <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p> -->
                                 </div>
                             </div>
 
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>BADAM PAALU</h5> <h5>&#8377;100</h5></div>
-                                    <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                                    <div class="menu-item-details"><h5>BADAM PAALU</h5> <h5>&#8377;79</h5></div>
+                                    <p>a dairy-free, nutty alternative with a light and creamy texture. </p>
                                 </div>
                             </div>
 

@@ -704,6 +704,7 @@ header{
     font-family: var(--text-font);
     color: #737373;
     font-size: 12px;
+    text-transform: capitalize;
 }
 
 /*************************/
