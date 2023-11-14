@@ -12,8 +12,8 @@
                 <div id="footerSmIcons">
                 <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550737452869"><img src="assets/images/sm-logo/fb.png" alt=""></a>
 
-                    <a target="_blank" aria-label="Our instagram" href="https://instagram.com/telugu_aromas?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><img src="assets/images/sm-logo/insta.png" alt=""></a>
-                    <a target="_blank" aria-label="our twitter" href="https://twitter.com/TeluguAromas"><img src="assets/images/sm-logo/twitter.png" alt=""></a>
+                    <a target="_blank" aria-label="Our instagram" href="https://instagram.com/telugu_aromas?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><img src="assets/images/sm-logo/insta.png" alt="logo"></a>
+                    <a target="_blank" aria-label="our twitter" href="https://www.youtube.com/channel/UCaHxvSy_XUrWP9vovhTKQWA"><img src="assets/images/sm-logo/youtube.png" alt="logo"></a>
                     <a target="_blank" aria-label="out Threads" href="https://www.threads.net/@telugu_aromas"><img src="assets/images/sm-logo/threads.png" alt=""></a>
                 </div>
                 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p> -->
