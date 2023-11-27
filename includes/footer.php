@@ -8,7 +8,7 @@
     <footer>
         <div class="footer-inner">
             <div class="column1">
-                <img src="assets/images/logo-2.png" class="footer-logo" alt="">
+                <img src="assets/images/logo-3.webp" class="footer-logo" alt="">
                 <div id="footerSmIcons">
                 <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550737452869"><img src="assets/images/sm-logo/fb.png" alt=""></a>
 
