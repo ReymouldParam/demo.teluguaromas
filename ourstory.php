@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJ44HW6J31"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RJ44HW6J31');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Telugu Biryani & Pulav Restaurant in Kompally, Hyderabad</title>
@@ -71,7 +81,7 @@
       <img src="assets/images/home-banner/4.png" class="banner-food banner-food-4" alt="">
       <img src="assets/images/home-banner/5.png" class="banner-food banner-food-5" alt="">
       <img src="assets/images/home-banner/6.png" class="banner-food banner-food-6" alt="">
-      <img src="assets/images/home-banner/7.png" class="banner-food banner-food-7 moveObj" data-value="3" alt="">
+      <!-- <img src="assets/images/home-banner/7.png" class="banner-food banner-food-7 moveObj" data-value="3" alt=""> -->
 
     </section>
 
