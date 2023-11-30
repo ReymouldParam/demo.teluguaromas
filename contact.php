@@ -78,7 +78,7 @@
               <button type="submit">Send</button>
           </form>
         </div>
-        <img src="assets/images/design-bg-sq.png" class="design-bg" alt="">
+        <img src="assets/images/design-bg-sq.webp" class="design-bg" alt="">
         <div class="contact-overlay-green"></div>
     </section>
 

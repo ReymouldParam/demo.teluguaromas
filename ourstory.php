@@ -61,10 +61,10 @@
           <p id="ourstoryPara4"></p>
         </div>
         <!-- <p id="ourstoryPara2"></p> -->
-        <!-- <img class="ourstory-img moveObj" data-value="4" src="assets/images/ourstory-1.png" alt=""> -->
+        <!-- <img class="ourstory-img moveObj" data-value="4" src="assets/images/ourstory-1.webp" alt=""> -->
         <!-- <p class="ourstory-text">Telugu Aromas, your destination for delicious Bagara Rice and authentic Telangana and Andhra-style curries. We believe in the power of food to create memorable experiences. Our passion for sharing unique flavors led us to curate a menu of mouthwatering non-vegetarian curries, prepared with utmost care and attention.We also provide outstanding catering services that highlight the authentic flavors of Andhra's and Telangana’s culinary heritage.</p> -->
         <div class="ourstory-overlay-green"></div>
-        <img src="assets/images/design-bg-sq.png" class="design-bg" alt="">
+        <img src="assets/images/design-bg-sq.webp" class="design-bg" alt="">
       </div>
 
       <!-- <div class="ourstory-banner-para">
@@ -73,15 +73,15 @@
       </div> -->
 
       <!-- absoulute images -->
-      <img src="assets/images/home-banner/8.png" class="banner-food banner-food-8" alt="">
-      <img src="assets/images/home-banner/9.png" class="banner-food banner-food-9" alt="">
-      <img src="assets/images/home-banner/1.png" class="banner-food banner-food-1 moveObj" data-value="7" alt="">
-      <img src="assets/images/home-banner/2.png" class="banner-food banner-food-2" alt="">
-      <img src="assets/images/home-banner/3.png" class="banner-food banner-food-3" alt="">
-      <img src="assets/images/home-banner/4.png" class="banner-food banner-food-4" alt="">
-      <img src="assets/images/home-banner/5.png" class="banner-food banner-food-5" alt="">
-      <img src="assets/images/home-banner/6.png" class="banner-food banner-food-6" alt="">
-      <!-- <img src="assets/images/home-banner/7.png" class="banner-food banner-food-7 moveObj" data-value="3" alt=""> -->
+      <img src="assets/images/home-banner/8.webp" class="banner-food banner-food-8" alt="">
+      <img src="assets/images/home-banner/9.webp" class="banner-food banner-food-9" alt="">
+      <img src="assets/images/home-banner/1.webp" class="banner-food banner-food-1 moveObj" data-value="7" alt="">
+      <img src="assets/images/home-banner/2.webp" class="banner-food banner-food-2" alt="">
+      <img src="assets/images/home-banner/3.webp" class="banner-food banner-food-3" alt="">
+      <img src="assets/images/home-banner/4.webp" class="banner-food banner-food-4" alt="">
+      <img src="assets/images/home-banner/5.webp" class="banner-food banner-food-5" alt="">
+      <img src="assets/images/home-banner/6.webp" class="banner-food banner-food-6" alt="">
+      <!-- <img src="assets/images/home-banner/7.webp" class="banner-food banner-food-7 moveObj" data-value="3" alt=""> -->
 
     </section>
 
@@ -109,7 +109,7 @@
 
       </ul>  
 
-      <img class="section-2-img-1 moveObj" data-value="4" src="assets/images/ourstory-1.png" alt="">
+      <img class="section-2-img-1 moveObj" data-value="4" src="assets/images/ourstory-1.webp" alt="">
     </section>
 
     <section class="ourstory-section-3 utility-background-property">
@@ -117,7 +117,7 @@
       <h1 class="section-3-main-heading">Our Core Values</h1>
       <div class="section-3-container">
         <div class="image-section">
-          <img src="assets/images/ourstory-2.jpg" alt="">
+          <img src="assets/images/ourstory-2.webp" alt="">
         </div>
         <div class="info-section">
           <div class="info-item">

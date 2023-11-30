@@ -105,7 +105,7 @@
 
              <!-- green-overlay -->
              <div class="catering-overlay-green"></div>
-             <img src="assets/images/design-bg-sq.png" class="design-bg" alt="">
+             <img src="assets/images/design-bg-sq.webp" class="design-bg" alt="">
         </div>
 
         <!-- drop down section -->
@@ -335,13 +335,13 @@
           <h1 class="catering-gallery-heading">Our Gallery</h1>
           <div class="gallery-container" id="cateringCarousel">
              <div class="gallery-catering-item">
-              <img src="assets/images/carousel3-images/2.png" alt="">
-              <img src="assets/images/carousel3-images/1.png" alt="">
+              <img src="assets/images/carousel3-images/2.webp" alt="">
+              <img src="assets/images/carousel3-images/1.webp" alt="">
             </div>
 
              <div class="gallery-catering-item">
-              <img src="assets/images/carousel3-images/3.png" alt="">
-              <img src="assets/images/carousel3-images/4.png" alt="">
+              <img src="assets/images/carousel3-images/3.webp" alt="">
+              <img src="assets/images/carousel3-images/4.webp" alt="">
             </div>
 
             <div class="gallery-catering-item">
@@ -354,13 +354,13 @@
             </div>
 
              <div class="gallery-catering-item">
-              <img src="assets/images/carousel3-images/2.png" alt="">
-              <img src="assets/images/carousel3-images/1.png" alt="">
+              <img src="assets/images/carousel3-images/2.webp" alt="">
+              <img src="assets/images/carousel3-images/1.webp" alt="">
             </div>
 
              <div class="gallery-catering-item">
-              <img src="assets/images/carousel3-images/3.png" alt="">
-              <img src="assets/images/carousel3-images/4.png" alt="">
+              <img src="assets/images/carousel3-images/3.webp" alt="">
+              <img src="assets/images/carousel3-images/4.webp" alt="">
             </div>
 
             <div class="gallery-catering-item">
@@ -377,9 +377,9 @@
           <div class="catering-overlay-green"></div>
         </div>
 
-    <img src="assets/images/platform.png" class="floatdiv platform" alt="">
-    <img src="assets/images/waiter-1.png" class="floatdiv waiter-1" alt="">
-    <img src="assets/images/waiter-2.png" class="floatdiv waiter-2" alt="">
+    <img src="assets/images/platform.webp" class="floatdiv platform" alt="">
+    <img src="assets/images/waiter-1.webp" class="floatdiv waiter-1" alt="">
+    <img src="assets/images/waiter-2.webp" class="floatdiv waiter-2" alt="">
 
 
     
@@ -389,10 +389,10 @@
         <h2 class="section-4-intro">stay tuned with</h2>
         <h1>our happenings</h1>
           <div class="carousel-main slick-carousel1" id="slick1">
-                  <div class="item"><img src="assets/images/carousel2-images/image-2.jpeg" alt=""></div>
-                  <div class="item"><img src="assets/images/carousel2-images/image3.jpeg" alt=""></div>
-                  <div class="item"><img src="assets/images/carousel2-images/image4.jpeg" alt=""></div>
-                  <div class="item"><img src="assets/images/carousel2-images/image5.jpeg" alt=""></div>
+                  <div class="item"><img src="assets/images/carousel2-images/image-2.webp" alt=""></div>
+                  <div class="item"><img src="assets/images/carousel2-images/image3.webp" alt=""></div>
+                  <div class="item"><img src="assets/images/carousel2-images/image4.webp" alt=""></div>
+                  <div class="item"><img src="assets/images/carousel2-images/image5.webp" alt=""></div>
                   
           </div>
           <div class="carousel-main slick-carousel2">
@@ -417,17 +417,17 @@
       </div>
 
       <!-- absolute images -->
-      <!-- <img src="assets/images/background2-pink.png" class="section-4-bg-img" alt=""> -->
-      <!-- <img src="assets/images/food-bg-1.png" class="moveObj" data-value="7" style="height: 200px; width: 200px; position: absolute; bottom: -50px; right: 10%;" alt=""> -->
+      <!-- <img src="assets/images/background2-pink.webp" class="section-4-bg-img" alt=""> -->
+      <!-- <img src="assets/images/food-bg-1.webp" class="moveObj" data-value="7" style="height: 200px; width: 200px; position: absolute; bottom: -50px; right: 10%;" alt=""> -->
   </section>
 
   <section class="our-clients-section utility-background-property">
     <h1 class="our-clients-heading">Our Clients</h1>
     <div class="our-clients-container">
-      <div class="our-client-item"><img src="assets/images/our-clients/1.png" alt=""></div>
-      <div class="our-client-item"><img src="assets/images/our-clients/2.png" alt=""></div>
-      <div class="our-client-item"><img src="assets/images/our-clients/3.png" alt=""></div>
-      <div class="our-client-item"><img src="assets/images/our-clients/4.png" alt=""></div>
+      <div class="our-client-item"><img src="assets/images/our-clients/1.webp" alt="client"></div>
+      <div class="our-client-item"><img src="assets/images/our-clients/2.webp" alt="slient"></div>
+      <div class="our-client-item"><img src="assets/images/our-clients/3.webp" alt="client"></div>
+      <div class="our-client-item"><img src="assets/images/our-clients/4.webp" alt="client"></div>
       <!-- <div class="our-client-item"><img src="" alt=""></div>
       <div class="our-client-item"><img src="" alt=""></div> -->
     </div>

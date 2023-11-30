@@ -53,7 +53,7 @@
 
         <div class="franchise-section-2">
           <div class="image-section2">
-            <img src="assets/images/franchise.png" alt="">
+            <img src="assets/images/franchise.webp" alt="">
           </div>
           <div class="image-section2">
             <div class="ppt-carousel">
@@ -66,7 +66,7 @@
           </div>
         </div>
         <div class="franchise-overlay-green"></div>
-        <img src="assets/images/design-bg-sq.png" class="design-bg" alt="">
+        <img src="assets/images/design-bg-sq.webp" class="design-bg" alt="">
       </div>
 
 
@@ -127,7 +127,7 @@
       
       <div class="section-4-container">
         <div class="section-4-column">
-          <img src="assets/images/franchise-2.png" alt="">
+          <img src="assets/images/franchise-2.webp" alt="">
           <h2>Franchise-owned</h2>
           <ul>
             <li>Centralized Supply Chain</li>
@@ -142,11 +142,11 @@
         </div>
   
         <div class="section-4-column">
-          <img src="assets/images/franchise-1.png" alt="" class="center-column-img">
+          <img src="assets/images/franchise-1.webp" alt="" class="center-column-img">
         </div>
   
         <div class="section-4-column">
-          <img src="assets/images/franchise-3.png" alt="">
+          <img src="assets/images/franchise-3.webp" alt="">
   
           <h2>MULTI-UNIT</h2>
           <ul>

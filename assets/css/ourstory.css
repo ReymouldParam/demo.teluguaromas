@@ -5,7 +5,7 @@ header{
 
 .ourstory-banner-container{
     padding: 20vh 5vh 8vh;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg.webp);
     height: 100vh;
     text-align: center;
     overflow: hidden;
@@ -115,7 +115,7 @@ header{
 .ourstory-section-2{
     height: auto;
     width: 100%;
-    background: url(../images/background2-pink.png) var(--theme-color3);
+    background: url(../images/background2-pink.webp) var(--theme-color3);
     padding: 10vh 10vh;
     position: relative;
     overflow: hidden;
@@ -183,7 +183,7 @@ header{
 
 .ourstory-section-3{
     width: 100%;
-    background: url(../images/background2-pink.png) var(--theme-color3);
+    background: url(../images/background2-pink.webp) var(--theme-color3);
     padding: 0 5vw ;
     overflow: hidden;
 }
@@ -259,7 +259,7 @@ header{
 
 .ourstory-section-4{
     width: 100%;
-    background: url(../images/background2-pink.png) var(--theme-color3);
+    background: url(../images/background2-pink.webp) var(--theme-color3);
     padding: 10vh 5vw ;
     overflow: hidden;
 }
