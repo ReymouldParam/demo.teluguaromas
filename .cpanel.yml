@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pk5ixxuh5zp9/public_html/teluguaromas.com
+    - export DEPLOYPATH=/home/pk5ixxuh5zp9/public_html/demo.teluguaromas.com
     - /bin/cp -R * $DEPLOYPATH
