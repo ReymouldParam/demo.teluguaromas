@@ -236,7 +236,7 @@
                     <div class="menu-tabs" id="menu-tabs">
                         <button class="btn menu-tab-active" data-value="1">BASMATHI KAZANA</button>
                         <button class="btn menu-open-btn" data-value="2">PAKODAS</button>
-                        <button class="btn menu-open-btn" data-value="3">SOFTNERS</button>
+                        <button class="btn menu-open-btn" data-value="3">Weekend Special</button>
                     </div>
 
                     <div class="menu-items-section  stop-smooth-scroll">
@@ -377,8 +377,29 @@
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>MINERA WATER</h5> <h5>&#8377;50</h5></div>
-                                    <!-- <p>lDuis aute irure dolor in reprehenderit in voluptate velit esse </p> -->
+                                    <div class="menu-item-details"><h5>PALLETURI KODI PALAV</h5> <h5>&#8377;299</h5></div>
+                                    <p>Paired with tender marinated chicken—a delightful South Indian culinary experience. </p>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>CHITTI MUTHAYLA MUTTON PULAV</h5> <h5>&#8377;369</h5></div>
+                                    <p>Infused with the rich flavors of Chitti Muthayla spices. A savory delight for your palate.</p>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>PEETHALA BIRYANI  / PULAV</h5> <h5>&#8377;399</h5></div>
+                                    <p>Succulent peethalu (prawns), expertly seasoned and cooked to perfection. A seafood lover's delight.</p>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>NATUKODI BIRYANI /PULAV</h5> <h5>&#8377;349</h5></div>
+                                    <p>Flavorful country chicken, skillfully prepared to create a wholesome and delightful culinary experience.</p>
                                 </div>
                             </div>
 

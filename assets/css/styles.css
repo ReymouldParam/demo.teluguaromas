@@ -629,6 +629,7 @@ header{
     --bs-btn-padding-x: 0;
     --bs-btn-padding-y: 0;
     padding:0px 10px;
+    text-transform: uppercase;
 }
 
 .menu-tab-active{
