@@ -9,6 +9,10 @@ $('.location-tab').on('click', function() {
     $(this).addClass('location-tab-active');
 });
 
+function toggleLocationList(){
+  $('.locations-main-container .locations-list-container .list').toggle()
+}
+
 $(document).ready(function() {
     $('.carousel-container').slick({
       slidesToShow: 1, 

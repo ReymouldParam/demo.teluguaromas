@@ -46,7 +46,11 @@
 
     <section class="locations-main-container">
         <div class="locations-list-container">
-            <div class="py-1 bg-light h-100 overflow-auto" style="border-radius: 0 10px 0 0">
+            <button class="open-list-btn" onclick="toggleLocationList()">Locations <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="py-1 bg-light h-100 overflow-auto list" style="border-radius: 0 10px 0 0">
+                <div class="close-list-btn d-flex justify-content-end pe-3">
+                    <button class="btn p-1"  onclick="toggleLocationList()">Close <i class="fa-solid fa-xmark"></i></button>
+                </div>
                 <div onclick="showLocationDetails(this)" class="location-tab location-tab-active" data-value="0">
                     <h4 class="title">Hyderabad - Suchitra</h4>
                     <p class="text-xxs">Open Untill 11:00pm</p>
