@@ -3,58 +3,58 @@
     width: 100%;
     display: flex;
     overflow: hidden;
+    background-image: url(../images/banner-bg.webp);
     
 }
 
-.locations-main-container > .locations-list-container{
+.locations-main-container   .locations-list-container{
     width: 18%;
     height: 100%;
-    background: url(../images/banner-bg.webp);
     background-size: 100% 100%;
-    overflow-y: scroll;
     padding-top: 12vh;
+    padding-right: 10px;
 }
 
-.locations-main-container > .locations-list-container::-webkit-scrollbar {
-    width: 12px;
+.locations-main-container .locations-list-container .overflow-auto::-webkit-scrollbar {
+    width: 5px;
+    background-color: white;
 }
 
-.locations-main-container > .locations-list-container::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+/* .locations-main-container .locations-list-container .overflow-auto::-webkit-scrollbar-track {
+    background-color: var(--header-bg-color);
+} */
+
+.locations-main-container .locations-list-container .overflow-auto::-webkit-scrollbar-thumb {
     border-radius: 10px;
+    background-color: var(--theme-color4); 
 }
 
-.locations-main-container > .locations-list-container::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-}
-
-.locations-main-container > .locations-list-container > .location-tab{
-    background-color: rgb(255, 255, 255);
-    margin:5px;
-    border-radius: 5px;
-    text-align: center;
-    padding: 2px 0;
-}
-
-.locations-main-container > .locations-list-container > .location-tab:hover{
+.locations-main-container   .locations-list-container   .location-tab{
+    margin:5px 0;
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid var(--theme-color5);
     cursor: pointer;
 }
 
-.locations-main-container > .locations-list-container > .location-tab-active{
-    background-color: rgb(255, 255, 255);
-    margin:5px;
-    border-radius: 5px;
-    text-align: center;
-    padding: 2px 0;
+.locations-main-container   .locations-list-container  .location-tab .title{
+    font-size: 17px;
+}
+.locations-main-container   .locations-list-container  .location-tab .text-xxs{
+    font-size: 8px;
+    margin-bottom: 0;
 }
 
-.locations-main-container > .locations-list-container > .location-tab > h4{
+.locations-main-container .locations-list-container .location-tab-active{
+    background-color: #ce67126c;
+}
+
+.locations-main-container   .locations-list-container   .location-tab   h4{
     font-family: var(--sub-heading-font);
     margin: 0;
 }
 
-.locations-main-container > .locations-main-body{
+.locations-main-container   .locations-main-body{
     width:82%;
     height: 100%;
     background-image: url(../images/background2.png);
@@ -67,50 +67,88 @@
     display: flex;
     padding: 10px;
     display: none;
+    background-color: var(--theme-color5);
+    border-radius: 10px 0 0 0;
 }
 
-.location-information-container > .location-info{
+.location-information-container .location-info{
     width: 50%;
     height:100%;
-    overflow-y: scroll;
+    overflow-y: auto;
+    padding: 15px;
+    background-image: url(../images/menu-bg-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
 }
 
-.location-information-container > .location-info::-webkit-scrollbar {
+.location-information-container .location-info::-webkit-scrollbar {
     width: 12px;
 }
 
-.location-information-container > .location-info::-webkit-scrollbar-track {
+.location-information-container .location-info::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
     border-radius: 10px;
 }
 
-.location-information-container > .location-info::-webkit-scrollbar-thumb {
+.location-information-container   .location-info::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 
-.location-information-container > .location-info > h1{
+.location-information-container   .location-info .title{
     font-family: var(--main-heading-font);
-    color: var(--theme-color4);
+    color: black;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+.location-information-container   .location-info .sub-title{
+    font-family: var(--main-heading-font);
+    color: black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
-.location-information-container > .location-info > p{
+.location-information-container   .location-info p{
     font-family: var(--text-font);
+    font-size: 13px;
 }
 
-.location-information-container > .location-info > .get-direction-btn{
-    background-color: var(--theme-color4);
-    font-family: var(--main-heading-font);
-    color: white;
-    padding: 5px 10px;
-    border: 0;
-    border-radius: 5px;
-}
-
-.location-information-container > .location-image{
+.location-information-container   .location-image{
     width:45%;
     height:100%;
     margin: auto;
-    background-color: rgb(225, 225, 225);
+}
+.location-information-container   .location-image .images-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: auto;
+    row-gap: auto;
+    height: 65%;
 }
 
+.location-information-container   .location-image .images-grid .img{
+    width: 93%;
+    height: 93%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+.location-information-container   .location-image .map-container{
+    width: 100%;
+    height: 35%;
+}
+.location-information-container   .location-image .map-container iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+.locations-main-body .carousel-container .item{
+    height: 30vh;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: scale(1);
+}

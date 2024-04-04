@@ -46,35 +46,84 @@
 
     <section class="locations-main-container">
         <div class="locations-list-container">
-            <div onclick="showLocationDetails(this)" class="location-tab" data-value="0"><h4>Suchitra</h4></div>
-            <div onclick="showLocationDetails(this)" class="location-tab" data-value="1"><h4>Kompally</h4></div>
+            <div class="py-1 bg-light h-100 overflow-auto" style="border-radius: 0 10px 0 0">
+                <div onclick="showLocationDetails(this)" class="location-tab location-tab-active" data-value="0">
+                    <h4 class="title">Hyderabad - Suchitra</h4>
+                    <p class="text-xxs">Open Untill 11:00pm</p>
+                </div>
+                <div onclick="showLocationDetails(this)" class="location-tab" data-value="1">
+                    <h4 class="title">Hyderabad - Kompally</h4>
+                    <p class="text-xxs">Open Untill 11:00pm</p>
+                </div>
+            </div>
         </div>
         <div class="locations-main-body">
             <div class="location-information-container" style="display: flex;" id="location0">
                 <div class="location-info">
-                    <h1>Telugu Aromas - Suchitra</h1>
+                    <h1 class="title">Telugu Aromas - Main Outlet</h1>
+                    <div class="carousel-container mb-2">
+                        <div class="item">
+                            <div class="w-100 h-100 utility-background-property" style="background-image: url(assets/images/locations-images/1.webp)"></div>
+                        </div>
+                        <div class="item">
+                            <div class="w-100 h-100 utility-background-property" style="background-image: url(assets/images/locations-images/2.webp)"></div>
+                        </div>
+                        <div class="item">
+                            <div class="w-100 h-100 utility-background-property" style="background-image: url(assets/images/locations-images/3.webp)"></div>
+                        </div>
+                    </div>
+                    <h1 class="sub-title">LOCATION:- CINE PLANET KOMPALLY HYDERABAD, TELANGANa</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat perspiciatis error enim ut, dolores inventore veritatis iusto eum est obcaecati qui labore omnis provident distinctio numquam fuga earum exercitationem vel illum tenetur doloribus? Culpa veniam ratione id labore nesciunt possimus, nihil, voluptas maiores expedita voluptatem dolore ducimus fuga cum! Accusamus ea illo veniam amet cupiditate eligendi iusto quas tempore tenetur obcaecati harum neque provident eaque libero aperiam saepe earum, necessitatibus ad aliquid alias modi dolore? Provident incidunt dicta laudantium ipsum. Commodi, aliquid esse? Perspiciatis, dolorum minus quisquam porro aperiam magnam natus ipsum voluptatem a, ipsa molestiae, sapiente fugiat.
                     </p>
-
-                    <button class="get-direction-btn" >Get Directions</button>
                 </div>
                 <div class="location-image">
-                    <img src="" alt="location-image">
+                    <div class="images-grid">
+                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
+                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
+                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
+                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
+                    </div>
+                    <div class="map-container">
+                        <div class="py-2 w-100 h-100">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d94219.62492597914!2d78.47155363471481!3d17.538879082390206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1712238756367!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="location-information-container" id="location1">
+            <div class="location-information-container" style="display: flex;" id="location1">
                 <div class="location-info">
-                    <h1>Telugu Aromas - Kompally</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat atis iusto eum est obcaecati qui labore omnis provident distinctio numquam fuga earum exercitationem vel illum tenetur doloribus? Culpa veniam ratione id labore nesciunt possimus, nihil, voluptas maiores expedita voluptatem dolore ducimus fuga cum! Accusamus ea illo veniam amet cupiditate eligendi iusto quas tempore tenetur obcaecati harum neque provident eaque libero aperiam saepe earum, necessitatibus ad aliquid alias modi dolore? Provident incidunt dicta laudantium ipsum. Commodi, aliquid esse? Perspiciatis, dolorum minus quisquam porro aperiam magnam natus ipsum voluptatem a, ipsa molestiae, sapiente fugiat.
+                    <h1 class="title">Telugu Aromas - loaction 2</h1>
+                    <div class="carousel-container mb-2">
+                        <div class="item">
+                            <div class="w-100 h-100 utility-background-property" style="background-image: url(assets/images/locations-images/1.webp)"></div>
+                        </div>
+                        <div class="item">
+                            <div class="w-100 h-100 utility-background-property" style="background-image: url(assets/images/locations-images/2.webp)"></div>
+                        </div>
+                        <div class="item">
+                            <div class="w-100 h-100 utility-background-property" style="background-image: url(assets/images/locations-images/3.webp)"></div>
+                        </div>
+                    </div>
+                    <h1 class="sub-title">LOCATION:- Somewhere</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat perspiciatis error enim ut, dolores inventore veritatis iusto eum est obcaecati qui labore omnis provident distinctio numquam fuga earum exercitationem vel illum tenetur doloribus? Culpa veniam ratione id labore nesciunt possimus, nihil, voluptas maiores expedita voluptatem dolore ducimus fuga cum! Accusamus ea illo veniam amet cupiditate eligendi iusto quas tempore tenetur obcaecati harum neque provident eaque libero aperiam saepe earum, necessitatibus ad aliquid alias modi dolore? Provident incidunt dicta laudantium ipsum. Commodi, aliquid esse? Perspiciatis, dolorum minus quisquam porro aperiam magnam natus ipsum voluptatem a, ipsa molestiae, sapiente fugiat.
                     </p>
-
-                    <button class="get-direction-btn" >Get Directions</button>
                 </div>
                 <div class="location-image">
-                    <img src="" alt="location-image">
+                    <div class="images-grid">
+                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
+                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
+                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
+                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
+                    </div>
+                    <div class="map-container">
+                        <div class="py-2 w-100 h-100">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d94219.62492597914!2d78.47155363471481!3d17.538879082390206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1712238756367!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </section>
 
@@ -85,7 +134,8 @@
     include 'includes/footer.php';
     ?>
 
-<script src="assets/js/location.js"></script>
+
 <script src="assets/js/global.js"></script>
+<script src="assets/js/location.js"></script>
 </body>
 </html>

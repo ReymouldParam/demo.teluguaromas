@@ -19,9 +19,9 @@
                         <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="franchise">FRANCHISE</a>
                         </li>
-                        <!-- <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="location">LOCATION</a>
-                          </li> -->
+                          </li>
                         <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="contact">CONTACT US</a>
                         </li>
