@@ -245,94 +245,175 @@
 
                         <div class="menu-card" id="menu-card-1" style="display: block;">
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Egg Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>BIRYANI CHAWAL WITH VEG DALCHA</h5> <h5>&#8377;99</h5></div>
-                                    <p>Biriyani with delicious veg dalcha along with sides.</p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA EGG PULAV</h5> <h5>&#8377;160</h5></div>
+                                    <p>Aromatic basmati rice enriched with boiled eggs and spices.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Muttom Keema Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHITTIMUTYALA PULAV WITH GONGURA KATTA</h5> <h5>&#8377;99</h5></div>
-                                    <p>Spl chittimutalaya pulav with gongura katta</p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA MUTTOM KEEMA PULAV</h5> <h5>&#8377;389</h5></div>
+                                    <p>Deliciously spiced mutton keema mixed with fluffy rice.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Chicken Fry Piece Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CURD RICE</h5> <h5>&#8377;99</h5></div>
-                                    <p>Made with freshly formed curd and enriching aroma. </p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA CHICKEN FRY PIECE PULAV</h5> <h5>&#8377;199</h5></div>
+                                    <p>Perfectly fried chicken pieces served with seasoned rice.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Chicken Joint Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>SOYA KEEMA BIRYANI / PULAV</h5> <h5>&#8377;149</h5></div>
-                                    <p>Spl soya kheema biriyani made to build a uniqueness in flavour</p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA CHICKEN JOINT PULAV</h5> <h5>&#8377;229</h5></div>
+                                    <p>Juicy chicken joints paired with aromatic pulav rice.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Ghee Roast Mutton Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>BAIGAN KI BIRYANI</h5> <h5>&#8377;149</h5></div>
-                                    <p>Spl baigan ki biriyani made to build a uniqueness in flavour </p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA GHEE ROAST MUTTON PULAV</h5> <h5>&#8377;349</h5></div>
+                                    <p>Rich ghee roasted mutton mixed with flavorful pulav.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Nalli Bokkala Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHICKEN FRY PIECE BIRYANI / PULAV</h5> <h5>&#8377;179</h5></div>
-                                    <p>Classic chicken fry piece biriyani with the uniqueness of our pulavs. </p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA NALLI BOKKALA PULAV</h5> <h5>&#8377;349</h5></div>
+                                    <p>Soft, bone marrow pieces enveloped in spiced rice.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Royyala Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHICKEN  JOINT BIRYANI / PULAV
-                                    </h5> <h5>&#8377;229</h5></div>
-                                    <p>A delightful blend of seasoned chicken and aromatic rice.</p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA ROYYALA PULAV</h5> <h5>&#8377;299</h5></div>
+                                    <p>Succulent shrimp stir-fried with traditional spices and rice.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Paneer Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>GHEE ROAST MUTTON BIRYANI / PULAV
-                                    </h5> <h5>&#8377;349</h5></div>
-                                    <p>A savory delight of rich flavors and tender meat.</p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA PANEER PULAV</h5> <h5>&#8377;179</h5></div>
+                                    <p>Cubed paneer tossed with basmati rice and spices.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Vankay Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>NALLI BOKKALA BIRYANI / PULAV
-                                    </h5> <h5>&#8377;349</h5></div>
-                                    <p>An exquisite blend of succulent meat and aromatic rice.</p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA VANKAY PULAV</h5> <h5>&#8377;179</h5></div>
+                                    <p>Flavor-packed eggplant pulav, a vegetarian delight.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Soya Keema Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>ROYYALA BIRYANI /PULAV
-                                    </h5> <h5>&#8377;349</h5></div>
-                                    <p>A delectable union of flavorful prawns and fragrant rice</p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA SOYA KEEMA PULAV</h5> <h5>&#8377;179</h5></div>
+                                    <p>Hearty soya keema cooked with fragrant rice.</p>
                                 </div>
                             </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Egg Biryani">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>EGG BIRYANI</h5> <h5>&#8377;160</h5></div>
+                                    <p>Classic egg biryani with aromatic spices and herbs.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Mutton Keema Biryani">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>MUTTON KEEMA BIRYANI</h5> <h5>&#8377;389</h5></div>
+                                    <p>Spicy and flavorful mutton keema layered with biryani rice.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Chicken Joint Biryani">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>CHICKEN JOINT BIRYANI</h5> <h5>&#8377;229</h5></div>
+                                    <p>Savory chicken joints marinated and cooked with premium rice.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Ghee Roast Button Biryani">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>GHEE ROAST BUTTON BIRYANI</h5> <h5>&#8377;349</h5></div>
+                                    <p>Luxurious ghee roast mutton blended with aromatic biryani rice.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Nalli Bokkala Biryani">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>NALLI BOKKALA BIRYANI</h5> <h5>&#8377;349</h5></div>
+                                    <p>Tender nalli (bone marrow) with spices and long-grain rice.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Royyala Biryani">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>ROYYALA BIRYANI</h5> <h5>&#8377;299</h5></div>
+                                    <p>Delectable shrimp biryani with a blend of exotic spices.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Soya Keema Biryani">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>SOYA KEEMA BIRYANI</h5> <h5>&#8377;149</h5></div>
+                                    <p>Vegetarian's delight: soya keema cooked with biryani spices.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Guttivankaya Biryani">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>GUTTIVANKAYA BIRYANI</h5> <h5>&#8377;149</h5></div>
+                                    <p>Stuffed eggplant biryani, a South Indian special.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="Paneer Fry Piece Biryani">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>PANEER FRY PIECE BIRYANI</h5> <h5>&#8377;179</h5></div>
+                                    <p>Fried paneer pieces mixed with flavorful biryani rice.</p>
+                                </div>
+                            </div>
+
+
+
 
                         </div>
 
                         <!-- menu card 2 -->
 
                         <div class="menu-card" id="menu-card-2"  style="display: none;">
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>PANNER KURKURE (10PIECE)
+                                    </h5> <h5>&#8377;219</h5></div>
+                                    <p>a zesty and crispy panner snack with bold flavors.</p>
+                                </div>
+                            </div>
+
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
                                 <div class="menu-item-inner">
@@ -342,21 +423,14 @@
                                 </div>
                             </div>
 
-                            <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
-                                <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>SPICY CHICKEN PAKODA (bone)
-                                    </h5> <h5>&#8377;189</h5></div>
-                                    <p>a zesty and crispy chicken snack with bold flavors.</p>
-                                </div>
-                            </div>
+                            
 
                             <div class="menu-item">
                                 <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>SOYA KEEMA BALLS (8PCS)
+                                    <div class="menu-item-details"><h5>KAJU KODI PAKODA (bone)
                                     </h5> <h5>&#8377;149</h5></div>
-                                    <p>Protein-packed vegetarian delight.</p>
+                                    <p>A crunchy delight featuring cashew-coated boneless chicken bites.</p>
                                 </div>
                             </div>
 
