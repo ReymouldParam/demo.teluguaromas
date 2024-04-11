@@ -1,8 +1,38 @@
-function showLocationDetails(event){
-    var x= $(event).data("value");
-    $(".location-information-container").css("display" , "none");
-    $("#location"+x).css("display", "flex");
+// toggle content visibility from left nav
+
+$(document).ready(function() {
+
+  // show respective conent when url load according to location.
+  // Check if a specific location is specified in the URL
+  var currentPath = window.location.pathname.split('/');
+  var locationName = currentPath[currentPath.length - 1];
+
+  if (locationName) {
+      showLocation(locationName);
+  }
+
+  $('.locations-list-container .location-tab').on('click', function(e) {
+
+      var locationName = $(this).attr('data-location'); // Assuming you have data-location attribute
+      var newUrl = window.location.origin + '/location/' + locationName;
+
+      // Update URL
+      window.history.pushState({ path: newUrl }, '', newUrl);
+
+      // Show the respective location content
+      showLocation(locationName);
+  });
+});
+
+function showLocation(locationName) {
+  // Hide all locations
+  $('.location-information-container').hide();
+
+  // Show the selected location
+  $('#' + locationName).css('display', 'flex');
 }
+
+
 
 $('.location-tab').on('click', function() {
     $('.location-tab').removeClass('location-tab-active');

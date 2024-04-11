@@ -51,18 +51,18 @@
                 <div class="close-list-btn d-flex justify-content-end pe-3">
                     <button class="btn p-1"  onclick="toggleLocationList()">Close <i class="fa-solid fa-xmark"></i></button>
                 </div>
-                <div onclick="showLocationDetails(this)" class="location-tab location-tab-active" data-value="0">
+                <div class="location-tab location-tab-active" data-location="kompally" >
                     <h4 class="title">Hyderabad - Suchitra</h4>
                     <p class="text-xxs">Open Untill 11:00pm</p>
                 </div>
-                <div onclick="showLocationDetails(this)" class="location-tab" data-value="1">
+                <div class="location-tab" data-location="location2">
                     <h4 class="title">Hyderabad - Kompally</h4>
                     <p class="text-xxs">Open Untill 11:00pm</p>
                 </div>
             </div>
         </div>
         <div class="locations-main-body">
-            <div class="location-information-container" style="display: flex;" id="location0">
+            <div class="location-information-container" style="display : flex" id="kompally">
                 <div class="location-info">
                     <h1 class="title">Telugu Aromas - Main Outlet</h1>
                     <div class="carousel-container mb-2">
@@ -82,10 +82,15 @@
                 </div>
                 <div class="location-image">
                     <div class="images-grid">
-                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
-                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
-                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
-                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
+                        <h3 class="title">Contact Us</h3>
+                        <div class="info-container">
+                            <p class="icon"><i class="fa-solid fa-phone"></i></p>
+                            <p class="info">+91 92929 292929 / +91 99229 33993</p>
+                            <p class="icon"><i class="fa-solid fa-envelope"></i></i></p>
+                            <p class="info">contact@ta.com</p>
+                            <p class="icon"><i class="fa-solid fa-location-dot"></i></p>
+                            <p class="info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat aliquid ullam nisi debitis, earu</p>
+                        </div>
                     </div>
                     <div class="map-container">
                         <div class="py-2 w-100 h-100">
@@ -95,7 +100,7 @@
                 </div>
             </div>
 
-            <div class="location-information-container" style="display: flex;" id="location1">
+            <div class="location-information-container" id="location2">
                 <div class="location-info">
                     <h1 class="title">Telugu Aromas - loaction 2</h1>
                     <div class="carousel-container mb-2">
@@ -115,10 +120,15 @@
                 </div>
                 <div class="location-image">
                     <div class="images-grid">
-                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
-                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
-                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
-                        <div class="utility-background-property img" style="background-image: url(assets/images/ourstory-2.webp)"></div>
+                        <h3 class="title">Contact Us</h3>
+                        <div class="info-container">
+                            <p class="icon"><i class="fa-solid fa-phone"></i></p>
+                            <p class="info">+91 92929 292929 / +91 99229 33993</p>
+                            <p class="icon"><i class="fa-solid fa-envelope"></i></i></p>
+                            <p class="info">contact@ta.com</p>
+                            <p class="icon"><i class="fa-solid fa-location-dot"></i></p>
+                            <p class="info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat aliquid ullam nisi debitis, earu</p>
+                        </div>
                     </div>
                     <div class="map-container">
                         <div class="py-2 w-100 h-100">
