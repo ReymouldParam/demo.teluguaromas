@@ -168,8 +168,9 @@
 .open-list-btn{
     display: none;
 }
-
-
+.header-nav-elements-container {
+    left: 46%;
+}
 /* responsive styles mobile */
 @media screen and (max-width:600px) {
     .location-information-container{
