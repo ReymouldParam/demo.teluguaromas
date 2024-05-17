@@ -171,6 +171,12 @@
 .header-nav-elements-container {
     left: 46%;
 }
+
+.social-media-icon {
+    font-size: 23px;
+    color: #1a3f35;
+}
+
 /* responsive styles mobile */
 @media screen and (max-width:600px) {
     .location-information-container{
