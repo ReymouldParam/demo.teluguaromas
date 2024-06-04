@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 
 <head>
     <!-- Google tag (gtag.js) -->
@@ -10,14 +8,9 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
 
-        gtag('config', 'G-RJ44HW6J31');
         gtag('config', 'G-RJ44HW6J31');
     </script>
-
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,28 +18,8 @@
     <meta name="title" content="Best Telugu Biryani & Pulav Restaurant in Kompally, Hyderabad" />
     <meta name="description"
         content="Delicious Veg & Non-Veg Bagara Biriyanis and Pulavs at Telugu Aromas | Dining & Take Away | Lunch, Snack & Dinner | Catering Service & Franchise Available" />
-    <meta name="description"
-        content="Delicious Veg & Non-Veg Bagara Biriyanis and Pulavs at Telugu Aromas | Dining & Take Away | Lunch, Snack & Dinner | Catering Service & Franchise Available" />
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
 
-    <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!-- Font awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Bootstarp Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    <!--fontawesome icons cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
-        integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <?php
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -73,13 +46,10 @@
 
 
 
-
 </head>
-
 
 <body>
 
-    <!-- <div id="preloader">
     <!-- <div id="preloader">
     <div class="preloader-inner">
         <h2>LOADING..</h2>
@@ -160,8 +130,6 @@
         <div class="locations-list-container">
             <button class="open-list-btn" onclick="toggleLocationList()">Locations <i
                     class="fa-solid fa-chevron-down"></i></button>
-            <button class="open-list-btn" onclick="toggleLocationList()">Locations <i
-                    class="fa-solid fa-chevron-down"></i></button>
             <div class="py-1 bg-light h-100 overflow-auto list" style="border-radius: 0 10px 0 0">
                 <div class="close-list-btn d-flex justify-content-end pe-3">
                     <button class="btn p-1" onclick="toggleLocationList()">Close <i
@@ -174,25 +142,11 @@
                 <div class="location-tab" data-location="kondapur">
                     <h4 class="title">Kondapur</h4>
                     <p class="text-xxs">Open Untill 11:00pm</p>
-                    <button class="btn p-1" onclick="toggleLocationList()">Close <i
-                            class="fa-solid fa-xmark"></i></button>
-                </div>
-                <div class="location-tab location-tab-active" data-location="kompally">
-                    <h4 class="title">Kompally</h4>
-                    <p class="text-xxs">Open Untill 11:00pm</p>
-                </div>
-                <div class="location-tab" data-location="kondapur">
-                    <h4 class="title">Kondapur</h4>
-                    <p class="text-xxs">Open Untill 11:00pm</p>
                 </div>
                 <div class="location-tab" data-location="gowraram">
                     <h4 class="title">Gowraram</h4>
-                <div class="location-tab" data-location="gowraram">
-                    <h4 class="title">Gowraram</h4>
                     <p class="text-xxs">Open Untill 11:00pm</p>
                 </div>
-                <div class="location-tab" data-location="toopran">
-                    <h4 class="title">Toopran</h4>
                 <div class="location-tab" data-location="toopran">
                     <h4 class="title">Toopran</h4>
                     <p class="text-xxs">Open Untill 11:00pm</p>
@@ -411,9 +365,7 @@
                         <div class="info-container">
                             <p class="icon"><i class="fa-solid fa-phone"></i></p>
                             <p class="info">+91 90906 31313</p>
-                            <p class="info">+91 90906 31313</p>
                             <p class="icon"><i class="fa-solid fa-envelope"></i></i></p>
-                            <p class="info">teluguaromatoopran1313@gmail.com</p>
                             <p class="info">teluguaromatoopran1313@gmail.com</p>
                             <p class="icon"><i class="fa-solid fa-location-dot"></i></p>
                             <p class="info">S.no 743, Toopran bypass Road, National Highway 44, Toopran,Medak
@@ -431,7 +383,6 @@
                 </div>
             </div>
 
-
         </div>
     </section>
 
@@ -446,16 +397,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <!-- Bootstrap Script CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
 
-    <script src="assets/js/global.js"></script>
-    <script src="assets/js/location.js"></script>
     <script src="assets/js/global.js"></script>
     <script src="assets/js/location.js"></script>
 </body>
-
 
 </html>
