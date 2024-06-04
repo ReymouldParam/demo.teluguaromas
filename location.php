@@ -162,15 +162,15 @@
                                 style="background-image: url(assets/images/locations-images/3.webp)"></div>
                         </div>
                     </div>
-                    <h1 class="sub-title">LOCATION:- CINE PLANET KOMPALLY HYDERABAD, TELANGANa</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat perspiciatis
-                        error enim ut, dolores inventore veritatis iusto eum est obcaecati qui labore omnis provident
-                        distinctio numquam fuga earum exercitationem vel illum tenetur doloribus? Culpa veniam ratione
-                        id labore nesciunt possimus, nihil, voluptas maiores expedita voluptatem dolore ducimus fuga
-                        cum! Accusamus ea illo veniam amet cupiditate eligendi iusto quas tempore tenetur obcaecati
-                        harum neque provident eaque libero aperiam saepe earum, necessitatibus ad aliquid alias modi
-                        dolore? Provident incidunt dicta laudantium ipsum. Commodi, aliquid esse? Perspiciatis, dolorum
-                        minus quisquam porro aperiam magnam natus ipsum voluptatem a, ipsa molestiae, sapiente fugiat.
+                    <h1 class="sub-title">LOCATION:- CINE PLANET KOMPALLY HYDERABAD, TELANGANA</h1>
+                    <p>At Telugu Aromas, located in Kompally, we're all about creating unforgettable flavor 
+                        experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style
+                        curries, every dish tells a story. Our passion for food extends to our catering services,
+                        where we share the tastes of our culinary heritage with your guests. What makes us special 
+                        isn't just the food we serve, but the stories behind each bite. Join us on a culinary journey 
+                        celebrating our region's rich flavors and traditions. At Telugu Aromas, we're more than a restaurant 
+                        – we're an invitation to savor extraordinary tastes, culture, and unforgettable moments.
+
                     </p>
                 </div>
                 <div class="location-image">
@@ -215,26 +215,25 @@
                     <div class="carousel-container mb-2">
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(assets/images/locations-images/1.webp)"></div>
+                                style="background-image: url(assets/images/locations-images/kondapur-img-1.webp)"></div>
                         </div>
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(assets/images/locations-images/2.webp)"></div>
+                                style="background-image: url(assets/images/locations-images/kondapur-img-2.webp)"></div>
                         </div>
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(assets/images/locations-images/3.webp)"></div>
+                                style="background-image: url(assets/images/locations-images/kondapur-img-3.webp)"></div>
                         </div>
                     </div>
                     <h1 class="sub-title">LOCATION:- Miyapur Rd, Hanuman Nagar, Shilpa Hills, Hyderabad, Telangana</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat perspiciatis
-                        error enim ut, dolores inventore veritatis iusto eum est obcaecati qui labore omnis provident
-                        distinctio numquam fuga earum exercitationem vel illum tenetur doloribus? Culpa veniam ratione
-                        id labore nesciunt possimus, nihil, voluptas maiores expedita voluptatem dolore ducimus fuga
-                        cum! Accusamus ea illo veniam amet cupiditate eligendi iusto quas tempore tenetur obcaecati
-                        harum neque provident eaque libero aperiam saepe earum, necessitatibus ad aliquid alias modi
-                        dolore? Provident incidunt dicta laudantium ipsum. Commodi, aliquid esse? Perspiciatis, dolorum
-                        minus quisquam porro aperiam magnam natus ipsum voluptatem a, ipsa molestiae, sapiente fugiat.
+                    <p>At Telugu Aromas in Kondapur, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana 
+                        and Andhra-style curries, every dish tells a story. Our passion for food extends to our catering services, where we share the tastes of our 
+                        culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite.
+                    </p>
+                    <p>As one of the best restaurants in Hyderabad, and often regarded as the best Hyderabadi restaurant, we invite you to join us on a culinary journey
+                         celebrating our region's rich flavors and traditions. Whether you're searching for a "restaurant near me" or looking to explore extraordinary tastes,
+                          culture, and unforgettable moments, Telugu Aromas is more than just a place to eat – it's an experience. 
                     </p>
                 </div>
                 <div class="location-image">
@@ -279,26 +278,25 @@
                     <div class="carousel-container mb-2">
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(assets/images/locations-images/1.webp)"></div>
+                                style="background-image: url(assets/images/locations-images/gowraram-img-1.jpg)"></div>
                         </div>
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(assets/images/locations-images/2.webp)"></div>
+                                style="background-image: url(assets/images/locations-images/gowraram-img-2 .jpeg)"></div>
                         </div>
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(assets/images/locations-images/3.webp)"></div>
+                                style="background-image: url(assets/images/locations-images/gowraram-img-3.jpeg)"></div>
                         </div>
                     </div>
                     <h1 class="sub-title">LOCATION:- NH 44 mainroad, beside Indian Oil Petrol Bunk, Gowraram Village</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat perspiciatis
-                        error enim ut, dolores inventore veritatis iusto eum est obcaecati qui labore omnis provident
-                        distinctio numquam fuga earum exercitationem vel illum tenetur doloribus? Culpa veniam ratione
-                        id labore nesciunt possimus, nihil, voluptas maiores expedita voluptatem dolore ducimus fuga
-                        cum! Accusamus ea illo veniam amet cupiditate eligendi iusto quas tempore tenetur obcaecati
-                        harum neque provident eaque libero aperiam saepe earum, necessitatibus ad aliquid alias modi
-                        dolore? Provident incidunt dicta laudantium ipsum. Commodi, aliquid esse? Perspiciatis, dolorum
-                        minus quisquam porro aperiam magnam natus ipsum voluptatem a, ipsa molestiae, sapiente fugiat.
+                    <p>At Telugu Aromas, located in GOWRARAM, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice
+                        to authentic Telangana and Andhra-style curries, every dish tells a story. We serve a variety of mouthwatering Biryanis that you
+                        won't want to miss. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with
+                        your guests. What makes us special isn't just the food we serve, but the stories behind each bite. Join us on a culinary journey
+                        celebrating our region's rich flavors and traditions. If you're looking for a "restaurant near me" or searching for the best 
+                        restaurants in Hyderabad, come to Telugu Aromas. We're more than a restaurant we're an invitation to savor extraordinary tastes,
+                        culture, and unforgettable moments
                     </p>
                 </div>
                 <div class="location-image">
@@ -340,26 +338,27 @@
                     <div class="carousel-container mb-2">
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(assets/images/locations-images/1.webp)"></div>
+                                style="background-image: url(assets/images/locations-images/toopran-img-1.webp)"></div>
                         </div>
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(assets/images/locations-images/2.webp)"></div>
+                                style="background-image: url(assets/images/locations-images/toopran-img-2.webp)"></div>
                         </div>
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(assets/images/locations-images/3.webp)"></div>
+                                style="background-image: url(assets/images/locations-images/toopran-img-3.webp)"></div>
                         </div>
                     </div>
                     <h1 class="sub-title">LOCATION:- Toopran bypass Road, National Highway 44, Toopran, Medak district, Telangana</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit quaerat perspiciatis
-                        error enim ut, dolores inventore veritatis iusto eum est obcaecati qui labore omnis provident
-                        distinctio numquam fuga earum exercitationem vel illum tenetur doloribus? Culpa veniam ratione
-                        id labore nesciunt possimus, nihil, voluptas maiores expedita voluptatem dolore ducimus fuga
-                        cum! Accusamus ea illo veniam amet cupiditate eligendi iusto quas tempore tenetur obcaecati
-                        harum neque provident eaque libero aperiam saepe earum, necessitatibus ad aliquid alias modi
-                        dolore? Provident incidunt dicta laudantium ipsum. Commodi, aliquid esse? Perspiciatis, dolorum
-                        minus quisquam porro aperiam magnam natus ipsum voluptatem a, ipsa molestiae, sapiente fugiat.
+                    <p>
+                        At Telugu Aromas in TOOPRAN, we specialize in creating unforgettable flavor experiences. From our mouth-watering Bagara 
+                        Rice to authentic Telangana and Andhra-style curries, each dish tells its own story. We love sharing our culinary heritage 
+                        through our catering services, making every event special with our unique flavors.
+                    </p>
+                    <p>
+                    Searching for a "restaurant near me" or "biryani near me"? Telugu Aromas is your answer! As one of the best restaurants in Hyderabad, 
+                    we offer a rich culinary journey filled with regional traditions and tastes. At Telugu Aromas, we're more than just a restaurant we 
+                    welcome you to savor exceptional flavors, culture, and memorable moments.
                     </p>
                 </div>
                 <div class="location-image">
