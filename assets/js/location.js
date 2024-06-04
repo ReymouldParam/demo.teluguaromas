@@ -1,47 +1,6 @@
 // toggle content visibility from left nav
 
-$(document).ready(function() {
 
-  // show respective conent when url load according to location.
-  // Check if a specific location is specified in the URL
-  var currentPath = window.location.pathname.split('/');
-  var locationName = currentPath[currentPath.length - 1];
-
-  if (locationName) {
-      showLocation(locationName);
-  }
-
-  $('.locations-list-container .location-tab').on('click', function(e) {
-
-      var locationName = $(this).attr('data-location'); // Assuming you have data-location attribute
-      var newUrl = window.location.origin + '/location/' + locationName;
-
-      // Update URL
-      window.history.pushState({ path: newUrl }, '', newUrl);
-
-      // Show the respective location content
-      showLocation(locationName);
-  });
-});
-
-function showLocation(locationName) {
-  // Hide all locations
-  $('.location-information-container').hide();
-
-  // Show the selected location
-  $('#' + locationName).css('display', 'flex');
-}
-
-
-
-$('.location-tab').on('click', function() {
-    $('.location-tab').removeClass('location-tab-active');
-    $(this).addClass('location-tab-active');
-});
-
-function toggleLocationList(){
-  $('.locations-main-container .locations-list-container .list').toggle()
-}
 
 $(document).ready(function() {
     $('.carousel-container').slick({
@@ -95,3 +54,59 @@ jQuery(document).ready(function($) {
     // Set initial state
     $(window).trigger('scroll');
   });
+
+let navElementList = document.querySelectorAll(".nav-link");
+
+navElementList.forEach(element => {
+    element.addEventListener('click', () => {
+      let navAttribute = element.getAttribute('aria-current');
+      let navUrl = window.location.origin + '/' + navAttribute;
+      console.log(window.location.origin);
+
+      // Update URL
+      window.history.pushState({ path: navUrl }, '', navUrl);
+    });
+});
+
+$(document).ready(function() {
+
+  // Function to show selected location content
+  function showLocation(locationName) {
+      // Hide all locations
+      $('.location-information-container').hide();
+
+      // Show the selected location
+      $('#' + locationName).css('display', 'flex');
+
+      // Remove active class from all location tabs
+      $('.location-tab').removeClass('location-tab-active');
+
+      // Add active class to the clicked location tab
+      $('[data-location="' + locationName + '"]').addClass('location-tab-active');
+  }
+
+  // Show default location content on page load
+  showLocation('kompally');
+
+  // Event listener for clicking on location tabs
+  $('.locations-list-container .location-tab').on('click', function(e) {
+      var locationName = $(this).attr('data-location');
+
+      // Show the respective location content
+      showLocation(locationName);
+
+      // Update URL
+      var newUrl = window.location.origin + '/location/' + locationName;
+      window.history.pushState({ path: newUrl }, '', newUrl);
+  });
+
+  // Toggle content visibility from left nav
+  function toggleLocationList() {
+      $('.locations-main-container .locations-list-container .list').toggle();
+  }
+
+  // Event listener for toggling location list visibility
+  $('.open-list-btn').on('click', function() {
+      toggleLocationList();
+  });
+});

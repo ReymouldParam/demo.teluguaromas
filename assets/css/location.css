@@ -41,7 +41,7 @@
     font-size: 17px;
 }
 .locations-main-container   .locations-list-container  .location-tab .text-xxs{
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 0;
 }
 
@@ -57,7 +57,7 @@
 .locations-main-container   .locations-main-body{
     width:82%;
     height: 100%;
-    background-image: url(../images/background2.png);
+    /* background-image: url(../images/background2.png);*/
     padding-top: 12vh;
 }
 
@@ -168,7 +168,14 @@
 .open-list-btn{
     display: none;
 }
+.header-nav-elements-container {
+    left: 46%;
+}
 
+.social-media-icon {
+    font-size: 30px; 
+    color: #1a3f35;
+}
 
 /* responsive styles mobile */
 @media screen and (max-width:600px) {
