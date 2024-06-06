@@ -236,7 +236,7 @@
                     <div class="menu-tabs" id="menu-tabs">
                         <button class="btn menu-tab-active" data-value="1">BASMATHI KAZANA</button>
                         <button class="btn menu-open-btn" data-value="2">PAKODAS</button>
-                        <button class="btn menu-open-btn" data-value="3">Weekend Special</button>
+                        <button class="btn menu-open-btn" data-value="3">THALI & OTHERS</button>
                     </div>
 
                     <div class="menu-items-section  stop-smooth-scroll">
@@ -244,104 +244,113 @@
                         <!-- menu card 1 -->
 
                         <div class="menu-card" id="menu-card-1" style="display: block;">
-                            <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Egg Pulav">
+
+                        <div class="menu-item">
+                                <img src="assets/images/menu-items/paneer__pulav.png" alt="Chitti Mutyala Paneer Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHITTI MUTYALA EGG PULAV</h5> <h5>&#8377;160</h5></div>
-                                    <p>Aromatic basmati rice enriched with boiled eggs and spices.</p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA PANEER PULAV</h5> <h5>&#8377;169</h5></div>
+                                    <p>Tender paneer cooked with fragrant spices and rice, a vegetarian delight.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Muttom Keema Pulav">
+                                <img src="assets/images/menu-items/vankay_pulav.png" alt="Chitti Mutyala Vankay Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHITTI MUTYALA MUTTOM KEEMA PULAV</h5> <h5>&#8377;389</h5></div>
-                                    <p>Deliciously spiced mutton keema mixed with fluffy rice.</p>
+                                    <div class="menu-item-details"><h5>CHITTY MUTYALA VANKAY PULAV</h5> <h5>&#8377;169</h5></div>
+                                    <p>Tender baby eggplants cooked with aromatic spices and rice, a flavorful vegetarian option.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Chicken Fry Piece Pulav">
+                                <img src="assets/images/menu-items/chicken_fry_piece_pulav.png" alt="Chitti Mutyala Chicken Fry Piece Pulav">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>CHITTI MUTYALA CHICKEN FRY PIECE PULAV</h5> <h5>&#8377;199</h5></div>
-                                    <p>Perfectly fried chicken pieces served with seasoned rice.</p>
+                                    <p>Perfectly fried chicken pieces served with seasoned rice for a delightful meal.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Chicken Joint Pulav">
+                                <img src="assets/images/menu-items/joint_pulav.png" alt="Chitti Mutyala Chicken joint Pulav">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>CHITTI MUTYALA CHICKEN JOINT PULAV</h5> <h5>&#8377;229</h5></div>
-                                    <p>Juicy chicken joints paired with aromatic pulav rice.</p>
+                                    <p>Tender chicken joints cooked with aromatic spices and served with seasoned rice for a satisfying meal.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Ghee Roast Mutton Pulav">
+                                <img src="assets/images/menu-items/ghee_roast_mutton_pulav.png" alt="Chitti Mutyala Ghee Roast Mutton Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHITTI MUTYALA GHEE ROAST MUTTON PULAV</h5> <h5>&#8377;349</h5></div>
-                                    <p>Rich ghee roasted mutton mixed with flavorful pulav.</p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA GHEE ROAST MUTTON PULAV</h5> <h5>&#8377;299</h5></div>
+                                    <p>Juicy ghee-roasted mutton served with seasoned rice for an indulgent treat.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Nalli Bokkala Pulav">
-                                <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHITTI MUTYALA NALLI BOKKALA PULAV</h5> <h5>&#8377;349</h5></div>
-                                    <p>Soft, bone marrow pieces enveloped in spiced rice.</p>
-                                </div>
-                            </div>
-
-                            <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Royyala Pulav">
+                                <img src="assets/images/menu-items/royal_pulav.png" alt="Chitti Mutyala Royyala Pulav">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>CHITTI MUTYALA ROYYALA PULAV</h5> <h5>&#8377;299</h5></div>
-                                    <p>Succulent shrimp stir-fried with traditional spices and rice.</p>
+                                    <p>Flavorful shrimp and seasoned rice, a seafood delight</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Paneer Pulav">
+                                <img src="assets/images/menu-items/mutton_keema_pulav.png" alt="Mutton Keema Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHITTI MUTYALA PANEER PULAV</h5> <h5>&#8377;179</h5></div>
-                                    <p>Cubed paneer tossed with basmati rice and spices.</p>
+                                    <div class="menu-item-details"><h5>MUTTON KEEMA PULAV</h5> <h5>&#8377;349</h5></div>
+                                    <p>Savory minced mutton cooked with aromatic spices and served with seasoned rice for a satisfying meal.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Vankay Pulav">
+                                <img src="assets/images/menu-items/nalli_bokka_pulav.png" alt="Chitti Mutyala Nalli Bokkala Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHITTI MUTYALA VANKAY PULAV</h5> <h5>&#8377;179</h5></div>
-                                    <p>Flavor-packed eggplant pulav, a vegetarian delight.</p>
+                                    <div class="menu-item-details"><h5>CHITTI MUTYALA NALLI BOKKALA PULAV</h5> <h5>&#8377;349</h5></div>
+                                    <p>Tender lamb shanks cooked to perfection and served with seasoned rice for a truly flavorful experience.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Chitti Mutyala Soya Keema Pulav">
+                                <img src="assets/images/menu-items/egg_pulav.png" alt="Egg Pulav">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHITTI MUTYALA SOYA KEEMA PULAV</h5> <h5>&#8377;179</h5></div>
-                                    <p>Hearty soya keema cooked with fragrant rice.</p>
+                                    <div class="menu-item-details"><h5>EGG PULAV</h5> <h5>&#8377;160</h5></div>
+                                    <p>Boiled eggs cooked with aromatic spices and served with seasoned rice for a simple yet satisfying meal.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Egg Biryani">
+                                <img src="assets/images/menu-items/soya_keema.png" alt="Soya Keema Biriyani">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>EGG BIRYANI</h5> <h5>&#8377;160</h5></div>
-                                    <p>Classic egg biryani with aromatic spices and herbs.</p>
+                                    <div class="menu-item-details"><h5>SOYA KEEMA BIRIYANI</h5> <h5>&#8377;169</h5></div>
+                                    <p>Aromatic rice mixed with savory soya mince, a vegetarian delight.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Mutton Keema Biryani">
+                                <img src="assets/images/menu-items/vankay.png" alt="Guttivankaya Biriyani">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>MUTTON KEEMA BIRYANI</h5> <h5>&#8377;389</h5></div>
-                                    <p>Spicy and flavorful mutton keema layered with biryani rice.</p>
+                                    <div class="menu-item-details"><h5>GUTTIVANKAYA BIRYANI</h5> <h5>&#8377;169</h5></div>
+                                    <p>Stuffed eggplants cooked with fragrant spices and served with seasoned rice.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Chicken Joint Biryani">
+                                <img src="assets/images/menu-items/paneer_fry.png" alt="Paneer Fry Piece Biryani">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>PANEER FRY PIECE BIRYANI</h5> <h5>&#8377;189</h5></div>
+                                    <p>Fried paneer pieces mixed with flavorful biryani rice.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/chicken_fry.png" alt="CHICKEN FRY PIECE BIRYANI">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>CHICKEN FRY PIECE BIRYANI</h5> <h5>&#8377;199</h5></div>
+                                    <p>Perfectly fried chicken pieces served with flavorful biryani rice.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/joint.png" alt="Chicken Joint Biryani">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>CHICKEN JOINT BIRYANI</h5> <h5>&#8377;229</h5></div>
                                     <p>Savory chicken joints marinated and cooked with premium rice.</p>
@@ -349,15 +358,23 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Ghee Roast Button Biryani">
+                                <img src="assets/images/menu-items/ghee_roast.png" alt="GHEE ROAST MUTTON BIRYANI">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>GHEE ROAST BUTTON BIRYANI</h5> <h5>&#8377;349</h5></div>
-                                    <p>Luxurious ghee roast mutton blended with aromatic biryani rice.</p>
+                                    <div class="menu-item-details"><h5>GHEE ROAST MUTTON BIRYANI</h5> <h5>&#8377;299</h5></div>
+                                    <p>Tender mutton marinated in ghee and spices, cooked to perfection and served with fragrant biryani rice.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Nalli Bokkala Biryani">
+                                <img src="assets/images/menu-items/paneer_fry.png" alt="Mutton Keema Biryani">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>MUTTON KEEMA BIRYANI</h5> <h5>&#8377;349</h5></div>
+                                    <p>Spicy and flavorful mutton keema layered with biryani rice.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/nalli_bokka.png" alt="Nalli Bokkala Biryani">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>NALLI BOKKALA BIRYANI</h5> <h5>&#8377;349</h5></div>
                                     <p>Tender nalli (bone marrow) with spices and long-grain rice.</p>
@@ -365,37 +382,28 @@
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Royyala Biryani">
+                                <img src="assets/images/menu-items/royyal.png" alt="Royyal Biriyani">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>ROYYALA BIRYANI</h5> <h5>&#8377;299</h5></div>
-                                    <p>Delectable shrimp biryani with a blend of exotic spices.</p>
+                                    <p>Delicious shrimp cooked with aromatic spices and rice, a seafood sensation.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Soya Keema Biryani">
+                                <img src="assets/images/menu-items/egg.png" alt="Egg Biryani">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>SOYA KEEMA BIRYANI</h5> <h5>&#8377;149</h5></div>
-                                    <p>Vegetarian's delight: soya keema cooked with biryani spices.</p>
+                                    <div class="menu-item-details"><h5>EGG BIRYANI</h5> <h5>&#8377;160</h5></div>
+                                    <p>Classic egg biryani with aromatic spices and herbs.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Guttivankaya Biryani">
+                                <img src="assets/images/menu-items/crud_rice.png" alt="Curd Rice">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>GUTTIVANKAYA BIRYANI</h5> <h5>&#8377;149</h5></div>
-                                    <p>Stuffed eggplant biryani, a South Indian special.</p>
+                                    <div class="menu-item-details"><h5>CURD RICE</h5> <h5>&#8377;149</h5></div>
+                                    <p>Creamy and comforting rice mixed with yogurt, seasoned with spices, and served chilled for a refreshing dish.</p>
                                 </div>
                             </div>
-
-                            <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="Paneer Fry Piece Biryani">
-                                <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>PANEER FRY PIECE BIRYANI</h5> <h5>&#8377;179</h5></div>
-                                    <p>Fried paneer pieces mixed with flavorful biryani rice.</p>
-                                </div>
-                            </div>
-
 
 
 
@@ -406,16 +414,16 @@
                         <div class="menu-card" id="menu-card-2"  style="display: none;">
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/kurkure_pakodi.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>PANNER KURKURE (10PIECE)
+                                    <div class="menu-item-details"><h5>PANEER KURKURE (10PIECE)
                                     </h5> <h5>&#8377;219</h5></div>
                                     <p>a zesty and crispy panner snack with bold flavors.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/kaju_kodi_pakodi.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>KAJU KODI PAKODA (bone less)
                                     </h5> <h5>&#8377;219</h5></div>
@@ -426,19 +434,18 @@
                             
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/kaju_kodi_pakodi.png" alt="menu-item">
                                 <div class="menu-item-inner">
                                     <div class="menu-item-details"><h5>KAJU KODI PAKODA (bone)
-                                    </h5> <h5>&#8377;149</h5></div>
+                                    </h5> <h5>&#8377;189</h5></div>
                                     <p>A crunchy delight featuring cashew-coated boneless chicken bites.</p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/prawn_pakodi.png" alt="menu-item">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>PRAWNS PAKODA
-                                    </h5> <h5>&#8377;299</h5></div>
+                                    <div class="menu-item-details"><h5>PRAWNS PAKODA</h5> <h5>&#8377;299</h5></div>
                                     <p>Crispy and flavorful fried prawns, a delightful seafood snack. </p>
                                 </div>
                             </div>
@@ -448,40 +455,36 @@
                         <!-- menu card 3 -->
 
                         <div class="menu-card" id="menu-card-3" style="display: none;">
+
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/non_veg_thali.png" alt="Non-veg Thali">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>PALLETURI KODI PALAV</h5> <h5>&#8377;299</h5></div>
-                                    <p>Paired with tender marinated chicken—a delightful South Indian culinary experience. </p>
-                                </div>
-                            </div>
-                            <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
-                                <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>CHITTI MUTHAYLA MUTTON PULAV</h5> <h5>&#8377;369</h5></div>
-                                    <p>Infused with the rich flavors of Chitti Muthayla spices. A savory delight for your palate.</p>
-                                </div>
-                            </div>
-                            <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
-                                <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>PEETHALA BIRYANI  / PULAV</h5> <h5>&#8377;399</h5></div>
-                                    <p>Succulent peethalu (prawns), expertly seasoned and cooked to perfection. A seafood lover's delight.</p>
-                                </div>
-                            </div>
-                            <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
-                                <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>NATUKODI BIRYANI /PULAV</h5> <h5>&#8377;349</h5></div>
-                                    <p>Flavorful country chicken, skillfully prepared to create a wholesome and delightful culinary experience.</p>
+                                    <div class="menu-item-details"><h5>NON VEG THALI</h5> <h5>&#8377;349</h5></div>
+                                    <p>Includes egg,chicken,mutton and prawn. Bagara rice/Pulav </p>
                                 </div>
                             </div>
 
                             <div class="menu-item">
-                                <img src="assets/images/menu-items/item-1.webp" alt="menu-item">
+                                <img src="assets/images/menu-items/veg_thali.png" alt="veg thali">
                                 <div class="menu-item-inner">
-                                    <div class="menu-item-details"><h5>BADAM PAALU</h5> <h5>&#8377;79</h5></div>
-                                    <p>a dairy-free, nutty alternative with a light and creamy texture. </p>
+                                    <div class="menu-item-details"><h5>VEG THALI</h5> <h5>&#8377;249</h5></div>
+                                    <p>Includes mushroom,paneer and guti vankaya. Bagara rice/Pulav</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/apricot_delight.png" alt="Apricot Delight">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>APRIOT DELIGHT</h5> <h5>&#8377;149</h5></div>
+                                    <p>A sweet and tangy dessert made with luscious apricots, perfect for satisfying your cravings.</p>
+                                </div>
+                            </div>
+
+                            <div class="menu-item">
+                                <img src="assets/images/menu-items/goli_soda.png" alt="menu-item">
+                                <div class="menu-item-inner">
+                                    <div class="menu-item-details"><h5>GOLI SODA</h5> <h5>&#8377;60</h5></div>
+                                    <p>A refreshing, fizzy beverage with a nostalgic twist, perfect for quenching your thirst.</p>
                                 </div>
                             </div>
 
@@ -515,7 +518,7 @@
                     <div class="item"><img src="assets/images/carousel2-images/image1.webp" alt="Lateest news"></div>
                     <div class="item"><img src="assets/images/carousel2-images/image-2.webp" alt="Lateest news"></div>
                     <div class="item"><img src="assets/images/carousel2-images/image3.webp" alt="Lateest news"></div>
-                    
+                    <div class="item"><img src="assets/images/carousel2-images/image-6.webp" alt="Lateest news"></div>
                     
                     
             </div>
@@ -533,6 +536,11 @@
                 <div class="news-info">
                     <h1> A Culinary Affair Tailored for Rainbow Children's hospitals</h1>
                     <p>Proud to have catered to Rainbow Childer's Hospitals, a partnership that brought together exceptional flavors and corporate excellence. Our culinary journey merged seamlessly with the company's vision, creating an unforgettable experience for all attendees. We extend our gratitude for entrusting us to elevate your event, and we look forward to continuing to serve delectable memories in every dish.</p>
+                </div>
+                <div class="news-info">
+                    <h1> Our Successful Participation in the Franchise Expo at Hitech</h1>
+                    <p>We are thrilled to announce our successful participation in the Franchise Expo at Hitech on March 23-24. This premier event brought together entrepreneurs, business owners, and industry leaders, and we were excited to be a part of it.
+                        We want to extend our heartfelt thanks to everyone who visited our booth and expressed interest in our franchise opportunities. Your enthusiasm and curiosity were truly inspiring. For those who couldn't make it to the expo, we're happy to provide all the information you need.</p>
                 </div>
                 
             </div>

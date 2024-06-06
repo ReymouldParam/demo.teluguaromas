@@ -1,5 +1,10 @@
 // toggle content visibility from left nav
+$(".location-tab").click(function() {
+  loc = $(this).data("location");
 
+  $(".location-information-container").css("display", "none")
+  $("#"+loc).css("display","flex")
+});
 
 
 $(document).ready(function() {
@@ -55,58 +60,58 @@ jQuery(document).ready(function($) {
     $(window).trigger('scroll');
   });
 
-let navElementList = document.querySelectorAll(".nav-link");
+// let navElementList = document.querySelectorAll(".nav-link");
 
-navElementList.forEach(element => {
-    element.addEventListener('click', () => {
-      let navAttribute = element.getAttribute('aria-current');
-      let navUrl = window.location.origin + '/' + navAttribute;
-      console.log(window.location.origin);
+// navElementList.forEach(element => {
+//     element.addEventListener('click', () => {
+//       let navAttribute = element.getAttribute('aria-current');
+//       let navUrl = window.location.origin + '/' + navAttribute;
+//       console.log(window.location.origin);
 
-      // Update URL
-      window.history.pushState({ path: navUrl }, '', navUrl);
-    });
-});
+//       // Update URL
+//       window.history.pushState({ path: navUrl }, '', navUrl);
+//     });
+// });
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-  // Function to show selected location content
-  function showLocation(locationName) {
-      // Hide all locations
-      $('.location-information-container').hide();
+//   // Function to show selected location content
+//   function showLocation(locationName) {
+//       // Hide all locations
+//       $('.location-information-container').hide();
 
-      // Show the selected location
-      $('#' + locationName).css('display', 'flex');
+//       // Show the selected location
+//       $('#' + locationName).css('display', 'flex');
 
-      // Remove active class from all location tabs
-      $('.location-tab').removeClass('location-tab-active');
+//       // Remove active class from all location tabs
+//       $('.location-tab').removeClass('location-tab-active');
 
-      // Add active class to the clicked location tab
-      $('[data-location="' + locationName + '"]').addClass('location-tab-active');
-  }
+//       // Add active class to the clicked location tab
+//       $('[data-location="' + locationName + '"]').addClass('location-tab-active');
+//   }
 
-  // Show default location content on page load
-  showLocation('kompally');
+//   // Show default location content on page load
+//   showLocation('kompally');
 
-  // Event listener for clicking on location tabs
-  $('.locations-list-container .location-tab').on('click', function(e) {
-      var locationName = $(this).attr('data-location');
+//   // Event listener for clicking on location tabs
+//   $('.locations-list-container .location-tab').on('click', function(e) {
+//       var locationName = $(this).attr('data-location');
 
-      // Show the respective location content
-      showLocation(locationName);
+//       // Show the respective location content
+//       showLocation(locationName);
 
-      // Update URL
-      var newUrl = window.location.origin + '/location/' + locationName;
-      window.history.pushState({ path: newUrl }, '', newUrl);
-  });
+//       // Update URL
+//       var newUrl = window.location.origin + '/location/' + locationName;
+//       window.history.pushState({ path: newUrl }, '', newUrl);
+//   });
 
-  // Toggle content visibility from left nav
-  function toggleLocationList() {
-      $('.locations-main-container .locations-list-container .list').toggle();
-  }
+//   // Toggle content visibility from left nav
+//   function toggleLocationList() {
+//       $('.locations-main-container .locations-list-container .list').toggle();
+//   }
 
-  // Event listener for toggling location list visibility
-  $('.open-list-btn').on('click', function() {
-      toggleLocationList();
-  });
-});
+//   // Event listener for toggling location list visibility
+//   $('.open-list-btn').on('click', function() {
+//       toggleLocationList();
+//   });
+// });

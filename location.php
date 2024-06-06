@@ -171,7 +171,7 @@
                                 style="background-image: url(assets/images/locations-images/3.webp)"></div>
                         </div>
                     </div>
-                    <h1 class="sub-title">LOCATION:- CINE PLANET KOMPALLY HYDERABAD, TELANGANa</h1>
+                    <h1 class="sub-title">LOCATION: CINE PLANET KOMPALLY HYDERABAD, TELANGANa</h1>
                     <p>At Telugu Aromas, located in Kompally, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style curries, every dish tells a story. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite. Join us on a culinary journey celebrating our region's rich flavors and traditions. At Telugu Aromas, we're more than a restaurant – we're an invitation to savor extraordinary tastes, culture, and unforgettable moments.
                     </p>
                     <p>Looking for a restaurant near you? Discover why we’re known for serving the Best Biryani & Pulav in Hyderabad. Come and see why we’re considered one of the Best Restaurants in Hyderabad. Your taste buds will thank you!</p>
@@ -228,7 +228,7 @@
                                 style="background-image: url(assets/images/locations-images/kondapur-img-3.webp)"></div>
                         </div>
                     </div>
-                    <h1 class="sub-title">LOCATION:- Miyapur Rd, Hanuman Nagar, Shilpa Hills, Hyderabad, Telangana</h1>
+                    <h1 class="sub-title">LOCATION: Miyapur Rd, Hanuman Nagar, Shilpa Hills, Hyderabad, Telangana</h1>
                     <p>At Telugu Aromas in Kondapur, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style curries, every dish tells a story. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite.
                     </p>
                     <p>As one of the best restaurants in Hyderabad, and often regarded as the best Hyderabadi restaurant, we invite you to join us on a culinary journey celebrating our region's rich flavors and traditions. Whether you're searching for a "restaurant near me" or looking to explore extraordinary tastes, culture, and unforgettable moments, Telugu Aromas is more than just a place to eat – it's an experience.</p>
@@ -285,7 +285,7 @@
                                 style="background-image: url(assets/images/locations-images/3.webp)"></div>
                         </div>
                     </div>
-                    <h1 class="sub-title">LOCATION:- NH 44 mainroad, beside Indian Oil Petrol Bunk, Gowraram Village
+                    <h1 class="sub-title">LOCATION: NH 44 mainroad, beside Indian Oil Petrol Bunk, Gowraram Village
                     </h1>
                     <p>At Telugu Aromas, located in GOWRARAM, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style curries, every dish tells a story. We serve a variety of mouthwatering Biryanis that you won't want to miss. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite. Join us on a culinary journey celebrating our region's rich flavors and traditions. If you're looking for a "restaurant near me" or searching for the best restaurants in Hyderabad, come to Telugu Aromas. We're more than a restaurant we're an invitation to savor extraordinary tastes, culture, and unforgettable moments
                     </p>
@@ -342,7 +342,7 @@
                                 style="background-image: url(assets/images/locations-images/toopan-img-3.webp)"></div>
                         </div>
                     </div>
-                    <h1 class="sub-title">LOCATION:- Toopran bypass Road, National Highway 44, Toopran, Medak district,
+                    <h1 class="sub-title">LOCATION: Toopran bypass Road, National Highway 44, Toopran, Medak district,
                         Telangana</h1>
                     <p>At Telugu Aromas in TOOPRAN, we specialize in creating unforgettable flavor experiences. From our mouth-watering Bagara Rice to authentic Telangana and Andhra-style curries, each dish tells its own story. We love sharing our culinary heritage through our catering services, making every event special with our unique flavors.
                     </p>

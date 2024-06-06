@@ -67,7 +67,6 @@
     display: flex;
     padding: 10px;
     display: none;
-    /* background-color: var(--theme-color5); */
     border-radius: 10px 0 0 0;
 }
 
@@ -194,7 +193,7 @@
         padding: 10px 0;
     }
     .location-information-container .location-image .images-grid{
-        height: 40%;
+        height: 43%;
     }
 
     .location-information-container .location-image .map-container{
