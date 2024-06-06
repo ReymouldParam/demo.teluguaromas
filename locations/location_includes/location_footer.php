@@ -1,6 +1,6 @@
 <section class="section-footer smooth-scroll">
     <div class="subscribe-section">
-        <form class="subscribe-form" action="subscribe_form.php" method="post">
+        <form class="subscribe-form" action="../subscribe_form.php" method="post">
         <label for="emailSubscribe">SUBSCRIBE TO OFFERS AND DISCOUNTS</label>
         <div class="subscribe-form-inner"><input type="email" id="emailSubscribe"  name="email"> <button type="submit" >Subscribe</button></div>
         </form>
@@ -8,13 +8,13 @@
     <footer>
         <div class="footer-inner">
             <div class="column1">
-                <img src="assets/images/logo-3.webp" class="footer-logo" alt="">
+                <img src="../assets/images/logo-3.webp" class="footer-logo" alt="">
                 <div id="footerSmIcons">
-                <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550737452869"><img src="assets/images/sm-logo/fb.png" alt=""></a>
+                <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550737452869"><img src="../assets/images/sm-logo/fb.png" alt=""></a>
 
-                    <a target="_blank" aria-label="Our instagram" href="https://instagram.com/telugu_aromas?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><img src="assets/images/sm-logo/insta.png" alt="logo"></a>
-                    <a target="_blank" aria-label="our twitter" href="https://www.youtube.com/channel/UCaHxvSy_XUrWP9vovhTKQWA"><img src="assets/images/sm-logo/youtube.png" alt="logo"></a>
-                    <a target="_blank" aria-label="out Threads" href="https://www.threads.net/@telugu_aromas"><img src="assets/images/sm-logo/threads.png" alt=""></a>
+                    <a target="_blank" aria-label="Our instagram" href="https://instagram.com/telugu_aromas?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><img src="../assets/images/sm-logo/insta.png" alt="logo"></a>
+                    <a target="_blank" aria-label="our twitter" href="https://www.youtube.com/channel/UCaHxvSy_XUrWP9vovhTKQWA"><img src="../assets/images/sm-logo/youtube.png" alt="logo"></a>
+                    <a target="_blank" aria-label="out Threads" href="https://www.threads.net/@telugu_aromas"><img src="../assets/images/sm-logo/threads.png" alt=""></a>
                 </div>
                 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p> -->
             </div>
@@ -45,16 +45,15 @@
     </footer>
 </section>
 
-<!-- order icon -->
-<div id="whatappIcon">
-    <a href="https://order.teluguaromas.com/" target="_blank">
-        <img class="order_icon" src="assets/images/order_icon.png" alt="order_icon">
-    </a>
-</div>
-
 <!-- Whats app icon -->
 <!-- <a href="https://wa.me/+918367616761" aria-label="Chat us on whatsapp" target="_blank"><i id="whatappIcon" class='bx bxl-whatsapp'></i></a> -->
 
+<!-- order icon -->
+<div id="whatappIcon">
+    <a href="https://order.teluguaromas.com/" target="_blank">
+        <img class="order_icon" src="../assets/images/order_icon.png" alt="order_icon">
+    </a>
+</div>
 
 <!-- social media icons for mobile -->
 <!-- <div class="social-icon-mobile">

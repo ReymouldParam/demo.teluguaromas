@@ -1,10 +1,10 @@
 // toggle content visibility from left nav
-$(".location-tab").click(function() {
-  loc = $(this).data("location");
+// $(".location-tab").click(function() {
+//   loc = $(this).data("location");
 
-  $(".location-information-container").css("display", "none")
-  $("#"+loc).css("display","flex")
-});
+//   $(".location-information-container").css("display", "none")
+//   $("#"+loc).css("display","flex")
+// });
 
 
 $(document).ready(function() {
@@ -28,14 +28,12 @@ $(document).ready(function() {
 // header dynamic scrool
 jQuery(document).ready(function($) {
     var header = $('#stickyheaders');
-    var whatsappIcon = $('#whatappIcon');
   
     $(window).scroll(function() {
       var scrollTop = $(this).scrollTop();
       
       if (scrollTop <= 5) {
         header.css("background-color", "transparent");
-        whatsappIcon.css("display", "none");
   
         if(window.innerWidth<=440){
           $("#header-logo").css("height","50px");
@@ -52,7 +50,6 @@ jQuery(document).ready(function($) {
   
   
         header.css("background-color", "var(--header-bg-color)");
-        whatsappIcon.css("display", "block");
       }
     });
   

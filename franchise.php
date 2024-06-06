@@ -57,11 +57,12 @@
           </div>
           <div class="image-section2">
             <div class="ppt-carousel">
-              <div class="ppt-item"><img src="assets/images/ppt/5.jpg" alt=""></div>
-              <div class="ppt-item"><img src="assets/images/ppt/1.jpg" alt=""></div>
-              <div class="ppt-item"><img src="assets/images/ppt/2.jpg" alt=""></div>
-              <div class="ppt-item"><img src="assets/images/ppt/3.jpg" alt=""></div>
-              <div class="ppt-item"><img src="assets/images/ppt/4.jpg" alt=""></div>
+              <div class="ppt-item"><img src="assets/images/ppt/new_pdf_2.webp" alt=""></div>
+              <div class="ppt-item"><img src="assets/images/ppt/new_pdf_1.webp" alt=""></div>
+              <div class="ppt-item"><img src="assets/images/ppt/new_pdf_3.webp" alt=""></div>
+              <div class="ppt-item"><img src="assets/images/ppt/new_pdf_4.webp" alt=""></div>
+              <div class="ppt-item"><img src="assets/images/ppt/new_pdf_5.webp" alt=""></div>
+              <div class="ppt-item"><img src="assets/images/ppt/new_pdf_6.webp" alt=""></div>
             </div>
           </div>
         </div>

@@ -135,22 +135,30 @@
                     <button class="btn p-1" onclick="toggleLocationList()">Close <i
                             class="fa-solid fa-xmark"></i></button>
                 </div>
-                <div class="location-tab location-tab-active" data-location="kompally">
-                    <h4 class="title">Kompally</h4>
-                    <p class="text-xxs">Open Untill 11:00pm</p>
-                </div>
-                <div class="location-tab" data-location="kondapur">
-                    <h4 class="title">Kondapur</h4>
-                    <p class="text-xxs">Open Untill 11:00pm</p>
-                </div>
-                <div class="location-tab" data-location="gowraram">
-                    <h4 class="title">Gowraram</h4>
-                    <p class="text-xxs">Open Untill 11:00pm</p>
-                </div>
-                <div class="location-tab" data-location="toopran">
-                    <h4 class="title">Toopran</h4>
-                    <p class="text-xxs">Open Untill 11:00pm</p>
-                </div>
+                <a href="locations/kompally" class="locations-link" >
+                    <div class="location-tab location-tab-active" data-location="kompally">
+                        <h4 class="title">Kompally</h4>
+                        <p class="text-xxs">Open Untill 11:00pm</p>
+                    </div>
+                </a>
+                <a href="locations/kondapur">
+                    <div class="location-tab" data-location="kondapur">
+                        <h4 class="title">Kondapur</h4>
+                        <p class="text-xxs">Open Untill 11:00pm</p>
+                    </div>
+                </a>
+                <a href="locations/gowraram">
+                    <div class="location-tab" data-location="gowraram">
+                        <h4 class="title">Gowraram</h4>
+                        <p class="text-xxs">Open Untill 11:00pm</p>
+                    </div>
+                </a>
+                <a href="locations/toopan">
+                    <div class="location-tab" data-location="toopran">
+                        <h4 class="title">Toopran</h4>
+                        <p class="text-xxs">Open Untill 11:00pm</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="locations-main-body">
