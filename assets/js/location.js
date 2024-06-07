@@ -102,10 +102,10 @@ jQuery(document).ready(function($) {
 //       window.history.pushState({ path: newUrl }, '', newUrl);
 //   });
 
-//   // Toggle content visibility from left nav
-//   function toggleLocationList() {
-//       $('.locations-main-container .locations-list-container .list').toggle();
-//   }
+  // Toggle content visibility from left nav
+  function toggleLocationList() {
+      $('.locations-main-container .locations-list-container .list').toggle();
+  }
 
 //   // Event listener for toggling location list visibility
 //   $('.open-list-btn').on('click', function() {

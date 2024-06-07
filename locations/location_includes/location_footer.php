@@ -69,8 +69,8 @@
 
 <!-- floating catering and franchise links -->
 <div id="floatingNavlinksMobile">
-    <a href="catering">Catering</a>
-    <a href="franchise">Franchise</a>
+    <a href="../catering">Catering</a>
+    <a href="../franchise">Franchise</a>
 </div>
 
 <!-- Form successMessage -->
