@@ -78,9 +78,9 @@
             <div class="home-aboutus">
                 <h1>Discover</h1>
                 <h1>Our Story</h1>
-                <p>At Telugu Aromas, we are the destination for a symphony of flavors, where delicious Bagara Rice meets authentic Telangana and Andhra-style curries. We believe in harnessing the power of food to craft unforgettable experiences. Our journey is fueled by a passion for sharing unique flavors, inspiring us to curate a menu that tantalizes taste buds and leaves a lasting impression.
+                <p>Best Restaurants in Hyderabad, Telugu Aromas, we are the destination for a symphony of flavors, where delicious Bagara Rice meets authentic Telangana and Andhra-style curries. We believe in harnessing the power of food to craft unforgettable experiences. Our journey is fueled by a passion for sharing unique flavors, inspiring us to curate a menu that tantalizes taste buds and leaves a lasting impression.
 
-                   <br><br>Central to our culinary tapestry are our mouthwatering non-vegetarian curries. Each dish is a masterpiece, meticulously prepared with unwavering care and attention. The result is a collection of flavors that transport you to the heart of Telugu cuisine, where tradition and innovation meet. </p>
+                   <br><br>Looking for a restaurant near you? Discover why we’re known for serving the Best Biryani & Pulav in Hyderabad. Come and see why we’re considered one of the Best Restaurants in Hyderabad and one of the top "Restaurants near me." Your taste buds will thank you </p>
                 <a href="ourstory"><button class="btn aboutus-btn">Explore More</button></a>
             </div>
     
@@ -543,7 +543,7 @@
                 </div>
 
                 <div class="news-info">
-                    <h1> Our Successful Participation in the Franchise Expo at Hitech</h1>
+                    <h1> Our Successful Participation in the Franchise Expo at Hitechs</h1>
                     <p>We are thrilled to announce our successful participation in the Franchise Expo at Hitech on March 23-24. This premier event brought together entrepreneurs, business owners, and industry leaders, and we were excited to be a part of it.
                         We want to extend our heartfelt thanks to everyone who visited our booth and expressed interest in our franchise opportunities. Your enthusiasm and curiosity were truly inspiring. For those who couldn't make it to the expo, we're happy to provide all the information you need.</p>
                 </div>

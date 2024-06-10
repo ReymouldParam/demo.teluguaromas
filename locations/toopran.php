@@ -97,7 +97,7 @@
     <header id="stickyheaders">
         <nav id="headerInner" class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" aria-label="Header logo" href="."><img id="header-logo"
+                <a class="navbar-brand" aria-label="Header logo" href="../."><img id="header-logo"
                         src="../assets/images/logo-3.webp" alt="header_logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -218,7 +218,7 @@
                         Telangana</h1>
                     <p>At Telugu Aromas in TOOPRAN, we specialize in creating unforgettable flavor experiences. From our mouth-watering Bagara Rice to authentic Telangana and Andhra-style curries, each dish tells its own story. We love sharing our culinary heritage through our catering services, making every event special with our unique flavors.
                     </p>
-                    <p>Searching for a "restaurant near me" or "biryani near me"? Telugu Aromas is your answer! As one of the best restaurants in Hyderabad, we offer a rich culinary journey filled with regional traditions and tastes. At Telugu Aromas, we're more than just a restaurant we welcome you to savor exceptional flavors, culture, and memorable moments.</p>
+                    <p>Craving the best Biryani & Pulav in Hyderabad? We're known for it! Discover why we're a top-rated restaurant near you.Come and see why we’re considered one of the Best Restaurants in Hyderabad and one of the top "Restaurants near me." Your taste buds will thank you! </p>
                 </div>
                 <div class="location-image">
                     <div class="images-grid">

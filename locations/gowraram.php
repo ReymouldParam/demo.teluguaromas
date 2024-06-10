@@ -92,12 +92,10 @@
     </div>
 </div> -->
 
-    <!-- header section -->
-
     <header id="stickyheaders">
         <nav id="headerInner" class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" aria-label="Header logo" href="."><img id="header-logo"
+                <a class="navbar-brand" aria-label="Header logo" href="../."><img id="header-logo"
                         src="../assets/images/logo-3.webp" alt="header_logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -218,6 +216,7 @@
                     </h1>
                     <p>At Telugu Aromas, located in GOWRARAM, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style curries, every dish tells a story. We serve a variety of mouthwatering Biryanis that you won't want to miss. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite. Join us on a culinary journey celebrating our region's rich flavors and traditions. If you're looking for a "restaurant near me" or searching for the best restaurants in Hyderabad, come to Telugu Aromas. We're more than a restaurant we're an invitation to savor extraordinary tastes, culture, and unforgettable moments
                     </p>
+                    <p>Craving the best Biryani & Pulav in Hyderabad? We're known for it! Discover why we're a top-rated restaurant near you.Come and see why we’re considered one of the Best Restaurants in Hyderabad and one of the top "Restaurants near me." Your taste buds will thank you! </p>
                 </div>
                 <div class="location-image">
                     <div class="images-grid">

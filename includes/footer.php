@@ -6,38 +6,53 @@
         </form>
     </div>
     <footer>
-        <div class="footer-inner">
+        <!-- <div class="footer-inner d-block d-md-none">
             <div class="column1">
                 <img src="assets/images/logo-3.webp" class="footer-logo" alt="">
                 <div id="footerSmIcons">
-                <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550737452869"><img src="assets/images/sm-logo/fb.png" alt=""></a>
-
+                    <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550737452869"><img src="assets/images/sm-logo/fb.png" alt=""></a>
                     <a target="_blank" aria-label="Our instagram" href="https://instagram.com/telugu_aromas?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><img src="assets/images/sm-logo/insta.png" alt="logo"></a>
                     <a target="_blank" aria-label="our twitter" href="https://www.youtube.com/channel/UCaHxvSy_XUrWP9vovhTKQWA"><img src="assets/images/sm-logo/youtube.png" alt="logo"></a>
                     <a target="_blank" aria-label="out Threads" href="https://www.threads.net/@telugu_aromas"><img src="assets/images/sm-logo/threads.png" alt=""></a>
                 </div>
-                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p> -->
             </div>
             <div class="column">
-                <!-- <h1>ABOUT US</h1> -->
                 <a href="ourstory">About Us</a>
                 <a href="catering">Services</a>
                 <a href="franchise">Franchise</a>
             </div>
-            <div class="column">
-            <!-- <h1>COMPANY</h1> -->
-            <p>Partnership</p>
-            <p>Term of Use</p>
-            <p>Site Map</p>
-        </div>
-
         <div class="column">
-            <!-- <h1>CONTACT</h1> -->
+
             <a href="contact">Contact</a>
             <a href="tel:+919199579957">Call</a>
             <a href="mailto:catering@teluguaromas.com">E-mail</a>
         </div>
             
+        </div> -->
+        <!-- <div class="copyrights-container">
+            All Rights Reserved. Designed By <a target="_blank" href="https://reymould.com/">Reymould Technology Solutions</a>
+        </div> -->
+
+        <div class="new_footer">
+            <img src="assets/images/logo-3.webp" class="footer-logo" alt="">
+            <div class="new_footer_links">
+                <div class="colums">
+                    <a href="ourstory">About Us</a>
+                    <a href="catering">Catering</a>
+                    <a href="franchise">Franchise</a>
+                </div>
+                <div class="colums">
+                    <a href="contact">Contact</a>
+                    <a href="tel:+919199579957">Call</a>
+                    <a href="mailto:catering@teluguaromas.com">E-mail</a>
+                </div>
+            </div>
+            <div id="footerSmIcons">
+                <a target="_blank" aria-label="Our facebook" href="https://www.facebook.com/profile.php?id=61550737452869"><img src="assets/images/sm-logo/fb.png" alt=""></a>
+                <a target="_blank" aria-label="Our instagram" href="https://instagram.com/telugu_aromas?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><img src="assets/images/sm-logo/insta.png" alt="logo"></a>
+                <a target="_blank" aria-label="our twitter" href="https://www.youtube.com/channel/UCaHxvSy_XUrWP9vovhTKQWA"><img src="assets/images/sm-logo/youtube.png" alt="logo"></a>
+                <a target="_blank" aria-label="out Threads" href="https://www.threads.net/@telugu_aromas"><img src="assets/images/sm-logo/threads.png" alt=""></a>
+            </div>
         </div>
         <div class="copyrights-container">
             All Rights Reserved. Designed By <a target="_blank" href="https://reymould.com/">Reymould Technology Solutions</a>
