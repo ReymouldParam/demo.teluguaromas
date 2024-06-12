@@ -194,6 +194,12 @@
                         <p class="text-xxs">Open Untill 11:00pm</p>
                     </div>
                 </a>
+                <a href="tarnaka">
+                    <div class="location-tab" data-location="tarnaka">
+                        <h4 class="title">Tarnaka</h4>
+                        <p class="text-xxs">Open Untill 11:00pm</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="locations-main-body">

@@ -171,7 +171,7 @@
                             class="fa-solid fa-xmark"></i></button>
                 </div>
                 <a href="kompally">
-                    <div class="location-tab location-tab-active" data-location="kompally">
+                    <div class="location-tab" data-location="kompally">
                         <h4 class="title">Kompally</h4>
                         <p class="text-xxs">Open Untill 11:00pm</p>
                     </div>
@@ -195,7 +195,7 @@
                     </div>
                 </a>
                 <a href="tarnaka">
-                    <div class="location-tab" data-location="tarnaka">
+                    <div class="location-tab location-tab-active" data-location="tarnaka">
                         <h4 class="title">Tarnaka</h4>
                         <p class="text-xxs">Open Untill 11:00pm</p>
                     </div>
@@ -206,25 +206,25 @@
             
             <div class="location-information-container" style="display : flex" id="kompally">
                 <div class="location-info">
-                    <h1 class="title">Telugu Aromas - Kompally</h1>
+                    <h1 class="title">Telugu Aromas - Tarnaka</h1>
                     <div class="carousel-container mb-2">
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(../assets/images/locations-images/kompally-img-1.webp)"></div>
+                                style="background-image: url(../assets/images/locations-images/tarnaka-1.webp)"></div>
                         </div>
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(../assets/images/locations-images/2.webp)"></div>
+                                style="background-image: url(../assets/images/locations-images/tarnaka-2.webp)"></div>
                         </div>
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(../assets/images/locations-images/3.webp)"></div>
+                                style="background-image: url(../assets/images/locations-images/tarnaka-3.webp)"></div>
                         </div>
                     </div>
-                    <h1 class="sub-title">LOCATION: CINE PLANET KOMPALLY HYDERABAD, TELANGANa</h1>
-                    <p>At Telugu Aromas, located in Kompally, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style curries, every dish tells a story. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite. Join us on a culinary journey celebrating our region's rich flavors and traditions. At Telugu Aromas, we're more than a restaurant – we're an invitation to savor extraordinary tastes, culture, and unforgettable moments.
+                    <h1 class="sub-title">LOCATION: Tarnaka Main Rd, opp. to Taaza kitchen, near Spencer's Neighborhood, Krishna Giri Enclave, Tarnaka, Secunderabad, Telangana</h1>
+                    <p>At Telugu Aromas in Tarnaka, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style curries, every dish tells a story. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite.
                     </p>
-                    <p>Come experience the flavors that make us a top choice for "Restaurants near me."  Your taste buds will be happy</p>
+                    <p>Craving the best Biryani & Pulav in Hyderabad? We're known for it! Discover why we're a top-rated restaurant near you.Come and see why we’re considered one of the Best Restaurants in Hyderabad and one of the top "Restaurants near me." Your taste buds will thank you!</p>
                 </div>
                 <div class="location-image">
                     <div class="images-grid">
@@ -233,29 +233,33 @@
                                 <h3 class="title">Contact Us</h3>
                             </div>
                             <div>
-                                <a href="https://www.instagram.com/telugu_aromas/" target="_blank"><i
+                                <a href="https://www.instagram.com/teluguaromas_tarnaka/?fbclid=IwAR3ljYTqmCwyvcx7jkYpQMf7I0Wi1aSV61jmVlGBqQn3P7eqp5GcXnJbxyM" target="_blank"><i
                                         class="fa-brands fa-square-instagram social-media-icon"></i></a>
                                 <!-- <a href="#" target="_blank"><i class="fa-brands fa-youtube social-media-icon"></i></a> -->
-                                <a href="https://www.facebook.com/TeluguAromasOfficial/" target="_blank"><i
+                                <a href="https://www.facebook.com/profile.php?id=61559996343577" target="_blank"><i
                                         class="fa-brands fa-square-facebook social-media-icon"></i></a>
                             </div>
                         </div>
                         <div class="info-container">
                             <p class="icon"><i class="fa-solid fa-phone"></i></p>
-                            <p class="info">+91 83676 16761</p>
+                            <p class="info">+91 63039 96150</p>
                             <p class="icon"><i class="fa-solid fa-envelope"></i></i></p>
-                            <p class="info">Contact@teluguaromas.com</p>
+                            <p class="info">tatarnaka.social@gmail.com</p>
                             <p class="icon"><i class="fa-solid fa-location-dot"></i></p>
-                            <p class="info">Sy No 105 F, H No 2-14/1, Shiva Reddy Godowns North NCL, NH44 Near Cine
-                                Planet Kompally, Hyderabad, Telangana 500014</p>
+                            <p class="info">Tarnaka Main Rd, opp. to Taaza kitchen, near Spencer's Neighborhood, Krishna Giri Enclave, Tarnaka, Secunderabad, Telangana 500017</p>
                         </div>
                     </div>
                     <div class="map-container">
                         <div class="py-2 w-100 h-100">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.5850709491024!2d78.484529!3d17.527309699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9bfde3212895%3A0xf69ac0012e86ec98!2sTelugu%20Aromas!5e0!3m2!1sen!2sin!4v1715799756158!5m2!1sen!2sin"
+                            <!-- <iframe
+                                src="https://www.google.com/maps/place/Telugu+Aromas+-+Tarnaka/@17.4284982,78.5331248,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb9902cedb1261:0x4d5f683cf70d4c85!8m2!3d17.4284982!4d78.5331248!16s%2Fg%2F11v_4ctz8c?entry=ttu"
                                 style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.6516317042147!2d78.5331248!3d17.4284982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9902cedb1261%3A0x4d5f683cf70d4c85!2sTelugu%20Aromas%20-%20Tarnaka!5e0!3m2!1sen!2sin!4v1718126709091!5m2!1sen!2sin"
+                                     style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
                         </div>
                     </div>
                 </div>

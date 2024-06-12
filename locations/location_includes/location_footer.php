@@ -45,12 +45,12 @@
             <img src="../assets/images/logo-3.webp" class="footer-logo" alt="">
             <div class="new_footer_links">
                 <div class="colums">
-                    <a href="ourstory">About Us</a>
-                    <a href="catering">Catering</a>
-                    <a href="franchise">Franchise</a>
+                    <a href="../ourstory">About Us</a>
+                    <a href="../catering">Catering</a>
+                    <a href="../franchise">Franchise</a>
                 </div>
                 <div class="colums">
-                    <a href="contact">Contact</a>
+                    <a href="../contact">Contact</a>
                     <a href="tel:+919199579957">Call</a>
                     <a href="mailto:catering@teluguaromas.com">E-mail</a>
                 </div>
