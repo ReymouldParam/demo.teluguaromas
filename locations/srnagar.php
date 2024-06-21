@@ -14,8 +14,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Telugu Biryani & Pulav Restaurant in Kompally, Hyderabad</title>
-    <meta name="title" content="Best Telugu Biryani & Pulav Restaurant in Kompally, Hyderabad" />
+    <title>Best Telugu Biryani & Pulav Restaurant in SR Nagar, Hyderabad</title>
+    <meta name="title" content="Best Telugu Biryani & Pulav Restaurant in SR Nagar, Hyderabad" />
     <meta name="description"
         content="Delicious Veg & Non-Veg Bagara Biriyanis and Pulavs at Telugu Aromas | Dining & Take Away | Lunch, Snack & Dinner | Catering Service & Franchise Available" />
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
@@ -189,7 +189,7 @@
                     </div>
                 </a>
                 <a href="toopran">
-                    <div class="location-tab location-tab-active" data-location="toopran">
+                    <div class="location-tab" data-location="toopran">
                         <h4 class="title">Toopran</h4>
                         <p class="text-xxs">Open Untill 11:00pm</p>
                     </div>
@@ -201,7 +201,7 @@
                     </div>
                 </a>
                 <a href="srnagar">
-                    <div class="location-tab" data-location="srnagar">
+                    <div class="location-tab location-tab-active" data-location="srnagar">
                         <h4 class="title">SR Nagar</h4>
                         <p class="text-xxs">Open Untill 11:00pm</p>
                     </div>
@@ -209,9 +209,9 @@
             </div>
         </div>
         <div class="locations-main-body">
-            <div class="location-information-container" style="display : flex" id="toopran">
+            <div class="location-information-container" style="display : flex" id="srnagar">
                 <div class="location-info">
-                    <h1 class="title">Telugu Aromas - Toopran</h1>
+                    <h1 class="title">Telugu Aromas - SR Nagar</h1>
                     <div class="carousel-container mb-2">
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
@@ -226,9 +226,9 @@
                                 style="background-image: url(../assets/images/locations-images/toopan-img-3.webp)"></div>
                         </div>
                     </div>
-                    <h1 class="sub-title">LOCATION: Toopran bypass Road, National Highway 44, Toopran, Medak district,
-                        Telangana</h1>
-                    <p>At Telugu Aromas in TOOPRAN, we specialize in creating unforgettable flavor experiences. From our mouth-watering Bagara Rice to authentic Telangana and Andhra-style curries, each dish tells its own story. We love sharing our culinary heritage through our catering services, making every event special with our unique flavors.
+                    <h1 class="sub-title">LOCATION:  Donne Biryani opp: SBI Bank SR Nagar Branch, SR Nagar Mainroad, Sanjeeva Reddy Nagar, Hyderabad, Telangana.</h1>
+                    <p>At Telugu Aromas in SR NAGAR, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style curries, every dish tells a story. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite.
+
                     </p>
                     <p>Craving the best Biryani & Pulav in Hyderabad? We're known for it! Discover why we're a top-rated restaurant near you.Come and see why we’re considered one of the Best Restaurants in Hyderabad and one of the top "Restaurants near me." Your taste buds will thank you! </p>
                 </div>
@@ -239,29 +239,31 @@
                                 <h3 class="title">Contact Us</h3>
                             </div>
                             <div>
-                                <a href="https://www.instagram.com/teluguaromas_toopran/?fbclid=IwAR2BjQDCNh18tz58jWWKCYdLM7KN0j398VUizdB_r4QDi0XNe2DUy8dLqlI" target="_blank"><i
+                                <a href="https://www.instagram.com/teluguaromas_srnagar?utm_source=qr&igsh=MWI1cXhuOHhydzg2cg== " target="_blank"><i
                                         class="fa-brands fa-square-instagram social-media-icon"></i></a>
                                 <!-- <a href="#" target="_blank"><i class="fa-brands fa-youtube social-media-icon"></i></a> -->
-                                <a href="https://www.facebook.com/profile.php?id=61558884998631" target="_blank"><i
+                                <a href="https://www.facebook.com/profile.php?id=61561297433490" target="_blank"><i
                                         class="fa-brands fa-square-facebook social-media-icon"></i></a>
                             </div>
                         </div>
                         <div class="info-container">
                             <p class="icon"><i class="fa-solid fa-phone"></i></p>
-                            <p class="info">+91 90906 31313</p>
+                            <p class="info">+91 9704694499</p>
                             <p class="icon"><i class="fa-solid fa-envelope"></i></i></p>
-                            <p class="info">teluguaromatoopran1313@gmail.com</p>
+                            <p class="info">tasrnagar.social@gmail.com</p>
                             <p class="icon"><i class="fa-solid fa-location-dot"></i></p>
-                            <p class="info">S.no 743, Toopran bypass Road, National Highway 44, Toopran,Medak
-                                district,Telangana</p>
+                            <p class="info">H No : 25/3RT, Municipal. No 7-1-621/95M Beside : Donne Biryani opp: SBI Bank SR Nagar Branch, SR Nagar Mainroad, Sanjeeva Reddy Nagar, Hyderabad, 500038.</p>
                         </div>
                     </div>
                     <div class="map-container">
                         <div class="py-2 w-100 h-100">
-                            <iframe
+                            <!-- <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3797.8860546067617!2d78.4673439!3d17.843975699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcc7192814eb75d%3A0xbe3a6aab0f500486!2sTelugu%20Aromas!5e0!3m2!1sen!2sin!4v1715800163072!5m2!1sen!2sin"
                                 style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3806.366810387971!2d78.443247!3d17.442149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI2JzMxLjciTiA3OMKwMjYnMzUuNyJF!5e0!3m2!1sen!2sin!4v1718875753992!5m2!1sen!2sin"
+                                 style="border:0;" allowfullscreen="" loading="lazy"
+                                  referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
