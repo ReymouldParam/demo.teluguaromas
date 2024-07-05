@@ -206,6 +206,12 @@
                         <p class="text-xxs">Open Untill 11:00pm</p>
                     </div>
                 </a>
+                <a href="nizampet">
+                    <div class="location-tab" data-location="nizampet">
+                        <h4 class="title">Nizampet</h4>
+                        <p class="text-xxs">Open Untill 11:00pm</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="locations-main-body">
@@ -227,7 +233,7 @@
                         </div>
                     </div>
                     <h1 class="sub-title">LOCATION:  Donne Biryani opp: SBI Bank SR Nagar Branch, SR Nagar Mainroad, Sanjeeva Reddy Nagar, Hyderabad, Telangana.</h1>
-                    <p>At Telugu Aromas in SR NAGAR, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style curries, every dish tells a story. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite.
+                    <p>At Telugu Aromas in SR Nagar, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style curries, every dish tells a story. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite.
 
                     </p>
                     <p>Craving the best Biryani & Pulav in Hyderabad? We're known for it! Discover why we're a top-rated restaurant near you.Come and see why we’re considered one of the Best Restaurants in Hyderabad and one of the top "Restaurants near me." Your taste buds will thank you! </p>

@@ -14,8 +14,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Telugu Biryani & Pulav Restaurant in tarnaka, Hyderabad</title>
-    <meta name="title" content="Best Telugu Biryani & Pulav Restaurant in tarnaka, Hyderabad" />
+    <title>Best Telugu Biryani & Pulav Restaurant in nizampet, Hyderabad</title>
+    <meta name="title" content="Best Telugu Biryani & Pulav Restaurant in nizampet, Hyderabad" />
     <meta name="description"
         content="Delicious Veg & Non-Veg Bagara Biriyanis and Pulavs at Telugu Aromas | Dining & Take Away | Lunch, Snack & Dinner | Catering Service & Franchise Available" />
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
@@ -170,7 +170,7 @@
                     <button class="btn p-1" onclick="toggleLocationList()">Close <i
                             class="fa-solid fa-xmark"></i></button>
                 </div>
-                <a href="kompally">
+                <a href="kompally" class="locations-link">
                     <div class="location-tab" data-location="kompally">
                         <h4 class="title">Kompally</h4>
                         <p class="text-xxs">Open Untill 11:00pm</p>
@@ -195,7 +195,7 @@
                     </div>
                 </a>
                 <a href="tarnaka">
-                    <div class="location-tab location-tab-active" data-location="tarnaka">
+                    <div class="location-tab" data-location="tarnaka">
                         <h4 class="title">Tarnaka</h4>
                         <p class="text-xxs">Open Untill 11:00pm</p>
                     </div>
@@ -207,7 +207,7 @@
                     </div>
                 </a>
                 <a href="nizampet">
-                    <div class="location-tab" data-location="nizampet">
+                    <div class="location-tab location-tab-active" data-location="nizampet">
                         <h4 class="title">Nizampet</h4>
                         <p class="text-xxs">Open Untill 11:00pm</p>
                     </div>
@@ -215,28 +215,27 @@
             </div>
         </div>
         <div class="locations-main-body">
-            
-            <div class="location-information-container" style="display : flex" id="kompally">
+            <div class="location-information-container" style="display : flex" id="toopran">
                 <div class="location-info">
-                    <h1 class="title">Telugu Aromas - Tarnaka</h1>
+                    <h1 class="title">Telugu Aromas - Nizampet</h1>
                     <div class="carousel-container mb-2">
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(../assets/images/locations-images/tarnaka-1.webp)"></div>
+                                style="background-image: url(../assets/images/carousel2-images/nizampet-img.webp)"></div>
                         </div>
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(../assets/images/locations-images/tarnaka-2.webp)"></div>
+                                style="background-image: url(../assets/images/locations-images/toopan-img-2.webp)"></div>
                         </div>
                         <div class="item">
                             <div class="w-100 h-100 utility-background-property"
-                                style="background-image: url(../assets/images/locations-images/tarnaka-3.webp)"></div>
+                                style="background-image: url(../assets/images/locations-images/toopan-img-3.webp)"></div>
                         </div>
                     </div>
-                    <h1 class="sub-title">LOCATION: Tarnaka Main Rd, opp. to Taaza kitchen, near Spencer's Neighborhood, Krishna Giri Enclave, Tarnaka, Secunderabad, Telangana</h1>
-                    <p>At Telugu Aromas in Tarnaka, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style curries, every dish tells a story. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite.
+                    <h1 class="sub-title">LOCATION: Syno. 74 Opp kolanu ragava reddy gardens Ram nagesh colony Nizampet 500090 Telangana</h1>
+                    <p>At Telugu Aromas in Nizampet, we specialize in creating unforgettable flavor experiences. From our mouth-watering Bagara Rice to authentic Telangana and Andhra-style curries, each dish tells its own story. We love sharing our culinary heritage through our catering services, making every event special with our unique flavors.
                     </p>
-                    <p>Craving the best Biryani & Pulav in Hyderabad? We're known for it! Discover why we're a top-rated restaurant near you.Come and see why we’re considered one of the Best Restaurants in Hyderabad and one of the top "Restaurants near me." Your taste buds will thank you!</p>
+                    <p>Craving the best Biryani & Pulav in Hyderabad? We're known for it! Discover why we're a top-rated restaurant near you.Come and see why we’re considered one of the Best Restaurants in Hyderabad and one of the top "Restaurants near me." Your taste buds will thank you! </p>
                 </div>
                 <div class="location-image">
                     <div class="images-grid">
@@ -245,46 +244,40 @@
                                 <h3 class="title">Contact Us</h3>
                             </div>
                             <div>
-                                <a href="https://www.instagram.com/teluguaromas_tarnaka/?fbclid=IwAR3ljYTqmCwyvcx7jkYpQMf7I0Wi1aSV61jmVlGBqQn3P7eqp5GcXnJbxyM" target="_blank"><i
+                                <a href="https://www.instagram.com/teluguaromas_nizampet/?fbclid=IwZXh0bgNhZW0CMTEAAR3KR9ctmPfOy3VKUiUjIQYI-uS-qfLB9kvrxd9oQHwz7Q7IHthef-6a3Aw_aem_LTM3S7H00AWGkkp6IRdqYw" target="_blank"><i
                                         class="fa-brands fa-square-instagram social-media-icon"></i></a>
                                 <!-- <a href="#" target="_blank"><i class="fa-brands fa-youtube social-media-icon"></i></a> -->
-                                <a href="https://www.facebook.com/profile.php?id=61559996343577" target="_blank"><i
+                                <a href="https://www.facebook.com/profile.php?id=61561112384180" target="_blank"><i
                                         class="fa-brands fa-square-facebook social-media-icon"></i></a>
                             </div>
                         </div>
                         <div class="info-container">
                             <p class="icon"><i class="fa-solid fa-phone"></i></p>
-                            <p class="info">+91 63039 96150</p>
+                            <p class="info">+91 9849845959</p>
                             <p class="icon"><i class="fa-solid fa-envelope"></i></i></p>
-                            <p class="info">tatarnaka.social@gmail.com</p>
+                            <p class="info">tanizampet.social@gmail.com</p>
                             <p class="icon"><i class="fa-solid fa-location-dot"></i></p>
-                            <p class="info">Tarnaka Main Rd, opp. to Taaza kitchen, near Spencer's Neighborhood, Krishna Giri Enclave, Tarnaka, Secunderabad, Telangana 500017</p>
+                            <p class="info">Syno. 74 Opp kolanu ragava reddy gardens Ram nagesh colony Nizampet  500090
+</p>
                         </div>
                     </div>
                     <div class="map-container">
                         <div class="py-2 w-100 h-100">
-                            <!-- <iframe
-                                src="https://www.google.com/maps/place/Telugu+Aromas+-+Tarnaka/@17.4284982,78.5331248,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb9902cedb1261:0x4d5f683cf70d4c85!8m2!3d17.4284982!4d78.5331248!16s%2Fg%2F11v_4ctz8c?entry=ttu"
-                                style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-
-                                <iframe 
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.6516317042147!2d78.5331248!3d17.4284982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9902cedb1261%3A0x4d5f683cf70d4c85!2sTelugu%20Aromas%20-%20Tarnaka!5e0!3m2!1sen!2sin!4v1718126709091!5m2!1sen!2sin"
-                                     style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                                </iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.0151713912473!2d78.38631529999999!3d17.5067892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb913dc3922bd1%3A0x2547f779957aea8e!2sTelugu%20Aromas%20-%20Nizampet!5e0!3m2!1sen!2sin!4v1720182701743!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
 
     <!-- footer section -->
+
     <?php
     include 'location_includes/location_footer.php';
     ?>
+
     <!-- Bootstrap Script CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

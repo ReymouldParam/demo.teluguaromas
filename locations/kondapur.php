@@ -206,6 +206,12 @@
                         <p class="text-xxs">Open Untill 11:00pm</p>
                     </div>
                 </a>
+                <a href="nizampet">
+                    <div class="location-tab" data-location="nizampet">
+                        <h4 class="title">Nizampet</h4>
+                        <p class="text-xxs">Open Untill 11:00pm</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="locations-main-body">
