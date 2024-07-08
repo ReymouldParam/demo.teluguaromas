@@ -14,10 +14,12 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Telugu Biryani & Pulav Restaurant in toopran, Hyderabad</title>
-    <meta name="title" content="Best Telugu Biryani & Pulav Restaurant in toopran, Hyderabad" />
+    <title>Telugu Aromas Toopran | Best Restaurants in Hyderabad 
+</title>
+    <meta name="title" content="Telugu Aromas Toopran | Best Restaurants in Hyderabad 
+" />
     <meta name="description"
-        content="Delicious Veg & Non-Veg Bagara Biriyanis and Pulavs at Telugu Aromas | Dining & Take Away | Lunch, Snack & Dinner | Catering Service & Franchise Available" />
+        content="Looking for the best restaurants near you in Toopran? Visit Telugu Aromas for delicious biryani & pulav, experience our  delightful dining experience." />
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
 
     <!-- Bootstrap CDN -->

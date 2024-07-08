@@ -14,10 +14,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Telugu Biryani & Pulav Restaurant in SR Nagar, Hyderabad</title>
-    <meta name="title" content="Restaurante Near Me | Telugu Aromas | SR Nagar" />
+    <title>Telugu Aromas SR Nagar | Best Biryani & Pulav in Hyderabad</title>
+    <meta name="title" content="Telugu Aromas SR Nagar | Best Biryani & Pulav in Hyderabad" />
     <meta name="description"
-        content="Satisfy your taste buds with real Telugu flavors at Telugu Aromas SR Nagar. Explore our menu and enjoy a true South Indian culinary journey." />
+        content="Telugu Aromas SR Nagar brings you the true taste of South Indian Food. Enjoy our expertly prepared biryanis & pulavs. Visit us for a memorable dining experience." />
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
 
     <!-- Bootstrap CDN -->

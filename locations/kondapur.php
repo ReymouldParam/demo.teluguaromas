@@ -14,10 +14,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Telugu Biryani & Pulav Restaurant in Kondapur, Hyderabad</title>
-    <meta name="title" content="Best Telugu Biryani & Pulav Restaurant in Kondapur, Hyderabad" />
+    <title>Telugu Aromas Kondapur | Best Biryani & Pulav in Hyderabad</title>
+    <meta name="title" content="Telugu Aromas Kondapur | Best Biryani & Pulav in Hyderabad" />
     <meta name="description"
-        content="Delicious Veg & Non-Veg Bagara Biriyanis and Pulavs at Telugu Aromas | Dining & Take Away | Lunch, Snack & Dinner | Catering Service & Franchise Available" />
+        content="The best biryani & pulav in Hyderabad at Telugu Aromas restaurant kondapur. Enjoy authentic Hyderabadi cuisine & experience dining excellence. Visit us today!" />
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
 
     <!-- Bootstrap CDN -->

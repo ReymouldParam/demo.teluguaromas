@@ -14,10 +14,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Telugu Biryani & Pulav Restaurant in Kompally, Hyderabad</title>
-    <meta name="title" content="Best Telugu Biryani & Pulav Restaurant in Kompally, Hyderabad" />
+    <title>Best Restaurants in Hyderabad | Biryani & Pulav | Telugu Aromas </title>
+    <meta name="title" content="Best Restaurants in Hyderabad | Biryani & Pulav | Telugu Aromas" />
     <meta name="description"
-        content="Delicious Veg & Non-Veg Bagara Biriyanis and Pulavs at Telugu Aromas | Dining & Take Away | Lunch, Snack & Dinner | Catering Service & Franchise Available" />
+        content="Best Biryani & Pulav in Hyderabad, Telugu Aromas serves delicious, authentic Telugu dishes. A must-visit for every food lover seeking a flavorful experience. " />
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
 
     <!-- Bootstrap CDN -->

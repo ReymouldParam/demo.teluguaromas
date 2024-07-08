@@ -14,10 +14,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Telugu Biryani & Pulav Restaurant in Gowraram, Hyderabad</title>
-    <meta name="title" content="Best Telugu Biryani & Pulav Restaurant in gowraram, Hyderabad" />
+    <title>Telugu Aromas Gowraram | Best Restaurants Near Me in</title>
+    <meta name="title" content="Telugu Aromas Gowraram | Best Restaurants Near Me in" />
     <meta name="description"
-        content="Delicious Veg & Non-Veg Bagara Biriyanis and Pulavs at Telugu Aromas | Dining & Take Away | Lunch, Snack & Dinner | Catering Service & Franchise Available" />
+        content="Discover the authentic flavors of Hyderabad at Telugu Aromas Gowraram. Savor our biryani and pulav, where every dish tells a story of tradition and culinary expertise." />
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
 
     <!-- Bootstrap CDN -->

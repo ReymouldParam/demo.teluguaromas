@@ -14,10 +14,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Telugu Biryani & Pulav Restaurant in tarnaka, Hyderabad</title>
-    <meta name="title" content="Best Telugu Biryani & Pulav Restaurant in tarnaka, Hyderabad" />
+    <title>Telugu Aromas Tarnaka | Taste The Best Biryanis & Pulavs</title>
+    <meta name="title" content="Telugu Aromas Tarnaka | Taste The Best Biryanis & Pulavs" />
     <meta name="description"
-        content="Delicious Veg & Non-Veg Bagara Biriyanis and Pulavs at Telugu Aromas | Dining & Take Away | Lunch, Snack & Dinner | Catering Service & Franchise Available" />
+        content="Telugu Aromas Tarnaka offers a delicious range of biryanis & pulavs prepared with the highest quality ingredients. Come and enjoy the essence of tradition" />
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
 
     <!-- Bootstrap CDN -->

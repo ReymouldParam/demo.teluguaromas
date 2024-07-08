@@ -14,10 +14,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Telugu Biryani & Pulav Restaurant in nizampet, Hyderabad</title>
-    <meta name="title" content="Best Telugu Biryani & Pulav Restaurant in nizampet, Hyderabad" />
+    <title>Telugu Aromas Nizampet | Finest South Indian Dining Restaurant</title>
+    <meta name="title" content="Telugu Aromas Nizampet | Finest South Indian Dining Restaurant" />
     <meta name="description"
-        content="Delicious Veg & Non-Veg Bagara Biriyanis and Pulavs at Telugu Aromas | Dining & Take Away | Lunch, Snack & Dinner | Catering Service & Franchise Available" />
+        content="Savor the rich and authentic flavors of South Indian Food at Telugu Aromas Nizampet. Come and enjoy a meal full of flavor with a memorable dining experience." />
     <meta name="keywords" content="Resturant, Biriyani, Pulavs, Biriyani, Pulav" />
 
     <!-- Bootstrap CDN -->
