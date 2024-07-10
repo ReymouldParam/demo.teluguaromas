@@ -234,8 +234,8 @@
                                 style="background-image: url(../assets/images/locations-images/toopan-img-3.webp)"></div>
                         </div>
                     </div>
-                    <h1 class="sub-title">LOCATION: Toopran bypass Road, National Highway 44, Toopran, Medak district,
-                        Telangana</h1>
+                    <h2 class="sub-title">LOCATION: Toopran bypass Road, National Highway 44, Toopran, Medak district,
+                        Telangana</h2>
                     <p>At Telugu Aromas in Toopran, we specialize in creating unforgettable flavor experiences. From our mouth-watering Bagara Rice to authentic Telangana and Andhra-style curries, each dish tells its own story. We love sharing our culinary heritage through our catering services, making every event special with our unique flavors.
                     </p>
                     <p>Craving the best Biryani & Pulav in Hyderabad? We're known for it! Discover why we're a top-rated restaurant near you.Come and see why we’re considered one of the Best Restaurants in Hyderabad and one of the top "Restaurants near me." Your taste buds will thank you! </p>

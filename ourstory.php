@@ -87,8 +87,8 @@
 
     <section class="ourstory-section-2 utility-background-property">
       <h2 class="section-2-intro">Directions, Actions Through Our</h2>
-      <h1 class="section-2-main-heading">Vision &amp Mission</h1>
-      <div class="heading-container"><h1>Our Vision</h1></div>
+      <h2 class="section-2-main-heading">Vision &amp Mission</h2>
+      <div class="heading-container"><h2>Our Vision</h2></div>
       <ul>
         <li class="scroll-appear"><span>&#8594; Flavorful Journeys</span>  <span>&#8594; Authentic Taste</span>   <span>&#8594; Uncompromised Quality</span></li>
         <li class="scroll-appear"><p>Creating Delightful Moments: Our vision is to make every plate of our signature bagara rice
@@ -98,7 +98,7 @@
 
       </ul>    
       
-      <div class="heading-container"><h1>Our Mission</h1></div>
+      <div class="heading-container"><h2>Our Mission</h2></div>
       <ul>
         <li class="scroll-appear"><span>&#8594; Spreading Culinary Delights</span> <span>&#8594; Redefining Palates</span> <span>&#8594; Nationwide Legacy</span></li>
         <li class="scroll-appear"><p>Crafting Taste Experiences: Our mission is to prepare exceptional bagara rice paired with
@@ -114,7 +114,7 @@
 
     <section class="ourstory-section-3 utility-background-property">
       <h2 class="section-3-intro">Our Journey Is Guided By</h2>
-      <h1 class="section-3-main-heading">Our Core Values</h1>
+      <h2 class="section-3-main-heading">Our Core Values</h2>
       <div class="section-3-container">
         <div class="image-section">
           <img src="assets/images/ourstory-2.webp" alt="">
@@ -156,8 +156,8 @@
     </section>
 
     <section class="ourstory-section-4">
-      <h1 class="section-4-intro">get to know our</h1>
-      <h1 class="section-4-main-heading">Key Business Areas</h1>
+      <h2 class="section-4-intro">get to know our</h2>
+      <h2 class="section-4-main-heading">Key Business Areas</h2>
       <div class="section-4-container">
         <div class="inner-section">
           <h2>Restaurant Business</h2>

@@ -76,8 +76,8 @@
     <section class="franchise-section-3 utility-background-property">
       <div class="section-3-column">
         <div class="column-1-inner">
-          <h1 class="intro">why you must choose </h1>
-          <h1 class="main-heading">Telugu aromas</h1>
+          <h2 class="intro">why you must choose </h2>
+          <h3 class="main-heading">Telugu aromas</h3>
           <h2>unleash culinary entrepreneurship</h2>
         </div>
       </div>
@@ -123,8 +123,8 @@
     </section>
 
     <section class="franchise-section-4 utility-background-property">
-      <h1 class="section-4-intro">insites of our</h1>
-      <h1 class="section-4-main-heading">Franchise Model</h1>
+      <h2 class="section-4-intro">insites of our</h2>
+      <h2 class="section-4-main-heading">Franchise Model</h2>
       
       <div class="section-4-container">
         <div class="section-4-column">

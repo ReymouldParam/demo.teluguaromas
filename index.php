@@ -76,8 +76,8 @@
 
         <div class="section-2-content">
             <div class="home-aboutus">
-                <h1>Discover</h1>
-                <h1>Our Story</h1>
+                <h2>Discover</h2>
+                <h2>Our Story</h2>
                 <p>Best Restaurants in Hyderabad, Telugu Aromas, we are the destination for a symphony of flavors, where delicious Bagara Rice meets authentic Telangana and Andhra-style curries. We believe in harnessing the power of food to craft unforgettable experiences. Our journey is fueled by a passion for sharing unique flavors, inspiring us to curate a menu that tantalizes taste buds and leaves a lasting impression.
 
                    <br><br>Looking for a restaurant near you? Discover why we’re known for serving the Best Biryani & Pulav in Hyderabad. Come and see why we’re considered one of the Best Restaurants in Hyderabad and one of the top "Restaurants near me." Your taste buds will thank you </p>
@@ -228,7 +228,7 @@
 
     <section class="section-3 utility-background-property smooth-scroll">
         <div class="menu-content-main">
-            <h1>Feast With Telugu Aromas</h1>
+            <h2>Feast With Telugu Aromas</h2>
             <h2></h2>
             <div class="menu-content">
                 <img src="assets/images/menu-img.webp" class="menu-bg" alt="menu-back">
@@ -521,7 +521,7 @@
 
         <div class="section-4-content-main">
             <h2 class="section-4-intro">stay tuned with</h2>
-            <h1>our happenings</h1>
+            <h2>our happenings</h2>
             <div class="carousel-main slick-carousel1" id="slick1">
                 <div class="item"><img src="assets/images/carousel2-images/social_media_reach.webp" alt="Lateest news"></div>
                 <div class="item"><img src="assets/images/carousel2-images/149_offer.webp" alt="Lateest news"></div> 
@@ -532,30 +532,30 @@
             <div class="carousel-main slick-carousel2">
 
                 <div class="news-info">
-                    <h1> Our Pulavs and Biryanis Delight 500,000+ Food Lovers Each Month on Social Media!</h1>
+                    <h2> Our Pulavs and Biryanis Delight 500,000+ Food Lovers Each Month on Social Media!</h2>
                     <p>Our restaurant, renowned for its delectable pulavs and biryanis, has recently achieved a reach of 500,000 (5 lakh) across various social media platforms. This remarkable growth showcases our dedicated efforts to enhance our online presence and engage more effectively with our food-loving audience.</p>
                 </div>
                 
                 <div class="news-info">
-                    <h1>Telugu Aromas' ₹149 Unlimited Feast Delights Guests</h1>
+                    <h2>Telugu Aromas' ₹149 Unlimited Feast Delights Guests</h2>
                     <p>On 6th of April,Telugu Aromas hosted an exclusive event where guests could enjoy unlimited servings of our mouth-watering biryanis and pulavs for just ₹149. The turnout was fantastic, and we're excited to share that the event was a huge hit. The overwhelming positive feedback and smiling faces were a testament to the success of the event. We are incredibly 
                         grateful for the support and enthusiasm shown by our patrons and look forward to hosting more such delightful events in the future.</p>
                 </div>
 
                 <div class="news-info">
-                    <h1> Our Successful Participation in the Franchise Expo at Hitechs</h1>
+                    <h2> Our Successful Participation in the Franchise Expo at Hitechs</h2>
                     <p>We are thrilled to announce our successful participation in the Franchise Expo at Hitech on March 23-24. This premier event brought together entrepreneurs, business owners, and industry leaders, and we were excited to be a part of it.
                         We want to extend our heartfelt thanks to everyone who visited our booth and expressed interest in our franchise opportunities. Your enthusiasm and curiosity were truly inspiring. For those who couldn't make it to the expo, we're happy to provide all the information you need.</p>
                 </div>
 
                 <div class="news-info">
-                    <h1>Thriving with Four Franchise Locations and Growing</h1>
+                    <h2>Thriving with Four Franchise Locations and Growing</h2>
                     <p>We are excited to announce the successful expansion of Telugu Aromas through franchising. Our beloved biryanis and pulavs are now being enjoyed at four bustling locations: Kompally, Kondapur, Gowraram, and Toopran. Each new location has been warmly welcomed by the community, and we are thrilled to see our family of food enthusiasts growing.
                         But we're not stopping here! We have big plans to open even more franchises in the future, bringing the authentic taste of Telugu Aromas to even more people. </p>
                 </div>
 
                 <div class="news-info">
-                    <h1>Remarkable telugu aromas Logo Launch by MLA Mynampally Hanumanth Rao</h1>
+                    <h2>Remarkable telugu aromas Logo Launch by MLA Mynampally Hanumanth Rao</h2>
                     <p>Grateful for the resounding success of our restaurant's logo launch event, graced by the esteemed MLA Mynampally Hanumanth Rao. The event encapsulated the spirit of culinary artistry and community harmony, setting the stage for a new era of exquisite dining experiences. Thank you for being a part of this remarkable evening that celebrates both our past achievements and future endeavors.</p>
                 </div>
                 

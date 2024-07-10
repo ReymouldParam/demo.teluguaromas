@@ -233,7 +233,7 @@
                                 style="background-image: url(../assets/images/locations-images/3.webp)"></div>
                         </div>
                     </div>
-                    <h1 class="sub-title">LOCATION: CINE PLANET KOMPALLY HYDERABAD, TELANGANa</h1>
+                    <h2 class="sub-title">LOCATION: CINE PLANET KOMPALLY HYDERABAD, TELANGANa</h2>
                     <p>At Telugu Aromas, located in Kompally, we're all about creating unforgettable flavor experiences. From our delicious Bagara Rice to authentic Telangana and Andhra-style curries, every dish tells a story. Our passion for food extends to our catering services, where we share the tastes of our culinary heritage with your guests. What makes us special isn't just the food we serve, but the stories behind each bite. Join us on a culinary journey celebrating our region's rich flavors and traditions. At Telugu Aromas, we're more than a restaurant – we're an invitation to savor extraordinary tastes, culture, and unforgettable moments.
                     </p>
                     <p>Come experience the flavors that make us a top choice for "Restaurants near me."  Your taste buds will be happy</p>

@@ -111,8 +111,8 @@
         <!-- drop down section -->
         <div class="catering-services-container-main">
           <div class="catering-scrolling-container">
-            <h2>Create memories with</h2>
-            <h1>Hyderabad's finest catering services</h1>
+            <h1>Create memories with</h1>
+            <h2>Hyderabad's finest catering services</h2>
           </div>
             <div class="catering-services-container">
                 <div class="catering-item" id="cateringItem1">
@@ -331,8 +331,8 @@
         <!-- catering gallery -->
         
         <div class="gallery-main-container utility-background-property">
-          <h1 class="catering-gallery-intro">A Visual Showcase</h1>
-          <h1 class="catering-gallery-heading">Our Gallery</h1>
+          <h2 class="catering-gallery-intro">A Visual Showcase</h2>
+          <h2 class="catering-gallery-heading">Our Gallery</h2>
           <div class="gallery-container" id="cateringCarousel">
              <div class="gallery-catering-item">
               <img src="assets/images/carousel3-images/2.webp" alt="">
