@@ -322,7 +322,7 @@ header{
     color: #535353;
 }
 
-.franchise-section-broucher > button{
+.franchise-section-broucher button{
     background-color: var(--theme-color5);
     color: white;
     border-radius: 5px;

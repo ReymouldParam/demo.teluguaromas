@@ -179,7 +179,7 @@
     <div class="franchise-section-broucher utility-background-property">
       <h3>Become a part of our food franchise</h3>
       <p>Seize a franchise opportunity? Open new doors and enter the realm of successful business ownership. Begin your journey to owning a successful franchise today, setting the stage for a future full of progress and accomplishment.</p>
-      <button class="btn">Download Boucher</button>
+      <a href="assets/brochures/franchise.pdf" download><button class="btn">Download Brouchure</button></a>
     </div>
 
     <div class="franchise-contact-form utility-background-property">
